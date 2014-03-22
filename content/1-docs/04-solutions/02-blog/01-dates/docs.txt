@@ -1,0 +1,13 @@
+Title: Dates
+
+----
+Text:
+
+
+----
+Blogposts:
+
+How to add a date to your articles:
+
+    text: How to add a date to your articles
+    link: blog/add-a-date-to-your-articles

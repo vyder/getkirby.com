@@ -1,0 +1,23 @@
+Title: Installation
+
+----
+
+Text:
+
+
+## Download
+
+- Grab the (link: download text: latest version of Kirby!)
+
+## Requirements
+
+- Apache 2
+- mod_rewrite
+- PHP 5.3+
+
+## Install on…
+
+- (link: docs/installation/on-a-mac text: Mac)
+- (link: docs/installation/on-a-pc text: PC)
+- (link: docs/installation/on-a-server text: Server)
+

@@ -1,0 +1,19 @@
+﻿Name: locale
+----
+Visibility: public
+----
+Static: no
+----
+Title: language::locale
+----
+Syntax: language::locale()
+----
+Description: Returns the locale of the language if available
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

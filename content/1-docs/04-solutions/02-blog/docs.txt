@@ -1,0 +1,14 @@
+Title: Blog
+
+----
+Text:
+
+
+----
+Blogposts:
+
+How to build a blog:
+
+    text: How to build a blog
+    link: blog/how-to-build-a-blog
+

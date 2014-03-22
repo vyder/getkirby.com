@@ -1,0 +1,21 @@
+﻿Name: page
+----
+Visibility: public
+----
+Static: no
+----
+Title: kirbytext::page
+----
+Syntax: kirbytext::page($page = null)
+----
+Description: Returns the active page object
+----
+Text: 
+----
+Parameters: - name: $page
+  type: object
+  text: Optional param to use this method as setter to custom set the page object
+----
+Returntype: object
+----
+Return: Page

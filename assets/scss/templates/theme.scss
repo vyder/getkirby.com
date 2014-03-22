@@ -1,0 +1,19 @@
+@import "../kirby/defaults";
+@import "../kirby/generic/mixins";
+@import "../ui/vars";
+@import "../ui/objects/download-single";
+
+
+.theme figure {
+  margin: 2em 0 0 0;
+  border: 1px solid #ddd;
+  background: #bbb;
+}
+.theme figure img {
+  opacity: 0.9;
+  display: block;
+  @include vendor(transition, opacity .3s);
+}
+.theme figure img:hover {
+  opacity: 1;
+}

@@ -1,0 +1,347 @@
+@import "../kirby/defaults";
+@import "../kirby/generic/mixins";
+@import "../kirby/generic/clearfix";
+@import "../ui/vars";
+
+/** code highlighting */
+@import "../ui/vendors/highlight/php";
+@import "../ui/vendors/highlight/css";
+@import "../ui/vendors/highlight/html";
+@import "../ui/vendors/highlight/js";
+
+@import "../ui/objects/buttons";
+@import "../ui/objects/form";
+@import "../ui/objects/sidebar";
+
+/* reply and topic counts */
+.forum .count {
+  position: absolute;
+  right: 0;
+}
+.forum .count a {
+  color: #fff;
+  font-size: .8em;
+  background: $color-text;
+  display: inline-block;
+  padding: .15em .8em .07em;
+  font-weight: 300;
+  border-radius: 1em;
+}
+.forum .count a:hover {
+  background: $color-primary;
+}
+
+/* user avatars */
+.forum .user {
+  margin-left: -.2em;
+  padding-right: 30px;
+  float: left;
+  line-height:0;
+}
+.forum .user img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+.forum .user.no-user a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  background: $color-text;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #fff;
+  border-radius: 50%;
+}
+
+/* timestamps */
+.forum .added {
+  color: $color-text-light;
+  font-weight: 300;
+}
+.forum .added a {
+  color: inherit;
+}
+.forum .added a:hover {
+  color: $color-text;
+}
+
+.forum .meta {
+  color: $color-text-light;
+  font-weight: 300;
+}
+.forum .meta a {
+  color: inherit;
+  font-weight: inherit;
+}
+.forum .meta a:hover {
+  color: $color-primary;
+}
+
+
+/* Forum Breadcrumb header */
+.forum-header {
+  position: relative;
+  border-bottom: .1em solid $color-ui;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  @extend .clear;
+}
+.forum-header h1 a,
+.forum-header h1 small {
+  float: left;
+}
+.forum-header h1 small {
+  font-weight: 300;
+  color: $color-ui;
+  padding: 0 .3em 0;
+}
+
+/* Dropdown menu */
+.forum-menu {
+  position: absolute;
+  right: 0;
+  top: -1.3em;
+  padding: 1em 0;
+}
+.forum-menu:before {
+  position: absolute;
+  content: "";
+  left: -1.5em;
+  top: 50%;
+  margin-top: 0;
+  @include arrow-bottom(#222, .3em);
+}
+.forum-menu:hover ul {
+  display: block;
+}
+.forum-menu li {
+  list-style: none;
+}
+.forum-menu ul {
+  display: none;
+}
+.forum-menu .user {
+  padding: 0;
+  margin: 0;
+}
+.forum-menu .menu-icon {
+  width: 48px;
+  height: 48px;
+  background: $color-text;
+  border-radius: 48px;
+  cursor: pointer;
+}
+.forum-menu .menu-icon span {
+  display: block;
+  padding-top: 16px;
+}
+.forum-menu .menu-icon i {
+  display: block;
+  width: 20px;
+  margin: 0 14px;
+  text-indent: -6000px;
+  height: 3px;
+  background: #fff;
+  margin-bottom: 3px;
+}
+.forum-menu .dropdown {
+  left: auto;
+  right: 0;
+  top: 5.1em;
+}
+.forum-menu .dropdown:before {
+  left: auto;
+  right: 0;
+  border-left: 0;
+  border-right: .5em solid $color-text;
+}
+
+/* activity on the home page */
+.activity {
+  clear: both;
+  padding: 3em 0 3em;
+}
+.activity-header {
+  border-bottom: 1px solid $color-ui;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.activity .added a {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.activity .added a em {
+  display: inline-block;
+  width: 3.5em;
+  font-style: normal;
+}
+/* thread pages */
+.thread {
+  position: relative;
+  border-bottom: .1em solid $color-ui;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.thread .count {
+  bottom: 1.1em;
+}
+
+/* topics */
+.topic {
+  position: relative;
+  @extend .clear;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid $color-ui;
+}
+.topic.details {
+  border-bottom: 0
+}
+.topic-header {
+  position: relative;
+  @extend .clear;
+}
+.topic-header.is-solved:after {
+  position: absolute;
+  content: "";
+  top: .36em;
+  left: 4.5em;
+  border-radius: 2em;
+  border: 2px solid $color-ui;
+  width: 36px;
+  height: 40px;
+  background: url(../../images/check.png) no-repeat center center;
+}
+.topic-header.is-solved .user {
+  padding-right: 5em;
+}
+.topic-header.is-solved .delta {
+  color: #aaa;
+} 
+.topic-header.is-solved .delta a:hover {
+  color: $color-primary;
+}
+.topic-header.is-solved .meta {
+  opacity: .5;
+}
+.topic.details .topic-header {
+  margin-bottom: 1em;
+}
+.topic .delta {
+  margin-right: 6em;
+  @include truncate(99%);
+  padding-top: .25em;
+}
+.topic .count {
+  top: .7em;
+}
+.topic .text {
+  max-width: 40em;
+  padding: 0 0 0 4.7em;
+}
+.topic .sidebar {
+  padding-bottom: 8em;
+}
+.topic .sidebar .text {
+  padding-left: 2em;
+}
+
+/* Posts on Topic pages */
+.posts {
+  padding-top: 1em;
+  border-top: 2px solid $color-primary;
+}
+.post {
+  position: relative;
+  @extend .clear;
+  list-style: none;
+  border-bottom: .1em solid $color-ui;
+  margin-bottom: 1em;
+}
+.post-header {
+  @extend .topic-header;
+  border: 0;
+  margin-bottom: 1em;
+}
+.post-header .delta small {
+  font-size: inherit;
+  color: $color-text;
+}
+.post .delta {
+  margin-right: 6em;
+  padding-top: .25em;
+}
+.post .text {
+  max-width: 40em;
+  padding: 0 0 0 4.7em;
+}
+
+/* post form */
+.post-form form {
+  padding: 0 0 0 4.7em;
+  max-width: 40em;
+  margin: 0
+}
+
+/* topic form */
+.topic-form {
+  border: 0;
+}
+.topic-form .topic-header {
+  border-bottom: 1px solid $color-ui;
+  padding-bottom: 1em;
+}
+.topic-form form {
+  max-width: 40em;
+  padding: 0 0 0 4.7em;
+  margin: 0;
+}
+.topic-form textarea {
+  height: 600px !important;
+}
+
+/* post form */
+.post-form {
+  border: 0;
+}
+.post-form .post-header {
+  border-bottom: 1px solid $color-ui;
+  padding-bottom: 1em;
+}
+.post-form form {
+  max-width: 40em;
+  padding: 0 0 0 4.7em;
+  margin: 0;
+}
+
+/* search form */
+.search-form .form {
+  position: relative;
+  overflow: hidden;
+}
+.search-form .form-fieldset.is-buttonbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 33%;
+  padding: .65em 1em;
+}
+.search-form .form-field.is-text .form-field-inner {
+  padding-right: 7em;
+}
+.search-form article:last-child {
+  border-bottom: 0
+}
+.search-form .topic-header {
+  margin-bottom: 1em;
+}
+.search-results-header {
+  padding-bottom: 1em;
+  border-bottom: 1px solid $color-ui;
+  margin-bottom: 1em;
+}

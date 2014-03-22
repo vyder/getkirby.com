@@ -1,0 +1,35 @@
+Title: Filelist
+
+----
+
+Subtitle: Add a file download list to your site
+
+----
+
+Description: Filelist will generate a list of all or any matching files in your page's content folder. This is pretty handy for building download lists for example.
+
+----
+
+Link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/filelist/filelist.php
+
+----
+
+Docs: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/snippets/filelist/readme.mdown
+
+----
+
+Tutorial:
+
+----
+
+Install:
+
+## Installation
+
+Put the `filelist.php` file in your `site/snippets` folder.
+
+## How to use it?
+
+```php
+<?php snippet('filelist'); ?>
+```

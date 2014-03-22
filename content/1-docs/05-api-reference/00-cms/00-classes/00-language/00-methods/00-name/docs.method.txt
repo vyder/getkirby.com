@@ -1,0 +1,19 @@
+﻿Name: name
+----
+Visibility: public
+----
+Static: no
+----
+Title: language::name
+----
+Syntax: language::name()
+----
+Description: Returns the name of the language
+----
+Text: 
+----
+Parameters: 
+----
+Returntype: string
+----
+Return: 

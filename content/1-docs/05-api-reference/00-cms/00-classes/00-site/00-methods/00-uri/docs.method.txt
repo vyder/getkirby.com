@@ -1,0 +1,22 @@
+﻿Name: uri
+----
+Visibility: public
+----
+Static: no
+----
+Title: site::uri
+----
+Syntax: site::uri($uri = null)
+----
+Description: Returns the uri object, which can be used
+to inspect and work with the current URL/URI
+----
+Text: 
+----
+Parameters: - name: $uri
+  type: string
+  text: This is only to comply with strict mode, because the page::uri method has a uri argument. It's not going to be used here.
+----
+Returntype: object
+----
+Return: uri

@@ -3,7 +3,10 @@
 # default blueprint
 
 title: Blog
-subpages: false
+pages: 
+  template: blog.article
+  sort: flip
+files: false
 fields:
   title: 
     label: Title

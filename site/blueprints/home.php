@@ -3,7 +3,6 @@
 # site blueprint
 
 title: Site
-
 fields: 
 
   title: 

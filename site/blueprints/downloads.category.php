@@ -1,7 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Downloads Category
-subpages: false
+files: false
 fields:
   title: 
     label: Title

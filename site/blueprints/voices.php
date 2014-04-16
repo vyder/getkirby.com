@@ -1,7 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Voices
-subpages: false
+pages: voice
+files: false
 fields:
   title: 
     label: Title

@@ -1,7 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Feature
-subpages: false
+pages: false
 fields:
   title: 
     label: Title

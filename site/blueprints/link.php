@@ -3,12 +3,12 @@
 # site blueprint
 
 title: Site
-
+files: false
 fields: 
 
   title: 
     label: Title
-    type:  text
+    type:  text      
 
   link: 
     label: Redirect to…

@@ -9,10 +9,10 @@ fields:
     type:  text
   date: 
     label: Date
-    type:  text
+    type:  date
   tags: 
     label: Tags
-    type:  text
+    type:  tags
   text: 
     label:   Text
     type:    textarea

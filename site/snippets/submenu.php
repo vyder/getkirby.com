@@ -1,7 +1,7 @@
 <nav class="submenu column two" role="navigation">
   <h1 class="is-invisible">Sub Menu</h1>
   <ul>
-    <?php foreach($pages->find($site->uri()->path(1))->children()->visible() AS $p): ?>
+    <?php foreach($site->find('docs')->children()->visible() AS $p): ?>
     <li>
       <a<?php e($p->isActive(), ' class="is-active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
 

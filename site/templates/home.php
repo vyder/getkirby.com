@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<section class="main">
+<main class="main" role="main">
 
   <h1 class="is-invisible"><?php echo $page->title() ?></h1>
 
@@ -38,19 +38,31 @@
 
     <h1 class="beta"><a href="<?php echo url('references/made-with-kirby-and-love') ?>">Made with Kirby and <strong>&#9829;</strong></a></h1>
 
-    <?php $count = 1; foreach(page('references/made-with-kirby-and-love')->children()->shuffle()->limit(3) as $reference): ?> 
+    <?php $count = 1; foreach(page('references/made-with-kirby-and-love')->children()->shuffle()->limit(3) as $reference): ?>
     <article class="reference column two<?php e($count++%3==0, ' last') ?>">
-      
-      <figure>            
+
+      <figure>
         <a href="<?php echo $reference->link() ?>"><img src="<?php echo $reference->images()->first()->url() ?>" /></a>
       </figure>
 
       <h1 class="gamma"><a href="<?php echo $reference->link() ?>"><?php echo html($reference->title()) ?></a></h1>
       <h2 class="delta"><a href="<?php echo $reference->link() ?>"><?php echo url::short($reference->link()) ?></a></h2>
-        
+
     </article>
     <?php endforeach ?>
 
+  </section>
+
+  <section class="latest-posts section columns">
+    <h2 class="beta"><a href="<?php echo url('blog') ?>">Latest blog posts</a></h2>
+    <?php $count = 1; $latest = $pages->find('blog')->children()->visible()->flip()->limit(2) ?>
+    <?php foreach($latest as $post): ?>
+    <article class="column three<?php e($count++%2==0, ' last') ?>">
+      <h3 class="gamma"><?php echo $post->title() ?></h3>
+      <time datetime="<?php echo $post->date('c') ?>"><?php echo $post->date('d M y') ?></time>
+      <p><?php echo excerpt($post->text(), 160) ?> <a href="<?php echo $post->url() ?>">read more...</a></p>
+    </article>
+    <?php endforeach ?>
   </section>
 
   <section class="voices section columns last">
@@ -75,9 +87,9 @@
 
     <?php e(($count-1)%2==0, '<hr class="c" />') ?>
     <?php endforeach ?>
-    
+
   </section>
 
-</section>
+</main>
 
 <?php snippet('footer') ?>

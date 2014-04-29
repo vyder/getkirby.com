@@ -1,21 +1,21 @@
 <?php snippet('header') ?>
 
-<section class="main columns download-single media">
-  <h1 class="alpha"><?php echo $page->title ?></h1>
+<main class="main columns download-single media" role="main">
+  <h1 class="alpha"><?php echo $page->title() ?></h1>
 
   <article class="column four">
-    <p class="gamma subtitle"><?php echo $page->subtitle ?></p>
+    <p class="gamma subtitle"><?php echo $page->subtitle() ?></p>
     <?php $image = $page->images()->nth(1) ?>
-    <figure><img src="<?php echo $image->url() ?>" alt="<?php echo $page->title ?>" /></figure>
+    <figure><img src="<?php echo $image->url() ?>" alt="<?php echo $page->title() ?>" /></figure>
   </article>
 
   <aside class="column two last download-meta">
     <h2 class="gamma">Grab it!</h2>
     <ul>
-      <li><a href="<?php echo $page->link ?>">Download</a></li>
+      <li><a href="<?php echo $page->link() ?>">Download [<?php echo $image->niceSize() ?>]</a></li>
     </ul>
   </aside>
 
-</section>
+</main>
 
 <?php snippet('footer') ?>

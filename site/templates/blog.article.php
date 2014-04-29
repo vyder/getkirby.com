@@ -13,7 +13,7 @@
 
   <div class="body text column four">
 
-    <?php echo str_replace('(\\', '(', kirbytext($page->text())) ?>
+    <?php echo kirbytext($page->text()) ?>
 
     <?php if(!c::get('local')): ?>
     <?php snippet('disqus', array('disqus_shortname' => 'getkirby', 'disqus_developer' => false)) ?>

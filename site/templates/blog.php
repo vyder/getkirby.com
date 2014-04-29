@@ -21,7 +21,7 @@
 
     <?php foreach($articles as $article): ?>
     <li class="article-preview">
-      <h2 class="alpha"><a href="<?php echo $article->url() ?>"><?php echo widont(kirbytext($article->title(), false)) ?></a></h2>
+      <h2 class="alpha"><a href="<?php echo $article->url() ?>"><?php echo $article->title() ?></a></h2>
       <time class="article-date" datetime="<?php echo $page->date('c') ?>">
         <span class="month"><?php echo $article->date('M d') ?></span>
         <span class="year"><?php echo $article->date('Y') ?></span>

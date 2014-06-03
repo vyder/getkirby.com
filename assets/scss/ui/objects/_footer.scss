@@ -1,33 +1,59 @@
-.footer {
+/*
+FOOTER
+--------------------------------------------------
+:::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+.site-footer {
   margin-top: 3rem;
   padding: 1em 0 3em;
-  border-top: 2px solid $color-primary;
-  @extend .clear;
   font-size: .9em;
+  border-top: $border-red;
+  @extend .clear;
+
+  a {
+    color: $color-primary;
+
+    &:hover {
+      color: $color-text;
+    }
+  }
+
+  p {
+    float: left;
+  }
 }
 
-.footer a {
-  color: red;
-}
-.footer a:hover {
-  color: $color-text;
-}
-.footer .copyright {
-  float: left;
-}
-.footer .misc {
+
+
+/*
+ :::  Footer navigation
+-------------------------------------------------- */
+.nav-footer {
   float: right;
-}
-.footer .made-with {
-  color: $color-text;
-}
-.footer .made-with:hover {
-  color: $color-primary;
-}
-.footer .love {
-  @include font-size(13px);
-  text-align: center;
-  font-style: normal;   
-  padding-left: .2em;
-  color: $color-primary;
+
+  li {
+    display: inline-block;
+    padding-left: .5em;
+    padding-right: .5em;
+    border-left: $border-light;
+
+    &:first-child {
+      border-left: none;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  .made-with {
+    color: $color-text;
+
+    &:hover {
+      color: $color-primary;
+    }
+    .love {
+      color: $color-primary;
+    }
+  }
 }

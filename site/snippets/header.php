@@ -8,7 +8,7 @@
   <meta name="robots" content="index, follow" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <?php if($page->isHomePage()): ?>  
+  <?php if($page->isHomePage()): ?>
   <title><?php echo html($page->headline()) ?></title>
   <?php else: ?>
   <title><?php echo html($site->title()) ?> - <?php echo html($page->title()) ?></title>
@@ -27,10 +27,10 @@
 </head>
 
 <body<?php e(get('grid') == 'true', ' class="grid"') ?>>
-  
+
   <div class="page">
 
-    <header class="header">
+    <header class="site-header" role="banner">
       <h1 class="logo"><a href="<?php echo url() ?>">Kirby</a></h1>
       <?php snippet('menu') ?>
     </header>

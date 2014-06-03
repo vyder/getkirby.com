@@ -1,0 +1,26 @@
+Title: Test the Kirby 2 beta on Jumpstarter
+
+----
+
+Date: 07.05.2014
+
+----
+
+Tags: hosting
+
+----
+
+Text:
+
+The nice guys over at (link: http://jumpstarter.io text: Jumpstarter) created a one-click installer for the (link: blog/kirby-2-beta text: Kirby 2 beta).
+
+If you want to give the beta a try and need a really fast way to set it up, you should definitely give it a try. You can sign up for a free account and install the beta within a matter of seconds.
+
+(image: screen.png link: http://jumpstarter.io)
+
+Of course they also offer one-click installers for Kirby 1 — with or without the panel.
+
+P.S. they also published a little (link: http://blog.jumpstarter.io/kirby-cms-starter text: interview with me about Kirby).
+
+
+

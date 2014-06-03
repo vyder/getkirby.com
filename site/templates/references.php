@@ -1,25 +1,37 @@
 <?php snippet('header') ?>
 
-<section class="main columns">
+<main class="main columns" role="main">
 
   <h1 class="alpha">Made with Kirby and <strong>&#9829;</strong></h1>
-    
-  <?php $count = 1; foreach($page->children()->flip() as $reference): ?> 
-  <article class="reference column two<?php e($count++%3==0, ' last') ?>">
-     
-    <figure>           
-      <a href="<?php echo $reference->link() ?>"><img src="<?php echo $reference->images()->first()->url() ?>" /></a>
-    </figure>
 
-    <h1 class="gamma"><a href="<?php echo $reference->link() ?>"><?php echo html($reference->title()) ?></a></h1>
-    <h2 class="delta"><a href="<?php echo $reference->link() ?>"><?php echo url::short($reference->link()) ?></a></h2>
-    
-  </article>
+  <ul class="clear">
+    <?php $references = $page->children()->flip()->paginate(30) ?>
+    <?php $count = 1; foreach($references as $reference): ?>
+    <li class="reference column two<?php e($count++%3==0, ' last') ?>">
+      <a href="<?php echo $reference->link() ?>">
+        <?php if($reference->hasImages()): ?>
+        <?php $image = $reference->images()->first() ?>
+        <img src="<?php echo thumb($image, array('width' => 320, 'height' => 200, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $reference->title() ?>" />
+        <?php endif ?>
+      </a>
+      <h2 class="gamma"><?php echo html($reference->title()) ?></h2>
+      <p class="delta"><?php echo url::short($reference->link()) ?></p>
+    </li>
+    <?php endforeach ?>
+  </ul>
 
-  <?php e(($count-1)%3==0, '<hr />') ?>
+  <?php $pagination = $references->pagination(); ?>
+  <?php if($references->pagination()->hasPages()): ?>
+  <nav class="pagination clear">
+    <?php if($references->pagination()->hasPrevPage()): ?>
+    <a class="prev" href="<?php echo $references->pagination()->prevPageURL() ?>">newer entries</a>
+    <?php endif ?>
+    <?php if($references->pagination()->hasNextPage()): ?>
+    <a class="next" href="<?php echo $references->pagination()->nextPageURL() ?>">older entries</a>
+    <?php endif ?>
+  </nav>
+  <?php endif ?>
 
-  <?php endforeach ?>
-      
-</section>
+</main>
 
 <?php snippet('footer') ?>

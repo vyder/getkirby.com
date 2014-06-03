@@ -6,6 +6,7 @@
   border-bottom: 1px solid $color-ui;
   padding: 0 4em 1em 0;
   margin: 0 0 1em;
+  list-style: none;
 }
 
 @import "../ui/objects/article-date";
@@ -21,7 +22,7 @@
 .tags li a {
   background: $color-text;
   color: #fff;
-  display: block;  
+  display: block;
   padding: .3em 1em;
   font-weight: 300;
   line-height: 1em;

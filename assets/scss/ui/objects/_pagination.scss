@@ -1,42 +1,51 @@
+/*
+PAGINATION
+--------------------------------------------------
+:::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
 .pagination {
   position: relative;
-  @extend .clear;
   padding-top: 2em;
-}
-.pagination li {
-  position: relative;
-  list-style: none;
-  z-index: 1;
-}
-.pagination .prev {
-  float: left;
-}
-.pagination .next {
-  float: right;
-}
+  @extend .clear;
 
-.pagination .prev span,
-.pagination .next span {
-  color: $color-ui;
-  font-weight: 300;
-  font-size: .9em;
-}
+  li {
+    position: relative;
+    list-style: none;
+    z-index: 1;
+  }
 
-.pagination .count {
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  text-align: center;
-  font-size: .9em;
-  color: $color-text-light;
-  padding: 2px;
-  font-weight: 300;
-}
-.pagination a {
-  display: block;
-  padding: 0 1em;
-  border: 2px solid $color-ui;
-  border-radius: 50px;
-  font-size: .9em;
+  a {
+    display: block;
+    padding: .5em 1em;
+    border: 2px solid $color-ui;
+    border-radius: 50px;
+    font-size: .9em;
+  }
+
+  .prev {
+    float: left;
+  }
+  .next {
+    float: right;
+  }
+
+  .prev span,
+  .next span {
+    color: $color-ui;
+    font-weight: 300;
+    font-size: .9em;
+  }
+
+  .count {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    text-align: center;
+    font-size: .9em;
+    color: $color-text-light;
+    padding: 2px;
+    font-weight: 300;
+  }
 }

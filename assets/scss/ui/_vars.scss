@@ -1,6 +1,6 @@
-/** 
+/**
  * Overwrites
- */ 
+ */
 
 $color-primary: red;
 $color-background: #fff;
@@ -11,6 +11,9 @@ $color-text-light: #777;
 
 $font-family-primary: "source-sans-pro";
 
-/** 
+/**
  * Custom variables
- */ 
+ */
+
+ $border-light: 1px solid #eee;
+ $border-red: 2px solid $color-primary;

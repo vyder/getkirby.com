@@ -14,4 +14,4 @@ Keywords: kirby, cms, content management, kirbycms, php, filesystem, flexible, w
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier) / (link: http://openwe.de text: OpenWe GmbH)
+Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier GmbH)

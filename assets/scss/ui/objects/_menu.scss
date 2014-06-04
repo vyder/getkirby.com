@@ -1,3 +1,8 @@
+/*
+MENU
+--------------------------------------------------
+:::::::::::::::::::::::::::::::::::::::::::::::::: */
+
 .menu {
   padding-top: 2em;
 }
@@ -28,7 +33,7 @@
     border: 0;
   }
 
-}  
+}
 .menu-item.has-dropdown > a {
   padding-right: 2em;
 }
@@ -115,7 +120,7 @@
   content: "";
   top: -.5em;
   left: 0;
-  @include arrow-right($color-text, .5em);   
+  @include arrow-right($color-text, .5em);
 }
 .dropdown li {
   list-style: none;

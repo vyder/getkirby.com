@@ -1,0 +1,49 @@
+/*
+REFERENCES
+--------------------------------------------------
+:::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+.reference-list {
+  @extend .clear;
+
+  li {
+    margin-bottom: 4em;
+    @extend .screenshot;
+
+    a {
+      display: block;
+      overflow: hidden;
+      margin-bottom: 1em;
+    }
+
+    img {
+      display: block;
+      transition: all .5s;
+    }
+
+    &:hover {
+      img {
+        opacity: 0.6;
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+      }
+      .gamma {
+        color: $color-primary;
+      }
+      .delta {
+        color: $color-text;
+      }
+    }
+    .gamma {
+      transition: color .5s;
+    }
+
+    .delta {
+      margin-top: 3px;
+      transition: color .5s;
+      text-transform: lowercase;
+      letter-spacing: 0;
+    }
+  }
+}
+

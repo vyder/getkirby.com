@@ -15,7 +15,6 @@
   <?php endif ?>
 
   <?php echo css('assets/css/site.css') ?>
-  <?php echo css('@auto') ?>
 
   <!-- favicons -->
   <link rel="shortcut icon" href="<?php echo url('assets/images/favicon.png') ?>" type="image/png" />

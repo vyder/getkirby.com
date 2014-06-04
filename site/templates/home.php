@@ -1,20 +1,19 @@
 <?php snippet('header') ?>
 
-<main class="main" role="main">
+<main class="main home" role="main">
 
   <h1 class="is-invisible"><?php echo $page->title() ?></h1>
 
-  <article class="introduction section text intro">
+  <header class="introduction section text intro">
 
     <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
     <h2 class="beta"><?php echo html($page->subheadline()) ?></h2>
 
     <?php echo kirbytext($page->intro()) ?>
 
-  </article>
+  </header>
 
   <section class="features section columns">
-
     <h1 class="beta">Features</h1>
 
     <?php $count = 1; foreach($pages->find('features')->children() as $feature): ?>
@@ -34,22 +33,25 @@
 
   </section>
 
-  <section class="references section columns">
 
+  <section class="references section columns">
     <h1 class="beta"><a href="<?php echo url('references/made-with-kirby-and-love') ?>">Made with Kirby and <strong>&#9829;</strong></a></h1>
 
-    <?php $count = 1; foreach(page('references/made-with-kirby-and-love')->children()->shuffle()->limit(3) as $reference): ?>
-    <article class="reference column two<?php e($count++%3==0, ' last') ?>">
-
-      <figure>
-        <a href="<?php echo $reference->link() ?>"><img src="<?php echo $reference->images()->first()->url() ?>" /></a>
-      </figure>
-
-      <h1 class="gamma"><a href="<?php echo $reference->link() ?>"><?php echo html($reference->title()) ?></a></h1>
-      <h2 class="delta"><a href="<?php echo $reference->link() ?>"><?php echo url::short($reference->link()) ?></a></h2>
-
-    </article>
-    <?php endforeach ?>
+    <ul class="reference-list">
+      <?php $references = $page->children()->flip()->paginate(30) ?>
+      <?php $count = 1; foreach($pages->find('references/made-with-kirby-and-love')->children()->shuffle()->limit(3) as $reference): ?>
+      <li class="column two<?php e($count++%3==0, ' last') ?>">
+        <a href="<?php echo $reference->link() ?>">
+          <?php if($reference->hasImages()): ?>
+          <?php $image = $reference->images()->first() ?>
+          <img src="<?php echo thumb($image, array('width' => 320, 'height' => 200, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $reference->title() ?>" />
+          <?php endif ?>
+        </a>
+        <h2 class="gamma"><?php echo html($reference->title()) ?></h2>
+        <p class="delta"><?php echo url::short($reference->link()) ?></p>
+      </li>
+      <?php endforeach ?>
+    </ul>
 
   </section>
 

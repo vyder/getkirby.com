@@ -1,5 +1,9 @@
 .sidebar {
   padding-left: 2em;
+
+  @media only screen and (max-width : 600px) {
+    padding-left: 0;
+  }
 }
 .sidebar li {
   padding: 0 0 .5em;

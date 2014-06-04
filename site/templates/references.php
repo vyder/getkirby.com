@@ -4,10 +4,10 @@
 
   <h1 class="alpha">Made with Kirby and <strong>&#9829;</strong></h1>
 
-  <ul class="clear">
+  <ul class="reference-list">
     <?php $references = $page->children()->flip()->paginate(30) ?>
     <?php $count = 1; foreach($references as $reference): ?>
-    <li class="reference column two<?php e($count++%3==0, ' last') ?>">
+    <li class="column two<?php e($count++%3==0, ' last') ?>">
       <a href="<?php echo $reference->link() ?>">
         <?php if($reference->hasImages()): ?>
         <?php $image = $reference->images()->first() ?>

@@ -1,0 +1,46 @@
+/*
+HOME
+--------------------------------------------------
+:::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+
+.introduction ul {
+  font-size: $size-h3;
+  font-weight: 300;
+  padding-bottom: 0;
+  margin-left: -1em;
+}
+
+
+.section {
+  padding-bottom: 3em;
+  margin-bottom: 3em;
+  border-bottom: 1px solid $color-ui;
+
+  &.last {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .beta {
+    padding-bottom: 1em;
+  }
+}
+
+
+.features .column {
+  padding-bottom: 2em;
+}
+.features .more {
+  white-space: nowrap;
+}
+
+.home .references {
+  padding-bottom: 0;
+}
+
+
+/* voices section */
+.voices .beta {
+  padding-bottom: 1em;
+}

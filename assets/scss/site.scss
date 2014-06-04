@@ -8,11 +8,6 @@
  */
 @import "kirby/bootstrap";
 
-/**
- * Generics
- */
-@import "ui/generic/reset";
-@import "ui/generic/mixins";
 
 /**
  * Base styles
@@ -20,17 +15,46 @@
 @import "ui/base/base";
 @import "ui/base/fonts";
 @import "ui/base/links";
-@import "ui/base/headings";
 @import "ui/base/grid";
+@import "ui/base/headings";
+@import "ui/base/links";
 @import "ui/base/text";
+
 
 /**
  * Objects
- */ 
+ */
+@import "ui/objects/breadcrumb";
+@import "ui/objects/buttons";
+@import "ui/objects/download-single";
+@import "ui/objects/footer";
+@import "ui/objects/form";
 @import "ui/objects/header";
 @import "ui/objects/main";
 @import "ui/objects/menu";
-@import "ui/objects/submenu";
-@import "ui/objects/breadcrumb";
 @import "ui/objects/pagination";
-@import "ui/objects/footer";
+@import "ui/objects/screenshot";
+@import "ui/objects/sidebar";
+@import "ui/objects/submenu";
+@import "ui/objects/voice";
+
+
+/**
+ * templates
+ */
+@import "ui/templates/answers";
+@import "ui/templates/blog";
+@import "ui/templates/docs";
+@import "ui/templates/downloads";
+@import "ui/templates/home";
+@import "ui/templates/references";
+@import "ui/templates/try";
+
+
+/**
+ * vendors
+ */
+@import "ui/vendors/highlight/php";
+@import "ui/vendors/highlight/css";
+@import "ui/vendors/highlight/html";
+@import "ui/vendors/highlight/js";

@@ -1,26 +1,26 @@
 <?php snippet('header') ?>
 
-<main class="main articles" role="main">
+<main class="main blog" role="main">
 
-  <h1 class="is-invisible">Blog</h1>
+  <?php if(param('tag')) {   /*** article overview ***/
 
-  <ul>
+    $tag = urldecode(param('tag'));
+    $articles = $pages->find('blog')->children()->visible()->filterBy('tags', $tag, ',')->flip()->paginate(10);
 
-    <?php if(param('tag')) {   /*** article overview ***/
+      echo '<h1 class="beta">Tag results: <mark>', $tag, '</mark></h1>';
 
-      $tag = urldecode(param('tag'));
-      $articles = $pages->find('blog')->children()->visible()->filterBy('tags', $tag, ',')->flip()->paginate(20);
+    } else {
 
-        echo '<h1 class="beta">Tag results: <mark>', $tag, '</mark></h1>';
+    $articles = $pages->find('blog')->children()->visible()->flip()->paginate(20);
 
-      } else {
+      echo '<h1 class="is-invisible">Blog</h1>';
 
-      $articles = $pages->find('blog')->children()->visible()->flip()->paginate(20);
+  } ?>
 
-    } ?>
+  <ul class="article-list">
 
     <?php foreach($articles as $article): ?>
-    <li class="article-preview">
+    <li>
       <h2 class="alpha"><a href="<?php echo $article->url() ?>"><?php echo $article->title() ?></a></h2>
       <time class="article-date" datetime="<?php echo $page->date('c') ?>">
         <span class="month"><?php echo $article->date('M d') ?></span>

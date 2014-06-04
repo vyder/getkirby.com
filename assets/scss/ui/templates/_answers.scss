@@ -1,6 +1,7 @@
-@import "../kirby/defaults";
-@import "../kirby/generic/mixins";
-@import "../ui/vars";
+/*
+ANSWERS
+--------------------------------------------------
+:::::::::::::::::::::::::::::::::::::::::::::::::: */
 
 .answers {
   padding-right: 2em;
@@ -35,10 +36,10 @@
   border-top: 1px dotted $color-ui;
   margin-top: 1em;
 }
-.questions .alpha {  
+.questions .alpha {
   border-bottom: 1px solid $color-ui;
   padding-bottom: .25em;
 }
-.questions .body {  
+.questions .body {
   padding-top: 1em;
 }

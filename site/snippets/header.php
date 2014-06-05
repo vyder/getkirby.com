@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <meta charset="utf-8" />
-  <meta name="description" content="<?php echo html($site->description()) ?>" />
-  <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
-  <meta name="robots" content="index, follow" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  <?php if($page->isHomePage()): ?>
-  <title><?php echo html($page->headline()) ?></title>
-  <?php else: ?>
-  <title><?php echo html($site->title()) ?> - <?php echo html($page->title()) ?></title>
-  <?php endif ?>
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <?php echo css('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,400italic') ?>
 
   <?php echo css('assets/css/site.css') ?>
 
-  <!-- favicons -->
-  <link rel="shortcut icon" href="<?php echo url('assets/images/favicon.png') ?>" type="image/png" />
+  <?php if($page->isHomePage()): ?>
+  <title><?php echo html($page->headline()) ?> | <?php echo html($site->title()) ?></title>
+  <?php else: ?>
+  <title><?php echo html($site->title()) ?> | <?php echo html($page->title()) ?></title>
+  <?php endif ?>
+
+  <?php if($page->description() != ''): ?>
+  <meta name="description" content="<?php echo html($page->description()) ?>" />
+  <?php else: ?>
+  <meta name="description" content="<?php echo html($site->description()) ?>" />
+  <?php endif ?>
+
   <link rel="icon" href="<?php echo url('assets/images/favicon.png') ?>" type="image/png" />
   <link rel="apple-touch-icon" href="<?php echo url('assets/images/apple-touch-icon.png') ?>" />
+  <link rel="alternate" type="application/rss+xml" href="<?php echo url('feed') ?>" title="<?php echo html($site->title()) ?> Blog Feed" />
 
   <?php echo html::shiv() ?>
 

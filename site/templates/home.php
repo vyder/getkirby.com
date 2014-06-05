@@ -60,13 +60,13 @@
     <article class="text column three<?php e($count++%2==0, ' last') ?>">
       <time datetime="<?php echo $post->date('c') ?>"><?php echo $post->date('d M y') ?></time>
       <h3 class="gamma"><?php echo $post->title() ?></h3>
-      <p><?php echo excerpt($post->text(), 180) ?> <a href="<?php echo $post->url() ?>">read more →</a></p>
+      <p><?php echo excerpt($post->text(), 190) ?> <a href="<?php echo $post->url() ?>">read more →</a></p>
     </article>
 
     <?php endforeach ?>
   </section>
 
-  <section class="random-voices section columns last">
+  <section class="random-voices section columns">
     <h2 class="beta"><a href="<?php echo url('references/voices') ?>">What others say about Kirby</a></h2>
 
     <ul>
@@ -85,6 +85,33 @@
 
       <?php e(($count-1)%2==0, '<hr class="c" />') ?>
       <?php endforeach ?>
+    </ul>
+  </section>
+
+  <section class="connect section columns last">
+    <h2 class="beta">Connect</h2>
+    <ul>
+      <li class="column two">
+        <a href="http://forum.getkirby.com">
+          <img src="<?php echo url() ?>/assets/images/ph.jpg">
+          <h3 class="gamma">Be part of the community!</h3>
+          <p class="delta">forum.getkirby.com</p>
+        </a>
+      </li>
+      <li class="column two">
+        <a href="http://twitter.com/getkirby">
+          <img src="<?php echo url() ?>/assets/images/ph.jpg">
+          <h3 class="gamma">Follow Kirby on Twitter!</h3>
+          <p class="delta">@getkirby</p>
+        </a>
+      </li>
+      <li class="column two last">
+        <a href="#">
+          <img src="<?php echo url() ?>/assets/images/ph.jpg">
+          <h3 class="gamma">Sign up for the newsletter!</h3>
+          <p class="delta">newsletter.getkirby.com</p>
+        </a>
+      </li>
     </ul>
   </section>
 

@@ -11,6 +11,11 @@ HOME
   margin-left: -1em;
 }
 
+.home .delta {
+  text-transform: lowercase;
+  letter-spacing: 0;
+}
+
 
 
 /*
@@ -36,11 +41,15 @@ HOME
 /*
  :::  Features
 -------------------------------------------------- */
-.features .column {
-  padding-bottom: 2em;
-}
-.features .more {
-  white-space: nowrap;
+.features {
+  padding-bottom: 1em;
+
+  .column {
+    padding-bottom: 2em;
+  }
+  .more {
+    white-space: nowrap;
+  }
 }
 
 
@@ -59,6 +68,8 @@ HOME
 -------------------------------------------------- */
 .latest-posts {
   time {
+    font-weight: 300;
+    font-size: .9em;
     color: $color-text-light;
   }
 }
@@ -71,3 +82,32 @@ HOME
 .random-voices .beta {
   padding-bottom: 1em;
 }
+
+
+
+/*
+ :::  Connect
+-------------------------------------------------- */
+.connect {
+  padding-bottom: 1em;
+
+  li {
+    margin-bottom: 2em;
+
+    img {
+      margin-bottom: 5px;
+    }
+
+    .delta {
+      margin-top: 3px;
+      transition: color .3s;
+    }
+
+    &:hover .delta {
+      color: $color-text;
+    }
+  }
+}
+
+
+

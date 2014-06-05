@@ -12,5 +12,16 @@ HEADER
     display: block;
     background: url(../images/logo.png) no-repeat left center;
     text-indent: -6000px;
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+      background-image: url(../images/logo@2x.png);
+      background-size: 115px 42px;
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 3) {
+      background-image: url(../images/logo@3x.png);
+      background-size: 115px 42px;
+    }
+
   }
 }

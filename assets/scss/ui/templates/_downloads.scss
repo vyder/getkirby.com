@@ -2,7 +2,7 @@
 
 
 .download .beta {
-  border-bottom: 1px solid $color-ui;
+  border-top: 1px solid $color-ui;
   margin: 0;
   padding-bottom: .25em;
 }
@@ -14,7 +14,7 @@
 .download {
   position: relative;
   padding: 1em 0 1em 3em;
-  border-bottom: 1px solid $color-ui;
+  border-top: 1px solid $color-ui;
 }
 .download .epsilon {
   font-weight: 300;

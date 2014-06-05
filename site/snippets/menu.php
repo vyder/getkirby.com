@@ -1,4 +1,5 @@
-<nav class="menu clear" role="navigation">
+<a class="nav-open" href="#nav">Menu</a>
+<nav class="menu clear" id="nav" role="navigation">
   <h1 class="is-invisible">Main Menu</h1>
 
   <ul class="left menu-items">
@@ -26,5 +27,6 @@
     <li class="menu-item is-hidden-on-mobile"><a class="love<?php e($page->uid() == 'made-with-kirby-and-love', ' is-active') ?>" title="Build an awesome website with Kirby!" href="<?php echo url('references/made-with-kirby-and-love') ?>">&#9829;</a></li>
     <li class="menu-item"><a title="Buy a Kirby license for just $39" href="<?php echo url('buy') ?>">Buy</a></li>
   </ul>
+  <a class="nav-close" href="#">Close menu ↑</a>
 
 </nav>

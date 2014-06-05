@@ -34,7 +34,7 @@
   </section>
 
 
-  <section class="references section columns">
+  <section class="random-refs section columns">
     <h1 class="beta"><a href="<?php echo url('references/made-with-kirby-and-love') ?>">Made with Kirby and <strong>&#9829;</strong></a></h1>
 
     <ul class="reference-list">

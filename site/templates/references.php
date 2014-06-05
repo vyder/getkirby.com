@@ -1,8 +1,8 @@
 <?php snippet('header') ?>
 
-<main class="main columns" role="main">
+<main class="main references columns" role="main">
 
-  <h1 class="alpha">Made with Kirby and <strong>&#9829;</strong></h1>
+  <h1 class="alpha margin-bottom">Made with Kirby and <strong>&#9829;</strong></h1>
 
   <ul class="reference-list">
     <?php $references = $page->children()->flip()->paginate(30) ?>

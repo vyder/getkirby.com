@@ -7,7 +7,7 @@
   list-style: none;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
 
   /* float columns */
   .columns .column {
@@ -17,7 +17,7 @@
   .columns .column.last {
     margin-right: 0;
   }
-  
+
   /* widths */
   .columns .column.one {
     width: 13.3333%;
@@ -29,7 +29,7 @@
     width: 47.9999%;
   }
   .columns .column.four {
-    width: 65.3333%;    
+    width: 65.3333%;
   }
   .columns .column.five {
     width: 82.6666%;

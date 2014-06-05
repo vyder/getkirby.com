@@ -2,7 +2,7 @@
 
 <section class="main columns">
 
-  <h1 class="alpha"><?php echo html($page->title()) ?></h1>
+  <h1 class="alpha margin-bottom"><?php echo html($page->title()) ?></h1>
 
   <?php $count = 1; foreach($page->children() as $voice): ?>
   <article class="voice column three<?php e($count++%2==0, ' last') ?>">

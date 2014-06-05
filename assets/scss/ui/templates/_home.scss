@@ -12,6 +12,10 @@ HOME
 }
 
 
+
+/*
+ :::  Sections
+-------------------------------------------------- */
 .section {
   padding-bottom: 3em;
   margin-bottom: 3em;
@@ -28,6 +32,10 @@ HOME
 }
 
 
+
+/*
+ :::  Features
+-------------------------------------------------- */
 .features .column {
   padding-bottom: 2em;
 }
@@ -35,12 +43,31 @@ HOME
   white-space: nowrap;
 }
 
+
+
+/*
+ :::  Random refs
+-------------------------------------------------- */
 .home .random-refs {
-  padding-bottom: 0;
+  padding-bottom: 1em;
 }
 
 
-/* voices section */
-.voices .beta {
+
+/*
+ :::  Tag results
+-------------------------------------------------- */
+.latest-posts {
+  time {
+    color: $color-text-light;
+  }
+}
+
+
+
+/*
+ :::  Random voices
+-------------------------------------------------- */
+.random-voices .beta {
   padding-bottom: 1em;
 }

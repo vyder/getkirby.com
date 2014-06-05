@@ -3,18 +3,6 @@ MAIN
 --------------------------------------------------
 :::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-.main hr {
-  clear: both;
-  margin-bottom: 3em;
-  border: 0;
-  background: $color-ui;
-  height: .1em;
-}
-.main hr:last-child {
-  display: none;
-}
-.main .alpha {
-}
 .main .alpha strong {
   position: relative;
   font-size: .7em;
@@ -23,6 +11,11 @@ MAIN
   color: $color-primary;
 }
 
+
+
+/*
+ :::  Margin helper
+-------------------------------------------------- */
 .margin-bottom {
   margin-bottom: 1em;
 }

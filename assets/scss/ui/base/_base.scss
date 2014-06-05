@@ -1,3 +1,8 @@
+/*
+BASE
+--------------------------------------------------
+:::::::::::::::::::::::::::::::::::::::::::::::::: */
+
 html {
   @media screen and (min-width: 700px) {
     border: .5em solid #eee;
@@ -20,7 +25,7 @@ body.grid {
 }
 
 hr.c {
-  clear: both;
+  @extend .clear;
   visibility: hidden;
 }
 img {

@@ -1,4 +1,8 @@
-/* Form */
+/*
+FORM
+--------------------------------------------------
+:::::::::::::::::::::::::::::::::::::::::::::::::: */
+
 .form {
   margin: 0 auto;
 }
@@ -31,7 +35,7 @@
 }
 .form-field-input {
   font-family: $font-family-primary;
-  border: 0;  
+  border: 0;
   width: 100%;
   resize: none;
   background: none;
@@ -91,11 +95,11 @@
 .form-field-input-buttons li {
   float: left;
   list-style: none;
-  width: 20%;    
+  width: 20%;
 }
 @media screen and (min-width: 600px) {
   .form-field-input-buttons li {
-    width: 12.5%;    
+    width: 12.5%;
   }
 }
 .form-field-input-buttons button {

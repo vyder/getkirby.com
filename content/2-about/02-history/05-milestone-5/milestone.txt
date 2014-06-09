@@ -1,0 +1,5 @@
+title: Kirby 1.1.0 + Panel 0.8
+----
+date: 06/20/2012
+----
+description: Bacon ipsum dolor sit amet swine beef (link: blog/1-1-0 text: ribeye venison) ham Meatball sausage tri-tip drumstick tongue doner.

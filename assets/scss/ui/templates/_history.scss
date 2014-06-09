@@ -1,0 +1,109 @@
+/*
+HISTORY
+--------------------------------------------------
+:::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+.milestones {
+  margin-top: 30px;
+  padding-top: 20px;
+  list-style: none;
+  position: relative;
+  @extend .clear;
+
+  // vertical line
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin: 0 0 0 -5px;
+    left: 50%;
+    height: 100%;
+    width: 10px;
+    border-radius: $border-radius;
+    box-shadow: inset 0 0 0 1px #fff;
+    background: $color-primary;
+    border-left: 3px solid #d5d5d5;
+    border-right: 3px solid #d5d5d5;
+
+    @media screen and (max-width: 700px) {
+      left: 40px;
+    }
+  }
+
+  // milestone item
+  li {
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-right: 50%;
+    padding-right: 10%;
+    position: relative;
+    margin-bottom: 70px;
+
+    @media screen and (max-width: 700px) {
+      text-align: left;
+      margin-right: 0;
+      width: 100%;
+      padding-left: 100px;
+    }
+
+    &:nth-child(even) {
+      float: right;
+      text-align: left;
+      padding-right: 0%;
+      padding-left: 10%;
+      margin-right: 0;
+      margin-left: 50%;
+
+      @media screen and (max-width: 700px) {
+        float: left;
+        padding-left: 100px;
+        margin-left: 0;
+      }
+
+      time {
+        right: auto;
+        left: -50px;
+
+        @media screen and (max-width: 700px) {
+          left: 0;
+        }
+      }
+    }
+  }
+
+  // timestamp
+  time {
+    position: absolute;
+    padding: 10px 0;
+    text-align: center;
+    width: 100px;
+    color: #fff;
+    right: -50px;
+    box-shadow: 0 0 0 2px #fff;
+    border-radius: $border-radius;
+    background-color: $color-text;
+
+    @media screen and (max-width: 700px) {
+      right: auto;
+      left: 0;
+      width: 80px;
+    }
+  }
+
+  // milestone description
+  p {
+    color: $color-text-light;
+
+    a {
+      color: $color-primary;
+      border-bottom: 1px solid $color-ui;
+
+      &:hover {
+        color: $color-text;
+      }
+    }
+  }
+
+}

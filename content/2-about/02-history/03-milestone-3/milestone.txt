@@ -1,0 +1,5 @@
+title: Kirby 1.0 Release
+----
+date: 01/09/2012
+----
+description: Bacon ipsum dolor sit amet swine beef ribeye venison ham (link: http://getkirby.com/blog/1-0-is-here text: Meatball sausage) tri-tip drumstick tongue doner.

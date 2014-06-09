@@ -12,7 +12,7 @@
     <h2 class="beta">Features</h2>
 
     <ul>
-      <?php $count = 1; foreach($pages->find('features')->children()->limit(6) as $feature): ?>
+      <?php $count = 1; foreach($pages->find('about/features')->children()->limit(6) as $feature): ?>
 
       <li class="text column two<?php e($count++%3==0, ' last') ?>">
         <h3 class="gamma"><?php echo html($feature->title()) ?></h3>

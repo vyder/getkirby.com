@@ -26,6 +26,7 @@ body.grid {
 }
 
 hr.c {
+  width: 100%;
   @extend .clear;
   visibility: hidden;
 }

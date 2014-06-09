@@ -1,0 +1,3 @@
+title: Forum
+----
+link: http://forum.getkirby.com

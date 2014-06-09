@@ -10,12 +10,12 @@ MENU
   position: relative;
   list-style: none;
 
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 750px) {
     float: left;
   }
 
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .menu-item.is-hidden-on-mobile {
     display: none;
   }
@@ -26,7 +26,7 @@ MENU
   border-top: 1px solid #ddd;
   padding: .6em 0;
 
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 750px) {
     display: block;
     padding: .6em 1em;
     font-weight: 600;
@@ -41,7 +41,7 @@ MENU
   color: red;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .menu-item.has-dropdown > a:after {
     position: absolute;
     content: "";
@@ -62,7 +62,7 @@ MENU
 .left.menu-items .menu-item:first-child > a {
   padding-left: 0;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .right.menu-items {
     float: right;
   }
@@ -70,7 +70,7 @@ MENU
 .right.menu-items .menu-item:last-child > a {
   padding-right: 0;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .right .menu-item:after {
     position: absolute;
     content: "\203A";
@@ -98,7 +98,7 @@ MENU
   z-index: 1000;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .menu-item.is-active .dropdown {
     position: relative;
     display: block;
@@ -107,7 +107,7 @@ MENU
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .menu-item:hover .dropdown {
     display: block;
   }
@@ -152,7 +152,7 @@ MENU
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .menu {
     padding-top: 1em;
   }

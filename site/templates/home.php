@@ -2,10 +2,10 @@
 
 <main class="main home" role="main">
 
-  <header class="introduction section text intro">
+  <header class="introduction section intro">
     <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
     <p class="beta"><?php echo html($page->subheadline()) ?></p>
-    <?php echo kirbytext($page->intro()) ?>
+    <a class="btn-hero--dark" href="<?php echo url('try') ?>">Try</a><a class="btn-hero--red" href="<?php echo url('buy') ?>">Buy 39$/30€</a>
   </header>
 
   <section class="features section columns">

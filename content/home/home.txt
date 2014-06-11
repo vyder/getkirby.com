@@ -1,16 +1,18 @@
 Title: Home
 
-----	
+----
 
 Headline: Kirby is a file-based cms
 
 ----
 
-Subheadline: Easy to setup, easy to use, flexible as hell
+Subheadline: Easy to setup.
+ Easy to use.
+  Flexible as hell.
 
 ----
 
-Intro: 
+Intro:
 
 - Kirby is just (link: buy text: $39) / (link: buy text: 30€) per website
 - You can (link: try text: try it) before you (link: buy text: buy it)

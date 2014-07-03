@@ -3,56 +3,42 @@ DOWNLOADS
 --------------------------------------------------
 :::::::::::::::::::::::::::::::::::::::::::::::::: */
 
-.download .beta {
+.downloads .section {
+  border-bottom: none;
+
+  .beta {
+    padding-bottom: 0.5em;
+  }
+}
+
+.download-items {
   border-top: 1px solid $color-ui;
-  margin: 0;
-  padding-bottom: .25em;
-}
 
+  li {
+    position: relative;
+    padding: 1.5em 0 1.5em 4em;
+    border-bottom: 1px solid $color-ui;
 
-.download {
-  position: relative;
-  padding: 1em 0 1em 3em;
-  border-top: 1px solid $color-ui;
-}
-.download .epsilon {
-  font-weight: 300;
-  color: $color-text-light;
-}
-.download .icon {
-  position: absolute;
-  top: .9em;
-  left: 0;
-  width: 32px;
-  height: 32px;
-  border-radius: 100%;
-  overflow: hidden;
-  text-align: center;
-  border: 2px solid #222;
-  background: #222;
-}
-.download .icon img {
-  position: relative;
-  max-width: none;
-  height: 32px !important;
-  left: -4px;
-  top: -2px;
-}
+    &:hover img {
+      opacity: 0.8;
+      border: 3px solid #000;
+    }
+  }
 
-.download .options li {
-  list-style: none;
-  float: left;
-}
-.download .options a {
-  display: block;
-  margin-left: .5em;
-  background: #222;
-  color: #fff;
-  padding: 0 1em;
-  font-size: .9em;
-  font-weight: 300;
-  border-radius: 1em;
-}
-.media figure {
-    margin: 2em 0;
+  .icon {
+    left: 0;
+    position: absolute;
+    top: 1.8em;
+    text-align: center;
+    max-width: none;
+    width: 50px;
+    background: #222;
+    overflow: hidden;
+    border: 0px solid #222;
+    transition: all .4s;
+  }
+  .epsilon {
+    font-weight: 300;
+    color: $color-text-light;
+  }
 }

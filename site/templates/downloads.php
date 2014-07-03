@@ -1,27 +1,28 @@
 <?php snippet('header') ?>
 
-<main class="main" role="main">
+<main class="main downloads" role="main">
 
   <h1 class="alpha margin-bottom">Downloads</h1>
 
   <section class="section columns">
-    <h1 class="beta">Kirby</h1>
+    <h2 class="beta">Kirby</h2>
 
-    <article class="download column three">
-      <figure class="icon">
-        <a href="http://download.getkirby.com"></a>
-      </figure>
-      <h1 class="gamma"><a href="http://download.getkirby.com">kirby-2.0.0.zip</a></h1>
-      <h2 class="epsilon"><a href="http://download.getkirby.com">Download Kirby's minimal setup</a></h2>
-    </article>
-
-    <article class="download column three last">
-      <figure class="icon">
-        <a href="http://download.getkirby.com/minimal/panel:true"></a>
-      </figure>
-      <h1 class="gamma"><a href="http://download.getkirby.com/minimal/panel:true">kirby-2.0.0-with-panel.zip</a></h1>
-      <h2 class="epsilon"><a href="http://download.getkirby.com">Download Kirby's minimal setup including the panel</a></h2>
-    </article>
+    <ul class="download-items">
+      <li class="column three">
+        <a href="http://download.getkirby.com">
+          <img class="icon" src="<?php echo url('assets/images/kirby-dark.png') ?>" alt="Kirby icon" />
+          <h3 class="gamma">kirby-2.0.0.zip</h3>
+          <p class="epsilon">Download Kirby's minimal setup</p>
+        </a>
+      </li>
+      <li class="column three last">
+        <a href="http://download.getkirby.com/minimal/panel:true">
+          <img class="icon" src="<?php echo url('assets/images/kirby-dark.png') ?>" alt="Kirby icon" />
+          <h3 class="gamma">kirby-2.0.0-with-panel.zip</h3>
+          <p class="epsilon">Download Kirby's minimal setup including the panel</p>
+        </a>
+      </li>
+    </ul>
 
   </section>
 
@@ -29,17 +30,19 @@
 
   <section class="section columns">
 
-    <h1 class="beta"><?php echo html($category->title()) ?></h1>
+    <h2 class="beta"><?php echo html($category->title()) ?></h2>
 
-    <?php $count = 1; foreach($category->children() as $download): ?>
-    <article class="download column three<?php e($count++%2==0, ' last') ?>">
-      <figure class="icon">
-        <a href="<?php echo $download->url() ?>"><img src="<?php echo $download->images()->first()->url() ?>" /></a>
-      </figure>
-      <h1 class="gamma"><a href="<?php echo $download->url() ?>"><?php echo html($download->title()) ?></a></h1>
-      <h2 class="epsilon"><a href="<?php echo $download->url() ?>"><?php echo html($download->subtitle()) ?></h2>
-    </article>
-    <?php endforeach ?>
+    <ul class="download-items">
+      <?php $count = 1; foreach($category->children() as $download): ?>
+      <li class="column three<?php e($count++%2==0, ' last') ?>">
+        <a href="<?php echo $download->url() ?>">
+          <img class="icon" src="<?php echo $download->images()->first()->url() ?>" alt="<?php echo $download->title() ?> icon" />
+          <h3 class="gamma"><?php echo html($download->title()) ?></h3>
+          <p class="epsilon"><?php echo html($download->subtitle()) ?></p>
+        </a>
+      </li>
+      <?php endforeach ?>
+    </ul>
 
   </section>
 

@@ -11,6 +11,11 @@ DOWNLOADS
   }
 }
 
+
+
+/*
+ :::  Download items
+-------------------------------------------------- */
 .download-items {
   border-top: 1px solid $color-ui;
 
@@ -42,3 +47,13 @@ DOWNLOADS
     color: $color-text-light;
   }
 }
+
+
+/*
+ :::  Media single view
+-------------------------------------------------- */
+.download-single img {
+  margin-top: 2em;
+}
+
+

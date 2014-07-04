@@ -10,6 +10,14 @@
 
     <article class="text">
       <h1><?php echo html($page->title()) ?></h1>
+
+      <?php if($page->text() == ''): /* Check if content is available */ ?>
+      <p class="delta">Coming soon...</p>
+      <p>At the moment we're working hard to complete and improve the docs. Thanks for your patience! In case you've got an urgent issue with Kirby please send us an email.</p>
+      <?php echo str::email($site->email()) ?>
+
+      <?php else: ?>
+
       <?php echo str_replace('(\\', '(', kirbytext($page->text())) ?>
 
       <?php if($page->blogposts() or $page->forumposts() or $page->docs() or $page->externals()): ?>
@@ -56,6 +64,8 @@
         </ul>
         <?php endif ?>
       </footer>
+      <?php endif ?>
+
       <?php endif ?>
     </article>
 

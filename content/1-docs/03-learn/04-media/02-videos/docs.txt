@@ -10,17 +10,46 @@ Kirbytext has a built-in way to add Youtube and Vimeo videos to any page without
 
 ```text
 (\youtube: http://www.youtube.com/watch?v=lLuc6rtWkrM)
-
+```
 or
 
+```text
 (\vimeo: http://vimeo.com/3432886)
-
 ```
 
 Set the width and height of the embedded video
 
 ```text
-
 (\vimeo: http://vimeo.com/3432886 width: 400 height: 300)
 
 ```
+
+### Responsive or what?!
+
+Kirby will automatically wrap a `<figure>` element with a `video` class around those iframes.
+
+```html
+<figure class="video">
+  <iframe src="https://www.youtube.com/watch?v=oT3mCybbhf0" width="480" height="358" frameborder="0" allowfullscreen></iframe>
+</figure>
+```
+
+This wrapper can be very handy when it comes to responsive design. To apply an often used 16:9 ratio to your videos just add these few lines of CSS and you're good to go.
+
+```css
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: auto;
+}
+.video > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+```
+
+The video will scale perfectly and in the correct ratio, no matter what the current screen size is.
+

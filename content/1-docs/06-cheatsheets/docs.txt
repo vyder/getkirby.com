@@ -2,5 +2,8 @@ Title: Kirby Cheat Sheets
 
 ----
 
-Text: 
+Text:
+
+Kirbytext / Markdown
+: <https://github.com/getkirby/docs/blob/master/kirbytext.md>
 

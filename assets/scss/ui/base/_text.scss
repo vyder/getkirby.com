@@ -160,3 +160,13 @@ TEXT
     }
   }
 }
+
+// decription lists
+.text dl {
+  dt {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+}

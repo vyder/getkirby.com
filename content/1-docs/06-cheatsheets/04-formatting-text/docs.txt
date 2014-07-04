@@ -1,6 +1,0 @@
-Title: Formatting Text
-
-----
-
-Text: 
-

@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <?php echo css('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,400italic') ?>
+  <?php echo css('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,400italic|Source+Code+Pro:400') ?>
 
-  <?php echo css('assets/css/site.css') ?>
+  <?php echo css('assets/css/main.css') ?>
 
   <?php if($page->isHomePage()): ?>
   <title><?php echo html($page->headline()) ?> | <?php echo html($site->title()) ?></title>
@@ -34,6 +34,6 @@
   <div class="page">
 
     <header class="site-header" role="banner">
-      <h1 class="logo"><a href="<?php echo url() ?>">Kirby</a></h1>
+      <a class="logo" href="<?php echo url() ?>">Kirby</a>
       <?php snippet('menu') ?>
     </header>

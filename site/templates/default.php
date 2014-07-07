@@ -1,10 +1,10 @@
 <?php snippet('header') ?>
 
-<article class="main text">
+<main class="main text" role="main">
 
-  <h1><?php echo kirbytext($page->title(), false) ?></h1>
+  <h1 class="alpha"><?php echo kirbytext($page->title(), false) ?></h1>
   <?php echo kirbytext($page->text()) ?>
 
-</article>
+</main>
 
 <?php snippet('footer') ?>

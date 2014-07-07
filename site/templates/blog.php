@@ -13,7 +13,7 @@
 
     $articles = $pages->find('blog')->children()->visible()->flip()->paginate(20);
 
-      echo '<h1 class="is-invisible">Blog</h1>';
+      echo '<h1 class="vh">Blog</h1>';
 
   } ?>
 

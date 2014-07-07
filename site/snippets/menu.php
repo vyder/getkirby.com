@@ -1,6 +1,6 @@
 <a class="nav-open" href="#nav">Menu</a>
-<nav class="menu clear" id="nav" role="navigation">
-  <h1 class="is-invisible">Main Menu</h1>
+<nav class="nav menu clear" id="nav" role="navigation">
+  <h1 class="vh">Main Menu</h1>
 
   <ul class="left menu-items">
 

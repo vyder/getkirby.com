@@ -7,7 +7,7 @@
 
   <h2 class="beta">Milestones</h2>
   <div class="text"><?php echo kirbytext($page->milestones()) ?></div>
-  <ul class="milestones">
+  <ul class="milestones cf">
     <?php foreach($milestones = $page->children()->visible() as $milestone): ?>
       <li>
         <time><?php echo $milestone->date('M Y') ?></time>

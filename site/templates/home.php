@@ -14,7 +14,7 @@
     <ul>
       <?php $count = 1; foreach($pages->find('about/features')->children()->limit(6) as $feature): ?>
 
-      <li class="text column two<?php e($count++%3==0, ' last') ?>">
+      <li class="text small column two<?php e($count++%3==0, ' last') ?>">
         <h3 class="gamma"><?php echo html($feature->title()) ?></h3>
         <p>
           <?php echo $feature->text() ?>
@@ -32,11 +32,11 @@
   <section class="random-refs section columns">
     <h2 class="beta"><a href="<?php echo url('references/made-with-kirby-and-love') ?>">Made with Kirby and <strong>&#9829;</strong></a></h2>
 
-    <ul class="reference-list">
+    <ul class="reference-list list-3">
       <?php $references = $page->children()->flip()->paginate(30) ?>
       <?php $count = 1; foreach($pages->find('references/made-with-kirby-and-love')->children()->shuffle()->limit(3) as $reference): ?>
 
-      <li class="column two<?php e($count++%3==0, ' last') ?>">
+      <li class="screenshot">
         <a href="<?php echo $reference->link() ?>">
           <?php if($reference->hasImages()): ?>
           <?php $image = $reference->images()->first() ?>

@@ -1,10 +1,10 @@
 <?php snippet('header') ?>
 
-<article class="main">
+<main class="main" role="main">
 
   <header class="main-header">
     <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
-    <h2 class="beta"><?php echo html($page->subheadline()) ?></h2>
+    <p class="beta"><?php echo html($page->subheadline()) ?></p>
   </header>
 
   <div class="columns">
@@ -19,6 +19,6 @@
 
   </div>
 
-</article>
+</main>
 
 <?php snippet('footer') ?>

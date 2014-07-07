@@ -18,7 +18,6 @@ To learn more about how to format text with Kirbytext please follow the
 To use the Kirbytext converter in your templates, you can call it like this:
 
 ```php
-
 <?php echo kirbytext($page->text()) ?>
 
 ```
@@ -32,7 +31,6 @@ To use the Kirbytext converter in your templates, you can call it like this:
 Converts the given text to valid HTML. This is very handy to make sure your content will be displayed correctly.
 
 ```php
-
 <?php echo html($page->title()) ?>
 
 ```
@@ -42,7 +40,6 @@ Converts the given text to valid HTML. This is very handy to make sure your cont
 Converts the given text to valid xml. This is very handy for feeds.
 
 ```php
-
 <?php echo xml($page->title()) ?>
 
 ```
@@ -52,7 +49,6 @@ Converts the given text to valid xml. This is very handy for feeds.
 Converts new lines to breaks and also converts the text to HTML.
 
 ```php
-
 <?php echo multiline($page->title()) ?>
 
 ```
@@ -62,7 +58,6 @@ Converts new lines to breaks and also converts the text to HTML.
 Convert markdown from your content files to valid HTML. This makes it super easy to add nice rich content to your pages, without knowing HTML.
 
 ```php
-
 <?php echo markdown($page->text()) ?>
 
 ```
@@ -72,7 +67,6 @@ Convert markdown from your content files to valid HTML. This makes it super easy
 Extracts a short excerpt of a text and makes sure that words are not messed-up and html tags are stripped properly. You can define the number of maximum characters with the second parameter.
 
 ```php
-
 <?php echo excerpt($page->text(), 300) ?>
 
 ```

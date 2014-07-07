@@ -1,17 +1,18 @@
 <?php snippet('header') ?>
 
-<div class="main columns">
+<main class="main columns" role="main">
+  <h1 class="vh">Contact</h1>
 
-  <article class="column three text">
-    <h1 class="alpha">Contact me</h1>
+  <section class="column three text">
+    <h2 class="alpha">Contact me</h2>
     <?php echo kirbytext($page->text()) ?>
-  </article>
+  </section>
 
-  <article class="column three last text">
-    <h1 class="alpha">Follow Kirby</h1>
+  <section class="column three last text">
+    <h2 class="alpha">Follow Kirby</h2>
     <?php echo kirbytext($page->web()) ?>
-  </article>
+  </section>
 
-</div>
+</main>
 
 <?php snippet('footer') ?>

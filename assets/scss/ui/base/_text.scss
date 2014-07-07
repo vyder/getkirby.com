@@ -46,6 +46,10 @@ TEXT
 .text ol,
 .text blockquote {
   padding-bottom: 1.5em;
+  font-size: 1.125em;
+}
+.text.small p {
+  font-size: 1em;
 }
 
 
@@ -165,8 +169,8 @@ TEXT
 .text dl {
   dt {
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
   }
 }

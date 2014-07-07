@@ -25,7 +25,7 @@
     <aside class="sidebar column two last">
 
       <nav>
-        <h2 class="is-invisible">Navigation</h2>
+        <h2 class="vh">Navigation</h2>
         <ul>
           <li><a href="<?php echo $pages->find('blog')->url() ?>"><small>↑</small>Back to the article overview</a></li>
 

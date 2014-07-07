@@ -103,48 +103,28 @@ img {
   max-width: 100%;
   height: auto;
 }
-.text img, .text figure {
-  margin-top: 20px;
-}
-.text .img-right {
-  float: right;
-  margin-left: 30px;
-  margin-bottom: 20px;
-}
-@media screen and (max-width: 500px) {
-  .text .img-right {
-    float: none;
-    margin-left: 0;
-    margin-right: 30px;
-  }
-}
-.text .img-left {
-  float: left;
-  margin-left: 30px;
-  margin-bottom: 20px;
-}
-@media screen and (max-width: 500px) {
-  .text .img-left {
-    float: none;
-    margin-left: 0;
-    margin-left: 30px;
-  }
-}
-.text figure.image {
+.text figure {
   display: block;
-  padding-bottom: 24px;
-  overflow: hidden;
+  margin-bottom: 1.5em;
 }
-.text figure.image img {
-  display: block;
-  max-width: 100%;
-}
-.text figure.image figcaption {
+.text figure figcaption {
   display: block;
   margin-top: 8px;
   margin-bottom: -8px;
   color: #999;
   font-size: .9em;
+}
+.text .img-left {
+  float: left;
+  margin-top: 0;
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+}
+.text .img-right {
+  float: right;
+  margin-left: 1.5;
+  margin-bottom: 1em;
+  margin-top: 0;
 }
 
 
@@ -155,7 +135,8 @@ img {
 a {
   color: #222;
   text-decoration: none;
-  transition: all .3s;
+  -webkit-transition: background .3s, color .3s, opacity .3s, border-color .3s;
+  transition: background .3s, color .3s, opacity .3s, border-color .3s;
 }
 a:hover {
   color: red;
@@ -165,7 +146,19 @@ a:hover {
   border-bottom: 2px solid #ddd;
 }
 .text a:hover {
-  border-color: #000;
+  border-color: #222;
+}
+
+
+
+/*
+ :::  Text
+-------------------------------------------------- */
+.text {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.5em;
+  font-weight: 400;
 }
 
 
@@ -179,6 +172,10 @@ p {
 .text p {
   margin-bottom: 1.5em;
 }
+.text.smaller p {
+  font-size: 16px;
+  font-size: 1rem;
+}
 
 
 
@@ -188,7 +185,6 @@ p {
 .text ul {
   margin-bottom: 1.5em;
   margin-left: 1em;
-  line-height: 1.6em;
   list-style: disc;
 }
 .text ul ul,
@@ -204,7 +200,6 @@ p {
 .text ol {
   margin-bottom: 1.5em;
   margin-left: 1.25em;
-  line-height: 1.6em;
   list-style: decimal;
 }
 .text ol ul,
@@ -221,6 +216,9 @@ p {
   margin-bottom: 1.5em;
 }
 .text dt {
+  margin-top: 1.25em;
+  margin-bottom: .25em;
+  font-size: 1.3rem;
   font-weight: 400;
   color: red;
 }
@@ -235,7 +233,7 @@ p {
 -------------------------------------------------- */
 code, pre {
   font-family: 'Source Code Pro', 'Courier', monospace;
-  font-size: .8rem;
+  font-size: .9rem;
 }
 .text p code {
   background: #eee;
@@ -249,7 +247,7 @@ code, pre {
   padding: 2em;
   overflow: auto;
   background: #f5f5f5;
-  line-height: 1.6em;
+  line-height: 1.5em;
 }
 .text figure.code pre.highlight {
   white-space: nowrap;
@@ -303,7 +301,7 @@ h6 a {
   line-height: 1.5em;
 }
 .text h3 {
-  margin: 0 0 1.5em 0;
+  margin: 0 0 1em 0;
 }
 .delta,
 .text h4 {
@@ -317,21 +315,24 @@ h6 a {
   margin: 0 0 1.5em 0;
 }
 .epsilon,
-.text h5,
-.zeta,
-.text h6 {
+.text h5 {
   font-size: 18px;
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.5em;
-  margin: 0 0 1.5em 0;
 }
 .zeta,
 .text h6 {
+  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
+  line-height: 1.5em;
   color: red;
 }
-
+.text h5,
+.text h6 {
+  margin: 0 0 1.5em 0;
+}
 
 
 
@@ -339,9 +340,9 @@ h6 a {
  :::  Header
 -------------------------------------------------- */
 .site-header {
+  position: relative;
   border-bottom: 2px solid red;
   margin-bottom: 1.5em;
-  position: relative;
 }
 .logo {
   display: block;
@@ -757,46 +758,34 @@ h6 a {
 
 
 /*
+ :::  Buttons
+-------------------------------------------------- */
+.btn-rounded {
+  font-weight: 600;
+  border-radius: 5em;
+  border: 2px solid #222;
+  padding: .5em 1.5em;
+}
+.btn-rounded:focus,
+.btn-rounded:hover {
+  background: #222;
+  color: #fff;
+}
+
+
+
+/*
  :::  Pagination
 -------------------------------------------------- */
 .pagination {
   position: relative;
   padding-top: 2em;
 }
-.pagination li {
-  position: relative;
-  list-style: none;
-  z-index: 1;
-}
-.pagination a {
-  display: block;
-  padding: .5em 1em;
-  border: 2px solid red;
-  border-radius: 50px;
-  font-size: .9em;
-}
 .pagination .prev {
   float: left;
 }
 .pagination .next {
   float: right;
-}
-.pagination .prev span,
-.pagination .next span {
-  color: red;
-  font-weight: 300;
-  font-size: .9em;
-}
-.count {
-  position: absolute;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  text-align: center;
-  font-size: .9em;
-  color: #999;
-  padding: 2px;
-  font-weight: 300;
 }
 
 
@@ -863,7 +852,6 @@ h6 a {
     padding-left: 0;
   }
 }
-
 .sidebar li {
   padding: 0 0 .5em;
   margin-bottom: .5em;
@@ -874,15 +862,10 @@ h6 a {
 .sidebar a {
   position: relative;
   display: block;
-  color: #222;
-  border: 0;
+  padding-left: 2em;
   white-space:nowrap;
   overflow:hidden;
   text-overflow:ellipsis;
-  padding-left: 2em;
-}
-.siebar a:hover {
-  color: red;
 }
 .sidebar small {
   position: absolute;
@@ -981,7 +964,6 @@ h6 a {
   margin: 0;
   padding-bottom: .25em;
 }
-
 .answer {
   border-bottom: 1px solid #ddd;
   padding: 1em 0;
@@ -1025,7 +1007,6 @@ h6 a {
   border-bottom: 1px solid #ddd;
   padding: 0 4em 1em 0;
   margin-bottom: 1em;
-  list-style: none;
 }
 
 
@@ -1117,9 +1098,6 @@ h6 a {
   padding-top: 2em;
   border-top: 2px solid red;
 }
-.further-reading h2 {
-  color: #222;
-}
 
 
 
@@ -1131,6 +1109,7 @@ h6 a {
   border-bottom: none;
 }
 .downloads .section .beta {
+  padding-bottom: 0;
   margin-bottom: 0.5em;
 }
 .downloads .section .gamma {
@@ -1285,26 +1264,6 @@ h6 a {
 
 
 /*
-HOME
---------------------------------------------------
-:::::::::::::::::::::::::::::::::::::::::::::::::: */
-
-
-.introduction ul {
-  font-size: $size-h3;
-  font-weight: 300;
-  padding-bottom: 0;
-  margin-left: -1em;
-}
-
-.home .delta {
-  text-transform: lowercase;
-  letter-spacing: 0;
-}
-
-
-
-/*
  :::  Sections
 -------------------------------------------------- */
 .section {
@@ -1329,11 +1288,14 @@ HOME
 .features {
   padding-bottom: 1em;
 }
-.features .column {
-    padding-bottom: 2em;
-}
 .features .more {
   white-space: nowrap;
+}
+.feature-list li {
+  margin-bottom: 1.5em;
+}
+.feature-list .gamma {
+  margin-bottom: .5em;
 }
 
 
@@ -1449,14 +1411,12 @@ TRY
   float: left;
   position: relative;
   list-style: none;
-}
-.list-3 li {
   width: 100%;
 }
 @media screen and (min-width: 36em) and (max-width: 60em) {
   .list-3 li {
-    width: 48%;
-    margin-right: 4%;
+    width: 47%;
+    margin-right: 6%;
   }
   .list-3 li:nth-child(even) {
     margin-right: 0;
@@ -1468,6 +1428,15 @@ TRY
     margin-right: 3.5%;
   }
   .list-3 li:nth-child(3n+3) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 36em) {
+  .list-2 li {
+    width: 47%;
+    margin-right: 6%;
+  }
+  .list-2 li:nth-child(even) {
     margin-right: 0;
   }
 }

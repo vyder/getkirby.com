@@ -34,10 +34,10 @@
   <?php if($articles->pagination()->hasPages()): /*** pagination ***/ ?>
   <nav class="pagination cf">
     <?php if($articles->pagination()->hasPrevPage()): ?>
-    <a class="prev" href="<?= $articles->pagination()->prevPageURL() ?>">&lsaquo;&lsaquo; newer posts</a>
+    <a class="btn-rounded prev" href="<?php echo $articles->pagination()->prevPageURL() ?>">&lsaquo;&lsaquo; newer posts</a>
     <?php endif ?>
     <?php if($articles->pagination()->hasNextPage()): ?>
-    <a class="next" href="<?= $articles->pagination()->nextPageURL() ?>">older posts &rsaquo;&rsaquo;</a>
+    <a class="btn-rounded next" href="<?php echo $articles->pagination()->nextPageURL() ?>">older posts &rsaquo;&rsaquo;</a>
     <?php endif ?>
   </nav>
   <?php endif ?>

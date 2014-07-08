@@ -2,7 +2,7 @@
 
 <main class="main home" role="main">
 
-  <header class="section">
+  <header class="intro section">
     <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
     <p class="beta"><?php echo html($page->subheadline()) ?></p>
     <a class="btn-hero-dark" href="<?php echo url('try') ?>">Try</a><a class="btn-hero-red" href="<?php echo url('buy') ?>">Buy 39$/30€</a>

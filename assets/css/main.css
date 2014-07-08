@@ -75,6 +75,9 @@ main:after {
   left: .1em;
   color: red;
 }
+.main-header {
+  margin-bottom: 2em;
+}
 hr.c {
   width: 100%;
   visibility: hidden;
@@ -83,15 +86,6 @@ hr:after {
   content: '';
   display: table;
   clear: both;
-}
-
-
-
-/*
- :::  Margin bottom
--------------------------------------------------- */
-.margin-bottom {
-  margin-bottom: 1em;
 }
 
 
@@ -792,6 +786,9 @@ h6 a {
 }
 .reference-list .gamma {
   margin-bottom: -.25em;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }
 
 
@@ -824,7 +821,7 @@ h6 a {
 .voice-list li {
   border-left: 5px solid #ddd;
   padding-left: 1em;
-  margin-bottom: 3em;
+  margin-bottom: 4em;
 }
 .voice-list img {
   float: left;
@@ -988,7 +985,9 @@ h6 a {
  :::  Tag results
 -------------------------------------------------- */
 .blog h1 {
-  padding-bottom: 1em;
+  padding-bottom: .5em;
+  margin-bottom: .5em;
+  border-bottom: 1px solid #ddd;
 }
 .blog h1 mark {
   background: none;
@@ -1012,7 +1011,7 @@ h6 a {
   display: block;
   padding-bottom: .025em;
 }
-@media only screen and (max-width : 700px) {
+@media only screen and (max-width : 750px) {
   .article-date {
     position: relative;
     display: block;
@@ -1040,7 +1039,7 @@ h6 a {
   padding-right: 4em;
   border-bottom: 1px solid #ddd;
 }
-@media only screen and (max-width : 700px) {
+@media only screen and (max-width : 750px) {
   .article header {
     padding-right: 0;
   }
@@ -1074,8 +1073,8 @@ h6 a {
 /*
  :::  Downloads
 -------------------------------------------------- */
-
 .downloads .section {
+  padding-bottom: 2em;
   border-bottom: none;
 }
 .download-list {
@@ -1086,21 +1085,17 @@ h6 a {
   padding: 1.5em 0 1.5em 5em;
   border-bottom: 1px solid #ddd;
 }
-.download-list li:hover img {
-  opacity: 0.8;
-  border: 3px solid #000;
-}
 .download-list li .icon {
-  left: 0;
   position: absolute;
   top: 1.8em;
-  text-align: center;
-  max-width: none;
+  left: 0;
   width: 60px;
-  background: #222;
-  overflow: hidden;
-  border: 0px solid #222;
+  text-align: center;
   transition: all .4s;
+}
+.download-list li:hover .icon {
+  opacity: 0.8;
+  border: 3px solid #000;
 }
 .download-list p {
   font-weight: 300;
@@ -1124,6 +1119,9 @@ h6 a {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.download img {
+  margin-top: 2em;
 }
 .download-meta ul {
   margin: 20px 0;
@@ -1163,15 +1161,6 @@ h6 a {
 
 
 /*
- :::  Media single view
--------------------------------------------------- */
-.download-single img {
-  margin-top: 2em;
-}
-
-
-
-/*
  :::  History
 -------------------------------------------------- */
 .milestones {
@@ -1181,7 +1170,7 @@ h6 a {
   position: relative;
 }
 
-/* vertical line */
+/* vertical timeline */
 .milestones:before {
   content: '';
   position: absolute;
@@ -1284,19 +1273,26 @@ h6 a {
  :::  Sections
 -------------------------------------------------- */
 .section {
-  padding-bottom: 3em;
   margin-bottom: 3em;
   border-bottom: 1px solid #ddd;
 }
 .section.last {
-  border-bottom: 0;
-  padding-bottom: 0;
   margin-bottom: 0;
+  border-bottom: 0;
 }
 .section .beta {
   padding-bottom: 1em;
 }
 
+
+
+/*
+ :::  Intro
+-------------------------------------------------- */
+.intro {
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
 
 
 /*
@@ -1318,17 +1314,11 @@ h6 a {
 
 
 /*
- :::  Random refs
--------------------------------------------------- */
-.random-refs {
-  padding-bottom: 1em;
-}
-
-
-
-/*
  :::  Tag results
 -------------------------------------------------- */
+.latest-posts li {
+  margin-bottom: 3em;
+}
 .latest-posts time {
   font-weight: 300;
   font-size: .9em;
@@ -1368,17 +1358,6 @@ h6 a {
 }
 .connect li:hover .zeta {
   color: #222;
-}
-
-
-
-/*
-TRY
---------------------------------------------------
-:::::::::::::::::::::::::::::::::::::::::::::::::: */
-
-.main-header {
-  margin-bottom: 2em;
 }
 
 
@@ -1432,9 +1411,21 @@ TRY
 [class*='list-'] li {
   float: left;
   position: relative;
-  list-style: none;
   width: 100%;
 }
+
+/* 2 items in a row */
+@media screen and (min-width: 36em) {
+  .list-2 li {
+    width: 47%;
+    margin-right: 6%;
+  }
+  .list-2 li:nth-child(even) {
+    margin-right: 0;
+  }
+}
+
+/* 3 items in a row */
 @media screen and (min-width: 36em) and (max-width: 60em) {
   .list-3 li {
     width: 47%;
@@ -1450,15 +1441,6 @@ TRY
     margin-right: 3.5%;
   }
   .list-3 li:nth-child(3n+3) {
-    margin-right: 0;
-  }
-}
-@media screen and (min-width: 36em) {
-  .list-2 li {
-    width: 47%;
-    margin-right: 6%;
-  }
-  .list-2 li:nth-child(even) {
     margin-right: 0;
   }
 }
@@ -1497,4 +1479,13 @@ TRY
 -------------------------------------------------- */
 .ch {
   display: none;
+}
+
+
+
+/*
+ :::  Margin bottom helper
+-------------------------------------------------- */
+.margin-bottom {
+  margin-bottom: 1em;
 }

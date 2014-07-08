@@ -345,8 +345,15 @@ h6 a {
   border-bottom: 2px solid red;
   margin-bottom: 1.5em;
 }
+@media only screen and (max-width: 750px) {
+  .site-header {
+    overflow: hidden;
+  }
+}
 .logo {
   display: block;
+  position: relative;
+  z-index: 99999999;
   width: 115px;
   height: 41px;
   background: url(../images/logo.png) no-repeat left center;
@@ -355,13 +362,13 @@ h6 a {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .logo {
     background-image: url(../images/logo@2x.png);
-    background-size: 115px 42px;
+    background-size: 115px 41px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
   .logo {
     background-image: url(../images/logo@3x.png);
-    background-size: 115px 42px;
+    background-size: 115px 41px;
   }
 }
 
@@ -536,7 +543,9 @@ h6 a {
 
 @media screen and (max-width: 750px) {
   .nav-main {
+    position: relative;
     padding-top: 1em;
+    background-color: #fff;
   }
   .nav-main li {
     width: 100%;
@@ -544,7 +553,8 @@ h6 a {
   .nav-open {
     display: block;
     position: absolute;
-    top: -20px;
+    z-index: 9999999999;
+    top: -14px;
     right: 0px;
   }
   .nav-open:after {
@@ -554,19 +564,25 @@ h6 a {
     margin-left: 10px;
     font-size: 3em;
   }
-  .nav-main li {
+  .nav-main li,
+  .nav-main a {
     height: 0;
     opacity: 0;
-    transition: all .3s;
+    transition: height .3s, opacity .3s;
   }
-  #nav:target li {
+  #nav:target {
+    padding-top: 85px;
+    margin-top: -70px;
+  }
+  #nav:target li,
+  #nav:target a {
     height: auto;
     opacity: 1;
   }
   #nav:target .nav-close {
-    display: block;
-    text-align: right;
-    padding-bottom: 1em;
+    display: inline-block;
+    float: right;
+    margin-bottom: 1em;
     color: red;
   }
 }
@@ -630,7 +646,8 @@ h6 a {
   display: inline-block;
   padding-left: .5em;
   padding-right: .5em;
-  border-left: 1px solid #999;
+  line-height: 1.5em;
+  border-left: 1px solid #ddd;
 }
 .nav-footer li:first-child {
   border-left: none;
@@ -672,11 +689,21 @@ h6 a {
   padding: .5em 1.5em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: all .3s;
 }
 .btn-rounded:focus,
 .btn-rounded:hover {
   background: #222;
   color: #fff;
+}
+.btn-rounded.red {
+  border-color: red;
+  transition: all .3s;
+}
+.btn-rounded.red:focus,
+.btn-rounded.red:hover {
+  background: red;
+  color: #fff !important;
 }
 
 

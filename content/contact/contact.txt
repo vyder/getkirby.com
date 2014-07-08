@@ -5,7 +5,7 @@ Title: Contact
 Text:
 
 Kirby is designed and developed by (link: http://bastianallgeier.com text: Bastian Allgeier)
-and published by the (link: http://openwe.de text: OpenWe GmbH).
+and published by the Bastian Allgeier GmbH.
 
 Please just send me an email if you've
 got any questions or bug reports

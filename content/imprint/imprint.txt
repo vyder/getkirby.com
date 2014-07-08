@@ -2,36 +2,35 @@ Title: Imprint
 
 ----
 
-Contact: 
+Contact:
 
 Responsible for all content accordant §10 paragraph 3 mdstv:
-Bastian Allgeier & Hartmut Wöhlbier
+Bastian Allgeier
 
-OpenWe GmbH
-Wiesenblättchen 6
-68723 Schwetzingen
+Bastian Allgeier GmbH
+Stresemannstraße 23
+68165 Mannheim
 Germany
 
-Registergericht: Amtsgericht München
-Registernummer: HRB 169517
-USt.IdNr.: 43049-06279
+Registergericht: Amtsgericht Mannheim
+Registernummer: HRB 718613
+USt.IdNr.: (beantragt)
 
 <mail@getkirby.com>
 <http://getkirby.com>
 
-© 2009-(date: year) – OpenWe GmbH.
+© 2009-(date: year) – Bastian Allgeier GmbH.
 
 ## Kirby on the web
 
 - Twitter: <http://twitter.com/getkirby>
-- Facebook <http://facebook.com/getkirby>
 - Google+ <http://plus.google.com/getkirby>
 
 ----
 
 Disclaimer:
 
-»Author« in the sense of the following is the OpenWe GmbH.
+»Author« in the sense of the following is the Bastian Allgeier GmbH.
 
 Online-contents: The author reserves the right not to be responsible for the topicality, correctness, completeness or quality of the information provided. Liability claims regarding damage caused by the use of any information provided, including any kind of information which is incomplete or incorrect, will therefore be rejected. All offers are not-binding and without obligation. Parts of the pages or the complete publication including all offers and information might be extended, changed or partly or completely deleted by the authoress without separate announcement.
 

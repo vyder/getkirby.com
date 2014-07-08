@@ -9,13 +9,15 @@
     <?php $count = 1; foreach($references as $reference): ?>
     <li class="screenshot">
       <a href="<?php echo $reference->link() ?>">
-        <?php if($reference->hasImages()): ?>
-        <?php $image = $reference->images()->first() ?>
-        <img src="<?php echo thumb($image, array('width' => 320, 'height' => 200, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $reference->title() ?>" />
-        <?php endif ?>
+        <div>
+          <?php if($reference->hasImages()): ?>
+          <?php $image = $reference->images()->first() ?>
+          <img src="<?php echo thumb($image, array('width' => 320, 'height' => 200, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $reference->title() ?>" />
+          <?php endif ?>
+        </div>
+        <h2 class="gamma"><?php echo html($reference->title()) ?></h2>
+        <p><?php echo url::short($reference->link()) ?></p>
       </a>
-      <h2 class="gamma"><?php echo html($reference->title()) ?></h2>
-      <p><?php echo url::short($reference->link()) ?></p>
     </li>
     <?php endforeach ?>
   </ul>

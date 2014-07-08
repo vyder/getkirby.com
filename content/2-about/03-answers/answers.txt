@@ -2,14 +2,14 @@ Title: Answers
 
 ----
 
-Questions: 
+Questions:
 
-If you've got any unanswered 
-questions about Kirby, 
+If you've got any unanswered
+questions about Kirby,
 just let me know
 
 <bastian@getkirby.com>
 
-Still got questions? 
-Login to the **(link: forum text: Kirby Forum)** and 
+Still got questions?
+Login to the **(link: http://forum.getkirby.com text: Kirby Forum)** and
 get connected with other Kirby users.

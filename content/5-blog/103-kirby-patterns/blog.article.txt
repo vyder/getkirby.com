@@ -23,7 +23,6 @@ An additional benifit of moving all our interface elements to Patternlab is that
 We are starting today with **(link: http://ui.getkirby.com/panel text: all patterns for the new Kirby 2 interface)** and we are going to add all patterns for the Kirby website and forum soon.
 
 (image: patternlab.png width: 600 link: http://ui.getkirby.com/panel)
-<br />
 
 ## Links
 

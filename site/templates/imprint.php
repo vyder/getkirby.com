@@ -9,7 +9,7 @@
     <?php echo kirbytext($page->contact()) ?>
   </section>
 
-  <section class="column three last text">
+  <section class="column three last text smaller">
     <h2 class="beta">Disclaimer</h2>
     <?php echo kirbytext($page->disclaimer()) ?>
   </section>

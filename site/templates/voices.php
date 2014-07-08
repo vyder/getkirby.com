@@ -4,14 +4,14 @@
 
   <h1 class="alpha margin-bottom"><?php echo html($page->title()) ?></h1>
 
-  <ul class="list-2">
+  <ul class="voice-list list-2">
     <?php foreach($page->children() as $voice): ?><!--
- --><li class="voice">
-      <figure>
-        <a href="http://twitter.com/<?php echo $voice->username() ?>"><img src="http://twitter.com/api/users/profile_image/<?php echo $voice->username() ?>" /></a>
-      </figure>
-      <h2 class="gamma"><?php echo twitter($voice->username(), $voice->title()) ?></h2>
-      <p class="delta"><?php echo twitter($voice->username()) ?></p>
+ --><li>
+      <a href="http://twitter.com/<?php echo $voice->username() ?>">
+        <img src="http://twitter.com/api/users/profile_image/<?php echo $voice->username() ?>" />
+        <h2 class="gamma"><?php echo $voice->title() ?></h2>
+        <p class="zeta">@<?php echo $voice->username() ?></p>
+      </a>
       <blockquote>
         <?php echo kirbytext($voice->text()) ?><!--
    --></blockquote>

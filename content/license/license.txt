@@ -56,23 +56,23 @@ By accepting the Agreement, you agree to indemnify and otherwise hold harmless t
 
 YOU EXPRESSLY UNDERSTAND AND AGREE THAT THE AUTHOR SHALL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED TO, DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE LOSSES (EVEN IF THE AUTHOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES). SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES. ACCORDINGLY, SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU. IN NO EVENT WILL THE AUTHOR'S TOTAL CUMULATIVE DAMAGES EXCEED THE FEES YOU PAID TO THE AUTHOR UNDER THIS AGREEMENT IN THE MOST RECENT TWELVE-MONTH PERIOD.
 
-#Definitions
+##Definitions
 
-##Definition of Website
+###Definition of Website
 
 A "Website" is defined as a single domain including sub-domains that operate as a single entity. What constitutes a single entity shall be at the sole discretion of the Author.
 
-##Definition of Source Code
+###Definition of Source Code
 
 The "Source Code" is defined as the contents of all HTML, CSS, JavaScript, and PHP files provided with the Software and includes all related image files and database schemas.
 
-##Definition of an Update
+###Definition of an Update
 
 An "Update" of the Software is defined as that which adds minor functionality enhancements or any bug fix to the current version. This class of release is identified by the change of the revision to the right of the decimal point, i.e. X.1 to X.2
 
 The assignment to the category of Update or Upgrade shall be at the sole discretion of the Author.
 
-##Definition of an Upgrade
+###Definition of an Upgrade
 
 An "Upgrade" is a major release of the Software and is defined as that which incorporates major new features or enhancement that increase the core functionality of the software. This class of release is identified by the change of the revision to the left of the decimal point, i.e. 4.X to 5.X
 

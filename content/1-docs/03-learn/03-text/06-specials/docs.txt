@@ -6,10 +6,9 @@ Text:
 
 ## Horizontal Rules
 
-To add a horizontal rule (hr) to your content, just add four asterisks.
+To add a horizontal rule `<hr>` to your content, just add four asterisks.
 
 ```text
-
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
 ****
@@ -44,7 +43,6 @@ If you want to demonstrate some code, like I do on this page, simply indent the 
 Linking to Twitter profiles has become almost as important as linking to your own website. Thus Kirby provides a simple way to link to any Twitter profile.
 
 ```text
-
 (\twitter: getkirby)
 
 ```
@@ -52,7 +50,6 @@ Linking to Twitter profiles has become almost as important as linking to your ow
 With link text:
 
 ```text
-
 (\twitter: getkirby text: Follow Kirby on Twitter)
 
 ```

@@ -5,7 +5,6 @@
   <h1 class="alpha"><?php echo kirbytext($page->title(), false) ?></h1>
   <div class="text"><?php echo kirbytext($page->text()) ?></div>
 
-  <h2 class="beta">Milestones</h2>
   <div class="text"><?php echo kirbytext($page->milestones()) ?></div>
   <ul class="milestones cf">
     <?php foreach($milestones = $page->children()->visible() as $milestone): ?>

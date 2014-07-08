@@ -1,4 +1,4 @@
-<nav class="submenu column two" role="navigation">
+<nav class="submenu col-2-6" role="navigation">
   <h1 class="vh">Sub Menu</h1>
   <ul>
     <?php foreach($site->find('docs')->children()->visible() AS $p): ?>

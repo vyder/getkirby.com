@@ -2,7 +2,7 @@ Title: Instagram
 
 ----
 
-Subtitle: Show your recent pictures from Instagram on your site.
+Subtitle: Display your recent pictures from Instagram
 
 ----
 

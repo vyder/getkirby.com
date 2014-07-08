@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
 <main class="main article" role="main">
-  <article class="columns">
+  <article class="grid">
 
     <header>
       <h1 class="alpha"><?php echo widont(kirbytext($page->title(), false)) ?></h1>
@@ -12,7 +12,7 @@
       </time>
     </header>
 
-    <div class="body text column four">
+    <div class="body text col-4-6">
 
       <?php echo kirbytext($page->text()) ?>
 
@@ -22,7 +22,7 @@
 
     </div>
 
-    <aside class="sidebar column two last">
+    <aside class="sidebar col-2-6 last">
 
       <nav>
         <h2 class="vh">Navigation</h2>

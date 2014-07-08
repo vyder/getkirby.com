@@ -33,7 +33,6 @@ Install:
 
 
 ```php
-
 <!-- site/templates/login.php -->
 <?php snippet('header') ?>
 <?php snippet('login') ?>
@@ -50,7 +49,6 @@ Install:
 - Create an site/accounts folder and add your first user account. Use the username as filename (ie. yourusername.php)
 
 ```php
-
 <?php if(!defined('KIRBY')) exit ?>
 
 <!-- setup your account credentials here -->

@@ -1,14 +1,14 @@
 <?php snippet('header') ?>
 
-<main class="main columns" role="main">
+<main class="main grid" role="main">
 
-  <section class="answers column four">
+  <section class="answers col-4-6">
 
     <h1 class="alpha">Answers</h1>
 
     <?php foreach($page->children() as $answer): ?>
     <article class="answer">
-      <h1 class="delta"><a href=""><?php echo html($answer->title()) ?></a></h1>
+      <h2 class="zeta"><a href=""><?php echo html($answer->title()) ?></a></h2>
       <div class="inner text vh">
         <?php echo kirbytext($answer->text()) ?>
       </div>
@@ -17,9 +17,9 @@
 
   </section>
 
-  <aside class="column two last questions text">
-    <h1 class="alpha">Questions?</h1>
-    <div class="body">
+  <aside class="col-2-6 last questions">
+    <h2 class="alpha">Questions?</h2>
+    <div class="body text">
       <?php echo kirbytext($page->questions()) ?>
     </div>
   </aside>

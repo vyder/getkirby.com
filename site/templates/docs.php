@@ -1,10 +1,8 @@
 <?php snippet('header') ?>
 
-<div class="columns">
+<main class="main docs" role="main">
 
-  <?php snippet('submenu') ?>
-
-  <div class="column four last">
+  <div class="col-4-6 last">
 
     <?php snippet('breadcrumb') ?>
 
@@ -72,6 +70,8 @@
 
   </div>
 
-</div>
+  <?php snippet('submenu') ?>
+
+</main>
 
 <?php snippet('footer') ?>

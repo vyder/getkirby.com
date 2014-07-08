@@ -1,9 +1,9 @@
 <?php snippet('header') ?>
 
-<section class="main columns download-single">
+<main class="main grid download" role="main">
   <h1 class="alpha"><?php echo $page->title() ?></h1>
 
-  <article class="column four">
+  <article class="col-4-6 four">
     <p class="gamma subtitle"><?php echo $page->subtitle() ?></p>
     <div class="text">
       <?php echo kirbytext($page->install()) ?>
@@ -11,7 +11,7 @@
     </div>
   </article>
 
-  <aside class="column two last download-meta">
+  <aside class="col-2-6 last download-meta">
     <h2 class="gamma">Learn more!</h2>
     <ul>
       <li><a href="<?php echo $page->link() ?>">Download</a></li>
@@ -20,7 +20,7 @@
       <li><a href="<?php echo $page->tutorial() ?>">Tutorial</a></li>
       <?php endif ?>
     </ul>
-    <div class="text">
+    <div class="text smaller">
       <?php echo kirbytext($page->description()) ?>
     </div>
     <?php if($page->author() != ''): ?>
@@ -28,6 +28,6 @@
     <?php endif ?>
   </aside>
 
-</section>
+</main>
 
 <?php snippet('footer') ?>

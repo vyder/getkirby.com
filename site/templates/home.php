@@ -8,7 +8,7 @@
     <a class="btn-hero-dark" href="<?php echo url('try') ?>">Try</a><a class="btn-hero-red" href="<?php echo url('buy') ?>">Buy 39$/30€</a>
   </header>
 
-  <section class="features section columns">
+  <section class="features section">
     <h2 class="beta">Features</h2>
 
     <ul class="feature-list list-3">
@@ -26,7 +26,7 @@
     </ul>
   </section>
 
-  <section class="random-refs section columns">
+  <section class="random-refs section">
     <h2 class="beta"><a href="<?php echo url('references/made-with-kirby-and-love') ?>">Made with Kirby and <strong>&#9829;</strong></a></h2>
 
     <ul class="reference-list list-3">

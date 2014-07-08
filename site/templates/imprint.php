@@ -1,15 +1,15 @@
 <?php snippet('header') ?>
 
-<main class="main columns" role="main">
+<main class="main grid" role="main">
 
-  <h1 class="alpha">Imprint</h1>
+  <h1 class="alpha margin-bottom">Imprint</h1>
 
-  <section class="column three text">
+  <section class="col-3-6 text smaller">
     <h2 class="beta">Contact & Responsibility</h2>
     <?php echo kirbytext($page->contact()) ?>
   </section>
 
-  <section class="column three last text smaller">
+  <section class="col-3-6 last text smaller">
     <h2 class="beta">Disclaimer</h2>
     <?php echo kirbytext($page->disclaimer()) ?>
   </section>

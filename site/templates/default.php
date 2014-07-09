@@ -2,7 +2,7 @@
 
 <main class="main text" role="main">
 
-  <h1 class="alpha"><?php echo kirbytext($page->title(), false) ?></h1>
+  <h1 class="alpha"><?php echo $page->title() ?></h1>
   <?php echo kirbytext($page->text()) ?>
 
 </main>

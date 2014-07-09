@@ -68,13 +68,6 @@ main:after {
   display: table;
   clear: both;
 }
-.main .alpha strong {
-  position: relative;
-  font-size: .7em;
-  top: -.05em;
-  left: .1em;
-  color: red;
-}
 
 
 
@@ -546,7 +539,7 @@ h6 a {
     transition: height .3s, opacity .3s;
   }
   .nav-open {
-    display: block;
+    display: inline-block;
     position: absolute;
     z-index: 999;
     top: -14px;
@@ -573,7 +566,6 @@ h6 a {
     float: right;
     display: inline-block;
     margin-bottom: 1em;
-    color: red;
   }
 }
 
@@ -693,67 +685,45 @@ h6 a {
 /*
  :::  Buttons
 -------------------------------------------------- */
-.btn-rounded {
-  font-weight: 600;
-  border-radius: 5em;
-  border: 2px solid #222;
+[class*='btn'] {
   padding: .5em 1.5em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transition: all .3s;
-}
-.btn-rounded:focus,
-.btn-rounded:hover {
-  background: #222;
-  color: #fff;
-}
-.btn-rounded.red {
-  border-color: red;
-  transition: all .3s;
-}
-.btn-rounded.red:focus,
-.btn-rounded.red:hover {
-  background: red;
-  color: #fff !important;
-}
-
-
-
-/*
- :::  Call to action
--------------------------------------------------- */
-[class*='btn-hero-'] {
-  display: inline-block;
-  margin-right: 3px;
-  font-size: 1.1em;
   font-weight: 600;
-  color: #fff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transition: background-color .3s;
-}
-[class*='btn-hero-']:hover {
-  background-color: #fff;
-}
-.btn-hero-dark {
-  background-color: #222;
-  padding: 8px 20px 8px 30px;
-  border: 3px solid #222;
-  border-top-left-radius: 200px;
-  border-bottom-left-radius: 200px;
-}
-.btn-hero-dark:hover {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5em;
+  border-color: #222;
   color: #222;
+  transition: background-color .3s, color .3s, border-color .3s;
 }
-.btn-hero-red {
-  background-color: red;
-  padding: 8px 30px 8px 20px;
-  border: 3px solid red;
-  border-top-right-radius: 200px;
-  border-bottom-right-radius: 200px;
+[class*='btn']:hover,
+[class*='btn']:focus {
+  background-color: #222;
+  color: #fff;
 }
-.btn-hero-red:hover {
+
+/* red buttons */
+[class*='btn-red'] {
+  border-color: red;
   color: red;
+}
+[class*='btn-red']:hover,
+[class*='btn-red']:focus {
+  background-color: red;
+  color: #fff;
+}
+
+/* hero buttons */
+[class*='hero-btn'] {
+  display: inline-block;
+  font-size: 1.2em;
+}
+.hero-btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.hero-btn-red {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 

@@ -5,7 +5,8 @@
   <header class="intro section">
     <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
     <p class="beta"><?php echo html($page->subheadline()) ?></p>
-    <a class="btn-hero-dark" href="<?php echo url('try') ?>">Try</a><a class="btn-hero-red" href="<?php echo url('buy') ?>">Buy 39$/30€</a>
+    <a class="hero-btn" href="<?php echo url('try') ?>">Try</a>
+    <a class="hero-btn-red" href="<?php echo url('buy') ?>">Buy 39$/30€</a>
   </header>
 
   <section class="features section">
@@ -27,7 +28,7 @@
   </section>
 
   <section class="random-refs section">
-    <h2 class="beta"><a href="<?php echo url('references/made-with-kirby-and-love') ?>">Made with Kirby and <strong>&#9829;</strong></a></h2>
+    <h2 class="beta"><a href="<?php echo url('references/made-with-kirby-and-love') ?>">Made with Kirby and &#9829;</a></h2>
 
     <ul class="reference-list list-3">
       <?php $references = $page->children()->flip()->paginate(30) ?>

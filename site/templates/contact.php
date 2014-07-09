@@ -3,14 +3,18 @@
 <main class="main grid" role="main">
   <h1 class="vh">Contact</h1>
 
-  <section class="col-3-6 text">
-    <h2 class="alpha">Contact me</h2>
-    <?php echo kirbytext($page->text()) ?>
+  <section class="col-3-6">
+    <h2 class="alpha margin-bottom">Contact me</h2>
+    <div class="text">
+      <?php echo kirbytext($page->text()) ?>
+    </div>
   </section>
 
-  <section class="col-3-6 last text">
-    <h2 class="alpha">Follow Kirby</h2>
-    <?php echo kirbytext($page->web()) ?>
+  <section class="col-3-6 last">
+    <h2 class="beta margin-bottom">Follow Kirby</h2>
+    <div class="text">
+      <?php echo kirbytext($page->web()) ?>
+    </div>
   </section>
 
 </main>

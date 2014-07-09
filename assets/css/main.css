@@ -37,7 +37,7 @@ html {
   min-height: 100%;
   -webkit-text-size-adjust: 100%;
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 47em) {
   html {
     border: .5em solid #eee;
   }
@@ -52,7 +52,7 @@ body {
   line-height: 1;
   font-family: 'Source Sans Pro', helvetica, sans-serif;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 47em) {
   body {
     padding: 2em;
   }
@@ -74,18 +74,6 @@ main:after {
   top: -.05em;
   left: .1em;
   color: red;
-}
-.main-header {
-  margin-bottom: 2em;
-}
-hr.c {
-  width: 100%;
-  visibility: hidden;
-}
-hr:after {
-  content: '';
-  display: table;
-  clear: both;
 }
 
 
@@ -216,9 +204,6 @@ p {
   font-weight: 400;
   color: red;
 }
-.text dd {
-  font-weight: 400;
-}
 
 
 
@@ -226,12 +211,12 @@ p {
  :::  Blockquotes
 -------------------------------------------------- */
 .text blockquote {
-  border-left: 5px solid #ddd;
   margin-bottom: 1.5em;
-  font-style: italic;
-  padding-left: 1em;
   padding-top: .5em;
+  padding-left: 1em;
   padding-bottom: .5em;
+  border-left: 5px solid #ddd;
+  font-style: italic;
 }
 .text blockquote p:last-of-type {
   margin-bottom: 0;
@@ -261,6 +246,12 @@ code, pre {
   background: #f5f5f5;
   line-height: 1.5em;
 }
+
+
+
+/*
+ :::  Horizontal rules
+-------------------------------------------------- */
 .text hr {
   background: #ddd;
   height: 1px;
@@ -350,10 +341,10 @@ h6 a {
 -------------------------------------------------- */
 .site-header {
   position: relative;
-  border-bottom: 2px solid red;
   margin-bottom: 1.5em;
+  border-bottom: 2px solid red;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 47em) {
   .site-header {
     overflow: hidden;
   }
@@ -361,11 +352,11 @@ h6 a {
 .logo {
   display: block;
   position: relative;
-  z-index: 99999999;
+  z-index: 999;
   width: 115px;
   height: 41px;
   background: url(../images/logo.png) no-repeat left center;
-  text-indent: -6000px;
+  text-indent: -99999px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .logo {
@@ -419,7 +410,7 @@ h6 a {
   font-weight: 600;
   border-top: 1px solid #ddd;
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 47em) {
   .menu-item > a {
     border: 0;
   }
@@ -427,7 +418,7 @@ h6 a {
 
 
 /* Nav right */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 47em) {
   .nav-main-right {
     float: right;
   }
@@ -450,7 +441,7 @@ h6 a {
 
 
 /* Hidden items on mobile */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 47em) {
   .menu-item.is-hidden-on-mobile {
     display: none;
   }
@@ -468,7 +459,7 @@ h6 a {
 
 
 /* has dropdown arrow */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 47em) {
   .menu-item.has-dropdown > a {
     padding-right: 1em;
   }
@@ -488,7 +479,7 @@ h6 a {
 
 
 /* Dropdown */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 47em) {
   .menu-item:hover .dropdown {
     display: block;
   }
@@ -537,7 +528,7 @@ h6 a {
   display: none;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 47em) {
   .menu-item.is-active .dropdown {
     position: relative;
     display: block;
@@ -589,11 +580,11 @@ h6 a {
 
 
 /*
- :::  Breadcrumb
+ :::  Breadcrumb [docs]
 -------------------------------------------------- */
 .breadcrumb {
-  border-bottom: 1px solid #ddd;
   margin-bottom: 1.5em;
+  border-bottom: 1px solid #ddd;
 }
 .breadcrumb a {
   position: relative;
@@ -601,16 +592,45 @@ h6 a {
   font-weight: 600;
 }
 .breadcrumb a:after {
-  position: absolute;
   content: "›";
+  position: absolute;
   top: .3em;
   right: -.75em;
-  color: #999;
   font-size: 1.5em;
   font-weight: 300;
+  color: #999;
 }
 .breadcrumb .is-active a:after {
   display: none;
+}
+
+
+
+/*
+ :::  Submenu [docs]
+-------------------------------------------------- */
+.submenu a {
+  display: block;
+  padding: .75em .5em .75em 0;
+  border-bottom: 1px solid #ddd;
+}
+.submenu a:hover,
+.submenu .is-active {
+  color: red;
+}
+.submenu ul ul a {
+  padding-left: 1.25em;
+}
+.submenu ul ul ul a {
+  padding-left: 2.5em;
+  color: #777;
+}
+.submenu ul ul ul ul a {
+  padding-left: 3.75em;
+  background: #f5f5f5;
+}
+.submenu > ul > li > a {
+  font-weight: 600;
 }
 
 
@@ -812,6 +832,10 @@ h6 a {
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 }
+.screenshot.framed img {
+  border: 1px solid #eee;
+  width: 100%;
+}
 
 
 
@@ -847,78 +871,6 @@ h6 a {
 .voice-list blockquote {
   padding-top: 1em;
   clear: both;
-}
-
-
-
-/*
- :::  Sidebar
--------------------------------------------------- */
-.sidebar li {
-  padding: 0 0 .5em;
-  margin-bottom: .5em;
-  border-bottom: 1px solid #ddd;
-  list-style: none;
-  line-height: 1.5em;
-}
-.sidebar a {
-  position: relative;
-  display: block;
-  padding-left: 2em;
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
-}
-.sidebar small {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 2em;
-  text-align: left;
-  color: red;
-}
-
-
-
-/*
- :::  Submenu
--------------------------------------------------- */
-.submenu {
-  min-height: 1em;
-}
-.submenu li {
-  list-style: none;
-}
-.submenu ul ul {
-  margin-right: 0;
-  border-bottom: 0;
-}
-.submenu ul ul a {
-  padding-left: 1.25em;
-  font-weight: normal;
-}
-.submenu ul ul ul a {
-  padding-left: 2.5em;
-  color: #777;
-}
-.submenu ul ul ul a:hover {
-  color: red;
-}
-.submenu ul ul ul ul a {
-  padding-left: 3.75em;
-  background: #f5f5f5;
-}
-.submenu a {
-  border: 0;
-  border-bottom: 1px solid #ddd;
-  display: block;
-  padding: .75em .5em .75em 0;
-}
-.submenu > ul > li > a {
-  font-weight: 600;
-}
-.submenu .is-active {
-  color: red;
 }
 
 
@@ -1015,9 +967,9 @@ h6 a {
   .article-date {
     position: relative;
     display: block;
-    text-align: left;
     top: 5px;
     right: auto;
+    text-align: left;
   }
   .article-date .month {
     display: inline-block;
@@ -1034,8 +986,8 @@ h6 a {
   position: relative;
 }
 .article header {
-  padding-bottom: 1em;
   margin-bottom: 1em;
+  padding-bottom: 1em;
   padding-right: 4em;
   border-bottom: 1px solid #ddd;
 }
@@ -1043,6 +995,35 @@ h6 a {
   .article header {
     padding-right: 0;
   }
+}
+
+
+
+/*
+ :::  Article sidebar
+-------------------------------------------------- */
+.sidebar li {
+  padding: 0 0 .5em;
+  margin-bottom: .5em;
+  border-bottom: 1px solid #ddd;
+  list-style: none;
+  line-height: 1.5em;
+}
+.sidebar a {
+  position: relative;
+  display: block;
+  padding-left: 2em;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.sidebar small {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2em;
+  text-align: left;
+  color: red;
 }
 
 
@@ -1164,7 +1145,7 @@ h6 a {
  :::  History
 -------------------------------------------------- */
 .milestones {
-  margin-top: 30px;
+  margin-top: 50px;
   padding-top: 20px;
   list-style: none;
   position: relative;
@@ -1238,7 +1219,7 @@ h6 a {
 /* timestamp */
 .milestones time {
   position: absolute;
-  padding: 1em 0;
+  padding: .75em 0;
   text-align: center;
   width: 110px;
   color: #fff;
@@ -1258,13 +1239,6 @@ h6 a {
 /* milestone description */
 .milestones p {
   color: #999;
-}
-.milestones p a {
-  color: red;
-  border-bottom: 1px solid #ddd;
-}
-.milestones p a:hover {
-  color: $color-text;
 }
 
 
@@ -1287,7 +1261,7 @@ h6 a {
 
 
 /*
- :::  Intro
+ :::  Home: Intro
 -------------------------------------------------- */
 .intro {
   padding-top: 1em;
@@ -1296,25 +1270,19 @@ h6 a {
 
 
 /*
- :::  Features
+ :::  Home: Features
 -------------------------------------------------- */
-.features {
-  padding-bottom: 1em;
-}
 .features .more {
   white-space: nowrap;
 }
 .feature-list li {
-  margin-bottom: 1.5em;
-}
-.feature-list .gamma {
-  margin-bottom: .5em;
+  margin-bottom: 2em;
 }
 
 
 
 /*
- :::  Tag results
+ :::  Home: Latest posts
 -------------------------------------------------- */
 .latest-posts li {
   margin-bottom: 3em;
@@ -1331,16 +1299,7 @@ h6 a {
 
 
 /*
- :::  Random voices
--------------------------------------------------- */
-.random-voices .beta {
-  padding-bottom: 1em;
-}
-
-
-
-/*
- :::  Connect
+ :::  Home: Connect
 -------------------------------------------------- */
 .connect {
   padding-bottom: 1em;
@@ -1358,6 +1317,33 @@ h6 a {
 }
 .connect li:hover .zeta {
   color: #222;
+}
+
+
+
+/*
+ :::  Try → process
+-------------------------------------------------- */
+.try-process {
+  margin-top: 50px;
+}
+.try-process p {
+  padding: 1em 0;
+}
+.try-process h2 {
+  position: relative;
+  padding: .5em 0;
+  border-bottom: 1px solid #ddd;
+}
+.try-process h2:after {
+  content: '→';
+  position: absolute;
+  right: 0;
+  font-weight: 400;
+  color: #999;
+}
+.try-process li:last-child h2:after {
+  content: '!';
 }
 
 
@@ -1441,6 +1427,26 @@ h6 a {
     margin-right: 3.5%;
   }
   .list-3 li:nth-child(3n+3) {
+    margin-right: 0;
+  }
+}
+
+/* 4 items in a row */
+@media screen and (min-width: 36em) and (max-width: 60em) {
+  .list-4 li {
+    width: 47%;
+    margin-right: 6%;
+  }
+  .list-4 li:nth-child(even) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 60em) {
+  .list-4 li {
+    width: 22%;
+    margin-right: 4%;
+  }
+  .list-4 li:nth-child(4n+4) {
     margin-right: 0;
   }
 }

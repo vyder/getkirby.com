@@ -6,12 +6,12 @@
   <div class="text"><?php echo kirbytext($page->text()) ?></div>
 
   <div class="text"><?php echo kirbytext($page->milestones()) ?></div>
-  <ul class="milestones cf">
+  <ul class="milestones cf text smaller">
     <?php foreach($milestones = $page->children()->visible() as $milestone): ?>
       <li>
         <time><?php echo $milestone->date('M Y') ?></time>
         <h3 class="gamma"><?php echo html($milestone->title()) ?></h3>
-        <p><?php echo kirbytext($milestone->description(), false) ?></p>
+        <?php echo kirbytext($milestone->description()) ?>
       </li>
     <?php endforeach ?>
   </ul>

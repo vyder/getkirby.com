@@ -34,9 +34,9 @@ var currentTallest = 0,
 }
 
 $(window).load(function() {
-  equalheight('.voice-list li, .feature-list li, .download-list li');
+  equalheight('.voice-list li, .feature-list li, .download-list li, .try-process li');
 });
 
 $(window).resize(function(){
-  equalheight('.voice-list li, .feature-list li, .download-list li');
+  equalheight('.voice-list li, .feature-list li, .download-list li, .try-process li');
 });

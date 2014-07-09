@@ -1,0 +1,4 @@
+title: 4. Buy
+----
+text: You liked it?
+Let's (link: buy text: buy a license)...

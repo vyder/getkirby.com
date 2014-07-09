@@ -2,25 +2,26 @@ Title: Try
 
 ----
 
-Headline: Try Kirby before you buy it
+Headline: Try Kirby before you buy it!
 
 ----
 
-Subheadline: Don't buy a pig in a poke
+Subheadline: Don't buy a pig in a poke!
 
 ----
 
-Text: 
+Text:
 
-I want you to be happy with Kirby first, before you buy a license.
-This is why (link: http://github.com/getkirby text: Kirby's source code) is fully available without limitations. I like to call it commercial open-source. 
+I want you to be happy with Kirby first, before you buy a license. This is why (link: http://github.com/getkirby text: Kirby's source code) is fully available without limitations. I like to call it commercial open-source.
+
+You'll find every relevant repository around Kirby in its (link: http://github.com/getkirby text: organization on Github). Besides the (link: http://github.com/getkirby/kirby text: core), the (link: http://github.com/getkirby/panel text: Panel) and the (link: http://github.com/getkirby/starterkit text: Starterkit) there's much more great Kirby-related stuff to discover.
 
 Try it **locally** or install it on a **non-public staging server** and give it a spin as long as you want.
 
 
 ----
 
-Steps: 
+Steps:
 
 1. (link: download text: Download Kirby)
 2. (link: docs text: Learn how to install Kirby on your local machine)

@@ -1,0 +1,3 @@
+title: 1. Download
+----
+text: You might want to start with the (link: http://github.com/getkirby/starterkit text: Starterkit).

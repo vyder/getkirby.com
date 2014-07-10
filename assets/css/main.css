@@ -343,24 +343,28 @@ h6 a {
   }
 }
 .logo {
-  display: block;
+  display: inline-block;
   position: relative;
+  padding: .5em 0 .5em 2em;
+  font-size: 2rem;
   z-index: 999;
-  width: 115px;
-  height: 41px;
-  background: url(../images/logo.png) no-repeat left center;
-  text-indent: -99999px;
+  text-transform: lowercase;
+  background: url(../images/kirbyicon.png) no-repeat left center;
+  background-size: 45px 51px;
+}
+.logo:hover {
+  color: inherit;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   .logo {
-    background-image: url(../images/logo@2x.png);
-    background-size: 115px 41px;
+    background-image: url(../images/kirbyicon@2x.png);
+    background-size: 45px 51px;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
   .logo {
-    background-image: url(../images/logo@3x.png);
-    background-size: 115px 41px;
+    background-image: url(../images/kirbyicon@3x.png);
+    background-size: 45px 51px;
   }
 }
 
@@ -444,9 +448,7 @@ h6 a {
 /* Kirby ♥ */
 .love {
   position: relative;
-  padding-left: 2px;
-  top: 2px;
-  font-size: 16px;
+  top: 1px;
   color: red;
 }
 
@@ -542,8 +544,8 @@ h6 a {
     display: inline-block;
     position: absolute;
     z-index: 999;
-    top: -14px;
-    right: 0px;
+    top: -3px;
+    right: 0;
   }
   .nav-open:after {
     content: '\2261';
@@ -555,8 +557,8 @@ h6 a {
 
   /* the fancy magic */
   .nav-main:target {
-    padding-top: 85px;
-    margin-top: -70px;
+    padding-top: 95px;
+    margin-top: -80px;
   }
   .nav-main:target li {
     height: auto;

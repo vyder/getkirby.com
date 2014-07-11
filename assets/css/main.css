@@ -805,6 +805,11 @@ h6 a {
   z-index: 99;
   top: 50%;
   left: 50%;
+  transition: all .3s;
+  -webkit-transform: translate(-50%,-150%);
+  transform: translate(-50%,-150%);
+}
+.reference-list .screen-wrap:hover .btn-white {
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 }
@@ -840,9 +845,12 @@ h6 a {
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
 }
-.screenshot.framed img {
-  border: 1px solid #eee;
+.screenshot img {
   width: 100%;
+  border-left: 2px solid #bbb;
+  border-right: 2px solid #bbb;
+  border-bottom: 2px solid #bbb;
+  transition: all .5s;
 }
 
 
@@ -875,15 +883,6 @@ h6 a {
   padding-left: 1em;
   margin-bottom: 4em;
 }
-.voice-list img {
-  float: left;
-  margin-right: 1em;
-  border-radius: 50%;
-  width: 3.2em;
-  height: 3.2em;
-  padding: 2px;
-  border: 1px solid #ddd;
-}
 .voice-list .gamma {
   margin-top: -.2em;
   margin-bottom: -.3em;
@@ -899,6 +898,19 @@ h6 a {
 .voice-list blockquote {
   padding-top: 1em;
   clear: both;
+}
+.avatar {
+  float: left;
+  margin-right: 1em;
+  border-radius: 50%;
+  width: 3.2em;
+  height: 3.2em;
+  padding: 2px;
+  border: 2px solid #ddd;
+  transition: border-color .3s;
+}
+.voice-list a:hover .avatar {
+  border-color: #222;
 }
 
 

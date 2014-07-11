@@ -8,7 +8,7 @@
     <?php foreach($page->children() as $voice): ?><!--
  --><li>
       <a href="http://twitter.com/<?php echo $voice->username() ?>">
-        <img src="http://twitter.com/api/users/profile_image/<?php echo $voice->username() ?>" />
+        <img class="avatar" src="http://twitter.com/api/users/profile_image/<?php echo $voice->username() ?>" />
         <h2 class="gamma"><?php echo $voice->title() ?></h2>
         <p class="zeta">@<?php echo $voice->username() ?></p>
       </a>

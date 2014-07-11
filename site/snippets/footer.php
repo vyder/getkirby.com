@@ -1,7 +1,7 @@
 
     <footer class="site-footer cf" role="contentinfo">
       <?php echo kirbytext($site->copyright()) ?>
-      <ul class="nav-footer cf" role="navigation">
+      <ul class="nav-footer" role="navigation">
         <li><a href="#">↑ Up</a></li>
         <li><a href="<?php echo url('contact') ?>">Contact</a></li>
         <li><a href="<?php echo url('license') ?>">License</a></li>

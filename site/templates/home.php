@@ -34,14 +34,14 @@
       <?php $references = $page->children()->flip()->paginate(30) ?>
       <?php foreach($pages->find('references/made-with-kirby-and-love')->children()->shuffle()->limit(3) as $reference): ?>
       <li class="screenshot">
+        <div class="screen-wrap">
+          <?php if($reference->hasImages()): ?>
+          <img src="<?php echo thumb($reference->image(), array('width' => 350, 'height' => 220, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $reference->title() ?>" />
+          <?php endif ?>
+          <div class="screen-refl"><a class="btn-white" href="<?php echo $reference->link() ?>">visit</a></div>
+        </div>
         <a href="<?php echo $reference->link() ?>">
-          <div>
-            <?php if($reference->hasImages()): ?>
-            <?php $image = $reference->images()->first() ?>
-            <img src="<?php echo thumb($image, array('width' => 320, 'height' => 200, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $reference->title() ?>" />
-            <?php endif ?>
-          </div>
-          <h3 class="gamma"><?php echo html($reference->title()) ?></h3>
+          <h2 class="gamma truncate"><?php echo html($reference->title()) ?></h2>
           <p><?php echo url::short($reference->link()) ?></p>
         </a>
       </li>

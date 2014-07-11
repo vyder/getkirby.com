@@ -6,16 +6,16 @@
 
   <ul class="reference-list list-3">
     <?php $references = $page->children()->flip()->paginate(30) ?>
-    <?php $count = 1; foreach($references as $reference): ?>
+    <?php foreach($references as $reference): ?>
     <li class="screenshot">
+      <div class="screen-wrap">
+        <?php if($reference->hasImages()): ?>
+        <img src="<?php echo thumb($reference->image(), array('width' => 350, 'height' => 220, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $reference->title() ?>" />
+        <?php endif ?>
+        <div class="screen-refl"><a class="btn-white" href="<?php echo $reference->link() ?>">visit</a></div>
+      </div>
       <a href="<?php echo $reference->link() ?>">
-        <div>
-          <?php if($reference->hasImages()): ?>
-          <?php $image = $reference->images()->first() ?>
-          <img src="<?php echo thumb($image, array('width' => 320, 'height' => 200, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $reference->title() ?>" />
-          <?php endif ?>
-        </div>
-        <h2 class="gamma"><?php echo html($reference->title()) ?></h2>
+        <h2 class="gamma truncate"><?php echo html($reference->title()) ?></h2>
         <p><?php echo url::short($reference->link()) ?></p>
       </a>
     </li>

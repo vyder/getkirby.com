@@ -714,6 +714,17 @@ h6 a {
   color: #fff;
 }
 
+/* white buttons */
+[class*='btn-white'] {
+  border-color: white;
+  color: white;
+}
+[class*='btn-white']:hover,
+[class*='btn-white']:focus {
+  background-color: white;
+  color: #222;
+}
+
 /* hero buttons */
 [class*='hero-btn'] {
   display: inline-block;
@@ -750,37 +761,62 @@ h6 a {
  :::  Reference list
 -------------------------------------------------- */
 .reference-list li {
+  position: relative;
   margin-bottom: 4em;
-}
-.reference-list li:hover p {
-  color: #222;
 }
 .reference-list p {
   color: red;
   transition: color .3s;
 }
+.reference-list li:hover p {
+  color: #222;
+}
+.reference-list .gamma {
+  margin-bottom: -.25em;
+  transition: color .3s;
+}
+.reference-list li:hover .gamma {
+  color: red;
+}
 .reference-list a {
   display: block;
 }
-.reference-list div {
+.reference-list .screen-wrap {
   overflow: hidden;
+  position: relative;
   margin-bottom: 1em;
+}
+.reference-list .screen-refl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0,0,0,.9);
+  transition: all .3s;
+}
+.reference-list .screen-wrap:hover .screen-refl {
+  opacity: 1;
+}
+.reference-list .btn-white {
+  position: absolute;
+  z-index: 99;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
 }
 .reference-list img {
   display: block;
   width: 100%;
   transition: all .3s;
 }
-.reference-list img:hover {
+.reference-list .screen-wrap:hover img {
   opacity: 0.6;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
-.reference-list .gamma {
-  margin-bottom: -.25em;
-  white-space:nowrap;
-  overflow:hidden;
-  text-overflow:ellipsis;
 }
 
 
@@ -807,6 +843,26 @@ h6 a {
 .screenshot.framed img {
   border: 1px solid #eee;
   width: 100%;
+}
+
+
+
+/*
+ :::  Reflection
+-------------------------------------------------- */
+.screen-refl:before {
+  content: '';
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-linear-gradient(210deg, rgba(222,222,222,0.05) 35%,  transparent 35%);
+  background-image: -moz-linear-gradient(210deg, rgba(222,222,222,0.05) 35%,  transparent 35%);
+  background-image: -o-linear-gradient(210deg, rgba(222,222,222,0.05) 35%,  transparent 35%);
+  background-image: linear-gradient(to 210deg, rgba(222,222,222,0.05) 35%,  transparent 35%);
 }
 
 
@@ -1460,6 +1516,15 @@ h6 a {
 }
 
 
+
+/*
+ :::  Completely hidden [ch]
+-------------------------------------------------- */
+.truncate {
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
 
 /*
  :::  Margin bottom helper

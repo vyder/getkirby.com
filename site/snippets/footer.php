@@ -1,12 +1,12 @@
 
     <footer class="site-footer cf" role="contentinfo">
       <?php echo kirbytext($site->copyright()) ?>
-      <ul class="nav-footer" role="navigation">
+      <ul class="nav nav-right" role="navigation">
         <li><a href="#">↑ Up</a></li>
         <li><a href="<?php echo url('contact') ?>">Contact</a></li>
         <li><a href="<?php echo url('license') ?>">License</a></li>
         <li><a href="<?php echo url('imprint') ?>">Imprint</a></li>
-        <li><a href="<?php echo url('references/made-with-kirby-and-love') ?>">Made with Kirby and <b class="love">&#9829;</b></a></li>
+        <li><a href="<?php echo url('references/made-with-kirby-and-love') ?>">Made with Kirby and <b class="red">&#9829;</b></a></li>
       </ul>
     </footer>
 

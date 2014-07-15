@@ -30,7 +30,7 @@
 </head>
 
 <body>
-  <!--[if lte IE 10]>
+  <!--[if lte IE 9]>
   <div class="browserupdate">
     You are using an obsolete browser which can harm your experience and cause security trouble. Please <a href="http://browsehappy.com/" target="_blank">update your browser!</a>
   </div>

@@ -2,7 +2,7 @@
 
 <main class="main references" role="main">
 
-  <h1 class="alpha margin-bottom">Made with Kirby and <b class="love">&#9829;</b class="love"></h1>
+  <h1 class="alpha margin-bottom">Made with Kirby and <b class="red">&#9829;</b class="love"></h1>
 
   <ul class="reference-list list-3">
     <?php $references = $page->children()->flip()->paginate(30) ?>

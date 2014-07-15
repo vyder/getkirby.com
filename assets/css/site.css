@@ -372,25 +372,35 @@ h6 a {
 /*
  :::  Navigation base
 -------------------------------------------------- */
-.nav:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-.nav li {
-  float: left;
-  display: inline-block;
-  margin-right: 2em;
-  position: relative;
-}
 .nav li a {
   display: block;
+  padding: 1em 0;
+  border-top: 1px solid #ddd;
 }
-.nav li a:hover {
+.nav > li > a:hover,
+.nav > li.is-active > a {
   color: red;
 }
-.nav li.is-active > a {
-  color: red;
+@media screen and (min-width: 47em) {
+  .nav {
+    float: left;
+  }
+  .nav li {
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-right: 2em;
+  }
+  .nav li:last-child {
+    margin-right: 0;
+  }
+  .nav li a {
+    border-top: none;
+  }
+  .nav-main .nav-right,
+  .nav-right {
+    float: right;
+  }
 }
 
 
@@ -401,27 +411,23 @@ h6 a {
 .nav-main {
   padding-top: 2em;
 }
-.menu-item > a {
-  padding: 1em 0;
+.nav-main a {
   font-weight: 600;
-  border-top: 1px solid #ddd;
 }
-@media screen and (min-width: 47em) {
-  .menu-item > a {
-    border: 0;
+
+
+/* Hidden items on mobile */
+@media screen and (max-width: 47em) {
+  .is-hidden-on-mobile {
+    display: none;
   }
 }
 
 
-/* Nav right */
 @media screen and (min-width: 47em) {
-  .nav-main-right {
-    float: right;
-  }
-  .nav-main-right li:last-child {
-    margin-right: 0;
-  }
-  .nav-main-right .menu-item:after {
+
+  /* Nav right */
+  .nav-main .nav-right li:after {
     position: absolute;
     content: "\203A";
     top: .5em;
@@ -430,34 +436,16 @@ h6 a {
     font-size: 24px;
     font-weight: 200;
   }
-  .nav-main-right .menu-item:last-child:after {
+  .nav-main .nav-right li:last-child:after {
     display: none;
   }
-}
 
 
-/* Hidden items on mobile */
-@media screen and (max-width: 47em) {
-  .menu-item.is-hidden-on-mobile {
-    display: none;
-  }
-}
-
-
-/* Kirby ♥ */
-.love {
-  position: relative;
-  top: 1px;
-  color: red;
-}
-
-
-/* has dropdown arrow */
-@media screen and (min-width: 47em) {
-  .menu-item.has-dropdown > a {
+  /* Has dropdown arrow */
+  .nav > li.has-dropdown > a {
     padding-right: 1em;
   }
-  .menu-item.has-dropdown > a:after {
+  .nav > li.has-dropdown > a:after {
     position: absolute;
     content: "";
     right: 0;
@@ -466,24 +454,23 @@ h6 a {
     border-right: 5px solid transparent;
     border-top: 5px solid #999;
   }
-  .menu-item.has-dropdown:hover > a:after {
+  .nav > li.has-dropdown:hover > a:after {
     border-top-color: #222;
   }
-}
 
 
-/* Dropdown */
-@media screen and (min-width: 47em) {
-  .menu-item:hover .dropdown {
+  /* Dropdown */
+  .nav > li:hover .dropdown {
     display: block;
   }
+  .dropdown {
+    position: absolute;
+    left: 0;
+  }
 }
-.dropdown {
-  position: absolute;
-  display: none;
-  left: 0;
-  z-index: 1000;
-}
+
+
+/* Dropdown arrow */
 .dropdown:before {
   position: absolute;
   content: "";
@@ -494,36 +481,39 @@ h6 a {
   border-bottom: 10px solid transparent;
   border-left: 10px solid #222;
 }
+.dropdown {
+  display: none;
+  z-index: 999;
+}
 .dropdown li {
   width: 100%;
 }
 .dropdown li a {
-  display: block;
   padding: 1em 3em 1em 1.5em;
   font-size: 14px;
-  border-bottom: .1em solid #444;
+  font-weight: 400;
+  border-top: .1em solid #444;
   white-space: nowrap;
   background: #222;
   color: #eee;
 }
 .dropdown li a:hover,
-.dropdown li a.is-active {
+.dropdown li.is-active a {
   color: #fff;
   background: #333;
 }
-.dropdown li:last-child a {
-  border: none;
-}
 
 
-/* Mobile nav */
+/* Mobile nav trigger */
 .nav-open,
 .nav-close {
   display: none;
 }
 
+
+/* Mobile behavior */
 @media screen and (max-width: 47em) {
-  .menu-item.is-active .dropdown {
+  .is-active .dropdown {
     position: relative;
     display: block;
     left: 0;
@@ -538,20 +528,6 @@ h6 a {
     height: 0;
     opacity: 0;
     transition: height .3s, opacity .3s;
-  }
-  .nav-open {
-    display: inline-block;
-    position: absolute;
-    z-index: 999;
-    top: -3px;
-    right: 0;
-  }
-  .nav-open:after {
-    content: '\2261';
-    position: relative;
-    top: 7px;
-    margin-left: 10px;
-    font-size: 3em;
   }
 
   /* the fancy magic */
@@ -568,6 +544,22 @@ h6 a {
     display: inline-block;
     margin-bottom: 1em;
   }
+
+  /* nav open */
+  .nav-open {
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
+    top: -3px;
+    right: 0;
+  }
+  .nav-open:after {
+    content: '\2261';
+    position: relative;
+    top: 7px;
+    margin-left: 10px;
+    font-size: 3em;
+  }
 }
 
 
@@ -579,7 +571,12 @@ h6 a {
   margin-bottom: 1.5em;
   border-bottom: 1px solid #ddd;
 }
+.breadcrumb li {
+  display: inline-block;
+  margin-right: 2em;
+}
 .breadcrumb a {
+  display: block;
   position: relative;
   padding: .75em 0;
   font-weight: 600;
@@ -633,51 +630,17 @@ h6 a {
 -------------------------------------------------- */
 .site-footer {
   margin-top: 3rem;
-  padding: 1em 0 3em;
-  font-size: .9em;
+  padding: 0 0 3em 0;
+  font-size: 0.9em;
   border-top: 2px solid red;
 }
 .site-footer p {
-  float: left;
+  padding: 1em 0;
+  line-height: 1em;
 }
-
-
-
-/*
- :::  Footer navigation
--------------------------------------------------- */
-.nav-footer {
-  float: right;
-}
-.nav-footer li {
-  display: inline-block;
-  padding-left: .5em;
-  padding-right: .5em;
-  line-height: 1.5em;
-  border-left: 1px solid #ddd;
-}
-.nav-footer li:first-child {
-  border-left: none;
-}
-.nav-footer li:last-child {
-  padding-right: 0;
-}
-@media screen and (max-width: 700px) {
-  .nav-footer {
+@media screen and (min-width: 47em) {
+  .site-footer p {
     float: left;
-    width: 100%;
-  }
-  .nav-footer li {
-    margin-top: 5px;
-  }
-  .nav-footer li:first-child {
-    padding-left: 0;
-  }
-}
-@media screen and (max-width: 350px) {
-  .nav-footer li:last-child {
-    padding-left: 0;
-    border-left: none;
   }
 }
 
@@ -992,29 +955,24 @@ h6 a {
  :::  Article date
 -------------------------------------------------- */
 .article-date {
-  position: absolute;
-  top: .59em;
-  right: 0;
-  text-align: right;
-  line-height: 1em;
-  font-size: .9em;
+  position: relative;
+  display: block;
+  top: 5px;
+  right: auto;
 }
 .article-date .month {
   color: red;
-  display: block;
-  padding-bottom: .025em;
 }
-@media only screen and (max-width : 750px) {
+@media only screen and (min-width : 47em) {
   .article-date {
-    position: relative;
-    display: block;
-    top: 5px;
-    right: auto;
-    text-align: left;
+    position: absolute;
+    top: .5em;
+    right: 0;
+    text-align: right;
   }
   .article-date .month {
-    display: inline-block;
-    margin-right: 2px;
+    display: block;
+    padding-bottom: .025em;
   }
 }
 
@@ -1029,12 +987,11 @@ h6 a {
 .article header {
   margin-bottom: 1em;
   padding-bottom: 1em;
-  padding-right: 4em;
   border-bottom: 1px solid #ddd;
 }
-@media only screen and (max-width : 750px) {
+@media only screen and (min-width : 750px) {
   .article header {
-    padding-right: 0;
+    padding-right: 4em;
   }
 }
 
@@ -1539,11 +1496,22 @@ h6 a {
   text-overflow:ellipsis;
 }
 
+
+
 /*
  :::  Margin bottom helper
 -------------------------------------------------- */
 .margin-bottom {
   margin-bottom: 1em;
+}
+
+
+
+/*
+ :::  Kirby ♥
+-------------------------------------------------- */
+.red {
+  color: red;
 }
 
 

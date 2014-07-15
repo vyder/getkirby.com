@@ -7,7 +7,7 @@
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <?php echo css('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,400italic|Source+Code+Pro:400') ?>
 
-  <?php echo css('assets/css/site.css') ?>
+  <?php echo css('assets/css/main.css') ?>
 
   <?php if($page->isHomePage()): ?>
   <title><?php echo html($page->headline()) ?> | <?php echo html($site->title()) ?></title>
@@ -29,16 +29,24 @@
 
 </head>
 
-<body>
-  <!--[if lte IE 10]>
+<body class="error">
+  <!--[if lte IE 9]>
   <div class="browserupdate">
     You are using an obsolete browser which can harm your experience and cause security trouble. Please <a href="http://browsehappy.com/" target="_blank">update your browser!</a>
   </div>
   <![endif]-->
 
-  <div class="page">
-
+  <div class="wrap border-animation">
     <header class="site-header" role="banner">
-      <a class="logo" href="<?php echo url() ?>">Kirby</a>
-      <?php snippet('menu') ?>
+      <a class="logo" href="<?php echo url() ?>">Kirby</span></a>
     </header>
+    <main class="text" role="main">
+      <h1 class="alpha">Error 404</h1>
+      <?php echo kirbytext($page->text()) ?>
+    </main>
+    <a class="btn" href="<?php echo url() ?>">Take me back home!</a>
+  </div>
+
+</body>
+
+</html>

@@ -43,7 +43,6 @@ html {
   }
 }
 body {
-  position: relative;
   max-width: 1100px;
   margin: 0 auto;
   padding: 1em .7em;
@@ -689,12 +688,14 @@ h6 a {
 -------------------------------------------------- */
 [class*='btn'] {
   padding: .5em 1.5em;
+  font-size: 1em;
   font-weight: 600;
   border-width: 2px;
   border-style: solid;
   border-radius: 5em;
   border-color: #222;
   color: #222;
+  cursor: pointer;
   transition: background-color .3s, color .3s, border-color .3s;
 }
 [class*='btn']:hover,
@@ -1543,4 +1544,75 @@ h6 a {
 -------------------------------------------------- */
 .margin-bottom {
   margin-bottom: 1em;
+}
+
+
+
+/*
+ :::  Browserupdate
+-------------------------------------------------- */
+.browserupdate {
+  display: block;
+  margin-bottom: 3em;
+  padding: 2em;
+  color: #fff;
+  text-align: center;
+  background-color: red;
+}
+.browserupdate a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+
+/*
+ :::  Error page
+-------------------------------------------------- */
+.error .wrap {
+  position: absolute;
+  padding: 1.5em;
+  top: 50%;
+  left: 50%;
+  border: 2px dashed #ddd;
+  min-width: 16em;
+  text-align: center;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  background-image: -webkit-repeating-linear-gradient(135deg, transparent, transparent 10px, rgba(180,180,180,.1) 10px, rgba(180,180,180,.1) 30px);
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, rgba(180,180,180,.1) 10px, rgba(180,180,180,.1) 30px);
+}
+.error header {
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+}
+.error .btn {
+  display: inline-block;
+  background-color: #fff;
+  margin-top: 1em;
+}
+.error .btn:hover {
+  background-color: #222;
+}
+
+.border-animation {
+  -webkit-animation: border-animation 1s 1s infinite ease-in-out normal both;
+  animation: border-animation 1s 1s infinite ease-in-out normal both;
+}
+@-webkit-keyframes border-animation {
+  0% {
+    border-color: #ddd;
+  }
+  50% {
+    border-color: #999;
+  }
+}
+@keyframes border-animation {
+  0% {
+    border-color: #ddd;
+  }
+  50% {
+    border-color: #999;
+  }
 }

@@ -7,13 +7,13 @@
     <?php foreach($pages->visible() as $item): ?>
     <?php $dropdown = ($item->hasVisibleChildren() and $item->uid() != 'blog' and $item->uid() != 'downloads') ? true : false ?>
 
-    <li class="<?php e($dropdown, ' has-dropdown') ?><?php e($item->isOpen(), ' is-active') ?>">
+    <li class="<?php e($dropdown, 'has-dropdown') ?><?php e($item->isOpen(), ' is-active') ?>">
       <a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a>
 
       <?php if($dropdown): ?>
       <ul class="dropdown">
         <?php foreach($item->children()->visible() as $item): ?>
-        <li class="dropdown-item <?php e($item->isOpen(), ' is-active') ?>"><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+        <li class="<?php e($item->isOpen(), 'is-active') ?>"><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
         <?php endforeach ?>
       </ul>
       <?php endif ?>

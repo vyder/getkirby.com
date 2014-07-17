@@ -43,16 +43,25 @@ html {
   }
 }
 body {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 1em .7em;
   background: #fff;
   color: #222;
   line-height: 1;
   font-family: 'Source Sans Pro', helvetica, sans-serif;
 }
+
+
+
+/*
+ :::  Site wrapper
+-------------------------------------------------- */
+.site {
+  position: relative;
+  margin: 0 auto;
+  padding: 1em .7em;
+  max-width: 1100px;
+}
 @media screen and (min-width: 47em) {
-  body {
+  .site {
     padding: 2em;
   }
 }
@@ -118,6 +127,7 @@ a:hover {
 .text a {
   font-weight: inherit;
   border-bottom: 2px solid #ddd;
+  word-wrap: break-word;
 }
 .text a:hover {
   border-color: #222;
@@ -369,7 +379,90 @@ h6 a {
 
 
 /*
- :::  Navigation base
+ :::  Sites navigation
+-------------------------------------------------- */
+.sites-nav-wrap {
+  position: relative;
+  padding-bottom: 3em;
+}
+.sites-nav-open {
+  display: block;
+  text-align: right;
+  padding-bottom: .5em;
+}
+.sites-nav-open:hover {
+  color: #666;
+}
+.sites-nav ul {
+  position: relative;
+}
+.sites-nav-close {
+  display: none;
+}
+.sites-nav-close:hover {
+  color: transparent;
+}
+@media only screen and (min-width: 47em) {
+  .sites-nav-wrap {
+    position: absolute;
+    top: 0;
+    right: 2em;
+  }
+  .sites-nav {
+    position: absolute;
+    padding-top: 3.5em;
+    top: -20em;
+    right: 0em;
+    z-index: 9999;
+    opacity: 0;
+    transition: all 1s;
+  }
+
+  /* sites-nav open */
+  .sites-nav-open {
+    display: inline-block;
+    position: absolute;
+    padding: .5em 2em .5em 1em;
+    z-index: 999;
+    top: 0em;
+    right: 0em;
+    font-size: .9em;
+    white-space: nowrap;
+    background-color: #eee;
+    color: #666;
+  }
+  .sites-nav-open:after {
+    position: absolute;
+    content: '';
+    right: .75em;
+    top: 1.05em;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #999;
+  }
+
+  /* sites-nav close */
+  .sites-nav-close {
+    display: inline-block;
+    position: absolute;
+    padding: .5em 2em .5em 1em;
+    top: 0;
+    right: 0;
+    width: 123px;
+    color: transparent;
+  }
+
+  /* the magic */
+  #sites-nav:target {
+    opacity: 1;
+    top: 0em;
+  }
+}
+
+
+
+/*
+ :::  Navigation basic pattern
 -------------------------------------------------- */
 .nav li a {
   display: block;
@@ -405,6 +498,56 @@ h6 a {
 
 
 /*
+ :::  Navigation dropdown pattern
+-------------------------------------------------- */
+.dropdown {
+  z-index: 999;
+}
+.dropdown li {
+  width: 100%;
+}
+.dropdown li a {
+  padding: 1em 1.75em;
+  display: block;
+  font-weight: 400;
+  border-top: .1em solid #444;
+  white-space: nowrap;
+  background: #222;
+  color: #eee;
+}
+.dropdown li a:hover {
+  color: #fff;
+  background: #333;
+}
+.dropdown li.is-active a {
+  color: #666;
+  cursor: default;
+}
+.dropdown li.is-active a:hover {
+  background-color: #222;
+}
+
+/* Dropdown arrow */
+.dropdown:before {
+  position: absolute;
+  content: "";
+  top: -8px;
+  z-index: -1;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+.dropdown.arrow-left:before {
+  left: 0;
+  border-left: 10px solid #222;
+}
+.dropdown.arrow-right:before {
+  right: 0;
+  border-right: 10px solid #222;
+}
+
+
+
+/*
  :::  Main navigation
 -------------------------------------------------- */
 .nav-main {
@@ -412,14 +555,6 @@ h6 a {
 }
 .nav-main a {
   font-weight: 600;
-}
-
-
-/* Hidden items on mobile */
-@media screen and (max-width: 47em) {
-  .is-hidden-on-mobile {
-    display: none;
-  }
 }
 
 
@@ -458,7 +593,7 @@ h6 a {
   }
 
 
-  /* Dropdown */
+  /* Display dropdown */
   .nav > li:hover .dropdown {
     display: block;
   }
@@ -466,46 +601,45 @@ h6 a {
     position: absolute;
     left: 0;
   }
+
+
+  /* Mobile nav trigger */
+  .nav-open,
+  .nav-main .nav-close {
+    display: none;
+  }
 }
 
-/* Dropdown arrow */
-.dropdown:before {
+
+/* dropdown */
+.nav-main .dropdown {
+  display: none;
+}
+.nav-main .dropdown a {
+  font-size: .9em;
+}
+
+
+/* nav open button */
+.nav-open {
   position: absolute;
-  content: "";
-  top: -7px;
-  left: 0;
-  z-index: -1;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid #222;
-}
-.dropdown {
-  display: none;
   z-index: 999;
+  top: -3px;
+  right: 0;
 }
-.dropdown li {
-  width: 100%;
-}
-.dropdown li a {
-  padding: 1em 3em 1em 1.5em;
-  font-size: 14px;
-  font-weight: 400;
-  border-top: .1em solid #444;
-  white-space: nowrap;
-  background: #222;
-  color: #eee;
-}
-.dropdown li a:hover,
-.dropdown li.is-active a {
-  color: #fff;
-  background: #333;
+.nav-open:after {
+  content: '\2261';
+  position: relative;
+  top: 7px;
+  margin-left: 10px;
+  font-size: 3em;
 }
 
 
-/* Mobile nav trigger */
-.nav-open,
-.nav-close {
-  display: none;
+/* nav close button */
+.nav-main .nav-close {
+  float: right;
+  margin-bottom: 1em;
 }
 
 
@@ -537,26 +671,14 @@ h6 a {
     height: auto;
     opacity: 1;
   }
-  .nav-main:target .nav-close {
-    float: right;
-    display: inline-block;
-    margin-bottom: 1em;
+  .nav-main:not(:target) .nav-close {
+    display: none;
   }
 
-  /* nav open */
-  .nav-open {
-    display: inline-block;
-    position: absolute;
-    z-index: 999;
-    top: -3px;
-    right: 0;
-  }
-  .nav-open:after {
-    content: '\2261';
-    position: relative;
-    top: 7px;
-    margin-left: 10px;
-    font-size: 3em;
+
+  /* Hidden items on mobile */
+  .is-hidden-on-mobile {
+    display: none;
   }
 }
 
@@ -648,6 +770,7 @@ h6 a {
  :::  Buttons
 -------------------------------------------------- */
 [class*='btn'] {
+  display: inline-block;
   padding: .5em 1.5em;
   font-size: 1em;
   font-weight: 600;
@@ -655,6 +778,7 @@ h6 a {
   border-style: solid;
   border-radius: 5em;
   border-color: #222;
+  background-color: transparent;
   color: #222;
   cursor: pointer;
   transition: background-color .3s, color .3s, border-color .3s;
@@ -987,7 +1111,7 @@ h6 a {
   padding-bottom: 1em;
   border-bottom: 1px solid #ddd;
 }
-@media only screen and (min-width : 750px) {
+@media only screen and (min-width : 47em) {
   .article header {
     padding-right: 4em;
   }
@@ -1163,7 +1287,7 @@ h6 a {
   border-left: 3px solid #ddd;
   border-right: 3px solid #ddd;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 47em) {
   .milestones:before {
     left: 40px;
   }
@@ -1179,7 +1303,7 @@ h6 a {
   position: relative;
   margin-bottom: 70px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 47em) {
   .milestones li {
     text-align: left;
     margin-right: 0;
@@ -1195,7 +1319,7 @@ h6 a {
   margin-right: 0;
   margin-left: 50%;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 47em) {
   .milestones li:nth-child(even) {
     float: left;
     padding-left: 110px;
@@ -1206,7 +1330,7 @@ h6 a {
   right: auto;
   left: -55px;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 47em) {
   .milestones li:nth-child(even) time {
     left: 0;
   }
@@ -1224,7 +1348,7 @@ h6 a {
   border-radius: 50px;
   background-color: #222;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 47em) {
   .milestones time {
     right: auto;
     left: 0;
@@ -1562,6 +1686,8 @@ h6 a {
   background-color: #222;
 }
 
+
+/* border-animation */
 .border-animation {
   -webkit-animation: border-animation 1s 1s infinite ease-in-out normal both;
   animation: border-animation 1s 1s infinite ease-in-out normal both;

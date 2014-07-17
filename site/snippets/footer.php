@@ -10,7 +10,19 @@
       </ul>
     </footer>
 
-  </div>
+    <div class="sites-nav-wrap">
+      <a class="sites-nav-open gamma" href="#sites-nav">All Kirby sites</a>
+      <nav class="sites-nav" id="sites-nav">
+        <ul class="dropdown arrow-right">
+          <li class="is-active"><a href="<?php echo url() ?>">Kirby CMS</a></li>
+          <li><a href="http://forum.getkirby.com">Kirby Forum</a></li>
+          <li><a href="http://themes.getkirby.com">Kirby Themes</a></li>
+        </ul>
+        <a class="sites-nav-close" href="#">Close menu</a>
+      </nav>
+    </div>
+
+  </div><!-- [.site] end -->
 
   <?php echo js('assets/js/jquery.js') ?>
   <?php echo js('assets/js/site.js') ?>

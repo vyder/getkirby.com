@@ -30,13 +30,13 @@
 </head>
 
 <body>
-  <!--[if lte IE 9]>
-  <div class="browserupdate">
-    You are using an obsolete browser which can harm your experience and cause security trouble. Please <a href="http://browsehappy.com/" target="_blank">update your browser!</a>
-  </div>
-  <![endif]-->
+  <div class="site">
 
-  <div class="page">
+    <!--[if lte IE 9]>
+    <div class="browserupdate">
+      You are using an obsolete browser which can harm your experience and cause security trouble. Please <a href="http://browsehappy.com/" target="_blank">update your browser!</a>
+    </div>
+    <![endif]-->
 
     <header class="site-header" role="banner">
       <a class="logo" href="<?php echo url() ?>">Kirby</a>

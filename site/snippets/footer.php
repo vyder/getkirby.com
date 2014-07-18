@@ -15,8 +15,8 @@
       <nav class="sites-nav" id="sites-nav">
         <ul class="dropdown arrow-right">
           <li class="is-active"><a href="<?php echo url() ?>">Kirby CMS</a></li>
-          <li><a href="http://forum.getkirby.com">Kirby Forum</a></li>
-          <li><a href="http://themes.getkirby.com">Kirby Themes</a></li>
+          <li><a href="http://forum.getkirby.com">Kirby FORUM</a></li>
+          <li><a href="http://themes.getkirby.com">Kirby THEMES</a></li>
         </ul>
         <a class="sites-nav-close" href="#">Close menu</a>
       </nav>

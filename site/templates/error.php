@@ -12,7 +12,7 @@
   <?php if($page->isHomePage()): ?>
   <title><?php echo html($page->headline()) ?> | <?php echo html($site->title()) ?></title>
   <?php else: ?>
-  <title><?php echo html($site->title()) ?> | <?php echo html($page->title()) ?></title>
+  <title><?php echo html($page->title()) ?> | <?php echo html($site->title()) ?></title>
   <?php endif ?>
 
   <?php if($page->description() != ''): ?>
@@ -23,13 +23,14 @@
 
   <link rel="icon" href="<?php echo url('assets/images/favicon.png') ?>" type="image/png" />
   <link rel="apple-touch-icon" href="<?php echo url('assets/images/apple-touch-icon.png') ?>" />
+  <meta name="apple-mobile-web-app-title" content="<?php echo html($site->title()) ?>">
   <link rel="alternate" type="application/rss+xml" href="<?php echo url('feed') ?>" title="<?php echo html($site->title()) ?> Blog Feed" />
 
   <?php echo html::shiv() ?>
 
 </head>
-
 <body class="error">
+
   <!--[if lte IE 9]>
   <div class="browserupdate">
     You are using an obsolete browser which can harm your experience and cause security trouble. Please <a href="http://browsehappy.com/" target="_blank">update your browser!</a>

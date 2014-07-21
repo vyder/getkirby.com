@@ -35,6 +35,7 @@ ol, ul {
 html {
   font-size: 100%;
   min-height: 100%;
+  -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 @media screen and (min-width: 47em) {
@@ -411,11 +412,12 @@ h6 a {
   .sites-nav {
     position: absolute;
     padding-top: 3.5em;
-    top: -20em;
-    right: 0em;
-    z-index: 9999;
+    top: -12em;
+    right: -4.5em;
+    z-index: 999;
     opacity: 0;
-    transition: all 1s;
+    transform: scale(0);
+    transition: all .4s ease-out;
   }
 
   /* sites-nav open */
@@ -456,6 +458,8 @@ h6 a {
   #sites-nav:target {
     opacity: 1;
     top: 0em;
+    right: 0;
+    transform: scale(1);
   }
 }
 
@@ -1287,7 +1291,7 @@ h6 a {
 }
 @media screen and (max-width: 47em) {
   .milestones:before {
-    left: 40px;
+    left: 45px;
   }
 }
 

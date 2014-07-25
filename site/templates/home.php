@@ -70,7 +70,7 @@
       <?php foreach(page('references/voices')->children()->visible()->shuffle()->limit(4) as $voice): ?>
       <li>
         <a href="http://twitter.com/<?php echo $voice->username() ?>">
-          <img class="avatar" src="http://twitter.com/api/users/profile_image/<?php echo $voice->username() ?>" />
+          <img class="avatar" src="http://twitter.com/api/users/profile_image/<?php echo $voice->username() ?>" alt="Useravatar: <?php echo $voice->username() ?>" />
           <h2 class="gamma"><?php echo $voice->title() ?></h2>
           <p class="zeta">@<?php echo $voice->username() ?></p>
         </a>
@@ -78,6 +78,15 @@
           <?php echo kirbytext($voice->text()) ?><!--
      --></blockquote>
       </li>
+      <?php endforeach ?>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2 class="beta">Featured on...</h2>
+    <ul class="featured-on-list list-4">
+      <?php foreach(page('references/featured-on')->images()->shuffle()->limit(4) as $featured): ?>
+      <li><img src="<?php echo $featured->url() ?>" alt="<?php echo $featured->title() ?>" /></li>
       <?php endforeach ?>
     </ul>
   </section>

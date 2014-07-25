@@ -1411,6 +1411,18 @@ h6 a {
 
 
 /*
+ :::  Home: Featured on
+-------------------------------------------------- */
+.featured-on-list li {
+  margin-bottom: 3em;
+}
+.featured-on-list li:hover {
+  opacity: .7;
+}
+
+
+
+/*
  :::  Home: Connect
 -------------------------------------------------- */
 .connect {

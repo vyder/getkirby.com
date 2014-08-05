@@ -7,7 +7,6 @@ Text:
 ## Static Facebook Sharing Button
 
 ```
-
 <a class="button" href="http://www.facebook.com/sharer.php?u=<?php echo rawurlencode ($page->url()); ?>" target="blank" title="Share on Facebook">Share on Facebook</a>
 
 ```

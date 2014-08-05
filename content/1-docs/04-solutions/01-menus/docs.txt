@@ -2,5 +2,13 @@ Title: Menus
 
 ----
 
-Text: 
+Text: In this section you'll find a bunch of examples for managing different types of navigations with Kirby.
+
+
+----
+Blogposts:
+
+Fun with menus:
+    text: Fun with menus
+    link: blog/fun-with-menus
 

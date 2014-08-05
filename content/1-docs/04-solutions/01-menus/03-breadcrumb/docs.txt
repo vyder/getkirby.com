@@ -2,5 +2,18 @@ Title: Breadcrumb navigation
 
 ----
 
-Text: 
+Text:
+
+This will help you to create a useful breadcrumb navigation for more complex sites or docs to show your users exactly where they are. To see it in action just look a few pixels above!
+
+```php
+<nav>
+  <ul>
+    <?php foreach($site->breadcrumb() AS $crumb): ?>
+    <li<?php e($crumb->isActive(), ' class="is-active"') ?>><a href="<?php echo $crumb->url() ?>"><?php echo html($crumb->title()) ?></a></li>
+    <?php endforeach; ?>
+  </ul>
+</nav>
+```
+
 

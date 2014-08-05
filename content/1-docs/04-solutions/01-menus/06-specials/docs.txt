@@ -1,0 +1,49 @@
+Title: Specials
+
+----
+
+Text:
+
+They are a whole bunch of more possibilities to build menus with Kirby. Here are a few...
+
+## Selected items
+
+```php
+<?php
+
+// selective items
+
+$items = $pages->find('terms-of-service', 'faq', 'support');
+
+if($items && $items->count() > 0):
+
+?>
+<nav>
+  <ul>
+    <?php foreach($items as $item): ?>
+    <li><a<?php ecco($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+    <?php endforeach ?>
+  </ul>
+</nav>
+<?php endif ?>
+```
+
+## Selectbox menu
+
+```php
+<?php
+
+// main menu items
+$items = $pages->visible();
+
+// only show the menu if items are available
+if($items->count() > 0):
+
+?>
+<select onchange="window.location.href = this.value">
+  <?php foreach($items as $item): ?>
+  <option value="<?php echo $item->url() ?>"<?php ecco($item->isOpen(), ' selected="selected"') ?>><?php echo html($item->title()) ?></option>
+  <?php endforeach ?>
+</select>
+<?php endif ?>
+```

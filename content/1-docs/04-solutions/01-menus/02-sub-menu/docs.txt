@@ -2,5 +2,68 @@ Title: Sub menu
 
 ----
 
-Text: 
+Text:
+
+These are possibilities to create sub menus which you might need apart from your main navigation.
+
+## The independent sub menu
+
+```php
+<?php
+
+$items = false;
+
+// get the open item on the first level
+if($root = $pages->findOpen()) {
+
+  // get visible children for the root item
+  $items = $root->children()->visible();
+}
+
+// only show the menu if items are available
+if($items && $items->count() > 0):
+
+?>
+<nav>
+  <ul>
+    <?php foreach($items as $item): ?>
+    <li><a<?php ecco($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+    <?php endforeach ?>
+  </ul>
+</nav>
+<?php endif ?>
+```
+
+## The independent sub sub menu
+
+```php
+<?php
+
+// independent sub sub menu
+$items = false;
+
+// get the open item on the first level
+if($root1 = $pages->findOpen()) {
+
+  // get the open item on the second level
+  if($root2 = $root1->children()->findOpen()) {
+
+    // get visible children of the second level item
+    $items = $root2->children()->visible();
+  }
+}
+
+// only show the menu if items are available
+if($items && $items->count() > 0):
+
+?>
+<nav>
+  <ul>
+    <?php foreach($items as $item): ?>
+    <li><a<?php ecco($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+    <?php endforeach ?>
+  </ul>
+</nav>
+<?php endif ?>
+```
 

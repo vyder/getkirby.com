@@ -4,13 +4,13 @@
 
 title: Site
 files: false
-fields: 
+fields:
 
-  title: 
+  title:
     label: Title
-    type:  text      
-
-  link: 
-    label: Redirect to…
     type:  text
+
+  link:
+    label: Redirect to…
+    type:  page
 

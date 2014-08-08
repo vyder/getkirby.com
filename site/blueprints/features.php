@@ -1,13 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Features
-pages: false
+files: false
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  features: 
-    label: Features
-    type:  table
-    limit: 20
-

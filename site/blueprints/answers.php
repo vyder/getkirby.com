@@ -1,17 +1,11 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Answers
-pages: false
+files: false
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  answers: 
-    label: Answers
-    type: table
-    limit: 20
-  questions: 
+  questions:
     label:   Sidebar Text
     type:    textarea
-    size:    medium
-    buttons: true

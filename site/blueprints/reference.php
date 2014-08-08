@@ -1,13 +1,11 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Reference
+pages: false
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  screenshot: 
-    label: Screenshot
-    type: files  
-  link: 
+  link:
     label: Link
-    type:  text
+    type:  url

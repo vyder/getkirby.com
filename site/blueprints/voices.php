@@ -1,16 +1,12 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Voices
-pages: voice
+pages:
+  template: voice
+  sort: title asc
+  num: zero
 files: false
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  voices: 
-    label: Voices
-    type:  table
-    previews: 
-      type: url
-      url:  http://twitter.com/api/users/profile_image/{username}
-

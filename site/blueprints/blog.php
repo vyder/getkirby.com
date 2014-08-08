@@ -3,24 +3,17 @@
 # default blueprint
 
 title: Blog
-pages: 
+pages:
   template: blog.article
   sort: flip
+  num: date
+  limit: 15
 files: false
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  articles: 
-    label: Published articles
-    type: table
-    sort: date desc
-    status: visible
-  drafts: 
-    label: Drafts
-    type: table    
-    status: invisible
-  text: 
+  text:
     label:   Blog Text
     type:    textarea
     buttons: true

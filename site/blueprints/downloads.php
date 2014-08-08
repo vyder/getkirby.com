@@ -2,10 +2,6 @@
 
 title: Downloads
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  categories: 
-    label: Categories
-    type: table
-    limit: 20

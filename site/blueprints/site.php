@@ -6,22 +6,21 @@ title: Site
 pages: true
 files: false
 fields:
-  
-  title: 
+
+  title:
     label: Title
     type:  text
-  author: 
+  author:
     label: Author
     type:  text
-  copyright: 
+  copyright:
     label: Copyright
     type:  text
-  description: 
+  description:
     label: Description
     type:  textarea
     size:  small
-  keywords: 
+  keywords:
     label: Keywords
-    type:  textarea
-    size:  small
+    type:  tags
 

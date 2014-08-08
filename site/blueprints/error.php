@@ -1,15 +1,12 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Feature
-preview: parent
+title: Error
 pages: false
+files: false
 fields:
   title:
     label: Title
     type:  text
-  link:
-    label: Link
-    type:  page
   text:
     label: Text
-    type:  textarea
+    type: textarea

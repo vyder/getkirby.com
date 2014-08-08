@@ -3,17 +3,11 @@
 # references blueprint
 
 title: References
-pages: 
+pages:
   template: reference
   sort: flip
 files: false
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  references: 
-    label: References
-    type: table
-    sort: flip
-    limit: 10
-    previews: true

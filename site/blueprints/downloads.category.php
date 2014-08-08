@@ -2,12 +2,10 @@
 
 title: Downloads Category
 files: false
+pages:
+  template: download
+  num: zero
 fields:
-  title: 
+  title:
     label: Title
     type:  text
-  downloads: 
-    label: Downloads
-    type: table
-    previews: true
-    limit: 20

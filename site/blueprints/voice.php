@@ -1,21 +1,21 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-# voice blueprint
-
 title: Voice
+pages: false
+files: false
 fields:
-  title: 
+  title:
     label: Title
     type:  text
 
-  username: 
+  username:
     label: Username
     type:  text
 
-  tweet: 
+  tweet:
     label: Tweet
     type:  text
 
-  text: 
+  text:
     label: Text
     type:  textarea

@@ -15,14 +15,14 @@
   </div>
 
   <ul class="try-process list-4">
-    <?php foreach($page->children()->visible() as $item): ?>
-      <li>
-        <h2 class="delta"><?php echo $item->title() ?></h2>
-        <div class="text smaller">
-          <?php echo kirbytext($item->text()) ?>
-        </div>
-      </li>
-    <?php endforeach ?>
+    <?php foreach($page->children()->visible() as $item): ?><!--
+ --><li>
+      <h2 class="delta"><?php echo $item->title() ?></h2>
+      <div class="text smaller">
+        <?php echo kirbytext($item->text()) ?>
+      </div>
+    </li><!--
+ --><?php endforeach ?>
   </ul>
 
 </main>

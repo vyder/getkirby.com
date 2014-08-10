@@ -25,7 +25,6 @@
   </div><!-- [.site] end -->
 
   <?php echo js('assets/js/jquery.js') ?>
-  <?php echo js('assets/js/site.js') ?>
   <?php echo js('@auto') ?>
 
 </body>

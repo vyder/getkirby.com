@@ -13,10 +13,10 @@
         <p class="zeta">@<?php echo $voice->username() ?></p>
       </a>
       <blockquote>
-        <?php echo kirbytext($voice->text()) ?><!--
-   --></blockquote>
-    </li>
-    <?php endforeach ?>
+        <?php echo kirbytext($voice->text()) ?>
+      </blockquote>
+    </li><!--
+ --><?php endforeach ?>
   </ul>
 
 </main>

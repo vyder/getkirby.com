@@ -1,5 +1,0 @@
-﻿Title: Min Validator
-----
-Class: Min
-----
-Description: Checks for a value with a size at least the min value

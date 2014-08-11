@@ -1,5 +1,0 @@
-﻿Title: URL
-----
-Class: Url
-----
-Description: A bunch of handy methods to work with URLs

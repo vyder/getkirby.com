@@ -1,5 +1,0 @@
-﻿Title: Alpha Validator
-----
-Class: Alpha
-----
-Description: Checks letter-only values

@@ -1,3 +1,0 @@
-Description: 
-
-The location of custom form fields, which will be usable in Panel blueprints. 

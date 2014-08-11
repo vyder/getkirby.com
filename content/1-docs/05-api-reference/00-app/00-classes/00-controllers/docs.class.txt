@@ -1,5 +1,0 @@
-﻿Title: Controllers
-----
-Class: Controllers
-----
-Description: A list of all available controllers for a particular module.

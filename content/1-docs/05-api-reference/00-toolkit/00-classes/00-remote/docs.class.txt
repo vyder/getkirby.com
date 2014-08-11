@@ -1,6 +1,0 @@
-﻿Title: Remote
-----
-Class: Remote
-----
-Description: A handy little class to handle
-all kind of remote requests

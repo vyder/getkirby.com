@@ -1,5 +1,0 @@
-﻿Title: IP Validator
-----
-Class: Ip
-----
-Description: Checks for a valid ip

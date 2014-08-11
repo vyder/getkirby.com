@@ -1,3 +1,0 @@
-Description: 
-
-The location of the default form button files. This is module-independent. Each module can have its own folder with additional button files.  

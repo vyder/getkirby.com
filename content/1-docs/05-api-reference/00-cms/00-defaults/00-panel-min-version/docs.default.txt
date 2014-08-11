@@ -1,5 +1,0 @@
-﻿Title: panel.min.version
-----
-Value: <pre>2</pre>
-----
-Description: Required panel version

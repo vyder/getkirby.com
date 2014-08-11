@@ -1,0 +1,29 @@
+Title: 
+
+Installation
+
+----
+
+Text: 
+
+The panel is included in Kirby's starterkit and boilerplate. The application is located on your server in the **/panel** folder. Please read the installation guide if the panel folder does not exist yet.
+
+## Running the installer
+
+Visit `http://yourdomain.com/panel` to start Kirby's installer. It will check for any issues with your installation. 
+
+### Possible issues
+
+1. Make sure that the content folder and all subfolders and files are writable 
+2. Make sure the /thumbs folder exists and is writable
+3. Make sure the /site/accounts folder exists and is writable
+
+Once all those checks have passed, the installer will jump to the user signup form. 
+
+## Creating your first account
+
+(image: panel-installation.png)
+
+Fill in all fields of the signup form to create the first user account. Once the account has been created the panel will take you to the login page, where you can sign in with your newly created username and password.
+
+(image: login.png)

@@ -1,5 +1,0 @@
-﻿Title: GDLib Thumb Creator
-----
-Class: GDLib
-----
-Description: 

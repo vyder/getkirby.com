@@ -1,3 +1,0 @@
-Description: 
-
-The location of the Kirby Toolkit, which will be used by the App Framwork. This can be relocated/overwritten to use an existing Toolkit from somewhere else.

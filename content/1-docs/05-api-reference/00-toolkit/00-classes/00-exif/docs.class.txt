@@ -1,5 +1,0 @@
-﻿Title: Exif
-----
-Class: Exif
-----
-Description: Reads exif data from a given image asset

@@ -1,5 +1,0 @@
-﻿Title: content.file.extension
-----
-Value: <pre>txt</pre>
-----
-Description: default file extension for content files

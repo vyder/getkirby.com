@@ -1,5 +1,0 @@
-﻿Title: cache
-----
-Value: <pre>false</pre>
-----
-Description: Global switch to enable/disable the built-in cache

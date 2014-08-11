@@ -1,5 +1,0 @@
-﻿Title: Postmark Email Service
-----
-Class: Postmark
-----
-Description: Sends emails with Postmark

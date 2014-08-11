@@ -1,5 +1,0 @@
-﻿Title: Languages
-----
-Class: Languages
-----
-Description: A collection of all available languages for multi-language sites.

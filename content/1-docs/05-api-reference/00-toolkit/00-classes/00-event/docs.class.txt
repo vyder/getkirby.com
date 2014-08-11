@@ -1,5 +1,0 @@
-﻿Title: Event
-----
-Class: Event
-----
-Description: Attach and trigger events throghout the system

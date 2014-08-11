@@ -1,7 +1,0 @@
-﻿Title: app.subfolder
-----
-Value: <pre>false</pre>
-----
-Description: if the app is installed in a subfolder
-and the subfolder is not detected correctly
-set the subfolder here

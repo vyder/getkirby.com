@@ -1,3 +1,0 @@
-Description: 
-
-The location of account files for the panel. 

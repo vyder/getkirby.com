@@ -1,5 +1,0 @@
-﻿Title: timezone
-----
-Value: <pre>UTC</pre>
-----
-Description: The default timezone

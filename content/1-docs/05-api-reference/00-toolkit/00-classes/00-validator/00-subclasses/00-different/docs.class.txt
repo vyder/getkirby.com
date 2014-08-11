@@ -1,5 +1,0 @@
-﻿Title: Different Validator
-----
-Class: Different
-----
-Description: Checks for two different values

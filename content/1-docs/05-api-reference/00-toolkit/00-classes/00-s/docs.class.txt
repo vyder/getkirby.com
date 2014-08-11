@@ -1,5 +1,0 @@
-﻿Title: Session
-----
-Class: S
-----
-Description: Handles all session fiddling

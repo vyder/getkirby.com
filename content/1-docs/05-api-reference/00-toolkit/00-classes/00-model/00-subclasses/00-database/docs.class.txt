@@ -1,5 +1,0 @@
-﻿Title: Database Model
-----
-Class: Database
-----
-Description: Base class for building all kinds of database driven models

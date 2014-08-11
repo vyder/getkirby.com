@@ -1,6 +1,0 @@
-﻿Title: File
-----
-Class: F
-----
-Description: This class makes it easy to
-create/edit/delete files

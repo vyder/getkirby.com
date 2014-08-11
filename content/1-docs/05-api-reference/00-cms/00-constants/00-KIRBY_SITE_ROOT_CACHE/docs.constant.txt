@@ -1,3 +1,0 @@
-Description: 
-
-The location where site-specific cache files should be stored. 

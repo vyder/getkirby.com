@@ -1,5 +1,0 @@
-﻿Title: Validator
-----
-Class: Validator
-----
-Description: Base class for all validators

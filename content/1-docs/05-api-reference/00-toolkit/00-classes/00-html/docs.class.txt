@@ -1,5 +1,0 @@
-﻿Title: Html
-----
-Class: Html
-----
-Description: Html builder for the most common elements

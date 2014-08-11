@@ -1,5 +1,0 @@
-﻿Title: lang.default
-----
-Value: <pre>en</pre>
-----
-Description: Set the default language code

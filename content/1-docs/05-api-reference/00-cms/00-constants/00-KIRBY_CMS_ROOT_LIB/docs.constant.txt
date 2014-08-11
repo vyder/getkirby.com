@@ -1,3 +1,0 @@
-Description: 
-
-The location of all library classes for the CMS. Classes in this folder will be autoloaded. 

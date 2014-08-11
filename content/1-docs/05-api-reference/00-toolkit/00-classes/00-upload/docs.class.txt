@@ -1,5 +1,0 @@
-﻿Title: Upload
-----
-Class: Upload
-----
-Description: File Upload class

@@ -1,5 +1,0 @@
-﻿Title: URL Validator
-----
-Class: Url
-----
-Description: Checks for a valid URL

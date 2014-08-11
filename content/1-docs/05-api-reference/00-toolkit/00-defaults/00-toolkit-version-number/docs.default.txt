@@ -1,5 +1,0 @@
-﻿Title: toolkit.version.number
-----
-Value: <pre>2</pre>
-----
-Description: numeric toolkit version

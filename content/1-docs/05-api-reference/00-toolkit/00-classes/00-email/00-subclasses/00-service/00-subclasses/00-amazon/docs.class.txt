@@ -1,5 +1,0 @@
-﻿Title: Amazon Email Service
-----
-Class: Amazon
-----
-Description: Sends emails with Amazon SES

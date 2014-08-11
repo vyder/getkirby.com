@@ -1,5 +1,0 @@
-﻿Title: Cache Driver Abstract
-----
-Class: Driver
-----
-Description: Template for all cache drivers

@@ -1,5 +1,0 @@
-﻿Title: In Validator
-----
-Class: In
-----
-Description: Checks for a value contained in a list of values

@@ -1,8 +1,0 @@
-﻿Title: content.file.ignore
-----
-Value: <pre>Array
-(
-)
-</pre>
-----
-Description: A list of filenames to ignore when looking for content files

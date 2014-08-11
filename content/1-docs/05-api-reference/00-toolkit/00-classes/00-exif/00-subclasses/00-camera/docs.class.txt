@@ -1,5 +1,0 @@
-﻿Title: Small class which hold info about the camera
-----
-Class: Camera
-----
-Description: 

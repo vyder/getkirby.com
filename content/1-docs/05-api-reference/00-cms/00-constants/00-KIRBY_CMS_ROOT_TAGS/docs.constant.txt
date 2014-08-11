@@ -1,3 +1,0 @@
-Description: 
-
-The location of all Kirbytext tag files, which will be installed by default.

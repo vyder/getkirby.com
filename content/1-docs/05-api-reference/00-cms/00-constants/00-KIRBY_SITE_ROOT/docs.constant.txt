@@ -1,3 +1,0 @@
-Description: 
-
-The root location of project specific files. For the CMS this is the site folder.

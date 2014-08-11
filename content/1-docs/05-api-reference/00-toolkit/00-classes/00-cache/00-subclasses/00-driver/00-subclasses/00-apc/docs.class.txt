@@ -1,5 +1,0 @@
-﻿Title: APC Cache
-----
-Class: Apc
-----
-Description: 

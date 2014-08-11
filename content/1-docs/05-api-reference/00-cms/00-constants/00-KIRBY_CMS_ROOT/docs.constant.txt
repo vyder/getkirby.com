@@ -1,3 +1,0 @@
-Description: 
-
-The core location of the Kirby CM system.

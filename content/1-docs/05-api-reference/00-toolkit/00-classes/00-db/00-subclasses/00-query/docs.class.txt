@@ -1,6 +1,0 @@
-﻿Title: DB Query
-----
-Class: Query
-----
-Description: The query builder is used by the DB class
-to build SQL queries in a fluent, jquery-style way

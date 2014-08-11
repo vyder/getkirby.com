@@ -1,5 +1,0 @@
-﻿Title: Required Validator
-----
-Class: Required
-----
-Description: Checks for a required value in the set of passed data

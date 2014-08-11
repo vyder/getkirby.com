@@ -1,5 +1,0 @@
-﻿Title: tinyurl.enabled
-----
-Value: <pre>true</pre>
-----
-Description: Tiny url setup

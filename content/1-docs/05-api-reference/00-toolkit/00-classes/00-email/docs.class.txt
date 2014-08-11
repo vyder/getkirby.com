@@ -1,7 +1,0 @@
-﻿Title: Email
-----
-Class: Email
-----
-Description: A simple email handling class which supports
-multiple email services. Check out the email subfolder
-for all available services

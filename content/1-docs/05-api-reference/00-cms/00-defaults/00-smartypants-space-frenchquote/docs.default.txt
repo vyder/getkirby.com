@@ -1,5 +1,0 @@
-﻿Title: smartypants.space.frenchquote
-----
-Value: <pre>&#160;</pre>
-----
-Description: 

@@ -1,5 +1,0 @@
-﻿Title: Visitor
-----
-Class: Visitor
-----
-Description: Gives some handy information about the current visitor

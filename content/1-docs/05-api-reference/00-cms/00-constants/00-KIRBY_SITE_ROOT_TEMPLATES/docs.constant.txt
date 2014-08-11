@@ -1,3 +1,0 @@
-Description: 
-
-The location where site-specific templates are installed

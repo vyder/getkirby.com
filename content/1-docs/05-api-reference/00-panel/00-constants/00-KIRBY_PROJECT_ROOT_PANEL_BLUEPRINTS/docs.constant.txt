@@ -1,3 +1,0 @@
-Description: 
-
-The location of all blueprint files, which will be used by the site module to render content forms.

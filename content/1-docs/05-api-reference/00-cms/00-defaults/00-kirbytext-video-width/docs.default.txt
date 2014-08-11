@@ -1,6 +1,0 @@
-﻿Title: kirbytext.video.width
-----
-Value: <pre>480</pre>
-----
-Description: Set the default width and height
-for embedded videos in Kirbytext here

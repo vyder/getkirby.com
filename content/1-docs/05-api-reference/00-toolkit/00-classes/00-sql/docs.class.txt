@@ -1,5 +1,0 @@
-﻿Title: SQL
-----
-Class: Sql
-----
-Description: SQL Query builder

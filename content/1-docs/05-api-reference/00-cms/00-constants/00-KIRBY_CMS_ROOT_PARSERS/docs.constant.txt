@@ -1,3 +1,0 @@
-Description: 
-
-The location of third-party parsers, like the Markdown classes.

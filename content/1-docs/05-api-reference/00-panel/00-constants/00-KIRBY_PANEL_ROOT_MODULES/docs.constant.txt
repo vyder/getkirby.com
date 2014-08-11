@@ -1,3 +1,0 @@
-Description: 
-
-The root folder of all panel modules. 

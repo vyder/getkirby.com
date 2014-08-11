@@ -1,5 +1,0 @@
-﻿Title: File Cache
-----
-Class: File
-----
-Description: 

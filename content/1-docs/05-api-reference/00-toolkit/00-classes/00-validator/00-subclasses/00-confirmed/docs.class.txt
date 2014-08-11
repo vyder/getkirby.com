@@ -1,5 +1,0 @@
-﻿Title: Confirmed Validator
-----
-Class: Confirmed
-----
-Description: Checks for a confirmation field with the same value

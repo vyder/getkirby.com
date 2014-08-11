@@ -1,5 +1,0 @@
-﻿Title: tpl.root
-----
-Value: <pre>&nbsp;</pre>
-----
-Description: the default path for templates

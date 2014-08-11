@@ -1,3 +1,0 @@
-Description: 
-
-The root location of the Kirby App Framework

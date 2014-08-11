@@ -1,5 +1,0 @@
-﻿Title: String
-----
-Class: Str
-----
-Description: A set of handy string methods

@@ -1,12 +1,18 @@
-Title: Kirby Patterns
+Title:
+
+Kirby Patterns
 
 ----
 
-Date: 03.07.2014
+Date:
+
+03.07.2014
 
 ----
 
 Tags:
+
+
 
 ----
 

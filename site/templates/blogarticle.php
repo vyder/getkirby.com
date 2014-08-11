@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="main article" role="main">
+<main class="main" role="main">
   <article class="grid">
 
     <header>

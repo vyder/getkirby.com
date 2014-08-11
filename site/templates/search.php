@@ -11,7 +11,7 @@ $search = new search(array(
 $results = $search->results();
 
 ?>
-<section class="main">
+<main class="main" role="main">
 
   <h1><?php echo html($page->title()) ?></h1>
 
@@ -21,9 +21,9 @@ $results = $search->results();
   </form>
 
   <?php if($results): ?>
-  
+
   <?php snippet('searchpagination', array('pagination' => $results->pagination())) ?>
-  
+
   <?php foreach($results as $row): ?>
   <article>
     <h1 class="delta"><a href="<?php echo $row->url() ?>"><?php echo html($row->title()) ?></a></h1>
@@ -32,11 +32,11 @@ $results = $search->results();
   <?php endforeach ?>
 
   <?php snippet('searchpagination', array('pagination' => $results->pagination())) ?>
-  
+
   <?php elseif($search->query()): ?>
   <div class="no-results">No results for <strong><?php echo html($search->query()) ?></strong></div>
   <?php endif ?>
 
-</section>
+</main>
 
 <?php snippet('footer') ?>

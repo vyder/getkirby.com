@@ -2,7 +2,7 @@
 
 <main class="main grid" role="main">
 
-  <section class="answers col-4-6">
+  <section class="col-4-6">
 
     <h1 class="alpha">Answers</h1>
 

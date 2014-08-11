@@ -29,7 +29,7 @@
   <?php echo html::shiv() ?>
 
 </head>
-<body>
+<body class="<?php echo $page->template() ?>">
   <div class="site">
 
     <!--[if lte IE 9]>

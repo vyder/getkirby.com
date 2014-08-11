@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="main docs" role="main">
+<main class="main" role="main">
 
   <div class="col-4-6 last">
 

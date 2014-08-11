@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="main columns" role="main">
+<main class="main" role="main">
 
   <h1 class="alpha margin-bottom"><?php echo html($page->title()) ?></h1>
 
@@ -13,10 +13,10 @@
         <p class="zeta">@<?php echo $voice->username() ?></p>
       </a>
       <blockquote>
-        <?php echo kirbytext($voice->text()) ?><!--
-   --></blockquote>
-    </li>
-    <?php endforeach ?>
+        <?php echo kirbytext($voice->text()) ?>
+      </blockquote>
+    </li><!--
+ --><?php endforeach ?>
   </ul>
 
 </main>

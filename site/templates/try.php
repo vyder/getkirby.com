@@ -2,7 +2,7 @@
 
 <main class="main" role="main">
 
-  <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
+  <h1 class="alpha"><?php echo html($page->headline()) ?></h1>
   <p class="beta margin-bottom"><?php echo html($page->subheadline()) ?></p>
 
   <div class="grid">
@@ -15,14 +15,14 @@
   </div>
 
   <ul class="try-process list-4">
-    <?php foreach($page->children()->visible() as $item): ?>
-      <li>
-        <h2 class="delta"><?php echo $item->title() ?></h2>
-        <div class="text smaller">
-          <?php echo kirbytext($item->text()) ?>
-        </div>
-      </li>
-    <?php endforeach ?>
+    <?php foreach($page->children()->visible() as $item): ?><!--
+ --><li>
+      <h2 class="delta"><?php echo $item->title() ?></h2>
+      <div class="text smaller">
+        <?php echo kirbytext($item->text()) ?>
+      </div>
+    </li><!--
+ --><?php endforeach ?>
   </ul>
 
 </main>

@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="main references" role="main">
+<main class="main" role="main">
 
   <h1 class="alpha margin-bottom">Made with Kirby and <b class="red">&#9829;</b class="love"></h1>
 

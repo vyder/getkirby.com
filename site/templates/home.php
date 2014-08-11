@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="main home" role="main">
+<main class="main" role="main">
 
   <header class="intro section grid">
     <div class="col-4-6">
@@ -9,7 +9,7 @@
       <a class="hero-btn" href="<?php echo url('try') ?>">Try</a>
       <a class="hero-btn-red" href="<?php echo url('buy') ?>">Buy 39$/30€</a>
       <?php $slides = $pages->find('home/intro-slides')->images() ?></div>
-    <div class=" col-2-6 last">
+    <div class="col-2-6 last">
       <ul class="slider slider-intro">
       <?php foreach($slides as $slide): ?>
         <li class="slide">

@@ -2,7 +2,7 @@
 
 <main class="main" role="main">
 
-  <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
+  <h1 class="alpha"><?php echo html($page->headline()) ?></h1>
   <p class="beta margin-bottom"><?php echo html($page->subheadline()) ?></p>
 
   <div class="grid">

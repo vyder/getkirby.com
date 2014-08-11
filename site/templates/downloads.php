@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="main downloads" role="main">
+<main class="main" role="main">
 
   <h1 class="alpha margin-bottom">Downloads</h1>
 

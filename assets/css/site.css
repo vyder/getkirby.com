@@ -1008,7 +1008,7 @@ h6 a {
 /*
  :::  Answers
 -------------------------------------------------- */
-.answers {
+.answers section {
   padding-bottom: 3em;
 }
 .answers .alpha {
@@ -1107,16 +1107,16 @@ h6 a {
 /*
  :::  Article view
 -------------------------------------------------- */
-.article {
+.blogarticle article {
   position: relative;
 }
-.article header {
+.blogarticle article header {
   margin-bottom: 1em;
   padding-bottom: 1em;
   border-bottom: 1px solid #ddd;
 }
 @media only screen and (min-width : 47em) {
-  .article header {
+  .blogarticle article header {
     padding-right: 4em;
   }
 }

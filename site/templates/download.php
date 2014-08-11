@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="main grid download" role="main">
+<main class="main grid" role="main">
   <h1 class="alpha"><?php echo $page->title() ?></h1>
 
   <article class="col-4-6 four">

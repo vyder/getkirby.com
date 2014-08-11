@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="main columns" role="main">
+<main class="main" role="main">
 
   <h1 class="alpha margin-bottom"><?php echo html($page->title()) ?></h1>
 

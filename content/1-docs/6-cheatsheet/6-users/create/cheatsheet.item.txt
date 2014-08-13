@@ -1,0 +1,8 @@
+Title: 
+
+$users->create($data = array())
+
+----
+
+Text: 
+

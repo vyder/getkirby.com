@@ -1,0 +1,3 @@
+Title: $users->filter($callback)
+
+----

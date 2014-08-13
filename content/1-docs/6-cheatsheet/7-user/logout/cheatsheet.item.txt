@@ -1,0 +1,8 @@
+Title: 
+
+$user->logout()
+
+----
+
+Text: 
+

@@ -1,0 +1,3 @@
+Title: $users->paginate($limit, $options = array())
+
+----

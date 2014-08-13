@@ -1,0 +1,3 @@
+Title: $pages->create($uid, $template, $data = array())
+
+----

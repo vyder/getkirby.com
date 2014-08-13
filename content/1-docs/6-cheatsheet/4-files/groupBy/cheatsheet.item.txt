@@ -1,0 +1,3 @@
+Title: $files->groupBy($field, $caseInsensitive = true)
+
+----

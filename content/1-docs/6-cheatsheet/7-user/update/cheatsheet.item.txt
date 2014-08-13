@@ -1,0 +1,8 @@
+Title: 
+
+$user->update($data = array())
+
+----
+
+Text: 
+

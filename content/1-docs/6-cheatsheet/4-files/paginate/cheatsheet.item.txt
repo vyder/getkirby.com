@@ -1,0 +1,3 @@
+Title: $files->paginate($limit, $options = array())
+
+----

@@ -1,0 +1,8 @@
+Title: 
+
+$user->isCurrent()
+
+----
+
+Text: 
+

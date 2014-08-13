@@ -1,0 +1,8 @@
+Title: 
+
+$user->is($someone)
+
+----
+
+Text: 
+

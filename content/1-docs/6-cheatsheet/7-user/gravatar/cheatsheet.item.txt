@@ -1,0 +1,8 @@
+Title: 
+
+$user->gravatar($size = 256)
+
+----
+
+Text: 
+

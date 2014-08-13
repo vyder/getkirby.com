@@ -1,0 +1,3 @@
+Title: $users->groupBy($field, $caseInsensitive = true)
+
+----

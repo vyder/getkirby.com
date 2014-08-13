@@ -1,0 +1,46 @@
+Title: 
+
+Contact Page
+
+----
+
+Text: 
+
+```
+title: Contact page
+pages: false
+files: false
+fields: 
+  title: 
+    label: Title
+    type: title
+  street: 
+    label: Street
+    type: text
+  zip: 
+    label: ZIP
+    type: number
+    width: 1/4
+  location:
+    label: Location
+    type: text
+    width: 3/4
+  phone: 
+    label: Phone
+    type: tel
+    width: 1/2
+  email: 
+    label: Email
+    type: email
+    width: 1/2
+  website: 
+    label: Website
+    type: url
+    width: 1/2
+  twitter: 
+    label: Twitter
+    type: text
+    placeholder: @
+    icon: twitter
+    width: 1/2
+```

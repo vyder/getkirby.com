@@ -1,0 +1,34 @@
+Title: 
+
+Date
+
+----
+
+Questions: 
+
+
+
+----
+
+Text: 
+
+The date field generates a simple input with a nice date picker. It can be setup to display and store dates in multiple formats.
+
+## Example
+
+```
+fields: 
+  date: 
+    label: Date
+    type: date
+```
+
+### Example with custom format
+
+```
+fields: 
+  date: 
+    label: Date
+    type: date
+    format: MM/DD/YYYY
+```

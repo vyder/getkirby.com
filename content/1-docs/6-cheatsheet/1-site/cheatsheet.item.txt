@@ -1,0 +1,7 @@
+Title: $site
+
+----
+
+Text:
+
+Contains all relevant information about the site

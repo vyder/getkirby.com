@@ -1,0 +1,3 @@
+Title: $page->isAncestorOf($child)
+
+----

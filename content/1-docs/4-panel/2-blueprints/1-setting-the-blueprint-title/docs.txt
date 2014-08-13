@@ -1,0 +1,14 @@
+Title: 
+
+Setting the blueprint title
+
+----
+
+Text: 
+
+The blueprint title is very important. It will be shown to panel users in the "Add page" dialog. It makes clear which kind of template/blueprint the user is currently selecting for the new page. 
+
+```
+title: Blog article
+…
+```

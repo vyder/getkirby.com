@@ -1,0 +1,186 @@
+Title: 
+
+Page Settings
+
+----
+
+Text: 
+
+- [Templates for subpages](#templates-for-subpages)
+- [Maximum number of subpages](#maximum-number-of-subpages)
+- [Reverse sorting of subpages](#reverse-sorting-of-subpages)
+- [Limit displayed subpages](#limit-displayed-subpages)
+- [Numbering of subpages](#numbering-of-subpages)
+- [Hide subpages](#hide-subpages)
+- [Subpage builder](#subpage-builder)
+
+
+## Templates for subpages
+
+It's often helpful to restrict the templates that can be selected when adding a subpage to the current page. There are three ways to define, which templates are available.
+
+### A single template without any other page setting
+
+```
+…
+pages: project
+…
+```
+
+### A single template with more page settings
+
+```
+…
+pages: 
+  template: project
+…
+```
+
+### Multiple templates
+
+```
+…
+pages: project
+  template: 
+    - project
+    - article
+    - contact
+…
+```
+
+## Maximum number of subpages
+
+You can set the maximum number of subpages, which will hide the "Add" button as soon as the maximum is reached. This can help avoid unwanted effects in a template, when the page has too many subpages. 
+
+ ```
+…
+pages: 
+  max: 15
+…
+```
+
+## Reverse sorting of subpages
+
+Sometimes it is helpful to display subpages in reverse order in the panel. You can achieve this by setting `sort: flip`
+
+ ```
+…
+pages: 
+  sort: flip
+…
+```
+
+## Limit displayed subpages
+
+The panel will automatically start paginating subpages in the sidebar and in the subpages manager when the number of subpages surpasses 20.  You can change that with the limit parameter. This will not affect the maximum number of subpages.
+
+ ```
+…
+pages: 
+  limit: 50
+…
+```
+
+## Numbering of subpages
+
+Kirby has three different modes for the numbering of visible subpages. 
+
+### Default numbering
+
+Default numbering doesn't require any setup. Pages will be sorted via Drag & Drop in the subpages manager and will get a 
+
+```
+1-first-page
+2-second-page
+3-third-page
+```
+
+### Alphabetical numbering
+
+```
+0-alpha
+0-bravo
+0-charly
+0-delta
+```
+
+Alphabetical numbering can be setup like this:
+
+```
+…
+pages: 
+  num: zero
+…
+```
+
+### Date-based numbering
+
+```
+20121212-article-one
+20130622-article-two
+20140628-article-three
+```
+
+Date-base numbering can be setup like this:
+
+```
+…
+pages: 
+  num: date
+…
+```
+
+By default dates for numbers are taken from the `date` field. You can change that with the field parameter:
+
+```
+…
+pages: 
+  num: date
+  field: added
+…
+```
+
+Even the format can be changed. To set the format, use (link: http://php.net/manual/en/function.date.php text: PHP's date formatting). The default is `Ymd`. If you change the format, make sure that it does not contain dashes, which would break the numbers.
+
+```
+…
+pages: 
+  num: date
+  field: added
+  format: YmdHi
+…
+```
+
+## Hide subpages
+
+Subpages can be entirely hided, so they don't show up in the sidebar and the subpages manager isn't available either. This can be useful if subpages are not allowed at all or if you've set a fixed number of subpages, which shouldn't be browsable nor modifiable — think of pure data providers for a template, which don't need to be edited by panel users. Hiding pages goes like this:
+
+```
+…
+pages:
+  hide: true
+…
+```
+
+## Subpage builder
+
+With Kirby 2 you can let blueprints create entire subpage structures for you. The so called builder creates subpages on demand as soon as new page is being added. 
+
+Setting up the builder is very straight forward:
+
+```
+…
+pages:
+  build: 
+    - title: Gallery
+      uid: gallery
+      template: gallery
+      num: 1
+    - title: Info
+      uid: info
+      num: 2
+      template: info
+…
+```
+
+So whenever you create a page with this blueprint, Kirby will also immediately create two subpages for it. A Gallery subpage and an Info subpage. This can be quite helpful if you have complex projects, which always have the same set of subpages or similar scenarios. This is even working recursively. If the gallery blueprint would also have a builder setup those subpages would be generated as well and so on. So theoretically you can create multi-level folder structures with a single click.

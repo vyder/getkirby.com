@@ -1,9 +1,31 @@
-﻿Title: Blog
+Title: 
+
+Blog
 
 ----
 
-Text: *News about Kirby and stuff*
+Text: 
+
+*News about Kirby and stuff*
 
 Follow kirby on Twitter
 (twitter: @getkirby) for more
 updates.
+
+----
+
+Language: 
+
+deutsch
+
+----
+
+Lang: 
+
+de
+
+----
+
+Test: 
+
+de

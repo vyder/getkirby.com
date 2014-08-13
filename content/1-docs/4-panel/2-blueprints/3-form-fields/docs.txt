@@ -1,0 +1,26 @@
+Title: 
+
+Form Fields
+
+----
+
+Text: 
+
+A blueprint can have any number of fields, which will build the main form for the page. This is how a typical list of fields look like:
+
+```
+…
+fields: 
+  title: 
+    label: Title
+    type: text
+  date: 
+    label: Date
+    type: date
+  text:
+    label: Text
+    type: textarea
+…
+```
+
+Please check out the docs about available field types for more information how to set those fields up.

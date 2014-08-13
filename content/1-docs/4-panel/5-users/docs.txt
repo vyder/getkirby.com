@@ -1,0 +1,25 @@
+Title: 
+
+Users
+
+----
+
+Text: 
+
+The Kirby panel has a simple user management section, which makes it possible to add any number of panel users and edit their account data.
+
+## Creating a new user
+
+Open the menu and click on "Users". You will find the "Add a new user" button in the top right corner, which will take you to a fresh user form. Fill in all required information and hit add to create a new user.
+
+## Editing a user
+
+On the "Users" page click on the username or the pencil icon to get to the edit form for the user. Fill in all required information and hit "Save" to update the user information. Only fill in the password fields if you want to change the password for the user. 
+
+## Uploading a profile picture
+
+On the "Users" page either click directly on the little profile picture in the list or click on the username and then on "Upload profile picture" to open the upload dialog. 
+
+### Allowed profile picture formats
+
+The uploader only accepts JPG, PNG and GIF files for profile pictures. A square picture will give the best results. Otherwise the uploader will crop the profile picture from the center.

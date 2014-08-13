@@ -1,0 +1,27 @@
+Title: 
+
+Checkbox
+
+----
+
+Questions: 
+
+
+
+----
+
+Text: 
+
+The checkbox field generates a single checkbox, which can be used for simple on/off fields. It's perfect when you need a toggle for a certain part of your template for example. Alternatively you can also use the Toggle field instead.
+
+## Example
+
+```
+fields: 
+  header: 
+    label: Header
+    type: checkbox
+    text: Do you want to display the header image?    
+```
+
+<!-- checkbox field example -->

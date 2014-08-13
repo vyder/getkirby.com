@@ -1,0 +1,3 @@
+Title: $page->update($data = array())
+
+----

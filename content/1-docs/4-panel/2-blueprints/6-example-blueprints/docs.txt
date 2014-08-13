@@ -1,0 +1,9 @@
+Title: 
+
+Example blueprints
+
+----
+
+Text: 
+
+We've collected a number of common blueprint examples, which you can use as a starting point for your own blueprints or just copy and paste if they fit.

@@ -17,3 +17,10 @@ fields:
     label:   Blog Text
     type:    textarea
     buttons: true
+  test:
+    label: Language
+    type: radio
+    options:
+      de: Deutsch
+      en: English
+    default: de

@@ -1,7 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Default
-pages: true
+title: Roadmap
+pages: false
 files: true
 fields:
   title:
@@ -9,5 +9,5 @@ fields:
     type:  text
   text:
     label: Text
-    type:  textarea
-    icon:  file-text-o
+    type: textarea
+    icon: file-text-o

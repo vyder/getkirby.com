@@ -8,19 +8,18 @@ fields:
     label: Title
     type:  text
   date:
-    label: Date
-    type:  date
+    label:  Date
+    type:   date
     format: DD.MM.YYYY
-    width: 1/4
+    width:  1/4
     default:
-      type: date
+      type:   date
       format: d.m.Y
   tags:
     label: Tags
     type:  tags
     width: 3/4
   text:
-    label:   Text
-    type:    textarea
-    size:    large
-    buttons: true
+    label: Text
+    type:  textarea
+    icon:  file-text-o

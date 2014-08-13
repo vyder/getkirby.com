@@ -9,4 +9,5 @@ fields:
     type:  text
   text:
     label: Text
-    type: textarea
+    type:  textarea
+    icon:  file-text-o

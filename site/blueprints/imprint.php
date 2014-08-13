@@ -9,7 +9,9 @@ fields:
     type:  text
   contact:
     label: Contact
-    type: textarea
+    type:  textarea
+    icon:  legal
   disclaimer:
     label: Disclaimer
-    type: textarea
+    type:  textarea
+    icon:  file-text-o

@@ -1,7 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Default
-pages: true
+title: Answer
+pages: false
+preview: parent
 files: true
 fields:
   title:
@@ -9,5 +10,5 @@ fields:
     type:  text
   text:
     label: Text
-    type:  textarea
-    icon:  file-text-o
+    type: textarea
+    icon: file-text-o

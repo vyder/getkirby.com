@@ -1,8 +1,10 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Home
-pages: true
-files: false
+title: Try
+pages:
+  template: try-item
+  max:      4
+files: true
 fields:
   title:
     label: Title
@@ -11,11 +13,13 @@ fields:
     label: Headline
     type:  text
     width: 1/2
+    icon:  header
   subheadline:
     label: Subheadline
     type:  text
     width: 1/2
-  intro:
-    label: Intro
+    icon:  header
+  text:
+    label: Text
     type:  textarea
     icon:  file-text-o

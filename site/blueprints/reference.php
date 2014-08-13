@@ -2,6 +2,7 @@
 
 title: Reference
 pages: false
+preview: parent
 fields:
   title:
     label: Title

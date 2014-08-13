@@ -8,19 +8,22 @@ fields:
     type:  text
   subtitle:
     label: Subtitle
-    type: text
+    type:  text
+    icon:  info-circle
   description:
     label: Description
-    type: textarea
+    type:  textarea
+    icon:  file-text-o
   link:
     label: Link
-    type: URL
+    type:  URL
   docs:
     label: Docs
-    type: URL
+    type:  URL
   tutorial:
     label: Tutorial
-    type: text
+    type:  url
   install:
     label: Installation
-    type: textarea
+    type:  textarea
+    icon:  file-text-o

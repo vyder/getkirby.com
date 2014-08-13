@@ -1,11 +1,9 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-# references blueprint
-
 title: References
 pages:
   template: reference
-  sort: flip
+  sort:     flip
 files: false
 fields:
   title:

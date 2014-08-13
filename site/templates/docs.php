@@ -19,7 +19,7 @@
 
       <?php echo str_replace('(\\', '(', kirbytext($page->text())) ?>
 
-      <?php if($page->blogposts() or $page->forumposts() or $page->docs() or $page->externals()): ?>
+      <?php if($page->docs() or $page->blogposts() or $page->forumposts() or $page->internals() or $page->externals()): ?>
       <footer class="further-reading">
         <h2 class="beta">Further reading</h2>
 

@@ -1,7 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Default
-pages: true
+title: Try item
+pages: false
+preview: parent
 files: true
 fields:
   title:

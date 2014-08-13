@@ -1,3 +1,14 @@
-Title: $page->isWritable()
+Title: 
+
+$page->isWritable()
 
 ----
+
+Excerpt: 
+
+Checks if the page is writable
+
+----
+
+Text: 
+

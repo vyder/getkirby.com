@@ -6,3 +6,10 @@ $site->breadcrumb()
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Returns a $pages collection, prepared for a foreach loop to generate a breadcrumb

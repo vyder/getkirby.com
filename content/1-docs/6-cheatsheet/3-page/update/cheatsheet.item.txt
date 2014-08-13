@@ -1,3 +1,14 @@
-Title: $page->update($data = array())
+Title: 
+
+$page->update($data = array())
 
 ----
+
+Excerpt: 
+
+Updates the page content with all passed variables.
+
+----
+
+Text: 
+

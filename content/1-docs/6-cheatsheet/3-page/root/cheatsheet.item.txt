@@ -1,3 +1,14 @@
-Title: $page->root()
+Title: 
+
+$page->root()
 
 ----
+
+Excerpt: 
+
+Returns the full root of the page directory
+
+----
+
+Text: 
+

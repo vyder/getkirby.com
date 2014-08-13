@@ -1,0 +1,14 @@
+Title: 
+
+$pagination->items()
+
+----
+
+Excerpt: 
+
+
+
+----
+
+Text: 
+

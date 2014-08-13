@@ -1,3 +1,14 @@
-Title: $site->audio()
+Title: 
+
+$site->audio()
 
 ----
+
+Excerpt: 
+
+Returns a $files collection with all audio files in /content
+
+----
+
+Text: 
+

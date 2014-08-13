@@ -1,3 +1,14 @@
-Title: $page->isVisible()
+Title: 
+
+$page->isVisible()
 
 ----
+
+Excerpt: 
+
+Checks if the page is visible
+
+----
+
+Text: 
+

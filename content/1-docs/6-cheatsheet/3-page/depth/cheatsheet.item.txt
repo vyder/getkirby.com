@@ -1,3 +1,14 @@
-Title: $page->depth()
+Title: 
+
+$page->depth()
 
 ----
+
+Excerpt: 
+
+Returns a number, which represents the nesting depth of the page.
+
+----
+
+Text: 
+

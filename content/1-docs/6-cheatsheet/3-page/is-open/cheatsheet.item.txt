@@ -1,3 +1,14 @@
-Title: $page->isOpen()
+Title: 
+
+$page->isOpen()
 
 ----
+
+Excerpt: 
+
+Checks if the page is open. This means that it is either active or it is a direct or indirect parent of the currently active page.
+
+----
+
+Text: 
+

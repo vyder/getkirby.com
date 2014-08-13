@@ -1,3 +1,14 @@
-Title: $pages->limit($limit)
+Title: 
+
+$pages->limit($limit)
 
 ----
+
+Excerpt: 
+
+Returns the collection with a limited amount of pages.
+
+----
+
+Text: 
+

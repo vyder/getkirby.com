@@ -1,3 +1,14 @@
-Title: $page->isDeletable()
+Title: 
+
+$page->isDeletable()
 
 ----
+
+Excerpt: 
+
+Checks if the page is deletable.
+
+----
+
+Text: 
+

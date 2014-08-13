@@ -1,3 +1,14 @@
-Title: $site->hasAudio()
+Title: 
+
+$site->hasAudio()
 
 ----
+
+Excerpt: 
+
+Checks if there are any audio files in /content
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $pages->nth($n)
+Title: 
+
+$pages->nth($n)
 
 ----
+
+Excerpt: 
+
+Returns the nth page in the collection.
+
+----
+
+Text: 
+

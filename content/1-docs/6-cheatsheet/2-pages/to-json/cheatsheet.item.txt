@@ -1,3 +1,14 @@
-Title: $pages->toJson()
+Title: 
+
+$pages->toJson()
 
 ----
+
+Excerpt: 
+
+Converts the collection to a JSON string
+
+----
+
+Text: 
+

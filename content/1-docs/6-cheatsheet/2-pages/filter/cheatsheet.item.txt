@@ -1,3 +1,14 @@
-Title: $pages->filter($callback)
+Title: 
+
+$pages->filter($callback)
 
 ----
+
+Excerpt: 
+
+Filters the collection with a custom filter callback.
+
+----
+
+Text: 
+

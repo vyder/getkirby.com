@@ -1,3 +1,14 @@
-Title: $page->hash()
+Title: 
+
+$page->hash()
 
 ----
+
+Excerpt: 
+
+Returns a unique hash for the page, which is used by tinyurls.
+
+----
+
+Text: 
+

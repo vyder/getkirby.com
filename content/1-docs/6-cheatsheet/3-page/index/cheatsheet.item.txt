@@ -1,3 +1,14 @@
-Title: $page->index()
+Title: 
+
+$page->index()
 
 ----
+
+Excerpt: 
+
+Recursively builds a $pages collection with all children, children of children, etc.
+
+----
+
+Text: 
+

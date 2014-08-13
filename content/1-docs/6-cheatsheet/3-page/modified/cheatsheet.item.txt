@@ -1,3 +1,14 @@
-Title: $page->modified($format = false)
+Title: 
+
+$page->modified($format = false)
 
 ----
+
+Excerpt: 
+
+Returns the unix timestamp or a formatted date string of the last modification date of the page.
+
+----
+
+Text: 
+

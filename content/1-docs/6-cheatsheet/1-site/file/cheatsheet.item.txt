@@ -1,3 +1,14 @@
-Title: $site->file()
+Title: 
+
+$site->file($filename)
 
 ----
+
+Excerpt: 
+
+Searches for a specific file in /content by filename
+
+----
+
+Text: 
+

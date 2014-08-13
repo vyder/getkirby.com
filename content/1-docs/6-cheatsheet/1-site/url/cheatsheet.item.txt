@@ -1,3 +1,14 @@
-Title: $site->url()
+Title: 
+
+$site->url()
 
 ----
+
+Excerpt: 
+
+Returns the base URL for the site
+
+----
+
+Text: 
+

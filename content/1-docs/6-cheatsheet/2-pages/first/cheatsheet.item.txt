@@ -1,3 +1,14 @@
-Title: $pages->first()
+Title: 
+
+$pages->first()
 
 ----
+
+Excerpt: 
+
+Returns the first $page object from the collection
+
+----
+
+Text: 
+

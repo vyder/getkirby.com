@@ -1,3 +1,14 @@
-Title: $page->isDescendantOfActive()
+Title: 
+
+$page->isDescendantOfActive()
 
 ----
+
+Excerpt: 
+
+Checks if the page is a descendant of the currently active page.
+
+----
+
+Text: 
+

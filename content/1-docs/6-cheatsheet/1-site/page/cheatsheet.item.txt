@@ -6,3 +6,10 @@ $site->page($uri = null)
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Returns a specifc $page object by URI. If no URI is specified the currently active page will be returned.

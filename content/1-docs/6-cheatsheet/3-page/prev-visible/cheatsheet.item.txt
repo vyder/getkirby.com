@@ -1,3 +1,14 @@
-Title: $page->prevVisible()
+Title: 
+
+$page->prevVisible()
 
 ----
+
+Excerpt: 
+
+Returns the previous visible sibling
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $page->children()
+Title: 
+
+$page->children()
 
 ----
+
+Excerpt: 
+
+Returns a $pages collection with all children of the page
+
+----
+
+Text: 
+

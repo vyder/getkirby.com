@@ -1,3 +1,14 @@
-Title: $page->num()
+Title: 
+
+$page->num()
 
 ----
+
+Excerpt: 
+
+Returns the sorting number
+
+----
+
+Text: 
+

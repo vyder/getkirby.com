@@ -1,3 +1,14 @@
-Title: $page->isHomePage()
+Title: 
+
+$page->isHomePage()
 
 ----
+
+Excerpt: 
+
+Checks if the page is the home page.
+
+----
+
+Text: 
+

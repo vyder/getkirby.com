@@ -1,3 +1,14 @@
-Title: $site->hasVisibleChildren()
+Title: 
+
+$site->hasVisibleChildren()
 
 ----
+
+Excerpt: 
+
+Checks if there are any visible children in /content
+
+----
+
+Text: 
+

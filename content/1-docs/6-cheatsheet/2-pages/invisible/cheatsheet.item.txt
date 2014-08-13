@@ -1,3 +1,14 @@
-Title: $pages->invisible()
+Title: 
+
+$pages->invisible()
 
 ----
+
+Excerpt: 
+
+Returns all invisible $page objects from the collection
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $page->parent()
+Title: 
+
+$page->parent()
 
 ----
+
+Excerpt: 
+
+Returns the parent $page object
+
+----
+
+Text: 
+

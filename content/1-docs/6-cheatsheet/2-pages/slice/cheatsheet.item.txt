@@ -1,3 +1,14 @@
-Title: $pages->slice($offset = null, $limit = null)
+Title: 
+
+$pages->slice($offset = null, $limit = null)
 
 ----
+
+Excerpt: 
+
+Returns a sliced version of the collection defined by offset and limit.
+
+----
+
+Text: 
+

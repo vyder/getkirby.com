@@ -1,3 +1,14 @@
-Title: $pages->get($uri)
+Title: 
+
+$pages->get($uri)
 
 ----
+
+Excerpt: 
+
+Returns a $page object by its full URI
+
+----
+
+Text: 
+

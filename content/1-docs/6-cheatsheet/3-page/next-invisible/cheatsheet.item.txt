@@ -1,3 +1,14 @@
-Title: $page->nextInvisible()
+Title: 
+
+$page->nextInvisible()
 
 ----
+
+Excerpt: 
+
+Returns the next invisible sibling
+
+----
+
+Text: 
+

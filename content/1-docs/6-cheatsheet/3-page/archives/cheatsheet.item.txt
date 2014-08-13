@@ -1,3 +1,14 @@
-Title: $page->archives()
+Title: 
+
+$page->archives()
 
 ----
+
+Excerpt: 
+
+Returns a $files collection with all archive files (zip, gzip, tar) in the page's directory
+
+----
+
+Text: 
+

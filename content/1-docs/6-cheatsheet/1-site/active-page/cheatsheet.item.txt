@@ -6,3 +6,10 @@ $site->activePage()
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Returns the currently active page object

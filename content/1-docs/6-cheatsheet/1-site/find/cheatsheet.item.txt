@@ -1,3 +1,14 @@
-Title: $site->find()
+Title: 
+
+$site->find()
 
 ----
+
+Excerpt: 
+
+FInds a single $page object or a collection of $pages in /content by a single UID or a set of multiple UIDs.
+
+----
+
+Text: 
+

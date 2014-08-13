@@ -1,3 +1,14 @@
-Title: $page->hasPrev()
+Title: 
+
+$page->hasPrev()
 
 ----
+
+Excerpt: 
+
+Checks if the page has a previous sibling
+
+----
+
+Text: 
+

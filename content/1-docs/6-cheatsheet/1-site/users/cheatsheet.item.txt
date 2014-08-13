@@ -6,3 +6,10 @@ $site->users()
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Returns a $users collection with all registered users.

@@ -1,3 +1,14 @@
-Title: $site->children()
+Title: 
+
+$site->children()
 
 ----
+
+Excerpt: 
+
+Returns a $pages collection with all first-level children in the content folder
+
+----
+
+Text: 
+

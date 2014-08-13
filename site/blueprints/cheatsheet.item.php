@@ -9,6 +9,9 @@ fields:
   title:
     label: Title
     type:  text
+  excerpt:
+    label: Excerpt
+    type: textarea
   text:
     label: Text
     type: textarea

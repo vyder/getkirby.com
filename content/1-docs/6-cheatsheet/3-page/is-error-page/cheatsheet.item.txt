@@ -1,3 +1,14 @@
-Title: $page->isErrorPage()
+Title: 
+
+$page->isErrorPage()
 
 ----
+
+Excerpt: 
+
+Checks if the page is the error page.
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $page->hasChildren()
+Title: 
+
+$page->hasChildren()
 
 ----
+
+Excerpt: 
+
+Checks if the page has children.
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $pages->visible()
+Title: 
+
+$pages->visible()
 
 ----
+
+Excerpt: 
+
+Returns all visible items in the collection
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $site->hasArchives()
+Title: 
+
+$site->hasArchives()
 
 ----
+
+Excerpt: 
+
+Checks if there are any archive files (zip, gzip, tar) in /content
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $page->prev()
+Title: 
+
+$page->prev()
 
 ----
+
+Excerpt: 
+
+Returns the previous sibling.
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $site->index()
+Title: 
+
+$site->index()
 
 ----
+
+Excerpt: 
+
+Creates a $pages collection with every page and subpage in /content. This will walk the entire file tree.
+
+----
+
+Text: 
+

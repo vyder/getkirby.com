@@ -1,3 +1,14 @@
-Title: $page->grandChildren()
+Title: 
+
+$page->grandChildren()
 
 ----
+
+Excerpt: 
+
+Returns a $pages collection with all children of children in the page's directory.
+
+----
+
+Text: 
+

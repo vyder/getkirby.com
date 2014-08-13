@@ -1,3 +1,14 @@
-Title: $pages->filterBy()
+Title: 
+
+$pages->filterBy()
 
 ----
+
+Excerpt: 
+
+Filters the collection by any field and value and with a set of filtering operators.
+
+----
+
+Text: 
+

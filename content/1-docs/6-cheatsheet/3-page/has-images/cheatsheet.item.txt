@@ -1,3 +1,14 @@
-Title: $page->hasImages()
+Title: 
+
+$page->hasImages()
 
 ----
+
+Excerpt: 
+
+Checks if there are any image files (jpg, png, gif, etc.) in the page directory
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $page->find()
+Title: 
+
+$page->find($uri)
 
 ----
+
+Excerpt: 
+
+Returns the $page object of a specific subpage by URI. If multiple URIs are given, the method will return a $pages collection with all matches.
+
+----
+
+Text: 
+

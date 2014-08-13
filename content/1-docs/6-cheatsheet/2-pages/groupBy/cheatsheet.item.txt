@@ -1,3 +1,14 @@
-Title: $pages->groupBy($field, $caseInsensitive = true)
+Title: 
+
+$pages->groupBy($field, $caseInsensitive = true)
 
 ----
+
+Excerpt: 
+
+Groups page objects in the collection by any field and returns them in a new collection.
+
+----
+
+Text: 
+

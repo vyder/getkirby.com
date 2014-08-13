@@ -1,3 +1,14 @@
-Title: $page->videos()
+Title: 
+
+$page->videos()
 
 ----
+
+Excerpt: 
+
+Returns a $files collection with all videos in the page directory.
+
+----
+
+Text: 
+

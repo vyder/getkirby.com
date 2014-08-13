@@ -1,3 +1,14 @@
-Title: $site->update($data = array())
+Title: 
+
+$site->update($data = array())
 
 ----
+
+Excerpt: 
+
+Updates all given site variables, which are stored in site.txt
+
+----
+
+Text: 
+

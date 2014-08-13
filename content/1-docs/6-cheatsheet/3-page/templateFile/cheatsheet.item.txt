@@ -1,3 +1,14 @@
-Title: $page->templateFile()
+Title: 
+
+$page->templateFile()
 
 ----
+
+Excerpt: 
+
+Returns the full path of the template file.
+
+----
+
+Text: 
+

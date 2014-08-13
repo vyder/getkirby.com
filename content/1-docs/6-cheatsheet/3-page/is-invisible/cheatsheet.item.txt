@@ -1,3 +1,14 @@
-Title: $page->isInvisible()
+Title: 
+
+$page->isInvisible()
 
 ----
+
+Excerpt: 
+
+Checks if the page is invisible.
+
+----
+
+Text: 
+

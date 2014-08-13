@@ -1,3 +1,14 @@
-Title: $page->file()
+Title: 
+
+$page->file($filename = false)
 
 ----
+
+Excerpt: 
+
+Returns a specific $file object within the page's directory by filename. If no filename is given, the first file will be returned
+
+----
+
+Text: 
+

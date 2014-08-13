@@ -1,3 +1,14 @@
-Title: $page->uri()
+Title: 
+
+$page->uri()
 
 ----
+
+Excerpt: 
+
+Returns the URI. The URI is the relative URL without the host or any subfolders.
+
+----
+
+Text: 
+

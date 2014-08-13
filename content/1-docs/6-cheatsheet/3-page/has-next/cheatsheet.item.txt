@@ -1,3 +1,14 @@
-Title: $page->hasNext()
+Title: 
+
+$page->hasNext()
 
 ----
+
+Excerpt: 
+
+Checks if the page has a next sibling.
+
+----
+
+Text: 
+

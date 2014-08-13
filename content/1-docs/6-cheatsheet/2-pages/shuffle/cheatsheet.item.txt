@@ -1,3 +1,14 @@
-Title: $pages->shuffle()
+Title: 
+
+$pages->shuffle()
 
 ----
+
+Excerpt: 
+
+Shuffles all items in the collection.
+
+----
+
+Text: 
+

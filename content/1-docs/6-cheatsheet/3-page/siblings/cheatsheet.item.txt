@@ -1,3 +1,14 @@
-Title: $page->siblings()
+Title: 
+
+$page->siblings($self = true)
 
 ----
+
+Excerpt: 
+
+Returns all siblings.
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $pages->sortBy($field, $direction = 'desc', $method = SORT_REGULAR)
+Title: 
+
+$pages->sortBy($field, $direction = 'desc', $method = SORT_REGULAR)
 
 ----
+
+Excerpt: 
+
+Returns a sorted version of the collection.
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $page->id()
+Title: 
+
+$page->id()
 
 ----
+
+Excerpt: 
+
+Returns the page id, which is the untranslated URI.
+
+----
+
+Text: 
+

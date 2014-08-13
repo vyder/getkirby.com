@@ -1,3 +1,14 @@
-Title: $page->hasNextVisible()
+Title: 
+
+$page->hasNextVisible()
 
 ----
+
+Excerpt: 
+
+Checks if the page has a next visible sibling
+
+----
+
+Text: 
+

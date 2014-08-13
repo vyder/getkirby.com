@@ -1,3 +1,14 @@
-Title: $pages->not()
+Title: 
+
+$pages->not()
 
 ----
+
+Excerpt: 
+
+Returns the collection without any given pages. Excluded pages can be specified by passing the entire $page object, the UID or full URI.
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $site->grandChildren()
+Title: 
+
+$site->grandChildren()
 
 ----
+
+Excerpt: 
+
+Returns a $pages collection of all children of children within /content
+
+----
+
+Text: 
+

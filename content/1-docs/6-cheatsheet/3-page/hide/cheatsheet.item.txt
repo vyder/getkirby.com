@@ -1,3 +1,14 @@
-Title: $page->hide()
+Title: 
+
+$page->hide()
 
 ----
+
+Excerpt: 
+
+Removes the sorting number from the page directory to switch it to invisible.
+
+----
+
+Text: 
+

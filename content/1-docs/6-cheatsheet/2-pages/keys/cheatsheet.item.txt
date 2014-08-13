@@ -1,3 +1,14 @@
-Title: $pages->keys()
+Title: 
+
+$pages->keys()
 
 ----
+
+Excerpt: 
+
+Returns all keys/URIs from the collection.
+
+----
+
+Text: 
+

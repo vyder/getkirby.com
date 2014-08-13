@@ -1,3 +1,14 @@
-Title: $site->documents()
+Title: 
+
+$site->documents()
 
 ----
+
+Excerpt: 
+
+Returns a $files collection with all documents (pdf, doc, xls, etc.) in /content
+
+----
+
+Text: 
+

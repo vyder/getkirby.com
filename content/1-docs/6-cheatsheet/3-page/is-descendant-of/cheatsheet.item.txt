@@ -1,3 +1,14 @@
-Title: $page->isDescendantOf($parent)
+Title: 
+
+$page->isDescendantOf($parent)
 
 ----
+
+Excerpt: 
+
+Checks if the page is a descendant of the given page.
+
+----
+
+Text: 
+

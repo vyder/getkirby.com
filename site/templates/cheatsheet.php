@@ -11,7 +11,7 @@
 
     <?php foreach($child->children() as $doc): ?>
     <h3 class="gamma"><?php echo html($doc->title()) ?></h3>
-    <?php echo kirbytext($doc->text()) ?>
+    <?php echo kirbytext($doc->excerpt()) ?>
     <?php endforeach ?>
 
   </section>

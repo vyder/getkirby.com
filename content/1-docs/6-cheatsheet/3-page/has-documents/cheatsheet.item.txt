@@ -1,3 +1,14 @@
-Title: $page->hasDocuments()
+Title: 
+
+$page->hasDocuments()
 
 ----
+
+Excerpt: 
+
+Checks if there are any documents (pdf, doc, xls, etc.) in the page's directory.
+
+----
+
+Text: 
+

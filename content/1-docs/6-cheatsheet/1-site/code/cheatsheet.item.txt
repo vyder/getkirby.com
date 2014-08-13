@@ -1,3 +1,14 @@
-Title: $site->code()
+Title: 
+
+$site->code()
 
 ----
+
+Excerpt: 
+
+Returns a $files collection with all code files (css, js, html) in /content
+
+----
+
+Text: 
+

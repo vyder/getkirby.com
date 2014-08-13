@@ -1,3 +1,14 @@
-Title: $page->date($format = false, $field = 'date')
+Title: 
+
+$page->date($format = false, $field = 'date')
 
 ----
+
+Excerpt: 
+
+Returns a unix timestamp or formatted date string from the page's date field or any other field containing a parsable date.
+
+----
+
+Text: 
+

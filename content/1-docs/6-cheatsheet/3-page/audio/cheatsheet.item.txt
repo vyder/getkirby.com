@@ -1,3 +1,14 @@
-Title: $page->audio()
+Title: 
+
+$page->audio()
 
 ----
+
+Excerpt: 
+
+Returns a $files collection with all audio files in the page's directory
+
+----
+
+Text: 
+

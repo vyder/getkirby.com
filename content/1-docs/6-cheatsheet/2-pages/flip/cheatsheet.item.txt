@@ -1,3 +1,14 @@
-Title: $pages->flip()
+Title: 
+
+$pages->flip()
 
 ----
+
+Excerpt: 
+
+Returns the collection in reverse order.
+
+----
+
+Text: 
+

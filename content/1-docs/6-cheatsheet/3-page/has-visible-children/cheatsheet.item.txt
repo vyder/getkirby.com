@@ -1,3 +1,14 @@
-Title: $page->hasVisibleChildren()
+Title: 
+
+$page->hasVisibleChildren()
 
 ----
+
+Excerpt: 
+
+Checks if the page has any visible children.
+
+----
+
+Text: 
+

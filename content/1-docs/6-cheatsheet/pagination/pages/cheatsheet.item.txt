@@ -1,0 +1,14 @@
+Title: 
+
+$pagination->pages()
+
+----
+
+Excerpt: 
+
+
+
+----
+
+Text: 
+

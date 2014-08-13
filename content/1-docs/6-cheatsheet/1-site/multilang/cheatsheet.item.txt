@@ -6,3 +6,10 @@ $site->multilang()
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Checks if the site has multiple languages.

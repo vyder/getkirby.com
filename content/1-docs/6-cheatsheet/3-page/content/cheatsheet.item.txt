@@ -1,3 +1,14 @@
-Title: $page->content()
+Title: 
+
+$page->content()
 
 ----
+
+Excerpt: 
+
+Returns the page's $content object
+
+----
+
+Text: 
+

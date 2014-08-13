@@ -1,3 +1,14 @@
-Title: $site->files()
+Title: 
+
+$site->files()
 
 ----
+
+Excerpt: 
+
+Returns a $files collection with all files in /content
+
+----
+
+Text: 
+

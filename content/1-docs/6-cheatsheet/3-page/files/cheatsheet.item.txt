@@ -1,3 +1,14 @@
-Title: $page->files()
+Title: 
+
+$page->files()
 
 ----
+
+Excerpt: 
+
+Returns a $files collection with all files in the page's directory.
+
+----
+
+Text: 
+

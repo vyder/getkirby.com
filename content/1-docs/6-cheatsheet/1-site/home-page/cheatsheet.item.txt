@@ -6,3 +6,10 @@ $site->homePage()
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Returns the $page object for the home page

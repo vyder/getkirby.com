@@ -1,3 +1,14 @@
-Title: $site->archives()
+Title: 
+
+$site->archives()
 
 ----
+
+Excerpt: 
+
+Returns a $files collection with all archive files (zip, gzip, tar) in /content
+
+----
+
+Text: 
+

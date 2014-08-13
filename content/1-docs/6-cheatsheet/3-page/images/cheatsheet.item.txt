@@ -1,3 +1,14 @@
-Title: $page->images()
+Title: 
+
+$page->images()
 
 ----
+
+Excerpt: 
+
+Returns a $files collection with all image files (jpg, png, gif, etc.) in the page directory.
+
+----
+
+Text: 
+

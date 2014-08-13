@@ -1,3 +1,14 @@
-Title: $pages->offset($offset)
+Title: 
+
+$pages->offset($offset)
 
 ----
+
+Excerpt: 
+
+Returns the collection starting from the given offset.
+
+----
+
+Text: 
+

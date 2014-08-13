@@ -1,3 +1,14 @@
-Title: $pages->count()
+Title: 
+
+$pages->count()
 
 ----
+
+Excerpt: 
+
+Returns the number of pages in the collection
+
+----
+
+Text: 
+

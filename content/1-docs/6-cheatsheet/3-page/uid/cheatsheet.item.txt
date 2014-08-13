@@ -1,3 +1,14 @@
-Title: $page->uid()
+Title: 
+
+$page->uid()
 
 ----
+
+Excerpt: 
+
+The UID is the page directory name without the sorting number.
+
+----
+
+Text: 
+

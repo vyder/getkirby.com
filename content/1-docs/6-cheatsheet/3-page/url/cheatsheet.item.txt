@@ -1,3 +1,14 @@
-Title: $page->url()
+Title: 
+
+$page->url()
 
 ----
+
+Excerpt: 
+
+Returns the full URL of the page
+
+----
+
+Text: 
+

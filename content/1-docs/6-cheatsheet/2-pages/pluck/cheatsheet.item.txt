@@ -1,3 +1,14 @@
-Title: $pages->pluck($field, $split = null, $unique = false)
+Title: 
+
+$pages->pluck($field, $split = null, $unique = false)
 
 ----
+
+Excerpt: 
+
+Extracts an array of values from each item by field.
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $page->hasVideos()
+Title: 
+
+$page->hasVideos()
 
 ----
+
+Excerpt: 
+
+Checks if there are any video files in the page directory.
+
+----
+
+Text: 
+

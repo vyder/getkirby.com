@@ -1,3 +1,14 @@
-Title: $page->intendedTemplateFile()
+Title: 
+
+$page->intendedTemplateFile()
 
 ----
+
+Excerpt: 
+
+Returns the path for the intended template file.
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $page->hasPrevVisible()
+Title: 
+
+$page->hasPrevVisible()
 
 ----
+
+Excerpt: 
+
+Checks if the page has a previous visible sibling
+
+----
+
+Text: 
+

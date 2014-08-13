@@ -1,3 +1,14 @@
-Title: $pages->findOpen()
+Title: 
+
+$pages->findOpen()
 
 ----
+
+Excerpt: 
+
+Finds the open $page object in the collection.
+
+----
+
+Text: 
+

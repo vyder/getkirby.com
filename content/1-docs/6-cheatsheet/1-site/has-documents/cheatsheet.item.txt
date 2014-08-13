@@ -1,3 +1,14 @@
-Title: $site->hasDocuments()
+Title: 
+
+$site->hasDocuments()
 
 ----
+
+Excerpt: 
+
+Checks if there are any documents (pdf, doc, xls, etc.) in /content
+
+----
+
+Text: 
+

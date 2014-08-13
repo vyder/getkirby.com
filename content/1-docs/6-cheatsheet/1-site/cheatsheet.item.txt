@@ -1,7 +1,15 @@
-Title: $site
+Title: 
+
+$site
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
 
 Contains all relevant information about the site

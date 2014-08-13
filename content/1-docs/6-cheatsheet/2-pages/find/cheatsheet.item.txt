@@ -1,3 +1,14 @@
-Title: $pages->find()
+Title: 
+
+$pages->find()
 
 ----
+
+Excerpt: 
+
+Finds a $page object in the collection by UID or relative URI
+
+----
+
+Text: 
+

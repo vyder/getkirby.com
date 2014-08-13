@@ -1,3 +1,14 @@
-Title: $page->hasInvisibleChildren()
+Title: 
+
+$page->hasInvisibleChildren()
 
 ----
+
+Excerpt: 
+
+Checks if the page has any invisible children
+
+----
+
+Text: 
+

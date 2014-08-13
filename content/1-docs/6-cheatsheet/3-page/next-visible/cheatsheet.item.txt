@@ -1,3 +1,14 @@
-Title: $page->nextVisible()
+Title: 
+
+$page->nextVisible()
 
 ----
+
+Excerpt: 
+
+Returns the next visible sibling
+
+----
+
+Text: 
+

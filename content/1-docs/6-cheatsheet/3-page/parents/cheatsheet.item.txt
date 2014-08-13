@@ -1,3 +1,14 @@
-Title: $page->parents()
+Title: 
+
+$page->parents()
 
 ----
+
+Excerpt: 
+
+Returns a $pages collection of all parents.
+
+----
+
+Text: 
+

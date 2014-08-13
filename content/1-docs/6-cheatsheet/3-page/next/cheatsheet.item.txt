@@ -1,3 +1,14 @@
-Title: $page->next()
+Title: 
+
+$page->next()
 
 ----
+
+Excerpt: 
+
+Returns the next sibling
+
+----
+
+Text: 
+

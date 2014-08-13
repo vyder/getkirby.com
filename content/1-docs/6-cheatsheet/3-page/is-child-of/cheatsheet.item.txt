@@ -1,3 +1,14 @@
-Title: $page->isChildOf($parent)
+Title: 
+
+$page->isChildOf($parent)
 
 ----
+
+Excerpt: 
+
+Checks if the page is a child of the given page.
+
+----
+
+Text: 
+

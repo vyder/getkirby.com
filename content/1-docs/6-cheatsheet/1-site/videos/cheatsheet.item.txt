@@ -1,3 +1,14 @@
-Title: $site->videos()
+Title: 
+
+$site->videos()
 
 ----
+
+Excerpt: 
+
+Returns a $files collection with all video files in /content
+
+----
+
+Text: 
+

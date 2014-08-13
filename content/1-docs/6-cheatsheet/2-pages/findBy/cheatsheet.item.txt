@@ -1,3 +1,14 @@
-Title: $pages->findBy($field, $value)
+Title: 
+
+$pages->findBy($field, $value)
 
 ----
+
+Excerpt: 
+
+Finds a single $page object in the collection by $field and $value
+
+----
+
+Text: 
+

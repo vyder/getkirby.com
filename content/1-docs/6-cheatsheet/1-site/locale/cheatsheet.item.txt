@@ -6,3 +6,10 @@ $site->locale()
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Returns the locale settings for the site

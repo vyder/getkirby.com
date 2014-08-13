@@ -1,3 +1,14 @@
-Title: $pages->last()
+Title: 
+
+$pages->last()
 
 ----
+
+Excerpt: 
+
+Returns the last $page object from the collection
+
+----
+
+Text: 
+

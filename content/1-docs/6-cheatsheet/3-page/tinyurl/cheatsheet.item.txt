@@ -1,3 +1,14 @@
-Title: $page->tinyurl()
+Title: 
+
+$page->tinyurl()
 
 ----
+
+Excerpt: 
+
+Returns the tinyurl for the page if tinyurls are activated in the config
+
+----
+
+Text: 
+

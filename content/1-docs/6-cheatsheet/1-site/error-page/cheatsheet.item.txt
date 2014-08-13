@@ -6,3 +6,10 @@ $site->errorPage()
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Returns the $page object for the error page.

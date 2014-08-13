@@ -1,3 +1,14 @@
-Title: $site->modified($format = false)
+Title: 
+
+$site->modified($format = false)
 
 ----
+
+Excerpt: 
+
+Returns the last modification date for the site. This will walk all pages and subpages and search for the very last modification.
+
+----
+
+Text: 
+

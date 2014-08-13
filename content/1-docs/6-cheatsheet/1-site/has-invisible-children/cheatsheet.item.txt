@@ -1,3 +1,14 @@
-Title: $site->hasInvisibleChildren()
+Title: 
+
+$site->hasInvisibleChildren()
 
 ----
+
+Excerpt: 
+
+Checks if there are any invisible children in /content
+
+----
+
+Text: 
+

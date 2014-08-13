@@ -1,3 +1,14 @@
-Title: $pages->create($uid, $template, $data = array())
+Title: 
+
+$pages->create($uid, $template, $data = array())
 
 ----
+
+Excerpt: 
+
+Creates a new subpage.
+
+----
+
+Text: 
+

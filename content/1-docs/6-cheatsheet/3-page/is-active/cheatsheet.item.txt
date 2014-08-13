@@ -1,3 +1,14 @@
-Title: $page->isActive()
+Title: 
+
+$page->isActive()
 
 ----
+
+Excerpt: 
+
+Checks if the page is the currently active page.
+
+----
+
+Text: 
+

@@ -1,3 +1,14 @@
-Title: $pages->pagination()
+Title: 
+
+$pages->pagination()
 
 ----
+
+Excerpt: 
+
+Returns the $pagination object if available.
+
+----
+
+Text: 
+

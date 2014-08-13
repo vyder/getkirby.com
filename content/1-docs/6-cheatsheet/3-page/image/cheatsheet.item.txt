@@ -1,3 +1,14 @@
-Title: $page->image()
+Title: 
+
+$page->image($filename = false)
 
 ----
+
+Excerpt: 
+
+Returns a specific image $file object by filename. If no filename is given, the first available image will be returned.
+
+----
+
+Text: 
+

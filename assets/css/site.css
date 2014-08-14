@@ -1110,6 +1110,9 @@ h6 a {
 .blogarticle article {
   position: relative;
 }
+.blogarticle .article-body {
+  margin-bottom: 5em;
+}
 .blogarticle article header {
   margin-bottom: 1em;
   padding-bottom: 1em;

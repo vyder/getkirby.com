@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="main" role="main">
+<main class="main blogarticle" role="main">
   <article class="grid">
 
     <header>
@@ -12,9 +12,14 @@
       </time>
     </header>
 
-    <div class="article-body text col-4-6">
+    <div class="article-body col-4-6">
 
-      <?php echo str_replace('(\\', '(', kirbytext($page->text())) ?>
+      <div class="text">
+        <h2 class="beta">Hey there!</h2>
+        <p>The content of this article has been reworked and moved to the docs.</p>
+      </div>
+
+      <a class="btn" href="<?php echo url() ?>/<?php echo $page->movedto() ?>">Show me the docs</a>
 
       <?php if(!c::get('local')): ?>
       <?php snippet('disqus', array('disqus_shortname' => 'getkirby', 'disqus_developer' => false)) ?>

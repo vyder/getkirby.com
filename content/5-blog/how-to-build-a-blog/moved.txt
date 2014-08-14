@@ -8,15 +8,19 @@ Date: 12.12.2011
 
 Tags: tutorial, blog
 
----- 
+----
+
+Movedto: docs/solutions/blog
+
+----
 
 Text:
 
-I decided to start a little series of examples how to build certain stuff with Kirby. After adding and extending the blog section to this site in the last days I thought it would be nice to start with a little tutorial how to build a blog with Kirby. 
+I decided to start a little series of examples how to build certain stuff with Kirby. After adding and extending the blog section to this site in the last days I thought it would be nice to start with a little tutorial how to build a blog with Kirby.
 
 ## Setting up the content
 
-For this example we will use a very simple file structure setup. You can definitely get way more fancy than that, but let's keep it simple: 
+For this example we will use a very simple file structure setup. You can definitely get way more fancy than that, but let's keep it simple:
 
 (image: 01.png)
 
@@ -25,17 +29,17 @@ First we add a new visible blog folder to our site (04-blog) so it will be visib
 ### blog.txt
 
 Add two fields to your `blog.txt`:
-	
+
 	Title: Blog
 	----
-	Text: This is a nice Demo Blog. 
-	----	
+	Text: This is a nice Demo Blog.
+	----
 
 I will get back on how we use that later when we build our templates.
 
 ### Articles
 
-Inside each article folder, add a `blogarticle.txt`. By naming it like this, we can later add a `blogarticle.php` template to our template folder and create a specific template for all articles. 
+Inside each article folder, add a `blogarticle.txt`. By naming it like this, we can later add a `blogarticle.php` template to our template folder and create a specific template for all articles.
 
 Add three fields to your `blogarticle.txt`
 
@@ -57,22 +61,22 @@ Add a `blog.php` and a `blogarticle.php` to `site/templates`
 
 
 ### blog.php
-    
-This is the template for `http://yourdomain.com/blog`, which will show 
-a list of all articles.   
+
+This is the template for `http://yourdomain.com/blog`, which will show
+a list of all articles.
 
 ```
-    
+
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
 <section class="content blog">
-  
+
   <h1><?php echo html($page->title()) ?></h1>
   <?php echo kirbytext($page->text()) ?>
-  
+
   <?php foreach($page->children()->visible()->flip() as $article): ?>
-  
+
   <article>
     <h1><?php echo html($article->title()) ?></h1>
     <p><?php echo excerpt($article->text(), 300) ?></p>
@@ -89,7 +93,7 @@ a list of all articles.
 
 Let me break that down a bit…
 
-First we include our header and main menu snippets and start the content section. 
+First we include our header and main menu snippets and start the content section.
 By giving the content section a second `blog` selector we can easily style it later in
 our css.
 
@@ -129,7 +133,7 @@ The next few lines of code is a loop, where we build a short version for each ar
 
 Let me even break that down some more…
 
-With `$page->children()->visible()` we get a set of all visible subpages in our blog folder. 
+With `$page->children()->visible()` we get a set of all visible subpages in our blog folder.
 This will return the subfolders we got so far in the following order:
 
     01-your-first-article
@@ -143,17 +147,17 @@ So what we do is to add `->flip()`: `$page->children()->visible()->flip`, which 
     02-your-second-article
     01-your-first-article
 
-Now we can build our foreach loop with that: 
+Now we can build our foreach loop with that:
 
 ```
-  
+
 <?php foreach($page->children()->visible()->flip() as $article): ?>
 …
 <?php endforeach ?>
 
 ```
 
-Within the foreach loop, we build the html for each article in our list. 
+Within the foreach loop, we build the html for each article in our list.
 
 ```
 
@@ -180,7 +184,7 @@ Let's have a close look at the following line:
 In our article list, we don't want to show the entire content of each article.
 That would totally mess up our overview. Kirby has a nice little `excerpt()` function,
 which makes it easy to only show the first few words or sentences of a large article, which
-is just perfect for our article overview list. 
+is just perfect for our article overview list.
 
 With `excerpt($article->text(), 300)` we get an excerpt with a maximum of 300 characters for each article.
 
@@ -191,21 +195,21 @@ With the next line…
 <a href="<?php echo $article->url() ?>">Read more…</a>
 
 ```
-    
-…we finally link to the full article. For example: 
+
+…we finally link to the full article. For example:
 `http://yourdomain.com/blog/your-first-article`
 
 This is where we need the `blogarticle.php` template, which we will build next…
-  
-  
+
+
 ### blogarticle.php
 
-This is going to be super easy. Open `blogarticle.php` in your editor. It will be repsonsible for displaying the detailed view of articles. 
+This is going to be super easy. Open `blogarticle.php` in your editor. It will be repsonsible for displaying the detailed view of articles.
 
-The template code for this is very short and easy to understand. 
+The template code for this is very short and easy to understand.
 
 ```
-  
+
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
@@ -223,13 +227,13 @@ The template code for this is very short and easy to understand.
 
 ```
 
-All you need to do is to include the header and menu again as well as the footer snippet at the bottom. In between just add a content section and give it a blogarticle selector so we can add some nice css again later. 
+All you need to do is to include the header and menu again as well as the footer snippet at the bottom. In between just add a content section and give it a blogarticle selector so we can add some nice css again later.
 
 The rest is super straight forward. Add the title of your article and the full text of your article and you're done.
 
-You might also want to add a back link: 
-`<a href="<?php echo url('blog') ?>">Back…</a>` 
-which will take your visitors back to the article list. 
+You might also want to add a back link:
+`<a href="<?php echo url('blog') ?>">Back…</a>`
+which will take your visitors back to the article list.
 
 ## Conclusion
 
@@ -237,5 +241,5 @@ This is a very, very minimalistic blog setup. It's not very sophisticated yet an
 
 ## Next Steps
 
-In the next steps, we will add a feed, include the date in our templates and I will show how to easily integrate comments. 
+In the next steps, we will add a feed, include the date in our templates and I will show how to easily integrate comments.
 

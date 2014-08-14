@@ -8,7 +8,11 @@ Date: 13.12.2011
 
 Tags: tutorial, rss, blog
 
----- 
+----
+
+Movedto: docs/solutions/blog/rss
+
+----
 
 Text:
 
@@ -29,7 +33,7 @@ In your feed.txt you can add some basic information about your feed. Here's mine
 	Title: Blog Feed
 	----
 	Description: The latest updates from our blog
-	---- 
+	----
 
 ## Next up: the template
 
@@ -47,14 +51,14 @@ All we need to do now is to get the right set of items for our feed and to embed
 
 ```php
 
-<?php 
+<?php
 
 $articles = $pages->find('blog')->children()->visible()->flip()->limit(10);
 
 snippet('feed', array(
   'link'  => url('blog'),
   'items' => $articles,
-  'descriptionField'  => 'text', 
+  'descriptionField'  => 'text',
   'descriptionLength' => 300
 ));
 
@@ -64,9 +68,9 @@ snippet('feed', array(
 
 In the first line we search for the latest articles in our blog. We find our blog page first, get all the visible children (all our articles), flip them to get the latest first and finally we make sure to only get the last 10 articles by using `->limit(10)`. Pretty easy, right?
 
-Afterwards we embed our feed snippet. We can pass any number of additional variables to a snippet by defining an array of arguments as second parameter of the `snippet()` function. Let me explain the variables some more: 
+Afterwards we embed our feed snippet. We can pass any number of additional variables to a snippet by defining an array of arguments as second parameter of the `snippet()` function. Let me explain the variables some more:
 
-#### link 
+#### link
 
 This is the main link in our feed, which takes the visitor back to our site. In this case we want them to get back to our blog, so we build an url to our blog with the `url()` helper function.
 
@@ -76,7 +80,7 @@ As items for our feed, we pass the set of $articles we found in the first line. 
 
 #### descriptionField
 
-If you want to show a description for each item in your feed, you need to specify a field, which is available in any item and should be used for the description. For example every page of our blog has a text field, so we use that for the item description. 
+If you want to show a description for each item in your feed, you need to specify a field, which is available in any item and should be used for the description. For example every page of our blog has a text field, so we use that for the item description.
 
 #### descriptionLength
 
@@ -84,7 +88,7 @@ This is maximum number of characters the description will have. An excerpt is au
 
 #### More options
 
-There are some more options available, which are not that important. 
+There are some more options available, which are not that important.
 You can read more about them (link: https://github.com/bastianallgeier/kirbycms-extensions/ text:here)
 
 ## Title and description for your feed
@@ -93,7 +97,7 @@ Maybe you ask yourself where the title and description of your feed come from? R
 
 ## Visiting your feed
 
-After all that hard work you should finally visit your feed and see if all went as expected. Go to `http://yourdomain.com/blog/feed` in your browser or feed reader. 
+After all that hard work you should finally visit your feed and see if all went as expected. Go to `http://yourdomain.com/blog/feed` in your browser or feed reader.
 
 ## Link to your feed
 
@@ -104,7 +108,7 @@ You probably want to link to your feed somewhere. The most simple way is to incl
 <a href="<?php echo url('blog/feed') ?>">Subscribe to our RSS-feed</a>
 
 ```
-	
+
 Another good way is to add the feed to the header of your site, so browsers and feed readers can automatically detect it:
 
 ```
@@ -123,11 +127,7 @@ If you want to make sure that the `title=""` attribute is filled dynamically wit
 
 ## Multiple feeds
 
-With bigger site projects you probably get to the point where you need multiple feeds for different parts of your site. A good way to do this is by adding multiple feed templates. You probably would call the content file for your blog feed `blogfeed.txt` instead of `feed.txt` so your template for your blog feed would be `blogfeed.php`. Then you can easily just add another feed for your projects for example by having a content folder `content/projects/feed` with a `projectfeed.txt` file and a `projectfeed.php` template file. By embedding the feed snippet over and over again your template code is staying very small and maintainable, so it's really up to you how many feeds you want to add.  
-
-
-
-	
+With bigger site projects you probably get to the point where you need multiple feeds for different parts of your site. A good way to do this is by adding multiple feed templates. You probably would call the content file for your blog feed `blogfeed.txt` instead of `feed.txt` so your template for your blog feed would be `blogfeed.php`. Then you can easily just add another feed for your projects for example by having a content folder `content/projects/feed` with a `projectfeed.txt` file and a `projectfeed.php` template file. By embedding the feed snippet over and over again your template code is staying very small and maintainable, so it's really up to you how many feeds you want to add.
 
 
 
@@ -136,5 +136,9 @@ With bigger site projects you probably get to the point where you need multiple 
 
 
 
- 
+
+
+
+
+
 

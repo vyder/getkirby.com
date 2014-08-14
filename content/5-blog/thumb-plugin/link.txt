@@ -8,7 +8,11 @@ Date: 28.12.2011
 
 Tags: tutorial, images, thumbnails
 
----- 
+----
+
+Link: docs/learn
+
+----
 
 Text:
 
@@ -18,9 +22,9 @@ Generating thumbnails for your images is always a bit of a hassle and it's defin
 
 ## Installation
 
-Installing plugins for Kirby is easy. 
+Installing plugins for Kirby is easy.
 If it is not there yet add the `plugins` folder to your site folder:
-	
+
     /site/plugins
 
 Go and download the (link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/thumb/thumb.php text: thumb.php) file from Github and throw it into the plugins folder
@@ -28,26 +32,26 @@ Go and download the (link: https://github.com/bastianallgeier/kirbycms-extension
     /site/plugins/thumb.php
 
 That's it! Kirby will load all php files in the plugins folder automatically.
- 
+
 ## The thumbs cache folder
 
 The Thumb plugin needs a place where it can store all the resized versions of your original images. We don't want to mess up our nice and clean content folders, so what you need to do is to add a `thumbs` cache folder to the root directory of your site:
 
     /thumbs
 
-**You must make sure that this folder is writable!** Otherwise the plugin won't be able to save the resized versions in there. If you don't like the location of that folder you can set it to wherever you want. Read more about it in the (link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/thumb/thumb.mdown text: plugin docs) 
+**You must make sure that this folder is writable!** Otherwise the plugin won't be able to save the resized versions in there. If you don't like the location of that folder you can set it to wherever you want. Read more about it in the (link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/thumb/thumb.mdown text: plugin docs)
 
 ## Usage
 
 First you should add some images to your content folders.
-	
+
 (image: 01.png)
 
-Lets assume those are all unresized originals, which would be way too big for our pages. 
+Lets assume those are all unresized originals, which would be way too big for our pages.
 
 ## The template
 
-Next we gonna add a little gallery to our template. It's going to be a simple list of images. Nothing too fancy, but I guess you all have your own awesome ideas how to extend and improve that. 
+Next we gonna add a little gallery to our template. It's going to be a simple list of images. Nothing too fancy, but I guess you all have your own awesome ideas how to extend and improve that.
 
 ```
 
@@ -61,10 +65,10 @@ Next we gonna add a little gallery to our template. It's going to be a simple li
 </ul>
 
 <?php snippet('footer') ?>
-    
+
 ```
 
-The example above will give us a gallery with all the unresized originals. So this would probably be a big mess depending on the sizes of your images. 
+The example above will give us a gallery with all the unresized originals. So this would probably be a big mess depending on the sizes of your images.
 
 All we need to replace, to make the plugin work is the image tag:
 
@@ -78,7 +82,7 @@ All we need to replace, to make the plugin work is the image tag:
 …
 ```
 
-The plugin will now take the original images and resize them so the maximum width will be 
+The plugin will now take the original images and resize them so the maximum width will be
 300 pixels.
 
 There are plenty of options to fit the size of the images just as you like. Here are some examples:
@@ -90,27 +94,27 @@ echo thumb($image, array('height' => 300));
 
 echo thumb($image, array('width' => 200, 'height' => 300));
 // the max. width will be 200px and the max. height will be 300 px.
-// this is very handy if you need to place an image in a container 
+// this is very handy if you need to place an image in a container
 // with a fixed size.
 
 echo thumb($image, array('width' => 200, 'crop' => true));
 // the image will now be cropped to 200px by 200px
-// cropped images will always be upscaled so they will definitely cover 
+// cropped images will always be upscaled so they will definitely cover
 // the entire area
 
 echo thumb($image, array('width' => 200, 'height' => 300, 'crop' => true));
 // the image will now be cropped to 200px by 300px
-// cropped images will always be upscaled so they will definitely cover 
+// cropped images will always be upscaled so they will definitely cover
 // the entire area
 
 echo thumb($image, array('width' => 500, 'upscale' => true));
-// by default images won't be upscaled (except cropped images) but you 
+// by default images won't be upscaled (except cropped images) but you
 // can set upscale to true to force smaller images to be upscaled.
 
 echo thumb($image, array('width' => 500, 'quality' => 50));
 // for jpgs you can define the compression quality, which will be used
 // for the resized versions. 100 is the default value, which is also the
-// highest possible quality. 
+// highest possible quality.
 
 ```
 
@@ -128,7 +132,7 @@ It will still give you all the flexibility you need to work with the originals. 
 
 ```
 
-If you combine this with the awesome fancybox script or any other javascript lightbox thingy you get a decent and easily maintainable gallery with just a few lines of code. 
+If you combine this with the awesome fancybox script or any other javascript lightbox thingy you get a decent and easily maintainable gallery with just a few lines of code.
 
 ## Requirements
 
@@ -136,12 +140,12 @@ The (link: https://github.com/bastianallgeier/kirbycms-extensions/tree/master/pl
 
 ## Update: raw urls
 
-If you need the raw url instead of the entire image tag, you can pass false as the third agrument: 
+If you need the raw url instead of the entire image tag, you can pass false as the third agrument:
 
 ```
 
 <?php echo thumb($image, array('width' => 200), false) ?>
-// this will echo the raw url of the thumbnail 
+// this will echo the raw url of the thumbnail
 
 ```
 

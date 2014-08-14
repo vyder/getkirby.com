@@ -8,17 +8,21 @@ Date: 27.01.2012
 
 Tags: tutorial, tags, blog
 
----- 
+----
 
-Text: 
+Movedto: docs/solutions/blog/tags
 
-We all remember those days when every blog had a tagcloud with variable font sizes to show the most important tags – man, this has been so cool six years ago. But still tags are a great way to separate your content into different categories and make it easier for your visitors to find the articles and pages they are looking for. 
+----
+
+Text:
+
+We all remember those days when every blog had a tagcloud with variable font sizes to show the most important tags – man, this has been so cool six years ago. But still tags are a great way to separate your content into different categories and make it easier for your visitors to find the articles and pages they are looking for.
 
 With the (link: blog/1-0-3 text: latest release of Kirby) it has become very easy to add tags to your pages and to build a tag filter – or if you prefer "tagcloud".
 
 ## Adding Tags to your content
 
-The perfect format to add tags to your content is a comma separated list. 
+The perfect format to add tags to your content is a comma separated list.
 
 	Title: Some title
 	----
@@ -63,12 +67,12 @@ $articles = $pages->find('blog')
                   ->filterBy('tags', 'design', ',')
                   ->flip()
                   ->paginate(10);
-                 
+
 ```
 
 ## Controlling the filter by URL
 
-At the end we want to be able to have different URLs for each tag filter. So something like `http://yourdomain.com/blog/tag:fun` should show all articles with tagged fun and `http://yourdomain.com/blog/tag:design` should show all design articles. 
+At the end we want to be able to have different URLs for each tag filter. So something like `http://yourdomain.com/blog/tag:fun` should show all articles with tagged fun and `http://yourdomain.com/blog/tag:design` should show all design articles.
 
 It's very easy to fetch those parameters passed by the URL with Kirby:
 
@@ -84,7 +88,7 @@ echo param('tag');
 
 ```
 
-So what we need to do is to replace `'design'` in our articles example above with the param function. 
+So what we need to do is to replace `'design'` in our articles example above with the param function.
 
 ```php
 
@@ -94,10 +98,10 @@ $articles = $pages->find('blog')
                   ->filterBy('tags', param('tag'), ',')
                   ->flip()
                   ->paginate(10);
-                 
+
 ```
 
-Now you can filter all your articles in your blog by specifying the tag in the URL. 
+Now you can filter all your articles in your blog by specifying the tag in the URL.
 
 Of course we want to make sure that the filter is only applied when a tag is added to the URL. We need a little if clause to do that:
 
@@ -121,7 +125,7 @@ if(param('tag')) {
                     ->paginate(10);
 
 }
-                 
+
 ```
 
 That's it! Our tag filter is read :)
@@ -132,7 +136,7 @@ But still nobody knows about those tags and the URLs. So we need our "tagcloud"
 
 I've prepared a little **(link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/plugins/tagcloud/tagcloud.php text: tagcloud plugin)**, which you can use to generate a cloud like the one in the sidebar of this blog.
 
-Download the code for it and add it to `site/plugins/tagcloud.php`. If the plugins folder is not there yet, create one. 
+Download the code for it and add it to `site/plugins/tagcloud.php`. If the plugins folder is not there yet, create one.
 
 ### Using the tagcloud plugin in your templates
 
@@ -164,7 +168,7 @@ $tags = tagcloud($blog);
 When you loop through the result of tagcloud() each tag has the following methods:
 
 #### $tag->name()
-The name of the current tag. 
+The name of the current tag.
 
 #### $tag->isActive()
 This will check if the tag is also currently passed by the URL and is then marked as active. This makes it possible to add an active class to the tag element for example to give it a different style when the tag is "selected".
@@ -200,7 +204,7 @@ Specify the number of tags in the cloud. If no limit is set, all tags will be di
 
 #### field
 
-You can change the fieldname here, in which the tagcloud plugin will search for tags. 
+You can change the fieldname here, in which the tagcloud plugin will search for tags.
 
 #### children
 
@@ -208,11 +212,11 @@ By default the plugin will search in all visible children, but you can also set 
 
 #### baseurl
 
-If you want to specify a different base URL for all tag URLs, you can do that here. By default the plugin will use the URL of the passed main page. 
+If you want to specify a different base URL for all tag URLs, you can do that here. By default the plugin will use the URL of the passed main page.
 
 #### param
 
-You can even change the name of the param in the URL. So if you rather have an URL like http://yourdomain.com/blog/keyword:design, you can change this here. 
+You can even change the name of the param in the URL. So if you rather have an URL like http://yourdomain.com/blog/keyword:design, you can change this here.
 
 #### sort
 

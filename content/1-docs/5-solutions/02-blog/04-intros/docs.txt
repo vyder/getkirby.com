@@ -5,7 +5,7 @@ Title: Intros
 
 Text:
 
-To add an article intro which you can display and maybe style differently from the rest of the post you have to set up an additional field in your .blogarticle.txt`.
+To add an article intro which you can display and maybe style differently from the rest of the post you have to set up an additional field in your `.blogarticle.txt` first.
 
 
     Title: Some title
@@ -21,7 +21,7 @@ To add an article intro which you can display and maybe style differently from t
 
 ## Template adjustments
 
-And then implement the intro in your overview loop (instead of an excerpt) like this:
+Now we gonna implement the intro in the blog's overview loop (instead of an excerpt) like this:
 
 ```php
 <?php snippet(‘header’) ?>

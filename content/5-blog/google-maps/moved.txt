@@ -8,15 +8,19 @@ Date: 29.12.2011
 
 Tags: tutorial, maps
 
----- 
+----
+
+Movedto: docs/solutions/integration/maps/google-maps
+
+----
 
 Text:
 
-For almost every new client website clients keep asking me if it is possible to embed Google Maps on their contact page. It's just so much more convenient than having your own self-drawn map or no map at all. Visitors can easily spot the location of the client's office and get driving directions. It has pretty much become a standard. 
+For almost every new client website clients keep asking me if it is possible to embed Google Maps on their contact page. It's just so much more convenient than having your own self-drawn map or no map at all. Visitors can easily spot the location of the client's office and get driving directions. It has pretty much become a standard.
 
-Google offers three great ways to embed their maps. The simple iframe solution, which you can find directly on (link: http://maps.google.com text: Google Maps), their mighty (link: http://code.google.com/intl/de/apis/maps/documentation/javascript/ text: Google Maps Javascript API) and their (link: http://code.google.com/intl/de/apis/maps/documentation/staticmaps/ text:Google Static Maps API). All three are good, but the most elegant way is the javascript API in my opinion. 
+Google offers three great ways to embed their maps. The simple iframe solution, which you can find directly on (link: http://maps.google.com text: Google Maps), their mighty (link: http://code.google.com/intl/de/apis/maps/documentation/javascript/ text: Google Maps Javascript API) and their (link: http://code.google.com/intl/de/apis/maps/documentation/staticmaps/ text:Google Static Maps API). All three are good, but the most elegant way is the javascript API in my opinion.
 
-Unfortunately this won't be available when visitors have javascript disabled of course. So what I did is to write a snippet, which uses the javascript API to build nice and easy maps, but which falls back to the Google Static Maps whenever javascript is disabled. 
+Unfortunately this won't be available when visitors have javascript disabled of course. So what I did is to write a snippet, which uses the javascript API to build nice and easy maps, but which falls back to the Google Static Maps whenever javascript is disabled.
 
 ## Download the snippet
 
@@ -28,7 +32,7 @@ All you need to do is to put the map.php file into your snippets directory:
 
 	site/snippets/map.php
 
-The new version of the Google Maps javascript API does not need an API key anymore so this is all you need to get going. 
+The new version of the Google Maps javascript API does not need an API key anymore so this is all you need to get going.
 
 ## Adding a map to your templates
 
@@ -40,14 +44,14 @@ Using the snippet in your templates is mostly just one line of code:
 
 ```
 
-This will render a map for your address with a default size of 300x300 pixels. You can use anything as address, which you would use to search on Google Maps. Strings like "Timesquare, New York" entire street addresses or stuff like that. 
+This will render a map for your address with a default size of 300x300 pixels. You can use anything as address, which you would use to search on Google Maps. Strings like "Timesquare, New York" entire street addresses or stuff like that.
 
 ## Customization
 
 You can easily customize the size and appearance of the map by using the following options:
 
 ```php
-<?php 
+<?php
 
 // set your own width and height
 snippet('map', array(
@@ -71,7 +75,7 @@ snippet('map', array(
   'type'    => 'satellite',
 ));
 
-  
+
 ?>
 ```
 
@@ -87,16 +91,16 @@ If you want to be able to set the address in your content files, so it will be e
     ----
     Address: Kirby HQ, 68165 Mannheim, Germany
     ----
-    
-Afterwards you can use the address variable to embed your map snippet like this:    
-    
+
+Afterwards you can use the address variable to embed your map snippet like this:
+
 ```php
 snippet('map', array('address' => $page->address()));
 ```
 
 ## Multiple Maps
 
-The javascript implemention for the snippet makes it possible to embed multiple maps with different setups per page. 
+The javascript implemention for the snippet makes it possible to embed multiple maps with different setups per page.
 
 ## Noscript fallback
 

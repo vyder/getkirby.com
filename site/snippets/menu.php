@@ -1,23 +1,10 @@
 <a class="nav-open" href="#nav">Menu</a>
 <nav class="nav-main cf" id="nav" role="navigation">
-  <h1 class="vh">Main Menu</h1>
+  <span class="vh">Main Menu</span>
 
   <ul class="nav cf">
     <?php foreach($pages->visible() as $item): ?>
-    <?php $dropdown = ($item->hasVisibleChildren() and $item->uid() != 'blog' and $item->uid() != 'downloads') ? true : false ?>
-
-    <li class="<?php e($dropdown, 'has-dropdown') ?><?php e($item->isOpen(), ' is-active') ?>">
-      <a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a>
-
-      <?php if($dropdown): ?>
-      <ul class="dropdown arrow-left">
-        <?php foreach($item->children()->visible() as $item): ?>
-        <li<?php e($item->isOpen(), ' class="is-active"') ?>><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
-        <?php endforeach ?>
-      </ul>
-      <?php endif ?>
-
-    </li>
+    <li<?php e($item->isOpen(), ' class="is-active"') ?>><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
     <?php endforeach ?>
   </ul>
 

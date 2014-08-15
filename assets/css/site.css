@@ -1041,6 +1041,9 @@ h6 a {
   border-top: 1px dotted #ddd;
   margin-top: 1em;
 }
+.questions {
+  margin-top: 5em;
+}
 .questions .alpha {
   border-bottom: 1px solid #ddd;
   padding-bottom: .25em;
@@ -1272,13 +1275,18 @@ h6 a {
  :::  History
 -------------------------------------------------- */
 .milestones {
+  margin-top: 3em;
+  padding-top: 3em;
+  border-top: 1px solid #ddd;
+}
+.milestones-list {
   position: relative;
   margin-top: 5em;
   padding-top: 1em;
 }
 
 /* vertical timeline */
-.milestones:before {
+.milestones-list:before {
   content: '';
   position: absolute;
   top: 0;
@@ -1293,33 +1301,33 @@ h6 a {
   box-shadow: inset 0 0 0 1px #fff;
 }
 @media screen and (min-width: 50em) {
-  .milestones:before {
+  .milestones-list:before {
     left: 50%;
     margin-left: -5px;
   }
 }
 
 /* milestone item */
-.milestones div {
+.milestones-list div {
   padding: 1em 0;
   background-color: #fff;
 }
-.milestones li {
+.milestones-list li {
   position: relative;
   margin-bottom: 3em;
   width: 100%;
 }
 @media screen and (min-width: 50em) {
-  .milestones li {
+  .milestones-list li {
     width: 50%;
   }
-  .milestones li:nth-child(odd) {
+  .milestones-list li:nth-child(odd) {
     float: left;
     margin-right: 50%;
     padding-right: 10%;
     text-align: right;
   }
-  .milestones li:nth-child(even) {
+  .milestones-list li:nth-child(even) {
     float: right;
     margin-left: 50%;
     padding-left: 10%;
@@ -1328,7 +1336,7 @@ h6 a {
 }
 
 /* timestamp */
-.milestones time {
+.milestones-list time {
   display: inline-block;
   padding: 1em 0;
   text-align: center;
@@ -1339,25 +1347,34 @@ h6 a {
   background-color: #222;
 }
 @media screen and (min-width: 50em) {
-  .milestones time {
+  .milestones-list time {
     position: absolute;
     top: .75em;
     right: -55px;
   }
-  .milestones li:nth-child(even) time {
+  .milestones-list li:nth-child(even) time {
     right: auto;
     left: -55px;
   }
 }
 
 /* milestone description */
-.milestones p {
+.milestones-list p {
   color: #999;
 }
-.milestones p:last-of-type {
+.milestones-list p:last-of-type {
   margin-bottom: 0;
 }
 
+
+/*
+ :::  Changelog
+-------------------------------------------------- */
+.changelog time {
+  color: #999;
+  display: block;
+  margin-bottom: .5em;
+}
 
 
 /*
@@ -1541,7 +1558,7 @@ h6 a {
   clear: both;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 50em) {
   [class*='col-'] {
     float: left;
     width: 100%;
@@ -1687,10 +1704,18 @@ h6 a {
 
 
 /*
- :::  Margin bottom helper
+ :::  Helpers
 -------------------------------------------------- */
 .margin-bottom {
   margin-bottom: 1em;
+}
+.center {
+  text-align: center;
+}
+hr {
+  display: block;
+  height: 2px;
+  background-color: #ddd;
 }
 
 

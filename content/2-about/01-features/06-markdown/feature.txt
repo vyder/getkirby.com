@@ -2,9 +2,9 @@ Title: Markdown Syntax
 
 ----
 
-Text: 
+Text:
 
-Write your content with the powerful, extended version of the popular Markdown syntax. 
+Write your content with plain Markdown or use Kirbytext, a powerful, extended version of the popular Markdown syntax.
 
 ----
 

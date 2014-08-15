@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Reference
+title: Showcase
 pages: false
 preview: parent
 fields:

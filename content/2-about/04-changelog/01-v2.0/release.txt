@@ -1,0 +1,16 @@
+title: v2.0
+
+----
+
+date: 2014/09/16
+
+----
+
+text:
+
+Initial release.
+
+- Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+- Lorem ipsum dolor sit amet, consetetur sadipscing elitr.
+- Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.
+- Lorem ipsum dolor sit amet, consetetur sadipscing.

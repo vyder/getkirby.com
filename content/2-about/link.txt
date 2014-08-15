@@ -1,3 +1,3 @@
 Title: About
 ----
-Link: about/features
+Link: about/history

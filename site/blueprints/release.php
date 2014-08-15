@@ -1,7 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Milestone
-pages: true
+title: Release
+pages: false
 preview: parent
 files: true
 fields:
@@ -15,7 +15,7 @@ fields:
     default:
       type:   date
       format: d.m.Y
-  description:
-    label: Description
+  text:
+    label: Release notes
     type: textarea
     icon: file-text-o

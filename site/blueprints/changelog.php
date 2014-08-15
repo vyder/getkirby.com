@@ -1,10 +1,10 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: References
+title: Changelog
 pages:
-  template: reference
-  sort:     flip
-files: false
+  template: release
+  sort: flip
+files: true
 fields:
   title:
     label: Title

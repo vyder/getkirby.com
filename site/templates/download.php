@@ -17,7 +17,7 @@
       <li><a href="<?php echo $page->link() ?>">Download</a></li>
       <li><a href="<?php echo $page->docs() ?>">Documentation</a></li>
       <?php if($page->tutorial() != ''): ?>
-      <li><a href="<?php echo $page->tutorial() ?>">Tutorial</a></li>
+      <li><a href="<?php echo url() ?><?php echo $page->tutorial() ?>">Tutorial</a></li>
       <?php endif ?>
     </ul>
     <div class="text smaller">

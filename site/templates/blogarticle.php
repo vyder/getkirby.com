@@ -12,9 +12,9 @@
       </time>
     </header>
 
-    <div class="body text col-4-6">
+    <div class="article-body text col-4-6">
 
-      <?php echo kirbytext($page->text()) ?>
+      <?php echo str_replace('(\\', '(', kirbytext($page->text())) ?>
 
       <?php if(!c::get('local')): ?>
       <?php snippet('disqus', array('disqus_shortname' => 'getkirby', 'disqus_developer' => false)) ?>

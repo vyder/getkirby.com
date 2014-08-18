@@ -1,26 +1,17 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-# default blueprint
-
 title: Blog
 pages:
-  template: blog.article
-  sort: flip
-  num: date
-  limit: 15
+  template: blogarticle
+  sort:     flip
+  num:      date
+  limit:    15
 files: false
 fields:
   title:
     label: Title
     type:  text
   text:
-    label:   Blog Text
-    type:    textarea
-    buttons: true
-  test:
-    label: Language
-    type: radio
-    options:
-      de: Deutsch
-      en: English
-    default: de
+    label: Text
+    type:  textarea
+    icon:  file-text-o

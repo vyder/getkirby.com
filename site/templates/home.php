@@ -27,7 +27,7 @@
       <?php foreach($pages->find('about/features')->children()->limit(6) as $feature): ?><!--
    --><li class="text smaller">
         <?php if($feature->hasImages()): ?>
-        <img src="<?php echo thumb($feature->image(), array('width' => 300, 'height' => 180, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $feature->title() ?>" />
+        <img src="<?php echo thumb($feature->image(), array('width' => 640, 'height' => 400, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $feature->title() ?>" />
         <?php endif ?>
         <h3 class="gamma"><?php echo html($feature->title()) ?></h3>
         <p>
@@ -55,11 +55,10 @@
   </section>
 
   <section class="random-refs section">
-    <h2 class="beta"><a href="<?php echo url('references/made-with-kirby-and-love') ?>">Made with Kirby and &#9829;</a></h2>
+    <h2 class="beta"><a href="<?php echo url('made-with-kirby-and-love') ?>">Made with Kirby and &#9829;</a></h2>
 
     <ul class="reference-list list-3">
-      <?php $references = $page->children()->flip()->paginate(30) ?>
-      <?php foreach($pages->find('references/made-with-kirby-and-love')->children()->shuffle()->limit(3) as $reference): ?><!--
+      <?php foreach($pages->find('made-with-kirby-and-love')->children()->shuffle()->limit(3) as $reference): ?><!--
    --><li class="screenshot">
         <div class="screen-wrap">
           <?php if($reference->hasImages()): ?>
@@ -91,10 +90,10 @@
   </section>
 
   <section class="random-voices section">
-    <h2 class="beta"><a href="<?php echo url('references/voices') ?>">What others say about Kirby</a></h2>
+    <h2 class="beta"><a href="<?php echo url('voices') ?>">What others say about Kirby</a></h2>
 
     <ul class="voice-list list-2">
-      <?php foreach(page('references/voices')->children()->visible()->shuffle()->limit(4) as $voice): ?><!--
+      <?php foreach(page('voices')->children()->visible()->shuffle()->limit(4) as $voice): ?><!--
    --><li>
         <a href="http://twitter.com/<?php echo $voice->username() ?>">
           <img class="avatar" src="http://twitter.com/api/users/profile_image/<?php echo $voice->username() ?>" alt="Useravatar: <?php echo $voice->username() ?>" />
@@ -112,7 +111,7 @@
   <section class="section">
     <h2 class="beta">Featured on...</h2>
     <ul class="featured-on-list list-4">
-      <?php foreach(page('references/featured-on')->images()->shuffle()->limit(4) as $featured): ?><!--
+      <?php foreach(page('about/featured-on')->images()->shuffle()->limit(4) as $featured): ?><!--
    --><li><img src="<?php echo $featured->url() ?>" alt="<?php echo $featured->title() ?>" /></li><!--
    --><?php endforeach ?>
     </ul>

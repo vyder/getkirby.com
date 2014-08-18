@@ -12,7 +12,7 @@
         <a href="http://download.getkirby.com">
           <img class="icon" src="<?php echo url('assets/images/kirby-dark.png') ?>" alt="Kirby icon" />
           <h3 class="gamma">kirby-2.0.0.zip</h3>
-          <p class="epsilon">Download Kirby's minimal setup</p>
+          <p>Download Kirby's minimal setup</p>
         </a>
       </li><!--
    --><li>

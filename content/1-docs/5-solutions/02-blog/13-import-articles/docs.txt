@@ -2,5 +2,29 @@ Title: Import articles
 
 ----
 
-Text: 
+Text:
 
+## Wordpress Exporter
+
+There's an (link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/exporters/wordpress/ text: exporter for WordPress) available on GitHub.
+
+----
+Blogposts:
+
+How to fix broken WordPress URLs:
+    text: How to fix broken WordPress URLs
+    link: blog/how-to-fix-broken-wordpress-urls
+
+----
+Externals:
+
+WordPress Article Exporter:
+    text: WordPress Article Exporter on GitHub
+    link: https://github.com/bastianallgeier/kirbycms-extensions/blob/master/exporters/wordpress/
+
+----
+Internals:
+
+Export all your WordPress articles to Kirby:
+    text: Export all your WordPress articles to Kirby
+    link: downloads/exporter/wordpress

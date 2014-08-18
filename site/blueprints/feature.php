@@ -1,8 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Feature
-preview: parent
 pages: false
+preview: parent
 fields:
   title:
     label: Title
@@ -13,3 +13,4 @@ fields:
   text:
     label: Text
     type:  textarea
+    icon:  file-text-o

@@ -4,11 +4,110 @@ Title: Tags
 
 Text:
 
+Tags are a great way to separate your content into different categories and make it easier for your visitors to find the articles and pages they are looking for.
 
-----
-Blogposts:
+## Adding Tags to your content
 
-How to handle tags:
+The perfect format to add tags to your content is a comma separated list.
 
-    text: How to handle tags
-    link: blog/tagcloud
+    Title: Some title
+    ----
+    Text: Some great text
+    ----
+    Tags: design, photography, architecture, whatever
+    ----
+
+Looks quite natural, right?
+
+## Filtering content by tag
+
+The `filterBy()` method is built to make it possible to filter pages by a certain value in a field and even to filter pages by a certain value in a separated list like the tags list above. So we can use that to filter a set of pages by tag in a single line:
+
+```php
+$filtered = $page->children()->filterBy('tags', 'design', ',');
+```
+
+This will search through all children of the current page and return all pages with the tag "design". The third argument of the method is telling it to search in a comma separated list. If you prefer to separate your tags with any other character you are free to do that and specify that separation character here.
+
+In our `blog.php template we fetched the latest articles like this:
+
+```php
+$articles = $pages->find('blog')
+                  ->children()
+                  ->visible()
+                  ->flip()
+                  ->paginate(10);
+
+```
+
+So if you want to filter them by a specific tag, go for:
+
+```php
+$articles = $pages->find('blog')
+                  ->children()
+                  ->visible()
+                  ->filterBy('tags', 'design', ',')
+                  ->flip()
+                  ->paginate(10);
+
+```
+
+## Controlling the filter by URL
+
+At the end we want to be able to have different URLs for each tag filter. So something like `http://yourdomain.com/blog/tag:fun` should show all articles with tagged fun and `http://yourdomain.com/blog/tag:design` should show all design articles.
+
+It's very easy to fetch those parameters passed by the URL with Kirby:
+
+```php
+// url: http://yourdomain.com/blog/tag:design
+echo param('tag');
+// result: design
+
+// url: http://yourdomain.com/blog/tag:fun
+echo param('tag');
+// result: fun
+
+```
+
+So what we need to do is to replace `'design'` in our articles example above with the param function.
+
+```php
+$articles = $pages->find('blog')
+                  ->children()
+                  ->visible()
+                  ->filterBy('tags', param('tag'), ',')
+                  ->flip()
+                  ->paginate(10);
+
+```
+
+Now you can filter all your articles in your blog by specifying the tag in the URL.
+
+Of course we want to make sure that the filter is only applied when a tag is added to the URL. We need a little if clause to do that:
+
+```php
+if(param('tag')) {
+
+  $articles = $pages->find('blog')
+                    ->children()
+                    ->visible()
+                    ->filterBy('tags', param('tag'), ',')
+                    ->flip()
+                    ->paginate(10);
+
+} else {
+
+  $articles = $pages->find('blog')
+                    ->children()
+                    ->visible()
+                    ->flip()
+                    ->paginate(10);
+
+}
+
+```
+
+
+## Tagcloud
+
+coming soon...

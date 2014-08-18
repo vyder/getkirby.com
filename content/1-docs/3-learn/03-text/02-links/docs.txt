@@ -85,15 +85,15 @@ Email with a custom CSS class:
 Linked phone number:
 
 ```text
-(tel: +49621123456789)
+(\tel: +49621123456789)
 ```
 Linked phone number with custom text:
 
 ```text
-(tel: +49621123456789 text: +49 061 123 456 789)
+(\tel: +49621123456789 text: +49 061 123 456 789)
 ```
 Linked phone number with custom text and class:
 
 ```text
-(tel: +49621123456789 text: +49 061 123 456 789 class: phone)
+(\tel: +49621123456789 text: +49 061 123 456 789 class: phone)
 ```

@@ -19,9 +19,19 @@
 
       <?php echo str_replace('(\\', '(', kirbytext($page->text())) ?>
 
-      <?php if($page->blogposts() or $page->forumposts() or $page->docs() or $page->externals()): ?>
+      <?php if($page->docs() or $page->blogposts() or $page->forumposts() or $page->internals() or $page->externals()): ?>
       <footer class="further-reading">
         <h2 class="beta">Further reading</h2>
+
+        <?php if($page->docs()): ?>
+        <h3 class="gamma">Docs</h3>
+        <ul>
+            <?php $docs = yaml($page->docs()) ?>
+            <?php foreach($docs as $doc): ?>
+            <li><a href="<?php echo url() ?>/<?php echo $doc['link'] ?>"><?php echo $doc['text'] ?></a></li>
+            <?php endforeach ?>
+        </ul>
+        <?php endif ?>
 
         <?php if($page->blogposts()): ?>
         <h3 class="gamma">Blogposts</h3>
@@ -43,18 +53,18 @@
         </ul>
         <?php endif ?>
 
-        <?php if($page->docs()): ?>
-        <h3 class="gamma">Docs</h3>
+        <?php if($page->internals()): ?>
+        <h3 class="gamma">Internal resources</h3>
         <ul>
-            <?php $docs = yaml($page->docs()) ?>
-            <?php foreach($docs as $doc): ?>
-            <li><a href="<?php echo url() ?>/<?php echo $doc['link'] ?>"><?php echo $doc['text'] ?></a></li>
+            <?php $internals = yaml($page->internals()) ?>
+            <?php foreach($internals as $internal): ?>
+            <li><a href="<?php echo url() ?>/<?php echo $internal['link'] ?>"><?php echo $internal['text'] ?></a></li>
             <?php endforeach ?>
         </ul>
         <?php endif ?>
 
         <?php if($page->externals()): ?>
-        <h3 class="gamma">Other</h3>
+        <h3 class="gamma">External resources</h3>
         <ul>
             <?php $externals = yaml($page->externals()) ?>
             <?php foreach($externals as $external): ?>

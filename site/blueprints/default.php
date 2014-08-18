@@ -1,7 +1,5 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-# default blueprint
-
 title: Default
 pages: true
 files: true
@@ -11,4 +9,5 @@ fields:
     type:  text
   text:
     label: Text
-    type: textarea
+    type:  textarea
+    icon:  file-text-o

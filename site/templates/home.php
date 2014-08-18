@@ -21,10 +21,10 @@
   </header>
 
   <section class="features section">
-    <h2 class="beta"><a href="<?php echo url('about/features') ?>">Features</a></h2>
+    <h2 class="beta"><a href="<?php echo url('home/features') ?>">Features</a></h2>
 
     <ul class="feature-list list-3">
-      <?php foreach($pages->find('about/features')->children()->limit(6) as $feature): ?><!--
+      <?php foreach($pages->find('home/features')->children()->limit(6) as $feature): ?><!--
    --><li class="text smaller">
         <?php if($feature->hasImages()): ?>
         <img src="<?php echo thumb($feature->image(), array('width' => 640, 'height' => 400, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $feature->title() ?>" />

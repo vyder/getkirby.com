@@ -744,6 +744,11 @@ h6 a {
 .submenu > ul > li > a {
   font-weight: 600;
 }
+@media screen and (max-width: 50em) {
+  .submenu {
+    margin-top: 3em;
+  }
+}
 
 
 
@@ -774,7 +779,9 @@ h6 a {
 [class*='btn'] {
   display: inline-block;
   padding: .5em 1.5em;
-  font-size: 1em;
+  line-height: 1;
+  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   border-width: 2px;
   border-style: solid;
@@ -1177,6 +1184,23 @@ h6 a {
   margin-top: 3em;
   padding-top: 2em;
   border-top: 2px solid #ddd;
+}
+@media screen and (max-width: 50em) {
+  .further-reading {
+    padding-bottom: 2em;
+    border-bottom: 2px solid #ddd;
+  }
+}
+.nav-chapter {
+  display: none;
+}
+.nav-chapter .btn {
+  border-color: inherit;
+}
+@media screen and (min-width: 50em) {
+  .nav-chapter {
+    display: block;
+  }
 }
 
 

@@ -4,7 +4,7 @@
   <article class="grid">
 
     <header>
-      <h1 class="alpha"><?php echo widont(kirbytext($page->title(), false)) ?></h1>
+      <h1 class="alpha"><?php echo $page->title() ?></h1>
 
       <time class="article-date" datetime="<?php echo $page->date('c') ?>">
         <span class="month"><?php echo $page->date('M d') ?></span>

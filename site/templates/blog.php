@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<main class="main blog" role="main">
+<main class="main" role="main">
 
   <?php if(param('tag')) {   /*** article overview ***/
 

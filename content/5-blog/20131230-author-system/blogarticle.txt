@@ -10,7 +10,7 @@ Tags: blog
 
 ----
 
-Text: 
+Text:
 
 It's been a while since the last tutorial so my last article for 2013 will be a tutorial :)
 
@@ -20,14 +20,14 @@ There's no built-in way to work with multiple authors, but it's quite easy to se
 
 ## The authors folder
 
-Create a new, invisible authors folder. This will hold all the data and profile pictures of your authors. Each author gets their own subfolder and an `author.txt` file. 
+Create a new, invisible authors folder. This will hold all the data and profile pictures of your authors. Each author gets their own subfolder and an `author.txt` file.
 
 (image: authors.png)
 <br />
 
 ### The author.txt
 
-The author.txt files can contain any data for each author. 
+The author.txt files can contain any data for each author.
 
     name: John Doe
     ----
@@ -39,11 +39,11 @@ The author.txt files can contain any data for each author.
     ----
     twitter: http://twitter.com/johndoe
 
-I think it's easy to understand how this can become a full database of author contact details and more, but it's of course up to you to just enter the basic information about each author, which will be visible on the site. 
+I think it's easy to understand how this can become a full database of author contact details and more, but it's of course up to you to just enter the basic information about each author, which will be visible on the site.
 
 ## Your articles text files
 
-Each article in your blog will get its own article.txt (you can find more about this in the blog tutorials). Those `article.txt` files normally should look like this: 
+Each article in your blog will get its own article.txt (you can find more about this in the blog tutorials). Those `article.txt` files normally should look like this:
 
     title: My awesome blog post
     ----
@@ -64,14 +64,13 @@ To link the author data, all you need to do is to add the author's folder name:
 ## Your article template
 
 Fetching the author data in the article template is easy.
-This is just a basic example of how the article template could look: 
+This is just a basic example of how the article template could look:
 
-```
-
+```php
 <?php snippet('header') ?>
 
 <article>
-  
+
   <h1><?php echo html($page->title()) ?></h1>
   <time><?php echo $page->date('d.m.Y') ?></time>
   <?php echo kirbytext($page->text()) ?>
@@ -99,23 +98,21 @@ This is just a basic example of how the article template could look:
 </article>
 
 <?php snippet('footer') ?>
-
 ```
 
-This is very extendible and can give your articles a nice personal touch. 
+This is very extendible and can give your articles a nice personal touch.
 
 ## The authors list
 
 Additionally it's super easy to build a list of all authors and fetch their articles.
 
-Just create an `authors.txt` file in the `authors` content folder and add an `authors.php` template. 
+Just create an `authors.txt` file in the `authors` content folder and add an `authors.php` template.
 
 In that template you can loop through all subfolders of the authors folder and build a list out of it.
 
 ### authors.php template
 
-```
-
+```php
 <?php snippet('header') ?>
 <?php $articles = $pages->find('blog')->children() ?>
 
@@ -140,28 +137,12 @@ In that template you can loop through all subfolders of the authors folder and b
 <?php endforeach ?>
 
 <?php snippet('footer') ?>
-
 ```
 
-Each author will show up on http://yourdomain.com/authors with the profile picture and a list of articles he or she has written. This can be easily extended with more info about each author or more info about each article. 
+Each author will show up on http://yourdomain.com/authors with the profile picture and a list of articles he or she has written. This can be easily extended with more info about each author or more info about each article.
 
 ## Conclusion
 
-It's not a full-blown authoring system with permissions or a editing workflow. It's really just a nice and simple way to add author information to your articles and pages without having to reenter it for each article. 
+It's not a full-blown authoring system with permissions or a editing workflow. It's really just a nice and simple way to add author information to your articles and pages without having to reenter it for each article.
 
-Let me know if you use something similar on your Kirby site. I'd love to add it here as a reference. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Let me know if you use something similar on your Kirby site. I'd love to add it here as a reference.

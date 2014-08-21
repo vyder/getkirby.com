@@ -1,0 +1,14 @@
+Title: 
+
+$exif
+
+----
+
+Excerpt: 
+
+The exif object is available for jpg files.
+
+----
+
+Text: 
+

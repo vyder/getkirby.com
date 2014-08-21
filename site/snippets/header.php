@@ -7,7 +7,10 @@
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <?php echo css('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,400italic|Source+Code+Pro:400') ?>
 
-  <?php echo css('assets/css/site.css') ?>
+  <?php echo css(array(
+    'assets/css/site.css',
+    'assets/css/prism.css',
+  )) ?>
 
   <?php if($page->isHomePage()): ?>
   <title><?php echo html($page->headline()) ?> | <?php echo html($site->title()) ?></title>

@@ -1,3 +1,14 @@
-Title: $files->pagination()
+Title: 
+
+$files->pagination()
 
 ----
+
+Excerpt: 
+
+Returns the $pagination object
+
+----
+
+Text: 
+

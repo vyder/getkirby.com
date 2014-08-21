@@ -8,17 +8,17 @@ Date: 20.01.2012
 
 Tags: tutorial, content, drafts, blog
 
----- 
+----
 
-Text: 
+Text:
 
-I was asked quite often, how it would be possible to have something like drafts with Kirby. When you are updating parts of your site or you are writing a new article for your blog, you probably want to preview it somehow before you put it online. 
+I was asked quite often, how it would be possible to have something like drafts with Kirby. When you are updating parts of your site or you are writing a new article for your blog, you probably want to preview it somehow before you put it online.
 
-There's no built-in way to handle drafts with Kirby, but there are multiple ways to build your own draft system. 
+There's no built-in way to handle drafts with Kirby, but there are multiple ways to build your own draft system.
 
 ## 1. Invisible folders
 
-This is the most obvious way. Since folders without numbers in front will be ignored by the menu, you could just add invisible folders for new pages. You can still access the page via its URL, but it won't appear in the menu as long as you don't put a number in front of it. 
+This is the most obvious way. Since folders without numbers in front will be ignored by the menu, you could just add invisible folders for new pages. You can still access the page via its URL, but it won't appear in the menu as long as you don't put a number in front of it.
 
 ### Draft Status
 
@@ -54,10 +54,10 @@ You could also add a drafts field to all your content files, which are not ready
     Text: This is the text for my draft
     ----
     Draft: yes
-  
+
 Later in your templates and snippets you could check for that drafts field and if it is set to yes, you simply skip that page. Here's an example for the menu snippet:
 
-```
+```php
 <nav class="menu">
   <ul>
     <?php foreach($pages->visible() AS $p): ?>
@@ -75,6 +75,6 @@ It's definitely more complex to implement throughout the entire site, because yo
 
 ## Security
 
-The first two approaches include the risk that someone guesses the URL of one of your drafts and can read it before it is online. In most cases this isn't that bad at all if you don't have to hide some serious secrets, but sometimes you might want to keep them really secret until they are ready to be public. In this case you should give all content files for drafts the name draft.txt and implement a draft.php template, which has built-in authentication. There are plenty of ways to build simple logins with PHP and I will also write an article about it in the next weeks. 
+The first two approaches include the risk that someone guesses the URL of one of your drafts and can read it before it is online. In most cases this isn't that bad at all if you don't have to hide some serious secrets, but sometimes you might want to keep them really secret until they are ready to be public. In this case you should give all content files for drafts the name draft.txt and implement a draft.php template, which has built-in authentication. There are plenty of ways to build simple logins with PHP and I will also write an article about it in the next weeks.
 
 

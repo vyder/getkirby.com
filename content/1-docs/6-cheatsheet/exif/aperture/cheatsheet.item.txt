@@ -1,0 +1,14 @@
+Title: 
+
+$exif->aperture()
+
+----
+
+Excerpt: 
+
+
+
+----
+
+Text: 
+

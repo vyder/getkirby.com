@@ -1,0 +1,14 @@
+Title: 
+
+$exif->iso()
+
+----
+
+Excerpt: 
+
+
+
+----
+
+Text: 
+

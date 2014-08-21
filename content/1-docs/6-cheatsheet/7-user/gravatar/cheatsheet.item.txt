@@ -6,3 +6,10 @@ $user->gravatar($size = 256)
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Returns the gravatar URL for the user.

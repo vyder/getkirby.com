@@ -1,3 +1,14 @@
-Title: $files->filter($callback)
+Title: 
+
+$files->filter($callback)
 
 ----
+
+Excerpt: 
+
+Applies a filter callback to each item in the collection
+
+----
+
+Text: 
+

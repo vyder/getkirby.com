@@ -6,6 +6,63 @@ Kirby Tags
 
 Text: 
 
-(wikipedia: obama)
+Kirby's extension for Markdown — Kirbytext — provides users with a set of easy to understand tags, which help to format text, create links or embed media without knowing how to write HTML. Those tags can be extended with a simple API. 
 
-(gallery: forrest.jpg)
+## /site/tags
+
+Custom tags are located in `/site/tags`. Create the folder if it doesn't exist yet. Each tag goes into its own php file. The php file must be named according to the tag name.
+
+## Creating your first tag
+
+In this section we are going to create a very simple tag, which will help users to link to Wikipedia articles. The syntax for this tag will be
+
+````
+(wikipedia: cms)
+````
+
+This will be replaced in the HTML code with the full link to 
+
+```
+http://en.wikipedia.org/cms
+```
+
+The code for this custom tag is very simple:
+
+```php
+<?php
+
+kirbytext::$tags['wikipedia'] = array(
+  'html' => function($tag) {
+    return 'http://en.wikipedia.org/' . $tag->attr('wikipedia');
+  }
+);
+```
+
+----
+
+Docs: 
+
+
+
+----
+
+Blogposts: 
+
+
+
+----
+
+Forumposts: 
+
+
+
+----
+
+Internals: 
+
+
+
+----
+
+Externals: 
+

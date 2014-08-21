@@ -10,19 +10,19 @@ Tags: releases
 
 ----
 
-Text: 
+Text:
 
 UPDATE: Kirby 2 will be a (link: blog/free-upgrade text: free upgrade)
 
-In early December I started working on a brand new "minor major" release 
+In early December I started working on a brand new "minor major" release
 for Kirby – Kirby 1.5
 
 Then (link: blog/best-christmas-gift-ever text: the baby came) and my life changed completely. It took me quite some time to get back to a normal schedule and suddenly I found my self in a rush of creativity and new ideas. Too many ideas for Kirby 1.5. So a couple weeks ago I decided to jump to Kirby 2.0 directly without any inbetween releases.
 
-This means that I'm still not announcing Kirby 2.0 today. Kind of frustrating, right? 
-Is it? I felt in a hurry with the new version for a long time until I realized that I'm not. 
+This means that I'm still not announcing Kirby 2.0 today. Kind of frustrating, right?
+Is it? I felt in a hurry with the new version for a long time until I realized that I'm not.
 
-Kirby is working great in its current state. There are things with the panel that are not perfect yet, but there's no real urge to come up with something new. At least the urge is not strong enough to force me to some half-assed release. Instead I decided to take the time it needs to make it perfect and I really hope you understand. 
+Kirby is working great in its current state. There are things with the panel that are not perfect yet, but there's no real urge to come up with something new. At least the urge is not strong enough to force me to some half-assed release. Instead I decided to take the time it needs to make it perfect and I really hope you understand.
 
 **I have been way too quiet in the last weeks and I definitely owe you an appetizer:**
 
@@ -30,33 +30,30 @@ Kirby is working great in its current state. There are things with the panel tha
 
 ### It's so lazy
 
-I've rewritten the core from scratch with a focus on lazy loading. Everything is loaded, parsed or calculated only on demand. This will give a massive speed boost in lots of situations where the old version would still pre-fetch things. 
+I've rewritten the core from scratch with a focus on lazy loading. Everything is loaded, parsed or calculated only on demand. This will give a massive speed boost in lots of situations where the old version would still pre-fetch things.
 
 ### Fully documented
 
-I've entirely skipped code documentation for the first version. I compensated with more online docs, but the new version has inline documentation for every class, every method and every config option. 
+I've entirely skipped code documentation for the first version. I compensated with more online docs, but the new version has inline documentation for every class, every method and every config option.
 
 ### Smarter site object
 
 The site object in Kirby 2 has the same features as every other page. This means that you can now store global images and files directly in the content folder and access them from the $site variable…
 
 ```php
-
 // access global images in the content folder
 foreach($site->images() as $image) {
-  …  
+  …
 }
-
 ```
 
 ### Loadable from everywhere
 
 The new infrastructure for Kirby 2 allows it to run Kirby in your own script.
-This means that you get full access to all the data in your content folder as simple as this: 
+This means that you get full access to all the data in your content folder as simple as this:
 
 #### myscript.php
 ```php
-
 // load the bootstrapper
 require('kirby/bootstrap.php');
 
@@ -68,15 +65,13 @@ $page = $site->pages()->find('my/awesome/page');
 
 // do something with the page object
 echo $page->title();
-
 ```
 
 ### New languages API
 
 For multi-language sites, it's now way easier to work with available languages…
 
-```
-
+```php
 <ul class="lang-selector">
   <?php foreach($site->languages() as $lang): ?>
   <li<?php ecco($lang->isActive(), ' class="active"') ?>>
@@ -84,37 +79,33 @@ For multi-language sites, it's now way easier to work with available languages�
   </li>
   <?php endforeach ?>
 </ul>
-
 ```
 
 ### New page filter methods
 
-With Kirby 2 comes a bunch of helpful new filter methods for page collections: 
+With Kirby 2 comes a bunch of helpful new filter methods for page collections:
 
 ```php
-
 // get all pages with a date in the past or right now
 $articles = $pages->children()->filterBy('date', '<=', time());
 
 // get all pages with more likes than 10
 $articles = $page->children()->filterBy('likes', '>', 10);
-
 ```
 
 ### New plugin API
 
-Kirby 2 will also have a brand new plugin API, which will give more power to new plugins without breaking old ones. 
+Kirby 2 will also have a brand new plugin API, which will give more power to new plugins without breaking old ones.
 
 ### New Kirbytext extensions
 
-Kirbytext is no longer extendable by extending the kirbytext class, but by adding a simple php file to `site/tags` for each new tag. This makes it much easier to add and share Kirbytext tags with other users and projects and you need less PHP knowledge to build your own tags. 
+Kirbytext is no longer extendable by extending the kirbytext class, but by adding a simple php file to `site/tags` for each new tag. This makes it much easier to add and share Kirbytext tags with other users and projects and you need less PHP knowledge to build your own tags.
 
 ### Built-in Exif data parsing
 
 Kirby 2 has a handy exif data parser for all image files…
 
 ```php
-
 // get an image's exif data
 $exif = $page->images()->first()->exif();
 
@@ -126,23 +117,21 @@ echo $exif->location()->lat();
 
 // location (longitude)
 echo $exif->location()->lng();
-
 ```
 
 ## The panel
 
-The panel is still a secret and yet the most unfinished part of Kirby 2. I have something in mind for the panel, which will make it much more than it is right now, without bloating it. I will let you know as soon as I'm able to show you some more. 
+The panel is still a secret and yet the most unfinished part of Kirby 2. I have something in mind for the panel, which will make it much more than it is right now, without bloating it. I will let you know as soon as I'm able to show you some more.
 
 ## The toolkit
 
-In the line of creating a new core and panel, the toolkit got a major overhaul as well. 
+In the line of creating a new core and panel, the toolkit got a major overhaul as well.
 
 ### A new database class
 
-There's a brand new database class. With support for MySQL and new support for SQLite together with a fully fluent interface, it's going to be the perfect match for Kirby's file handling powers. 
+There's a brand new database class. With support for MySQL and new support for SQLite together with a fully fluent interface, it's going to be the perfect match for Kirby's file handling powers.
 
 ```php
-
 // get a single user
 $user = db::table('users')->where('username', '=', 'peter')->first();
 
@@ -173,33 +162,29 @@ db::table('subscribers')->where('last_name', '=', 'Pan')->update(array(
 
 // deleting
 db::table('subscribers')->where('email', '=', 'peter@pan.com')->delete();
-
 ```
 
-The db class also has all the shortcuts from the old version. 
+The db class also has all the shortcuts from the old version.
 
 ### New validators
 
-There's a ton of new content validators and a handy new validation method, which is capable of validating an entire set of values in a single go. 
+There's a ton of new content validators and a handy new validation method, which is capable of validating an entire set of values in a single go.
 
 ```php
-
 // validate the request data
 $result = v::all(get(), array(
   'username' => 'required|alphanum|min:5|max:140',
-  'email'    => 'required|email', 
+  'email'    => 'required|email',
 ));
 
 dump($result);
-
 ```
 
 ### html, form and embed
 
-There's a set of new html generators, which makes it super easy to build all kinds of html elements. Those are perfect for your Kirby templates, to keep things nice and clean. 
+There's a set of new html generators, which makes it super easy to build all kinds of html elements. Those are perfect for your Kirby templates, to keep things nice and clean.
 
 ```php
-
 // create a link
 echo html::a('http://google.com', 'Google');
 
@@ -229,13 +214,11 @@ echo embed::youtube('http://www.youtube.com/watch?v=rpMn6gP69eM');
 
 // embed a gist from github
 echo embed::gist('https://gist.github.com/bastianallgeier/4554931');
-
-
 ```
 
-## Tests, tests, test 
+## Tests, tests, test
 
-Everything I build for Kirby 2 is fully tested with PHPUnit and integrated with (link: http://travis-ci.org text: Travis CI). This will make it a lot easier to avoid bugs in future releases and will also help to accept or decline pull requests faster. 
+Everything I build for Kirby 2 is fully tested with PHPUnit and integrated with (link: http://travis-ci.org text: Travis CI). This will make it a lot easier to avoid bugs in future releases and will also help to accept or decline pull requests faster.
 
 ## More…
 
@@ -245,13 +228,13 @@ There are dozens of additional new methods, helpers and improvements for the too
 
 ## Code preview
 
-If you want to check out the current state of all three parts of Kirby 2, you can take a look at the source on Github: <http://github.com/kirbycms>  
+If you want to check out the current state of all three parts of Kirby 2, you can take a look at the source on Github: <http://github.com/kirbycms>
 
-**Be aware that this is pre-alpha. Things break and won't even run at all. I also still change a lot of stuff on a daily basis. So don't be disappointed if you try to run the new version!** 
+**Be aware that this is pre-alpha. Things break and won't even run at all. I also still change a lot of stuff on a daily basis. So don't be disappointed if you try to run the new version!**
 
 If you want to contribute, please let me know: <bastian@getkirby.com>
 
-## Excited? 
+## Excited?
 
 I hope you are as excited about this new version as I am. I can't give you an exact ETA when it will be ready since I'm still working on client projects. Any feedback or contribution is highly welcome!
 

@@ -10,27 +10,27 @@ Tags: tutorial
 
 ----
 
-Text: 
+Text:
 
 Menus – the salt and pepper of any website. A good navigation concept leads your users to the right point on your site quickly. Without good navigation, your users are lost.
 
-But there's a problem with menus and content management systems: the possibilities of creating great menus are endless and it's impossible to provide them all as plugins. 
+But there's a problem with menus and content management systems: the possibilities of creating great menus are endless and it's impossible to provide them all as plugins.
 
-Instead Kirby has some great tools to build the menus of your dreams. In this tutorial I'm going to show you some quick examples of standard menus, which should serve as templates for your own ideas. 
+Instead Kirby has some great tools to build the menus of your dreams. In this tutorial I'm going to show you some quick examples of standard menus, which should serve as templates for your own ideas.
 
 
 ## The main menu
 
-The mother of all menus. A simple list at the top of your page or in a sidebar. This is lesson number one. Very easy to build and maintain. 
+The mother of all menus. A simple list at the top of your page or in a sidebar. This is lesson number one. Very easy to build and maintain.
 
-```
-<?php 
+```php
+<?php
 
 // main menu items
 $items = $pages->visible();
 
 // only show the menu if items are available
-if($items->count() > 0): 
+if($items->count() > 0):
 
 ?>
 <nav>
@@ -49,7 +49,7 @@ Feel free to add some flavor to the $items line by sorting items :
 $items = $pages->visible()->sortBy('title', 'desc');
 ```
 
-…or excluding certain pages: 
+…or excluding certain pages:
 
 ```php
 $items = $pages->visible()->not('contact');
@@ -58,26 +58,26 @@ $items = $pages->visible()->not('contact');
 
 ## The sub menu
 
-Sometimes it's great to have an independent submenu somewhere else on the page. Maybe below the main menu or in a sidebar or on the bottom. It's your choice. Technically this is not as trivial as the main menu, as we need to find out, which is the current open link in the main menu first. 
+Sometimes it's great to have an independent submenu somewhere else on the page. Maybe below the main menu or in a sidebar or on the bottom. It's your choice. Technically this is not as trivial as the main menu, as we need to find out, which is the current open link in the main menu first.
 
-```
-<?php 
+```php
+<?php
 
 $items = false;
 
 // get the open item on the first level
 if($root = $pages->findOpen()) {
-  
+
   // get visible children for the root item
-  $items = $root->children()->visible();   
+  $items = $root->children()->visible();
 }
 
 // only show the menu if items are available
-if($items && $items->count() > 0): 
+if($items && $items->count() > 0):
 
 ?>
 <nav>
-  <ul>    
+  <ul>
     <?php foreach($items as $item): ?>
     <li><a<?php ecco($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
     <?php endforeach ?>
@@ -90,7 +90,7 @@ Again you are free to change the line where $items are selected. This time maybe
 
 ```php
 // get all children for the root item
-$items = $root->children();   
+$items = $root->children();
 ```
 
 
@@ -98,8 +98,8 @@ $items = $root->children();
 
 You need another level of independent navigation? No problem! We just have to dig a bit deeper to get down to the level of items, by finding the open item in the main menu and the open item in the sub menu.
 
-```
-<?php 
+```php
+<?php
 
 // independent sub sub menu
 $items = false;
@@ -109,18 +109,18 @@ if($root1 = $pages->findOpen()) {
 
   // get the open item on the second level
   if($root2 = $root1->children()->findOpen()) {
-  
+
     // get visible children of the second level item
     $items = $root2->children()->visible();
   }
 }
 
 // only show the menu if items are available
-if($items && $items->count() > 0): 
+if($items && $items->count() > 0):
 
 ?>
 <nav>
-  <ul>    
+  <ul>
     <?php foreach($items as $item): ?>
     <li><a<?php ecco($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
     <?php endforeach ?>
@@ -131,31 +131,31 @@ if($items && $items->count() > 0):
 
 ## Simple nested menu
 
-Those are popular – nested menus. Whether you display it in a nested list or a dropdown menu is your choice, but the HTML is always the same. It's a list of lists. 
+Those are popular – nested menus. Whether you display it in a nested list or a dropdown menu is your choice, but the HTML is always the same. It's a list of lists.
 
-```
-<?php 
+```php
+<?php
 
 // nested menu
 $items = $pages->visible();
 
 // only show the menu if items are available
-if($items->count() > 0): 
+if($items->count() > 0):
 
 ?>
 <nav>
-  <ul>    
+  <ul>
     <?php foreach($items as $item): ?>
     <li>
       <a<?php ecco($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a>
 
-      <?php 
+      <?php
 
       // get all children for the current menu item
       $children = $item->children()->visible();
 
       // display the submenu if children are available
-      if($children->count() > 0): 
+      if($children->count() > 0):
 
       ?>
       <ul>
@@ -178,23 +178,23 @@ If you even need more nesting craziness, you should check out the **(link: https
 
 ## Selected items
 
-Especially in footers you somehow have to display an additional menu with otherwise hidden pages. Classics are "Terms of Service", "FAQ", "Support" and other hidden beauties. 
+Especially in footers you somehow have to display an additional menu with otherwise hidden pages. Classics are "Terms of Service", "FAQ", "Support" and other hidden beauties.
 
-Most of the times you keep them as invisible folders in the first level of your content folder, which makes it hard to select them without including the error page unintentionally. 
+Most of the times you keep them as invisible folders in the first level of your content folder, which makes it hard to select them without including the error page unintentionally.
 
 But there's an easy fix. Just select the particular pages you want to display with the find method and multiple arguments.
 
-```
-<?php 
+```php
+<?php
 
 // selective items
 $items = $pages->find('terms-of-service', 'faq', 'support');
 
-if($items && $items->count() > 0): 
+if($items && $items->count() > 0):
 
 ?>
 <nav>
-  <ul>    
+  <ul>
     <?php foreach($items as $item): ?>
     <li><a<?php ecco($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
     <?php endforeach ?>
@@ -207,14 +207,14 @@ if($items && $items->count() > 0):
 
 You are bored of lists for menus? Maybe try a selectbox.
 
-```
-<?php 
+```php
+<?php
 
 // main menu items
 $items = $pages->visible();
 
 // only show the menu if items are available
-if($items->count() > 0): 
+if($items->count() > 0):
 
 ?>
 <select onchange="window.location.href = this.value">
@@ -228,7 +228,7 @@ if($items->count() > 0):
 
 ## Little helpers
 
-All the examples above are pretty raw. You probably want to add additional classes to the list elements to style them or add more markup. That's all up to you. Here are two more little helpers, which will make your life easier: 
+All the examples above are pretty raw. You probably want to add additional classes to the list elements to style them or add more markup. That's all up to you. Here are two more little helpers, which will make your life easier:
 
 ### Dedicated CSS selectors
 
@@ -236,7 +236,7 @@ It's often needed to style particular items in a menu without touching the other
 
 #### in your menu template
 
-```
+```php
 <nav>
   …
   <li class="<?php echo $item->uid() ?>"><a<?php ecco($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
@@ -255,7 +255,7 @@ nav .contact a {
 }
 ```
 
-That's of course some horrible CSS, but you get the idea. The `uid()` method displays the folder name of each item without the prepended number. 
+That's of course some horrible CSS, but you get the idea. The `uid()` method displays the folder name of each item without the prepended number.
 
 ### Depth
 
@@ -263,7 +263,7 @@ Especially in nested menus it can be helpful to have an additional selector, whi
 
 #### in your template
 
-```
+```php
 <nav>
   …
   <li class="depth-<?php echo $item->depth() ?>"><a<?php ecco($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
@@ -281,4 +281,4 @@ nav .depth-2 {
 
 #### The entire API
 
-Of course this is only a minimal extract of possibilities. The entire Kirby API is there to get the most out of your ideas, so check out the (link: http://cl.ly/GXBe text: Kirby Cheat Sheet) for additional methods you can use and have fun with your next project. 
+Of course this is only a minimal extract of possibilities. The entire Kirby API is there to get the most out of your ideas, so check out the (link: http://cl.ly/GXBe text: Kirby Cheat Sheet) for additional methods you can use and have fun with your next project.

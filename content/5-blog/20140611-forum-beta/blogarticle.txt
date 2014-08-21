@@ -44,7 +44,7 @@ Afterwards only a few additional steps are necessary:
 2. Make sure that all folders and files within `content` are writable
 3. Create a `site/config/config.php` and add the following config variables:
 
-```
+```php
 c::set('forum.token', 'random-secret-token');
 c::set('forum.twitter.key', 'your api key');
 c::set('forum.twitter.secret', 'your api secret');

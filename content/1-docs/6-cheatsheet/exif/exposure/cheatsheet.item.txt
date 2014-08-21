@@ -1,0 +1,14 @@
+Title: 
+
+$exif->exposure()
+
+----
+
+Excerpt: 
+
+
+
+----
+
+Text: 
+

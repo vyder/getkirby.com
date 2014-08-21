@@ -10,32 +10,32 @@ Tags: tutorial, database
 
 ----
 
-Text: 
+Text:
 
-Wait, what!? Did I just write the bad "M" word? Sure, Kirby is a file-based system and I'm convinced that _file-based is the new black_, but in some cases you might want to consider to move away from the file-based approach and rather organize data in a database. 
+Wait, what!? Did I just write the bad "M" word? Sure, Kirby is a file-based system and I'm convinced that _file-based is the new black_, but in some cases you might want to consider to move away from the file-based approach and rather organize data in a database.
 
 Here are some examples where a database is definitely a better idea than using the file system:
 
 - a self-made comment system
 - a newsletter list
 - tracking downloads/pageviews or other statistics
-- a contact form, which stores the sent messages 
+- a contact form, which stores the sent messages
 - huge lists of data, which may end up with thousands of entries
 - in general most kinds of user generated content
 
-etc. 
+etc.
 
 So you are lost when you want to build a site with such features and you are using Kirby, right? **Wrong!**
 
-Kirby is based on the (link: http://toolkit.getkirby.com text: Kirby Toolkit). The Kirby Toolkit is a library of handy classes a functions, which make your life as a PHP developer  easier. I like to refer to it as some kind of jQuery for PHP. 
+Kirby is based on the (link: http://toolkit.getkirby.com text: Kirby Toolkit). The Kirby Toolkit is a library of handy classes a functions, which make your life as a PHP developer  easier. I like to refer to it as some kind of jQuery for PHP.
 
-The Toolkit has a built-in (link: http://toolkit.getkirby.com/docs/classes/db text: MySQL-database class), which is very easy to use. Let me show you how you make your first database queries in your Kirby-powered project in a matter of seconds. 
+The Toolkit has a built-in (link: http://toolkit.getkirby.com/docs/classes/db text: MySQL-database class), which is very easy to use. Let me show you how you make your first database queries in your Kirby-powered project in a matter of seconds.
 
 ## Connect
 
-First you need to setup the connection to your database. **I assume that you already know how to setup a MySQL-server and how to setup a database and tables**. If not, please learn more about it first. 
+First you need to setup the connection to your database. **I assume that you already know how to setup a MySQL-server and how to setup a database and tables**. If not, please learn more about it first.
 
-The best place for your database connection setup is `site/config/config.php` Just put the following lines at the bottom of the config file: 
+The best place for your database connection setup is `site/config/config.php` Just put the following lines at the bottom of the config file:
 
 ```php
 c::set('db.host', 'localhost');
@@ -44,13 +44,13 @@ c::set('db.password', 'mypassword');
 c::set('db.name', 'mydb');
 ```
 
-That's it! Now you are ready to add your first entry to your database. 
+That's it! Now you are ready to add your first entry to your database.
 
 ## A super simple comment system
 
-For this tutorial I'm going to show you how to build a very rudimentary comment system. This is far from perfect, so please don't use it in production. 
+For this tutorial I'm going to show you how to build a very rudimentary comment system. This is far from perfect, so please don't use it in production.
 
-Add a `comments` table to your `mydb` with the following columns: 
+Add a `comments` table to your `mydb` with the following columns:
 
 - id (int + primary key + autoincrement)
 - name (varchar 255)
@@ -60,7 +60,7 @@ Add a `comments` table to your `mydb` with the following columns:
 
 ## Adding comments
 
-The database class has shortcut functions for the most common tasks. 
+The database class has shortcut functions for the most common tasks.
 To insert a new row into a table, all you need to do is…
 
 ```php
@@ -72,23 +72,21 @@ db::insert('comments', array(
 ));
 ```
 
-Because we setup the connection in the config file, you don't need to initiate the database class or do anything else, just use the code above to add your first row. 
+Because we setup the connection in the config file, you don't need to initiate the database class or do anything else, just use the code above to add your first row.
 
 ## Listing comments
 
 Add some more rows to get a better set of results. To fetch all comments from your comments table, use the shortcut for selects:
 
 ```php
-
 $comments = db::select('comments', '*');
 
 ```
 
-This will select all columns and all rows from your comments table. 
+This will select all columns and all rows from your comments table.
 `$comments` will contain an associative array like this…
 
 ```
-
 Array
 (
     [0] => Array
@@ -113,11 +111,10 @@ Array
 
 ```
 
-You can now use a foreach loop to create the HTML for your comments. 
+You can now use a foreach loop to create the HTML for your comments.
 Here's a very rough example:
 
-```
-
+```php
 <h2>Comments</h2>
 <ul class="comments">
 
@@ -132,10 +129,9 @@ Here's a very rough example:
 
 ```
 
-To only select some of the columns in the table, you can adjust the select function like this: 
+To only select some of the columns in the table, you can adjust the select function like this:
 
 ```php
-
 $comments = db::select('comments', 'name, text');
 
 ```
@@ -143,7 +139,6 @@ $comments = db::select('comments', 'name, text');
 If you only need name and text for your HTML, it's better to reduce the number of returned columns. The result array will then be smaller as well:
 
 ```
-
 Array
 (
     [0] => Array
@@ -165,21 +160,19 @@ Array
 If you want to select all comments from a specific email address, you can easily add a where clause to your select:
 
 ```php
-
 $comments = db::select('comments', '*', array('email' => 'bastian@getkirby.com'));
 
 ```
 
-This will only return comments, with `bastian@getkirby.com` in the email column. 
+This will only return comments, with `bastian@getkirby.com` in the email column.
 
 Comments are most often sorted by date – either ascending or descending:
 
 ```php
-
-// sort them descending 
+// sort them descending
 $comments = db::select('comments', '*', false, 'date desc');
 
-// sort them ascending 
+// sort them ascending
 $comments = db::select('comments', '*', false, 'date asc');
 
 ```
@@ -187,7 +180,6 @@ $comments = db::select('comments', '*', false, 'date asc');
 And finally you probably want to limit the number of results so your page won't end up with a list of thousands of comments:
 
 ```php
-
 // only return 10 comments starting with the first
 $comments = db::select('comments', '*', false, 'date desc', 0,10);
 
@@ -203,7 +195,6 @@ Maybe it's a good idea to offer an edit form, so your users can fix typos or cha
 The update function is almost identical to the insert function, but this time you need to pass a where clause, so it's clear which row should be edited:
 
 ```php
-
 $update = array(
   'text' => 'This is my fixed comment text'
 );
@@ -212,7 +203,7 @@ db::update('comments', $update, array('id' => 1));
 
 ```
 
-This will replace the text of the comment with ID `1`. Of course you could update all the other columns as well, by adding them to the `$update` array, but for a comment system, most of the time it's all going to be about fixing the text. 
+This will replace the text of the comment with ID `1`. Of course you could update all the other columns as well, by adding them to the `$update` array, but for a comment system, most of the time it's all going to be about fixing the text.
 
 
 ## Deleting comments
@@ -220,7 +211,6 @@ This will replace the text of the comment with ID `1`. Of course you could updat
 Add a comment box to your site and you are most probably going to end up with loads of comment spam. That needs to be deleted somehow. Here's how:
 
 ```php
-
 db::delete('comments', array('id' => 1));
 
 ```
@@ -228,7 +218,6 @@ db::delete('comments', array('id' => 1));
 This will delete the comment with ID `1`. If you found out that the user with the email address `bastian@getkirby.com` is a spambot and all of his comments are spam, you can delete them at once like this:
 
 ```php
-
 db::delete('comments', array('email' => 'bastian@getkirby.com'));
 
 ```
@@ -238,20 +227,19 @@ db::delete('comments', array('email' => 'bastian@getkirby.com'));
 There are a couple of other shortcuts for common SQL queries, but if you have some complex query or you just feel more comforable by using normal SQL, you can use the query function:
 
 ```php
-
 $result = db::query('SELECT * FROM comments JOIN users ON comment_user = user_id ORDER BY comment_date DESC LIMIT 0,10');
 
 ```
 
 ## Learn more…
 
-This is really just a very short overview of what you can do with the built-in database class. (link: http://toolkit.getkirby.com/docs/classes/db text: Please read the docs), to find out more. There are plenty more methods you can use and you can do quite powerful database fiddling with it. 
+This is really just a very short overview of what you can do with the built-in database class. (link: http://toolkit.getkirby.com/docs/classes/db text: Please read the docs), to find out more. There are plenty more methods you can use and you can do quite powerful database fiddling with it.
 
-You should also give the other features and functions of the (link: http://toolkit.getkirby.com text: Kirby Toolkit) a try. I promise it will definitely make your life with PHP much easier :) The Toolkit is open-source so you can always use it for other projects as well. 
+You should also give the other features and functions of the (link: http://toolkit.getkirby.com text: Kirby Toolkit) a try. I promise it will definitely make your life with PHP much easier :) The Toolkit is open-source so you can always use it for other projects as well.
 
-## Conclusion 
+## Conclusion
 
-Connecting to a database can give you an entire new world of possibilities, to add features to your Kirby-powered site. The basics of the Kirby CMS are very simple, but it can be way more than just a file-based CMS. 
+Connecting to a database can give you an entire new world of possibilities, to add features to your Kirby-powered site. The basics of the Kirby CMS are very simple, but it can be way more than just a file-based CMS.
 
 
 

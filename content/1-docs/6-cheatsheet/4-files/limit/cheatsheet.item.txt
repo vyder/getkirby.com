@@ -1,3 +1,14 @@
-Title: $files->limit($limit)
+Title: 
+
+$files->limit($limit)
 
 ----
+
+Excerpt: 
+
+Returns the collection with a limited set of items
+
+----
+
+Text: 
+

@@ -1,5 +1,15 @@
-Title: $file->dimensions()
+Title: 
+
+$file->dimensions()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns the $dimensions object for the file. This is only available for images (jpg, png, gif)

@@ -26,13 +26,11 @@ Here's an official changelog (I hope I don't forget something):
 The panel is now fully responsive. There are some tiny glitches left on some devices, but in general it works really great on mobile now.
 
 (image: mobile.png link: mobile.png width: 600)
-<br />
 
 ### A brand new dashboard
 The dashboard gives a better overview for users when you login. It will be extensible in the very near future.
 
 (image: dashboard.png link: dashboard.png width: 600)
-<br />
 
 ### Edit history
 The new dashboard already includes a new history feature, which shows your personal last edits and makes it easy to jump back to those pages.
@@ -41,7 +39,6 @@ The new dashboard already includes a new history feature, which shows your perso
 It's located in the upper right corner and will help you to navigate through pages super fast.
 
 (image: search.png link: search.png width: 600)
-<br />
 
 ### Text format buttons are back
 More buttons will follow soon.
@@ -58,22 +55,18 @@ files:
 A sorting number will be stored in the metadata for each image, which you can use to sort images in your templates accordingly like this:
 
 ```php
-
 $page->images()->sortBy('sort', 'desc')
-
 ```
 
 This solution fixed the biggest issue with sorting images so far as it doesn't rely on renaming your files.
 
 (image: sortable.gif link: sortable.gif width: 600)
-<br />
 
 ### Drag and Drop editing
 
 It's now possible to drag files and pages from the sidebar into textareas to add links, downloads or embed images.
 
 (image: drag.gif link: drag.gif width: 600)
-<br />
 
 ### Better user profiles
 

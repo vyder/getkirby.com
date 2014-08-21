@@ -1,3 +1,14 @@
-Title: $files->findBy($field, $value)
+Title: 
+
+$files->findBy($field, $value)
 
 ----
+
+Excerpt: 
+
+Finds a single file by key and value
+
+----
+
+Text: 
+

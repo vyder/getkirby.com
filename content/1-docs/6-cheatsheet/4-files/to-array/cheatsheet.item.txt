@@ -1,3 +1,14 @@
-Title: $files->toArray($callback = null)
+Title: 
+
+$files->toArray($callback = null)
 
 ----
+
+Excerpt: 
+
+Converts the collection to a simple array.
+
+----
+
+Text: 
+

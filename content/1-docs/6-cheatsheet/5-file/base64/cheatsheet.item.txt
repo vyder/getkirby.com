@@ -1,5 +1,15 @@
-Title: $file->base64()
+Title: 
+
+$file->base64()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns the content of the file as base64 encoded string.

@@ -1,7 +1,15 @@
-Title:
+Title: 
 
 $files
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Extracts an array of values from each item by field.

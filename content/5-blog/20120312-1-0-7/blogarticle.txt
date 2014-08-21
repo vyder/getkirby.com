@@ -12,16 +12,15 @@ Tags: releases
 
 Text: **(link: https://github.com/bastianallgeier/kirbycms/zipball/master text: 1.0.7 is here!)**
 
-This version improves performance for older PHP versions and also fixes the "Too deep object nesting" bug. 
+This version improves performance for older PHP versions and also fixes the "Too deep object nesting" bug.
 
-It also includes an updated .htaccess version, which is no longer a binary file to avoid permission problems on some servers. It also contains a new section of recommended, optional htaccess values. 
+It also includes an updated .htaccess version, which is no longer a binary file to avoid permission problems on some servers. It also contains a new section of recommended, optional htaccess values.
 
 ## Flipping files
 
-The new version also includes a new `->flip()` method for files. flip() has always been available for pages and is very handy if you want to reverse the order of a set of pages. Now you can do the same with files. I.e. 
+The new version also includes a new `->flip()` method for files. flip() has always been available for pages and is very handy if you want to reverse the order of a set of pages. Now you can do the same with files. I.e.
 
 ```php
-
 // get all files for the current page in reverse order
 $files = $page->files()->flip();
 

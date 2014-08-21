@@ -6,3 +6,10 @@ $user->email()
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Returns the email address for the user

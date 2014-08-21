@@ -1,5 +1,15 @@
-Title: $file->dataUri()
+Title: 
+
+$file->dataUri()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns a full base64 encoded data uri with a proper mime type.

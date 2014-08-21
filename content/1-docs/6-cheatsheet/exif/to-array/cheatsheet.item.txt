@@ -1,0 +1,14 @@
+Title: 
+
+$exif->toArray()
+
+----
+
+Excerpt: 
+
+
+
+----
+
+Text: 
+

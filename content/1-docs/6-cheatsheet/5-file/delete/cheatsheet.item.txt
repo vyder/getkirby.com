@@ -1,5 +1,15 @@
-Title: $file->delete()
+Title: 
+
+$file->delete()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Deletes the file. This cannot be undone.

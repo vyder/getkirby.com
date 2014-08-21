@@ -1,0 +1,14 @@
+Title: 
+
+$exif->camera()
+
+----
+
+Excerpt: 
+
+
+
+----
+
+Text: 
+

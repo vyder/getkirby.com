@@ -10,17 +10,16 @@ Tags: google, tutorial
 
 ----
 
-Text: 
+Text:
 
-For basic search engine optimization it's good to have a sitemap.xml file, which contains machine-readable information about all the pages and the structure of your site. 
+For basic search engine optimization it's good to have a sitemap.xml file, which contains machine-readable information about all the pages and the structure of your site.
 
-The syntax for such a sitmap.xml file is fairly simple. You can find all about it on <http://www.sitemaps.org/> 
+The syntax for such a sitmap.xml file is fairly simple. You can find all about it on <http://www.sitemaps.org/>
 
 Because you probably don't want to generate that file by hand, I've created a little template for you, which automatically indexes your entire site and generates a sitemap.xml for you:
 
 ```php
-
-<?php 
+<?php
 
 $ignore = array('sitemap', 'error');
 
@@ -32,14 +31,14 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
 
 ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <?php foreach($pages->index() as $p): ?> 
+  <?php foreach($pages->index() as $p): ?>
   <?php if(in_array($p->uri(), $ignore)) continue ?>
   <url>
     <loc><?php echo html($p->url()) ?></loc>
     <lastmod><?php echo $p->modified('c') ?></lastmod>
     <priority><?php echo ($p->isHomePage()) ? 1 : number_format(0.5/$p->depth(), 1) ?></priority>
   </url>
-  <?php endforeach ?>  
+  <?php endforeach ?>
 </urlset>
 
 ```
@@ -56,7 +55,7 @@ You should now be able to visit the sitemap of your Kirby site by browsing `http
 
 ### Exclude pages
 
-To exclude certain subpages of your site, you can add their URI to the `$ignore` array. I've already done that for the sitemap page itself and also for the error page. 
+To exclude certain subpages of your site, you can add their URI to the `$ignore` array. I've already done that for the sitemap page itself and also for the error page.
 
 ```php
 $ignore = array('sitemap', 'error');
@@ -70,13 +69,13 @@ If you are using the HTML cache, you should make sure to avoid caching of the si
 c::set('cache.ignore', array('sitemap'));
 ```
 
-This will make sure that your sitemap file is always served as proper XML. 
+This will make sure that your sitemap file is always served as proper XML.
 
 ## Automatic Priorities
 
-The sitemap template will automatically try to create priorites for each page, by using the `->depth()` attribute. The depth attribute is a simple number, which indicates how deep the page is nested. Main pages have a depth of 1, subpages of main pages have a depth of 2, etc. 
+The sitemap template will automatically try to create priorites for each page, by using the `->depth()` attribute. The depth attribute is a simple number, which indicates how deep the page is nested. Main pages have a depth of 1, subpages of main pages have a depth of 2, etc.
 
-The home page will automatically get a priority of 1. You can easily change priorities or remove them entirely if you prefer. 
+The home page will automatically get a priority of 1. You can easily change priorities or remove them entirely if you prefer.
 
 ## Demo
 

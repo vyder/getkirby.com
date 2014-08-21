@@ -1,3 +1,14 @@
-Title: $files->not()
+Title: 
+
+$files->not()
 
 ----
+
+Excerpt: 
+
+Returns the collection without a given file. The ignored file can be passed by filename or entire file object.
+
+----
+
+Text: 
+

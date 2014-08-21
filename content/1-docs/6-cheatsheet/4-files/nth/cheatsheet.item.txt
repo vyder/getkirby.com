@@ -1,3 +1,14 @@
-Title: $files->nth($n)
+Title: 
+
+$files->nth($n)
 
 ----
+
+Excerpt: 
+
+Returns the nth file in the collection.
+
+----
+
+Text: 
+

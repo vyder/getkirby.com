@@ -1,0 +1,14 @@
+Title: 
+
+$exif->timestamp()
+
+----
+
+Excerpt: 
+
+
+
+----
+
+Text: 
+

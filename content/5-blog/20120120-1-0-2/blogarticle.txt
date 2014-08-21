@@ -8,16 +8,15 @@ Date: 20.01.2012
 
 Tags: releases
 
----- 
+----
 
-Text: 
+Text:
 
 I just uploaded 1.0.2 to Github. It fixes a bug in the sortBy() methods for pages and files for earlier versions of PHP 5.3, so everybody who had problems with sorting should definitely update!
 
-I've also included title and class attributes in most kirbytext tags. Here are some examples: 
+I've also included title and class attributes in most kirbytext tags. Here are some examples:
 
 ```
-
 (\link: http://getkirby.com text: Kirby title: My Title class: mylink)
 
 (\email: bastian@getkirby.com title: Send me an email! class: myemail)
@@ -34,10 +33,9 @@ I've also included title and class attributes in most kirbytext tags. Here are s
 To keep the changelog updated more easily, I moved it to the kirby system folder.
 
 And you can now configure the pagination variable and method in your config file:
-	
+
 
 ```php
-
 // those are the defaults
 c::set('pagination.variable', 'page');
 c::set('pagination.method', 'params');
@@ -61,6 +59,6 @@ This is a recommended update for all users, but especially if you got problems w
 ## How to update?
 
 Download the latest version **(link: https://github.com/bastianallgeier/kirbycms/zipball/master text: here)**.
-Replace your old kirby system folder with the new kirby system folder from the download. 
+Replace your old kirby system folder with the new kirby system folder from the download.
 
 You can also remove the old changelog.mdown file in your main site folder.

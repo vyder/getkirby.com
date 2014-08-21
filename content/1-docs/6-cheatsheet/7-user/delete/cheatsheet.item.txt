@@ -6,3 +6,10 @@ $user->delete()
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Deletes the user account. This cannot be undone

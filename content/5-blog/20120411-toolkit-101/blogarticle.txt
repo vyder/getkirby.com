@@ -10,13 +10,13 @@ Tags: toolkit
 
 ----
 
-Text: 
+Text:
 
 As you might already know, Kirby CMS is based on a PHP library called (link: http://toolkit.getkirby.com text: Kirby Toolkit)
 
-PHP is sometimes so messed up, that you necessarily start to write your own wrappers and helpers, to make your daily work with PHP easier. The Toolkit is a collection of classes and functions, which I came up with in the last years and which have become a core element of my work. 
+PHP is sometimes so messed up, that you necessarily start to write your own wrappers and helpers, to make your daily work with PHP easier. The Toolkit is a collection of classes and functions, which I came up with in the last years and which have become a core element of my work.
 
-It's a 1-file, open-source library, which can be easily included in any existing project. Since it is already included in the Kirby CMS core, you can start using all its (link: http://toolkit.getkirby.com/docs text: classes and functions) right away. If you want to use it for any other project, you can (link: https://github.com/bastianallgeier/kirby text: download the source from Github). 
+It's a 1-file, open-source library, which can be easily included in any existing project. Since it is already included in the Kirby CMS core, you can start using all its (link: http://toolkit.getkirby.com/docs text: classes and functions) right away. If you want to use it for any other project, you can (link: https://github.com/bastianallgeier/kirby text: download the source from Github).
 
 ## Philosophy
 
@@ -28,10 +28,8 @@ Here are some of the principles the library follows.
 - help to write less code
 - make things easier to memorize
 - provide better consistency
-- provide built-in utf-8 support 
+- provide built-in utf-8 support
 - keep it focused on core tasks
-
-<br />
 
 ## Toolkit Tidbits
 
@@ -41,17 +39,15 @@ Here are some of the principles the library follows.
 PHP has the famous `$_GET` and `$_POST` variables, which contain the submitted values from POST and GET request – for example from forms. Working with them and checking for submitted values can be quite painful:
 
 ```php
-
 $value = (isset($_POST['key'])) ? trim($_POST['key']) : 'default value';
 
 ```
 
 I think we've all seen this kind of code.
 
-With Kirby, you can save a lot of that hassle by simply using the `get()` function, which works for POST and GET requests and is way more comfortable to use. 
+With Kirby, you can save a lot of that hassle by simply using the `get()` function, which works for POST and GET requests and is way more comfortable to use.
 
 ```php
-
 $value = get('key', 'default value');
 
 ```
@@ -59,21 +55,19 @@ $value = get('key', 'default value');
 If you don't pass a default value, false will be returned if nothing could be found for the passed key:
 
 ```php
-
 $value = get('key');
 
 ```
 
-`get()` will also take care of trimming and of stripping slashes if necessary. 
+`get()` will also take care of trimming and of stripping slashes if necessary.
 
-*** 
+***
 
 ### Redirection
 
 If you want to create a simple redirect, you normally need to send a location header and if you want to do it correctly, you should also send a http status header:
 
 ```php
-
 header('HTTP/1.1 301 Moved Permanently');
 header('Location: http://mywebsite.com');
 
@@ -82,12 +76,11 @@ header('Location: http://mywebsite.com');
 With Kirby you can just write…
 
 ```php
-
 go('http://mywebsite.com');
 
 ```
 
-*** 
+***
 
 ### Working with arrays
 
@@ -96,7 +89,6 @@ go('http://mywebsite.com');
 If you are debugging, you often need to inspect the content of an array or object. There's `var_dump` or `print_r`, but their output isn't really nice. `a::show()` helps you by producing nice, readable output of any array or object:
 
 ```php
-
 $array = array('design', 'tags', 'typography');
 
 a::show($array);
@@ -121,15 +113,13 @@ Array
 How often do you find yourself writing something like this?
 
 ```php
-
 $value = (isset($array['key'])) ? $array['key'] : 'default value';
 
 ```
 
-Instead `a::get` will try to find a value for a key in an array for you and return either that value or your default value if nothing has been found. 
+Instead `a::get` will try to find a value for a key in an array for you and return either that value or your default value if nothing has been found.
 
 ```php
-
 $value = a::get($array, 'key', 'default value');
 
 ```
@@ -141,12 +131,11 @@ If you don't pass a default value and nothing could be found for that key,
 
 #### a::first and a::last
 
-Do you remeber, which was the function name for that array function that returns the first element of an array or that function that returns the last element? `array_pop`, `array_push`, `array_shift`, `array_unshift`? Maybe it's just me, but those function names kill me. 
+Do you remeber, which was the function name for that array function that returns the first element of an array or that function that returns the last element? `array_pop`, `array_push`, `array_shift`, `array_unshift`? Maybe it's just me, but those function names kill me.
 
 With Kirby you can do:
 
 ```php
-
 $array = array('design', 'tags', 'typography');
 
 echo a::first($array);
@@ -166,7 +155,6 @@ This also works with associative arrays of course.
 Sorting a multi-dimensional array is a nightmare – not anymore!
 
 ```php
-
 $array = array(
   array('username' => 'homer'),
   array('username' => 'marge'),
@@ -174,7 +162,7 @@ $array = array(
   array('username' => 'lisa'),
   array('username' => 'maggie')
 );
-  
+
 $sorted = a::sort($array, 'username', 'asc');
 
 a::show($sorted);
@@ -214,7 +202,7 @@ Array
 
 ```
 
-*** 
+***
 
 ### Working with strings
 
@@ -223,7 +211,6 @@ Array
 Converting a string to lowercase or uppercase shouldn't be hard, right? Unfortunately PHP's native strtolower and strtoupper functions are not able to handle UTF-8 encoded strings correctly. That's why Kirby has its own lowercase and uppercase functions:
 
 ```php
-
 $sometext = 'This is a übercool Example of üppercase and Løwercase';
 
 echo str::lower($sometext);
@@ -241,7 +228,6 @@ echo str::upper($sometext);
 The same problem with UTF-8 exsits for strlen – PHP's native function to count the number of characters in a string. With an UTF-8 encoded string the result wil be wrong. So Kirby has…
 
 ```php
-
 $sometext = 'This is a übercool lengthy string';
 
 echo str::length($sometext);
@@ -256,7 +242,6 @@ echo str::length($sometext);
 To shorten a text is one of the tasks you need all the time. Think of a list of blog articles, with a short excerpt and a "read more" button, or to make sure that user generated content does not break your templates or stuff like that. When shortening strings you most probably want to append an ellipsis to show that it has been shortened, but only if the string is really too long. `str::short` does exactly that for you…
 
 ```php
-
 $sometext = 'This is a übercool lengthy string';
 
 echo str::short($sometext, 10);
@@ -271,7 +256,6 @@ echo str::short($sometext, 10);
 Splitting strings by a particular character is easy, right? Yep, it is, but it can be even easier. Take a look at the following string.
 
 ```php
-
 $tags = ', design, tags, typography, fun, , ';
 
 ```
@@ -279,7 +263,6 @@ $tags = ', design, tags, typography, fun, , ';
 You could use `explode(',', $tags)` to get all tags, but it wouldn't work well because of spaces and additional commas. `str::split` will help you to get some nice results without all the mess:
 
 ```php
-
 $string = ', design, tags, typography, fun, , ';
 $tags   = str::split($string);
 
@@ -302,7 +285,6 @@ Array
 Of course it's possible to change the splitting character(s):
 
 ```php
-
 $string = '/ design / tags / typography / fun / / ';
 $tags   = str::split($string, '/');
 
@@ -311,7 +293,6 @@ $tags   = str::split($string, '/');
 …and you can even specify the minimum length of included string:
 
 ```php
-
 $string = '/ design / tags / typography / fun / / ';
 $tags   = str::split($string, '/', 4);
 
@@ -330,7 +311,7 @@ Array
 
 ```
 
-*** 
+***
 
 ### Config
 
@@ -339,14 +320,13 @@ Array
 If you need some app-wide configuration variables you can either use constants or you can go for Kirby's config variables. They are accessible everywhere and can be set and overwritten everywhere as well.
 
 ```php
-
 c::set('myconfigvar', 'this is my awesome config value');
 
 function foo() {
-  
+
   echo c::get('myconfigvar');
   // result: 'this is my awesome config value'
-  
+
 }
 
 ```
@@ -354,22 +334,20 @@ function foo() {
 If you want to check, which config variables have been defined so far, do this:
 
 ```php
-
 a::show(c::get());
 // output: your entire config
 
 ```
 
-*** 
+***
 
 ### Session
 
-#### s::start 
+#### s::start
 
 If you want to avoid errors because you start a session twice accidentally, use `s::start()` instead of `session_start()`
 
 ```php
-
 session_start();
 
 s::start();
@@ -377,14 +355,13 @@ s::start();
 
 ```
 
-*** 
+***
 
 #### s::set and s::get
 
 Sometimes it's really cool to just have to write less:
 
 ```php
-
 // start a session
 s::start();
 
@@ -400,12 +377,11 @@ echo s::get('myvar');
 
 
 ```php
-
 echo s::get('myvar', 'my default value');
 
 ```
 
-*** 
+***
 
 ### Cookies
 
@@ -414,7 +390,6 @@ echo s::get('myvar', 'my default value');
 To make setting and getting values from cookies easier, you can use:
 
 ```php
-
 cookie::set('mycookie', 'my cookie value');
 
 // later…
@@ -426,7 +401,6 @@ cookie::get('mycookie');
 … again, you can define a default value if the cookie could not be found:
 
 ```php
-
 echo cookie::get('mycookie', 'my default value');
 
 ```
@@ -438,21 +412,19 @@ echo cookie::get('mycookie', 'my default value');
 To remove a cookie, use
 
 ```php
-
 cookie::remove('mycookie');
 
 ```
 
-*** 
+***
 
 ### Files
 
 #### f::write
 
-`f::write` offers a fool-proof way of creating files. You can even pass an array and that will automatically be converted to json before. 
+`f::write` offers a fool-proof way of creating files. You can even pass an array and that will automatically be converted to json before.
 
 ```php
-
 $content = 'This is some nice content for my file';
 $file    = '/some/path/to/my/file.txt';
 
@@ -467,7 +439,6 @@ f::write($file, $content);
 Reading a file is very simple with PHP `file_get_contents`, but with `f::read()`  you get a more consistent and shorter function and you can even use the second argument to instantly parse the result:
 
 ```php
-
 $file = '/some/path/to/my/file.txt';
 
 echo f::read($file);
@@ -489,7 +460,6 @@ echo f::read($file, 'json');
 Sometimes it's great to be able to get all files in a directory. Kirby CMS is entirely based on that. With `dir::read` you will get an array with filenames in a passed directory:
 
 ```php
-
 $files = dir::read('/path/to/my/dir');
 
 a::show($files);
@@ -505,7 +475,6 @@ a::show($files);
 with `dir::remove` you can delete an entire directory with all its contents.
 
 ```php
-
 dir::make('/path/to/my/new/dir');
 
 dir::remove('/path/to/my/new/dir');
@@ -521,11 +490,10 @@ dir::remove('/path/to/my/new/dir');
 Check for a valid email address…
 
 ```php
-
 $email = 'bastian@getkirby.com';
 
 if(v::email($email)) {
-  echo 'this is a valid email address';  
+  echo 'this is a valid email address';
 }
 
 ```
@@ -537,11 +505,10 @@ if(v::email($email)) {
 Check for a valid URL…
 
 ```php
-
 $url = 'http://someurl.com';
 
 if(v::url($url)) {
-  echo 'this is a valid url';  
+  echo 'this is a valid url';
 }
 
 ```
@@ -553,20 +520,19 @@ if(v::url($url)) {
 Check any parsable date…
 
 ```php
-
 $date = '11.04.2012';
 
 if(v::date($date)) {
-  echo 'this is a valid date';  
+  echo 'this is a valid date';
 }
 
 ```
 
-*** 
+***
 
 ## More…
 
-The (link: http://toolkit.getkirby.com text: Kirby Toolkit) has way more features. Please (link: http://toolkit.getkirby.com text: read the docs) to learn more about them. 
+The (link: http://toolkit.getkirby.com text: Kirby Toolkit) has way more features. Please (link: http://toolkit.getkirby.com text: read the docs) to learn more about them.
 There's also a tutorial (link: blog/database text: how to use the built-in database class).
 
 If you like the Toolkit, but you want to add your own features, feel free to (link: https://github.com/bastianallgeier/kirby text: fork it on Github).

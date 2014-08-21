@@ -1,0 +1,14 @@
+Title: 
+
+$dimension->width()
+
+----
+
+Excerpt: 
+
+
+
+----
+
+Text: 
+

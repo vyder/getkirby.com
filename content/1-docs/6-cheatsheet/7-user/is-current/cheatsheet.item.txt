@@ -6,3 +6,10 @@ $user->isCurrent()
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Checks if the user is the currently logged in user.

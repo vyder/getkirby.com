@@ -1,0 +1,14 @@
+Title: 
+
+$dimension
+
+----
+
+Excerpt: 
+
+The dimension object is providing information about aspect ratio, orientation, width and height of image files (jpg, png, gif)
+
+----
+
+Text: 
+

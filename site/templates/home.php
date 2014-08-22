@@ -89,6 +89,15 @@
     </ul>
   </section>
 
+  <section class="section">
+    <h2 class="beta">Featured on...</h2>
+    <ul class="featured-on-list list-4">
+      <?php foreach(page('about/featured-on')->images()->shuffle()->limit(4) as $featured): ?><!--
+   --><li><?php if($featured->link() != ''): ?><a href="<?php echo $featured->link() ?>"><?php endif ?><img src="<?php echo $featured->url() ?>" alt="<?php echo $featured->title() ?>" /><?php if($featured->link() != ''): ?></a><?php endif ?></li><!--
+   --><?php endforeach ?>
+    </ul>
+  </section>
+
   <section class="random-voices section">
     <h2 class="beta"><a href="<?php echo url('voices') ?>">What others say about Kirby</a></h2>
 
@@ -104,15 +113,6 @@
           <?php echo kirbytext($voice->text()) ?>
         </blockquote>
       </li><!--
-   --><?php endforeach ?>
-    </ul>
-  </section>
-
-  <section class="section">
-    <h2 class="beta">Featured on...</h2>
-    <ul class="featured-on-list list-4">
-      <?php foreach(page('about/featured-on')->images()->shuffle()->limit(4) as $featured): ?><!--
-   --><li><?php if($featured->link() != ''): ?><a href="<?php echo $featured->link() ?>"><?php endif ?><img src="<?php echo $featured->url() ?>" alt="<?php echo $featured->title() ?>" /><?php if($featured->link() != ''): ?></a><?php endif ?></li><!--
    --><?php endforeach ?>
     </ul>
   </section>

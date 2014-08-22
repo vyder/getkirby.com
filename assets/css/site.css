@@ -1505,9 +1505,10 @@ h6 a {
 -------------------------------------------------- */
 .featured-on-list li {
   margin-bottom: 3em;
+  transition: opacity .3s;
 }
 .featured-on-list li:hover {
-  opacity: .7;
+  opacity: .8;
 }
 .featured-on img {
   -webkit-transform: translate(0);

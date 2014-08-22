@@ -8,7 +8,7 @@ files:
     title:
       label: Title
       type:  text
-    url:
+    link:
       label: URL
       type: url
 fields:

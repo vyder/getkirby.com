@@ -1520,6 +1520,10 @@ h6 a {
 .featured-on-list li:hover {
   opacity: .7;
 }
+.featured-on img {
+  -webkit-transform: translate(0);
+  transform: translate(0);
+}
 
 
 
@@ -1533,6 +1537,9 @@ h6 a {
   margin-bottom: 2em;
 }
 .connect img {
+  float: left;
+  width: 30%;
+  margin-right: 7%;
   margin-bottom: 1em;
   max-height: 200px;
   opacity: 0.8;

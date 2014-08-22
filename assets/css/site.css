@@ -1239,11 +1239,6 @@ h6 a {
   margin-top: 20px;
   border-top: 1px solid #ddd;
 }
-.download-meta h2 {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
 .download img {
   margin-top: 2em;
 }
@@ -1510,10 +1505,6 @@ h6 a {
 .featured-on-list li:hover {
   opacity: .8;
 }
-.featured-on img {
-  -webkit-transform: translate(0);
-  transform: translate(0);
-}
 
 
 
@@ -1716,9 +1707,9 @@ h6 a {
 
 
 /*
- :::  Completely hidden [ch]
+ :::  Truncate [tc]
 -------------------------------------------------- */
-.truncate {
+.tc {
   white-space:nowrap;
   overflow:hidden;
   text-overflow:ellipsis;

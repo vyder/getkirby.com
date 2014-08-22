@@ -1523,13 +1523,10 @@ h6 a {
 .connect {
   padding-bottom: 1em;
 }
-.connect li {
-  margin-bottom: 2em;
-}
 .connect img {
   float: left;
-  width: 30%;
-  margin-right: 7%;
+  max-width: 70px;
+  margin-right: 8%;
   margin-bottom: 1em;
   max-height: 200px;
   opacity: 0.8;
@@ -1539,6 +1536,11 @@ h6 a {
 }
 .connect li:hover .zeta {
   color: #222;
+}
+@media screen and (max-width: 36em) {
+  .connect li {
+    margin-bottom: 2em;
+  }
 }
 
 

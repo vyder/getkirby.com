@@ -1,5 +1,15 @@
 <?php snippet('header') ?>
 
+<?php
+
+$articles = $page->search('2012');
+
+?>
+
+
+
+
+
 <main class="main blog" role="main">
 
   <?php if(param('tag')) {   /*** article overview ***/

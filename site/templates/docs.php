@@ -4,8 +4,6 @@
 
   <div class="col-4-6 last">
 
-    <?php snippet('breadcrumb') ?>
-
     <article class="text">
       <h1><?php echo html($page->title()) ?></h1>
 

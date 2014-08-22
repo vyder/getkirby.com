@@ -6,7 +6,7 @@ $exif->data()
 
 Excerpt: 
 
-
+Returns the full exif data set as a raw array.
 
 ----
 

@@ -1,5 +1,15 @@
-Title: $file->download()
+Title: 
+
+$file->download()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Sends all needed headers and the content to force the browser to download the file.

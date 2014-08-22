@@ -6,7 +6,7 @@ $pagination->pages()
 
 Excerpt: 
 
-
+Returns the total number of available pages
 
 ----
 

@@ -6,3 +6,10 @@ $user->login($password)
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Login the user with the given password if the password matches the user's password.

@@ -1,5 +1,15 @@
-Title: $file->isWritable()
+Title: 
+
+$file->isWritable()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Checks if the file is writable

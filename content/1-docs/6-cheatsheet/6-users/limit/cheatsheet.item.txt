@@ -1,3 +1,14 @@
-Title: $users->limit($limit)
+Title: 
+
+$users->limit($limit)
 
 ----
+
+Excerpt: 
+
+Returns a limited subset of the collection
+
+----
+
+Text: 
+

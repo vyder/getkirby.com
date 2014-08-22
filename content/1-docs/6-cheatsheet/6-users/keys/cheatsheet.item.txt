@@ -1,3 +1,14 @@
-Title: $users->keys()
+Title: 
+
+$users->keys()
 
 ----
+
+Excerpt: 
+
+Returns all usernames/keys in the collection
+
+----
+
+Text: 
+

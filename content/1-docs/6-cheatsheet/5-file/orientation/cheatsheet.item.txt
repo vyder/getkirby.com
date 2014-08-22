@@ -1,5 +1,15 @@
-Title: $file->orientation()
+Title: 
+
+$file->orientation()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns the orientation of image files as a string (landscape, portrait, square)

@@ -6,7 +6,7 @@ $exif->iso()
 
 Excerpt: 
 
-
+Returns the iso value of the image, if it is available in the exif data set.
 
 ----
 

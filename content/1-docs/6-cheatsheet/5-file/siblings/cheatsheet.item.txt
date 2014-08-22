@@ -1,5 +1,15 @@
-Title: $file->siblings()
+Title: 
+
+$file->siblings()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns all siblings of the file.

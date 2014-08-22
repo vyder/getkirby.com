@@ -1,5 +1,15 @@
-Title: $file->isLandscape()
+Title: 
+
+$file->isLandscape()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Checks if an image file has been taken in landscape mode.

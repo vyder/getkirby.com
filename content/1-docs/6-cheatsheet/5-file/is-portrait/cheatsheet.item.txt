@@ -1,5 +1,15 @@
-Title: $file->isPortrait()
+Title: 
+
+$file->isPortrait()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Checks if an image file has been taken in portrait mode.

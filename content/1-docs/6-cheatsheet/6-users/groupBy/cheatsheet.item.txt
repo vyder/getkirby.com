@@ -1,3 +1,14 @@
-Title: $users->groupBy($field, $caseInsensitive = true)
+Title: 
+
+$users->groupBy($field, $caseInsensitive = true)
 
 ----
+
+Excerpt: 
+
+Groups users in the collection by a given field.
+
+----
+
+Text: 
+

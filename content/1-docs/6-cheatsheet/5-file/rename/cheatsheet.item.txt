@@ -1,5 +1,15 @@
-Title: $file->rename($to)
+Title: 
+
+$file->rename($to)
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Renames the file and all the meta text files.

@@ -6,3 +6,10 @@ $user->logout()
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Logs out the user and kills the session.

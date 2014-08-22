@@ -1,5 +1,15 @@
-Title: $file->header($send = true)
+Title: 
+
+$file->header($send = true)
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Sends or returns the appropriate content type header for the file

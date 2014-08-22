@@ -6,3 +6,10 @@ $user->is($someone)
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Checks if the user is the same as the given $user object

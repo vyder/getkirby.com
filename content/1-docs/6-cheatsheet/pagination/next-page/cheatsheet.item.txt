@@ -6,7 +6,7 @@ $pagination->nextPage()
 
 Excerpt: 
 
-
+Returns the next page number
 
 ----
 

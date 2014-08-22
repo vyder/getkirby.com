@@ -1,0 +1,14 @@
+Title: 
+
+$camera->model()
+
+----
+
+Excerpt: 
+
+Returns the name of the camera model
+
+----
+
+Text: 
+

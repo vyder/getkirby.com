@@ -1,5 +1,15 @@
-Title: $file->width()
+Title: 
+
+$file->width()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns the width of image files in pixels

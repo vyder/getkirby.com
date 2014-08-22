@@ -1,0 +1,14 @@
+Title: 
+
+$location->lng()
+
+----
+
+Excerpt: 
+
+Returns the longitude
+
+----
+
+Text: 
+

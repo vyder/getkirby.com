@@ -1,3 +1,14 @@
-Title: $users->toJson()
+Title: 
+
+$users->toJson()
 
 ----
+
+Excerpt: 
+
+Converts the collection to a json string
+
+----
+
+Text: 
+

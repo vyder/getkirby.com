@@ -6,7 +6,7 @@ $exif->isBW()
 
 Excerpt: 
 
-
+Checks if the image colorspace is grayscale
 
 ----
 

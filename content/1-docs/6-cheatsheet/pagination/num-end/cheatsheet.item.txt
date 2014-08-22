@@ -6,7 +6,7 @@ $pagination->numEnd()
 
 Excerpt: 
 
-
+Returns the index number of the last item on the current page
 
 ----
 

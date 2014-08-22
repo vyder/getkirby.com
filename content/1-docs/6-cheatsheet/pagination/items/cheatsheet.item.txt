@@ -6,7 +6,7 @@ $pagination->items()
 
 Excerpt: 
 
-
+Returns the total number of items
 
 ----
 

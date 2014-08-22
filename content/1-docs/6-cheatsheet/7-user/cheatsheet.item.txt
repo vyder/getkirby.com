@@ -6,3 +6,10 @@ $user
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Returns the $avatar object for the user if the avatar exists.

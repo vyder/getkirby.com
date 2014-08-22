@@ -6,7 +6,7 @@ $pagination->pageUrl($page)
 
 Excerpt: 
 
-
+Returns the absolute URL for the given page
 
 ----
 

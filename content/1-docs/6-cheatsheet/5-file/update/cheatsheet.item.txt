@@ -1,5 +1,15 @@
-Title: $file->update($data = array())
+Title: 
+
+$file->update($data = array())
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Updates the meta information for a file

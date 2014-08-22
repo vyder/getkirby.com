@@ -6,7 +6,7 @@ $dimension->square()
 
 Excerpt: 
 
-
+Checks if the dimensions are square
 
 ----
 

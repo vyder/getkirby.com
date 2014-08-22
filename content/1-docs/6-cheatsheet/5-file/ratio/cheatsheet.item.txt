@@ -1,5 +1,15 @@
-Title: $file->ratio()
+Title: 
+
+$file->ratio()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns the ratio of an image file

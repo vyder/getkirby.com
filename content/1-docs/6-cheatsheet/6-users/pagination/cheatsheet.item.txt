@@ -1,3 +1,14 @@
-Title: $users->pagination()
+Title: 
+
+$users->pagination()
 
 ----
+
+Excerpt: 
+
+Returns the pagination object after using $users->paginate()
+
+----
+
+Text: 
+

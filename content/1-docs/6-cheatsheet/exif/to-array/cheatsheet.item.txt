@@ -6,7 +6,7 @@ $exif->toArray()
 
 Excerpt: 
 
-
+Returns an associative array of all available exif data.
 
 ----
 

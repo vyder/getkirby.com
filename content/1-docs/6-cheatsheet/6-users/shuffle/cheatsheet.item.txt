@@ -1,3 +1,14 @@
-Title: $users->shuffle()
+Title: 
+
+$users->shuffle()
 
 ----
+
+Excerpt: 
+
+Returns the collection in shuffled order
+
+----
+
+Text: 
+

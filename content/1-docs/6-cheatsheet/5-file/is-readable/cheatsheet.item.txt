@@ -1,5 +1,15 @@
-Title: $file->isReadable()
+Title: 
+
+$file->isReadable()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Checks if the file is readable

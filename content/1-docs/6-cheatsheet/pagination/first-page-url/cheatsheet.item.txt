@@ -6,7 +6,7 @@ $pagination->firstPageUrl()
 
 Excerpt: 
 
-
+Returns the absolute URL for the first page
 
 ----
 

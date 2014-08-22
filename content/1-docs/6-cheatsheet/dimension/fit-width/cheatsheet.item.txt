@@ -6,7 +6,7 @@ $dimension->fitWidth()
 
 Excerpt: 
 
-
+Fits the width by the given value and returns a modified dimension object
 
 ----
 

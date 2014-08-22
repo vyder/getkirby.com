@@ -6,7 +6,7 @@ $exif->focalLength()
 
 Excerpt: 
 
-
+Returns the focal length of the image, if it is available in the exif data set.
 
 ----
 

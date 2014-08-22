@@ -6,7 +6,7 @@ $dimension->width()
 
 Excerpt: 
 
-
+Returns the width in pixels
 
 ----
 

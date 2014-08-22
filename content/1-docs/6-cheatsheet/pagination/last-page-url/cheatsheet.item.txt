@@ -6,7 +6,7 @@ $pagination->lastPageUrl()
 
 Excerpt: 
 
-
+Returns the absolute URL for the last page
 
 ----
 

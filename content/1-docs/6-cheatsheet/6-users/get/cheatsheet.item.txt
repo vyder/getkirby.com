@@ -1,3 +1,14 @@
-Title: $users->get($uri)
+Title: 
+
+$users->get($username)
 
 ----
+
+Excerpt: 
+
+Returns a single $user object by username
+
+----
+
+Text: 
+

@@ -6,7 +6,7 @@ $dimension->fitWidthAndHeight()
 
 Excerpt: 
 
-
+Fits the width and height by the given values and returns a modified dimension object
 
 ----
 

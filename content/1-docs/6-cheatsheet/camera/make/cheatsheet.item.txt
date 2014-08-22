@@ -1,0 +1,14 @@
+Title: 
+
+$camera->make()
+
+----
+
+Excerpt: 
+
+Returns the camera brand/make
+
+----
+
+Text: 
+

@@ -6,7 +6,7 @@ $exif->location()
 
 Excerpt: 
 
-
+Returns the $location object for the image if the image has GPS data.
 
 ----
 

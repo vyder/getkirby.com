@@ -6,7 +6,7 @@ $dimension->fitHeight()
 
 Excerpt: 
 
-
+Fits the height by the given value and returns a modified dimension object
 
 ----
 

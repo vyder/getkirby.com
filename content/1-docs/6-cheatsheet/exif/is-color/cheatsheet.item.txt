@@ -6,7 +6,7 @@ $exif->isColor()
 
 Excerpt: 
 
-
+Checks if the image colorspace is either RGB or CMYK
 
 ----
 

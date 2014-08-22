@@ -1,5 +1,15 @@
-Title: $file->hasPrev()
+Title: 
+
+$file->hasPrev()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Checks if there's a previous sibling

@@ -6,7 +6,7 @@ $pagination->rangeEnd()
 
 Excerpt: 
 
-
+Returns the page number at the end of the range
 
 ----
 

@@ -1,0 +1,14 @@
+Title:
+
+$page->search($query, $params = array())
+
+----
+
+Excerpt:
+
+Searches all descendants
+
+----
+
+Text:
+

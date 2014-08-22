@@ -1,3 +1,14 @@
-Title: $users->filterBy()
+Title: 
+
+$users->filterBy($field, $value)
 
 ----
+
+Excerpt: 
+
+Filters the collection of users by field and value
+
+----
+
+Text: 
+

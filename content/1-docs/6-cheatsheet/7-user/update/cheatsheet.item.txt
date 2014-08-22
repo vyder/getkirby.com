@@ -6,3 +6,10 @@ $user->update($data = array())
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Updates the user account information.

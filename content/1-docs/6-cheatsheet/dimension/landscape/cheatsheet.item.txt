@@ -6,7 +6,7 @@ $dimension->landscape()
 
 Excerpt: 
 
-
+Checks if the dimensions are "landscape"
 
 ----
 

@@ -6,7 +6,7 @@ $exif->timestamp()
 
 Excerpt: 
 
-
+Returns the unix timestamp of when the image was taken.
 
 ----
 

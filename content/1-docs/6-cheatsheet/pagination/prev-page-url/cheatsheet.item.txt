@@ -6,7 +6,7 @@ $pagination->prevPageUrl()
 
 Excerpt: 
 
-
+Returns the absolute URL for the previous page
 
 ----
 

@@ -6,7 +6,7 @@ $pagination->page()
 
 Excerpt: 
 
-
+Returns the current page number
 
 ----
 

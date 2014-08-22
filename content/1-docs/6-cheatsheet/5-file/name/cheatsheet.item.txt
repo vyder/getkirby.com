@@ -1,5 +1,15 @@
-Title: $file->name()
+Title: 
+
+$file->name()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns the name of the file without extension

@@ -6,7 +6,7 @@ $dimension->portrait()
 
 Excerpt: 
 
-
+Checks if the dimensions are "portrait"
 
 ----
 

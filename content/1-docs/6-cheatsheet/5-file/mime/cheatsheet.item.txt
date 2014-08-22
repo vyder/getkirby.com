@@ -1,5 +1,15 @@
-Title: $file->mime()
+Title: 
+
+$file->mime()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns the file's mime type

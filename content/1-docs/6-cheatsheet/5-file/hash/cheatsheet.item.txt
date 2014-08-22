@@ -1,5 +1,15 @@
-Title: $file->hash()
+Title: 
+
+$file->hash()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns an md5 hash for the root of the file.

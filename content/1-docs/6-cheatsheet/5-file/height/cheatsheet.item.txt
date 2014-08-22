@@ -1,5 +1,15 @@
-Title: $file->height()
+Title: 
+
+$file->height()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns the height of image files in pixels

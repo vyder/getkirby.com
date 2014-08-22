@@ -6,7 +6,7 @@ $pagination->prevPage()
 
 Excerpt: 
 
-
+Returns the previous page number
 
 ----
 

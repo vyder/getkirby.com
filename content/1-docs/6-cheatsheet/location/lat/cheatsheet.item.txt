@@ -1,0 +1,14 @@
+Title: 
+
+$location->lat()
+
+----
+
+Excerpt: 
+
+Returns the latitude
+
+----
+
+Text: 
+

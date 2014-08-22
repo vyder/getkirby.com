@@ -1,5 +1,15 @@
-Title: $file->hasNext()
+Title: 
+
+$file->hasNext()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Checks if there's a next sibling

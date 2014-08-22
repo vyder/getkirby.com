@@ -1,5 +1,15 @@
-Title: $file->type()
+Title: 
+
+$file->type()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns the file type (image, document, video, archive, code, audio, unkown)

@@ -1,5 +1,15 @@
-Title: $file->read()
+Title: 
+
+$file->read()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Reads the content of a file and returns it

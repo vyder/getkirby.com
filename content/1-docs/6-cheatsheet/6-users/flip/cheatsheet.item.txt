@@ -1,3 +1,14 @@
-Title: $users->flip()
+Title: 
+
+$users->flip()
 
 ----
+
+Excerpt: 
+
+Returns the $users collection in reversed order
+
+----
+
+Text: 
+

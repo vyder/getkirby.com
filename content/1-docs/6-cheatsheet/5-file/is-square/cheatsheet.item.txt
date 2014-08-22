@@ -1,5 +1,15 @@
-Title: $file->isSquare()
+Title: 
+
+$file->isSquare()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Checks if the image is square

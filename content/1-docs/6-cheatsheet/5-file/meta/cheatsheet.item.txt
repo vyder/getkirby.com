@@ -1,5 +1,15 @@
-Title: $file->meta()
+Title: 
+
+$file->meta()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns the meta object for the file.

@@ -1,3 +1,14 @@
-Title: $users->map($callback)
+Title: 
+
+$users->map($callback)
 
 ----
+
+Excerpt: 
+
+Maps a callback function to all $user objects in the collection
+
+----
+
+Text: 
+

@@ -6,7 +6,7 @@ $pagination->numStart()
 
 Excerpt: 
 
-
+Returns the index number of the first item on the current page
 
 ----
 

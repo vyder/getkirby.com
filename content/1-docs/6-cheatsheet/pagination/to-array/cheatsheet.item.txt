@@ -6,7 +6,7 @@ $pagination->toArray()
 
 Excerpt: 
 
-
+Returns the pagination object as an associative array.
 
 ----
 

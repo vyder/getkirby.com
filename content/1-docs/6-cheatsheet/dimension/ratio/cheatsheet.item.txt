@@ -6,7 +6,7 @@ $dimension->ratio()
 
 Excerpt: 
 
-
+Returns the ratio
 
 ----
 

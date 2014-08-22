@@ -6,7 +6,7 @@ $exif->aperture()
 
 Excerpt: 
 
-
+Returns the aperture value of the image, if it is available in the exif data set.
 
 ----
 

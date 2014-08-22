@@ -6,7 +6,7 @@ $dimension->fit()
 
 Excerpt: 
 
-
+Fits the width and height into a box by the given value and returns a modified dimension object
 
 ----
 

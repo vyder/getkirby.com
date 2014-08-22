@@ -1,5 +1,15 @@
-Title: $file->root()
+Title: 
+
+$file->root()
 
 ----
 
-Text:
+Text: 
+
+
+
+----
+
+Excerpt: 
+
+Returns the full root for a file

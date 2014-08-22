@@ -6,7 +6,7 @@ $dimension->height()
 
 Excerpt: 
 
-
+Returns the height in pixels
 
 ----
 

@@ -1,3 +1,14 @@
-Title: $users->paginate($limit, $options = array())
+Title: 
+
+$users->paginate($limit, $options = array())
 
 ----
+
+Excerpt: 
+
+Applies pagination to the collection
+
+----
+
+Text: 
+

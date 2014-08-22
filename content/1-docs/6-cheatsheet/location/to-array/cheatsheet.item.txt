@@ -1,0 +1,14 @@
+Title: 
+
+$location->toArray()
+
+----
+
+Excerpt: 
+
+Returns latitude and longitude as associative array
+
+----
+
+Text: 
+

@@ -6,7 +6,7 @@ $pagination->isLastPage()
 
 Excerpt: 
 
-
+Checks if the current page is the last page
 
 ----
 

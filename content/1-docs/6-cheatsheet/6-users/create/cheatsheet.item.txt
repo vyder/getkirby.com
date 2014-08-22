@@ -6,3 +6,10 @@ $users->create($data = array())
 
 Text: 
 
+
+
+----
+
+Excerpt: 
+
+Creates a new user account

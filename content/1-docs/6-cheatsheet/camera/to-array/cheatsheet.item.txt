@@ -1,0 +1,14 @@
+Title: 
+
+$camera->toArray()
+
+----
+
+Excerpt: 
+
+Returns the make and model as associative array.
+
+----
+
+Text: 
+

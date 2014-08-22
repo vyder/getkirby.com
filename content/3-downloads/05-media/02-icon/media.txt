@@ -2,10 +2,4 @@ Title: Kirby Icon
 
 ----
 
-Subtitle: The Kirby icon as Illustrator file, EPS and PNG
-
-----
-
-Link: /downloads/media/icon/file:kirbyicon.zip
-
-----
+Subtitle: The Kirby icon as Illustrator file, SVG and PNG

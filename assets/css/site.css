@@ -359,22 +359,11 @@ h6 a {
   font-size: 2em;
   z-index: 999;
   text-transform: lowercase;
-  background: url(../images/kirbyicon.png) no-repeat left center;
+  background: url(../images/kirbyicon.svg) no-repeat left center;
+  background-size: 45px 51px;
 }
 .logo:hover {
   color: inherit;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  .logo {
-    background-image: url(../images/kirbyicon@2x.png);
-    background-size: 45px 51px;
-  }
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 3) {
-  .logo {
-    background-image: url(../images/kirbyicon@3x.png);
-    background-size: 45px 51px;
-  }
 }
 
 

@@ -119,26 +119,23 @@
 
   <section class="connect section last">
     <h2 class="beta">Connect</h2>
-    <ul class="list-3"><!--
+    <ul class="list-2"><!--
    --><li>
-        <a href="http://twitter.com/getkirby">
-          <img src="<?php echo url() ?>/assets/images/twitter.svg">
-          <h3 class="gamma">Follow Kirby on Twitter!</h3>
-          <p class="zeta">@getkirby</p>
+        <a class="cf" href="http://twitter.com/getkirby">
+          <img class="" src="<?php echo url() ?>/assets/images/twitter.svg">
+          <div class="">
+            <h3 class="gamma">Follow Kirby on Twitter!</h3>
+            <p class="zeta">@getkirby</p>
+          </div>
         </a>
       </li><!--
    --><li>
-        <a href="http://forum.getkirby.com">
-          <img src="<?php echo url() ?>/assets/images/bubbles.svg">
-          <h3 class="gamma">Be part of the community!</h3>
-          <p class="zeta">forum.getkirby.com</p>
-        </a>
-      </li><!--
-   --><li>
-        <a href="#">
-          <img src="<?php echo url() ?>/assets/images/mail.svg">
-          <h3 class="gamma">Sign up for the newsletter!</h3>
-          <p class="zeta">newsletter.getkirby.com</p>
+        <a class="grid" href="http://forum.getkirby.com">
+          <img class="" src="<?php echo url() ?>/assets/images/bubbles.svg">
+          <div class="">
+            <h3 class="gamma">Be part of the community!</h3>
+            <p class="zeta">forum.getkirby.com</p>
+          </div>
         </a>
       </li><!--
  --></ul>

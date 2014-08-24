@@ -1,28 +1,67 @@
 
-    <footer class="site-footer cf" role="contentinfo">
-      <?php echo kirbytext($site->copyright()) ?>
-      <ul class="nav nav-right" role="navigation">
-        <li><a href="#">↑ Up</a></li>
-        <li><a href="<?php echo url('contact') ?>">Contact</a></li>
-        <li><a href="<?php echo url('license') ?>">License</a></li>
-        <li><a href="<?php echo url('imprint') ?>">Imprint</a></li>
-        <li><a href="<?php echo url('made-with-kirby-and-love') ?>">Made with Kirby and <b class="red">&#9829;</b></a></li>
-      </ul>
-    </footer>
-
-    <div class="sites-nav-wrap">
-      <a class="sites-nav-open gamma" href="#sites-nav">All Kirby sites</a>
-      <nav class="sites-nav" id="sites-nav">
-        <ul class="dropdown arrow-right">
-          <li class="is-active"><a href="<?php echo url() ?>">Kirby CMS</a></li>
-          <li><a href="http://forum.getkirby.com">Kirby FORUM</a></li>
-          <li><a href="http://themes.getkirby.com">Kirby THEMES</a></li>
-        </ul>
-        <a class="sites-nav-close" href="#">Close menu</a>
-      </nav>
-    </div>
 
   </div><!-- [.site] end -->
+
+    <footer class="site-footer cf" role="contentinfo">
+        <a href="#" title="back to top ↑"><img src="<?php echo url('assets/images/kirbyicon-dark.svg') ?>" width="50" /></a>
+      <div class="site">
+        <ul class="list-6"><!--
+       --><li>
+            <h2 class="gamma">Discover</h2>
+            <ul>
+              <li><a href="<?php echo url() ?>">Kirby CMS</a></li>
+              <li><a href="http://forum.getkirby.com">Kirby FORUM</a></li>
+              <li><a href="http://themes.getkirby.com">Kirby THEMES</a></li>
+            </ul>
+          </li><!--
+       --><li>
+            <h2 class="gamma">Grab</h2>
+            <ul>
+              <li><a href="<?php echo url('try') ?>">Try Kirby</a></li>
+              <li><a href="<?php echo url('buy') ?>">Buy Kirby</a></li>
+            </ul>
+          </li><!--
+       --><li>
+            <h2 class="gamma">Connect</h2>
+            <ul>
+              <li><a href="http://twitter.com/getkirby">Twitter</a></li>
+              <li><a href="http://github.com/getkirby">GitHub</a></li>
+              <li><a href="<?php echo url('feed') ?>">Blog Feed</a></li>
+            </ul>
+          </li><!--
+       --><li>
+            <h2 class="gamma">About</h2>
+            <ul>
+              <li><a href="<?php echo url('about/history') ?>">History</a></li>
+              <li><a href="<?php echo url('contact') ?>">Contact</a></li>
+              <li><a href="<?php echo url('license') ?>">License</a></li>
+              <li><a href="<?php echo url('imprint') ?>">Imprint</a></li>
+            </ul>
+          </li><!--
+       --><li>
+            <h2 class="gamma">Navigate</h2>
+            <ul>
+              <?php foreach($pages->visible()->not('forum') as $item): ?>
+              <li<?php e($item->isOpen(), ' class="is-active"') ?>><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+              <?php endforeach ?>
+            </ul>
+          </li><!--
+       --><li>
+            <h2 class="gamma">Learn</h2>
+            <ul>
+              <?php foreach(page('docs')->children()->visible() as $item): ?>
+              <li<?php e($item->isOpen(), ' class="is-active"') ?>><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+              <?php endforeach ?>
+            </ul>
+          </li><!--
+     --></ul>
+        <div class="colophon"><?php echo kirbytext($site->copyright()) ?>
+        <!--
+          <div><?php echo kirbytext($site->copyright()) ?></div>
+          <div class="float-right align-right"><a href="<?php echo url('made-with-kirby-and-love') ?>">Made with Kirby and &#9829;</a></div>-->
+        </div>
+      </div>
+    </footer>
 
   <?php echo js('assets/js/jquery.js') ?>
   <?php echo js('assets/js/prism.js') ?>

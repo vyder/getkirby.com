@@ -40,7 +40,7 @@ html {
 }
 @media screen and (min-width: 47em) {
   html {
-    border: .5em solid #eee;
+    /* border: .5em solid #eee; */
   }
 }
 body {
@@ -767,18 +767,49 @@ h6 a {
  :::  Footer
 -------------------------------------------------- */
 .site-footer {
-  margin-top: 3rem;
-  padding: 0 0 3em 0;
-  font-size: 0.9em;
-  border-top: 2px solid red;
+  margin-top: 7em;
+  padding: 5em 0;
+  line-height: 1.6em;
+  background-color: #222;
+  color: #777;
+  position: relative;
 }
-.site-footer p {
-  padding: 1em 0;
-  line-height: 1em;
+.site-footer img {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  margin-left: -35px;
+  display: block;
+  width: 70px;
 }
-@media screen and (min-width: 47em) {
-  .site-footer p {
-    float: left;
+.site-footer a {
+  color: #777;
+}
+.site-footer a:hover {
+  text-decoration: underline;
+}
+.site-footer h2 {
+  margin-bottom: .5em;
+  letter-spacing: 1px;
+}
+.site-footer .list-6 > li {
+  margin-bottom: 2em;
+}
+
+/* Colophon */
+.colophon {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid #333;
+}
+.colophon a:last-child {
+  float: left;
+  width: 100%;
+}
+@media screen and (min-width: 30em) {
+  .colophon a:last-child {
+    float: right;
+    width: auto;
   }
 }
 
@@ -1632,7 +1663,7 @@ h6 a {
   display: table;
   clear: both;
 }
-[class*='list-'] li {
+[class*='list-'] > li {
   display: inline-block;
   position: relative;
   vertical-align: top;
@@ -1641,51 +1672,80 @@ h6 a {
 
 /* 2 items in a row */
 @media screen and (min-width: 36em) {
-  .list-2 li {
+  .list-2 > li {
     width: 47%;
     margin-right: 6%;
   }
-  .list-2 li:nth-child(even) {
+  .list-2 > li:nth-child(even) {
     margin-right: 0;
   }
 }
 
 /* 3 items in a row */
 @media screen and (min-width: 36em) and (max-width: 60em) {
-  .list-3 li {
+  .list-3 > li {
     width: 47%;
     margin-right: 6%;
   }
-  .list-3 li:nth-child(even) {
+  .list-3 > li:nth-child(even) {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 60em) {
-  .list-3 li {
+  .list-3 > li {
     width: 31%;
     margin-right: 3.5%;
   }
-  .list-3 li:nth-child(3n+3) {
+  .list-3 > li:nth-child(3n+3) {
     margin-right: 0;
   }
 }
 
 /* 4 items in a row */
 @media screen and (min-width: 36em) and (max-width: 60em) {
-  .list-4 li {
+  .list-4 > li {
     width: 47%;
     margin-right: 6%;
   }
-  .list-4 li:nth-child(even) {
+  .list-4 > li:nth-child(even) {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 60em) {
-  .list-4 li {
+  .list-4 > li {
     width: 22%;
     margin-right: 4%;
   }
-  .list-4 li:nth-child(4n+4) {
+  .list-4 > li:nth-child(4n+4) {
+    margin-right: 0;
+  }
+}
+
+/* 6 items in a row */
+@media screen and (min-width: 20em) and (max-width: 45em) {
+  .list-6 > li {
+    width: 47%;
+    margin-right: 6%;
+  }
+  .list-6 > li:nth-child(even) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 45em) and (max-width: 60em) {
+  .list-6 > li {
+    width: 30%;
+    margin-right: 5%;
+  }
+  .list-6 > li:nth-child(3n+3) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 60em) {
+  .list-6 > li {
+    width: 15%;
+    margin-right: 2%;
+  }
+  .list-6 > li:nth-child(6n+6) {
     margin-right: 0;
   }
 }
@@ -1747,6 +1807,12 @@ h6 a {
 }
 .center {
   text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+.float-right {
+  float: right;
 }
 hr {
   display: block;

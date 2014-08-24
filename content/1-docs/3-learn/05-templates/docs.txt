@@ -4,16 +4,30 @@ Title: Building Templates
 
 Text:
 
-## Default template
+Kirby's template engine is based on a mixture of simple PHP and HTML. **You don't need to know PHP to get started**. The methods which are being used to fetch data into your templates are very easy to understand. **You should have basic HTML skills though**.
 
-All the templates for your site are located in `site/templates`. You will find a `default.php` in there, which is used for every page without a specific template.
+## /site/templates
 
-## Page specific templates
+All templates for your site are located in the `/site/templates` folder.
 
-If you already read the chapter about (link: docs/content text: adding content) you might remember that the content file for the homepage was called `home.txt`.
+## Naming your templates
 
-Let's say we want to build a specific template for our homepage. All we need to do is to add a new `home.php` file to the `site/templates` folder and define our specific html for the homepage there.
+The names of your templates are related to the filenames of your text files in the content folder. Here are a couple examples:
 
-This makes it very easy to create your own templates for any page without any further setup. As long as you don't add a page-specific file, the `default.php` will be used.
+| Text file                               | Template                     |
+| -                                       | -                            |
+| /content/home/home.txt                  | /site/templates/home.php     |
+| /content/projects/projects.txt          | /site/templates/projects.php |
+| /content/projects/project-1/project.txt | /site/templates/project.php  |
+| /content/projects/project-2/project.txt | /site/templates/project.php  |
 
-To use the same template for other pages, just give the text file for that page the same name.
+## The default template
+
+All the examples above assume that the template files exist. **If a template file with the same name as the text file does not exist, the default template is being loaded**.
+
+The default template is the only required template. It is called `default.php` and must exist in your templates folder. When you get started with a completely new site you might want to start with just the default template as your foundation.
+
+## Shared templates
+
+You might have already seen in the table above that `project-1` and `project-2` share the same filename for their content text file (`project.txt`) and thus they also share the same template (`project.php`). This can be repeated of course with any other template and as often as you like. By giving your content files appropriate filenames you can very easily build a complex variety of custom and shared templates throughout your site.
+

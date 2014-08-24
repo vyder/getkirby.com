@@ -226,6 +226,28 @@ p {
 }
 
 
+/*
+ :::  Tables
+-------------------------------------------------- */
+.text table {
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 1.5em;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+}
+.text th, .text td {
+  text-align: left;
+  padding: .5em 1em;
+}
+.text th {
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+}
+.text tr:nth-child(even) td {
+  background: #f5f5f5;
+}
+
 
 /*
  :::  Code

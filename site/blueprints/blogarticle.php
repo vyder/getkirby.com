@@ -19,6 +19,9 @@ fields:
     label: Tags
     type:  tags
     width: 3/4
+  author:
+    label: Author
+    type: user
   text:
     label: Text
     type:  textarea

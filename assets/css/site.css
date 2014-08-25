@@ -771,36 +771,64 @@ h6 a {
   padding: 5em 0;
   line-height: 1.6em;
   background-color: #222;
-  color: #777;
-  position: relative;
-}
-.site-footer img {
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  margin-left: -35px;
-  display: block;
-  width: 70px;
+  color: #888;
 }
 .site-footer a {
-  color: #777;
+  color: #888;
 }
 .site-footer a:hover {
   text-decoration: underline;
 }
 .site-footer h2 {
   margin-bottom: .5em;
+  padding-bottom: .2em;
   letter-spacing: 1px;
+  border-bottom: 1px solid #444;
 }
 .site-footer .list-6 > li {
   margin-bottom: 2em;
+}
+
+/* Action */
+.action {
+  border-bottom: 0px solid #444;
+  margin-bottom: 3em;
+  padding-bottom: 3em;
+  padding-top: 5em;
+  position: relative;
+  text-align: center;
+}
+.action a {
+  border-color: #888;
+  width: 120px;
+}
+.action a:nth-of-type(2) {
+  margin-right: 1em;
+}
+.action a:hover {
+  text-decoration: none;
+  background-color: #888;
+  color: #222;
+}
+.action img {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  margin-left: -40px;
+  width: 80px;
+}
+@media screen and (min-width: 40em) {
+  .action a {
+    font-size: 1.5em;
+    width: 180px;
+  }
 }
 
 /* Colophon */
 .colophon {
   margin-top: 2em;
   padding-top: 1em;
-  border-top: 1px solid #333;
+  border-top: 1px solid #444;
 }
 .colophon a:last-child {
   float: left;
@@ -1742,8 +1770,8 @@ h6 a {
 }
 @media screen and (min-width: 60em) {
   .list-6 > li {
-    width: 15%;
-    margin-right: 2%;
+    width: 13%;
+    margin-right: 4.4%;
   }
   .list-6 > li:nth-child(6n+6) {
     margin-right: 0;

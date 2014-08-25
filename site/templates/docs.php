@@ -17,15 +17,6 @@
 
       <?php echo str_replace('(\\', '(', kirbytext($page->text())) ?>
 
-      <nav class="nav-chapter pagination cf">
-        <?php if($page->hasPrevVisible()): ?>
-        <a class="btn prev" href="<?php echo $page->prevVisible()->url() ?>" title="<?php echo $page->prevVisible()->title() ?>">&lsaquo;&lsaquo; previous chapter</a>
-        <?php endif ?>
-        <?php if($page->hasNextVisible()): ?>
-        <a class="btn next" href="<?php echo $page->nextVisible()->url() ?>" title="<?php echo $page->nextVisible()->title() ?>">next chapter &rsaquo;&rsaquo;</a>
-        <?php endif ?>
-      </nav>
-
       <?php if($page->docs() or $page->blogposts() or $page->forumposts() or $page->internals() or $page->externals()): ?>
       <footer class="further-reading">
         <h2 class="beta">Further reading</h2>

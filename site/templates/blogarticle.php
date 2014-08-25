@@ -10,6 +10,7 @@
         <span class="month"><?php echo $page->date('M d') ?></span>
         <span class="year"><?php echo $page->date('Y') ?></span>
       </time>
+
     </header>
 
     <div class="article-body text col-4-6">
@@ -38,17 +39,6 @@
           <?php endif ?>
         </ul>
       </nav>
-
-      <?php if ($page->tags() != ''): ?>
-      <div class="tags">
-        <h2 class="delta">Tags</h2>
-        <ul>
-          <?php foreach(str::split($page->tags()) as $tag): ?>
-          <li><a rel="tag" href="<?php echo url('blog/tag:' . urlencode($tag)) ?>"><small>#</small><?php echo $tag; ?></a></li>
-          <?php endforeach ?>
-        </ul>
-      </div>
-      <?php endif ?>
 
     </aside>
 

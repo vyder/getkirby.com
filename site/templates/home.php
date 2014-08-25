@@ -2,32 +2,19 @@
 
 <main class="main" role="main">
 
-  <header class="intro section grid">
-    <div class="col-4-6">
-      <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
-      <p class="beta"><?php echo html($page->subheadline()) ?></p>
-      <a class="hero-btn" href="<?php echo url('try') ?>">Try</a>
-      <a class="hero-btn-red" href="<?php echo url('buy') ?>">Buy 39$/30€</a>
-      <?php $slides = $pages->find('home/intro-slides')->images() ?></div>
-    <div class="col-2-6 last">
-      <ul class="slider slider-intro">
-      <?php foreach($slides as $slide): ?>
-        <li class="slide">
-          <img src="<?php echo $slide->url() ?>" alt="<?php echo $slide->title() ?>" />
-        </li>
-      <?php endforeach ?>
-      </ul>
-    </div>
+  <header class="section">
+    <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
+    <p class="beta"><?php echo html($page->subheadline()) ?></p>
   </header>
 
   <section class="features section">
-    <h2 class="beta"><a href="<?php echo url('home/features') ?>">Features</a></h2>
+    <h2 class="beta">Features</h2>
 
     <ul class="feature-list list-3">
       <?php foreach($pages->find('home/features')->children()->limit(6) as $feature): ?><!--
    --><li class="text smaller">
-        <?php if($feature->hasImages()): ?>
-        <img src="<?php echo thumb($feature->image(), array('width' => 640, 'height' => 400, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $feature->title() ?>" />
+        <?php if($image = $feature->image()): ?>
+        <img src="<?php echo thumb($image, array('width' => 640, 'height' => 400, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $feature->title() ?>" />
         <?php endif ?>
         <h3 class="gamma"><?php echo html($feature->title()) ?></h3>
         <p>
@@ -41,6 +28,7 @@
     </ul>
   </section>
 
+  <!--
   <section class="panel section">
     <h2 class="beta">The all new Panel</h2>
 
@@ -53,6 +41,7 @@
     <?php endforeach ?>
     </ul>
   </section>
+  -->
 
   <section class="random-refs section">
     <h2 class="beta"><a href="<?php echo url('made-with-kirby-and-love') ?>">Made with Kirby and &#9829;</a></h2>
@@ -61,8 +50,8 @@
       <?php foreach($pages->find('made-with-kirby-and-love')->children()->shuffle()->limit(3) as $reference): ?><!--
    --><li class="screenshot">
         <div class="screen-wrap">
-          <?php if($reference->hasImages()): ?>
-          <img src="<?php echo thumb($reference->image(), array('width' => 350, 'height' => 220, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $reference->title() ?>" />
+          <?php if($image = $reference->image()): ?>
+          <img src="<?php echo thumb($image, array('width' => 350, 'height' => 220, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $reference->title() ?>" />
           <?php endif ?>
           <div class="screen-refl"><a class="btn-white" href="<?php echo $reference->link() ?>">visit</a></div>
         </div>
@@ -82,7 +71,7 @@
       <?php foreach($latest as $post): ?><!--
    --><li class="text smaller">
         <time datetime="<?php echo $post->date('c') ?>"><?php echo $post->date('d M y') ?></time>
-        <h3 class="gamma"><?php echo $post->title() ?></h3>
+        <h3 class="gamma"><a href="<?php echo $post->url() ?>"><?php echo html($post->title()) ?></a></h3>
         <p><?php echo excerpt($post->text(), 180) ?> <a class="read-more" href="<?php echo $post->url() ?>">read more →</a></p>
       </li><!--
    --><?php endforeach ?>

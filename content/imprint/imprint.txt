@@ -21,10 +21,9 @@ USt.IdNr.: (beantragt)
 
 © 2009-(date: year) – Bastian Allgeier GmbH.
 
-## Kirby on the web
+## Follow Kirby on Twitter
 
-- Twitter: <http://twitter.com/getkirby>
-- Google+ <http://plus.google.com/getkirby>
+<http://twitter.com/getkirby>
 
 ----
 

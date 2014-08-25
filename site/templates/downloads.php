@@ -36,7 +36,7 @@
       <?php foreach($category->children() as $download): ?><!--
    --><li>
         <a href="<?php echo $download->url() ?>">
-          <img class="icon" src="<?php echo $download->images()->first()->url() ?>" alt="<?php echo $download->title() ?> icon" />
+          <span class="icon" style="background-image: url(<?php echo $download->images()->first()->url() ?>)"></span>
           <h3 class="gamma"><?php echo html($download->title()) ?></h3>
           <p><?php echo html($download->subtitle()) ?></p>
         </a>

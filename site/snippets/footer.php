@@ -3,8 +3,12 @@
   </div><!-- [.site] end -->
 
     <footer class="site-footer cf" role="contentinfo">
-        <a href="#" title="back to top ↑"><img src="<?php echo url('assets/images/kirbyicon-dark.svg') ?>" width="50" /></a>
       <div class="site">
+        <div class="action">
+          <a href="#" title="Back to top ↑"><img src="<?php echo url('assets/images/kirbyicon-footer.svg') ?>" /></a>
+          <a class="btn" href="<?php echo url('try') ?>">Try Kirby</a>
+          <a class="btn" href="<?php echo url('buy') ?>">Buy Kirby</a>
+        </div>
         <ul class="list-6"><!--
        --><li>
             <h2 class="gamma">Discover</h2>

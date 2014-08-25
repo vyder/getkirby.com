@@ -1,0 +1,67 @@
+Title: Switching languages
+
+----
+
+Text:
+
+With multiple available languages you probably want to provide a way for your users to switch between those languages.
+
+The `$site->languages()` method makes it easy to fetch all information about available languages. Here are two possible ways to implement such a language switch.
+
+## Switch A
+
+The first option is to redirect users to the home page, when they select another language. This can be done by using `$language->url()` for the link.
+
+```php
+<nav class="languages" role="navigation">
+  <ul>
+    <?php foreach($site->languages() as $language): ?>
+    <li<?php e($site->language() == $language, ' class="active"') ?>>
+      <a href="<?php echo $language->url() ?>">
+        <?php echo html($language->name()) ?>
+      </a>
+    </li>
+    <?php endforeach ?>
+  </ul>
+</nav>
+```
+
+## Switch B
+
+The second option is to redirect users to the same page in the selected language. This can be done by using `$page->url($language->code())` for the link.
+
+```php
+<nav class="languages" role="navigation">
+  <ul>
+    <?php foreach($site->languages() as $language): ?>
+    <li<?php e($site->language() == $language, ' class="active"') ?>>
+      <a href="<?php echo $page->url($language->code()) ?>">
+        <?php echo html($language->name()) ?>
+      </a>
+    </li>
+    <?php endforeach ?>
+  </ul>
+</nav>
+```
+
+## PS…
+
+You might have noticed the following in both switches:
+
+```php
+<li<?php e($site->language() == $language, ' class="active"') ?>>
+```
+
+This line of code will check if the currently active language matches the one, which is just being returned in the loop.
+
+```php
+$site->language() == $language
+```
+
+The `e()` helper is a Kirby shortcuts to a more complex way of writing an inline if clause:
+
+```php
+<?php echo $site->language() == $language ? ' class="active"' : '' ?>
+```
+
+The entire code will attach `class="active"` to the list element if the languages match. This makes it possible to style the currently active language in a different way.

@@ -1,0 +1,155 @@
+Title: Snippets
+
+----
+
+Text:
+
+To keep your templates clean and maintainable you should avoid to repeat yourself at all cost. **Snippets are a great way to store code, which is being reused in multiple templates.**
+
+All snippets are stored in `/site/snippets`
+Your site can have as many snippets as you need.
+
+Loading snippets in your templates is straight forward:
+
+Snippet                   | In your template
+-                         | -
+/site/snippets/header.php | <?php snippet('header') ?>
+/site/snippets/menu.php   | <?php snippet('menu') ?>
+/site/snippets/footer.php | <?php snippet('footer') ?>
+
+## Example
+
+The most basic use case for snippets is to split your header and footer into separate snippets. Let's take the finished template from the introduction tutorial and make parts of it reusable:
+
+```php
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="<?php echo $site->description() ?>">
+  <meta name="keywords" content="<?php echo $site->keywords() ?>">
+  <title>
+    <?php echo $page->title() ?> | <?php echo $site->title() ?>
+  </title>
+</head>
+<body>
+
+  <header>
+    <h1>
+      <a href="<?php echo $site->url() ?>">
+        <?php echo $site->title() ?>
+      </a>
+    </h1>
+  </header>
+
+  <main>
+    <h1><?php echo $page->title() ?></h1>
+    <?php echo $page->text() ?>
+  </main>
+
+  <footer>
+    <a href="<?php echo $site->twitter() ?>">Twitter</a>
+    <a href="<?php echo $site->facebook() ?>">Facebook</a>
+  </footer>
+
+</body>
+</html>
+```
+
+The code above looks clean as long as you just have a single template. But as soon as you add a second one, you have to write the top part and the bottom of the document again. This doesn't sound like a big deal until you have five or more templates and you plan to change the footer for example.
+
+Let's clean this up a bit!
+
+### /site/snippets/header.php
+
+```php
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="<?php echo $site->description() ?>">
+  <meta name="keywords" content="<?php echo $site->keywords() ?>">
+  <title>
+    <?php echo $page->title() ?> | <?php echo $site->title() ?>
+  </title>
+</head>
+<body>
+
+  <header>
+    <h1>
+      <a href="<?php echo $site->url() ?>">
+        <?php echo $site->title() ?>
+      </a>
+    </h1>
+  </header>
+```
+
+### /site/snippets/footer.php
+
+```php
+  <footer>
+    <a href="<?php echo $site->twitter() ?>">Twitter</a>
+    <a href="<?php echo $site->facebook() ?>">Facebook</a>
+  </footer>
+
+</body>
+</html>
+```
+
+Now that we have separated those parts the final template looks very clean:
+
+```php
+<?php snippet('header') ?>
+
+  <main>
+    <h1><?php echo $page->title() ?></h1>
+    <?php echo $page->text() ?>
+  </main>
+
+<?php snippet('footer') ?>
+```
+
+No matter how many more templates you are going to add to your site, the header and footer part is a piece of cake from now on. All you need to modify is the main part of the template.
+
+## Passing variables to snippets
+
+Sometimes it is useful to pass a variable to a snippet.
+
+```php
+<?php snippet('mysnippet', array('title' => 'Hello!')) ?>
+```
+
+With the code above, `/site/snippets/mysnippet.php` will receive a title variable with the content "Hello!":
+
+```php
+<?php echo $title ?>
+```
+
+A more useful case for this is an article list for a blog.
+
+### The template
+
+```php
+<?php snippet('header') ?>
+
+<main>
+
+  <h1>Blog</h1>
+
+  <?php foreach($page->children() as $article): ?>
+  <?php snippet('article', array('article' => $article)) ?>
+  <?php endforeach ?>
+
+</main>
+
+<?php snippet('footer') ?>
+```
+
+### The article.php snippet
+
+```php
+<article>
+  <h1><?php echo html($article->title()) ?></h1>
+  <time><?php echo $article->date('d/m/Y') ?></time>
+  <?php echo kirbytext($article->intro()) ?></p>
+  <a href="<?php echo $article->url() ?>">Read more…</a>
+</article>
+```

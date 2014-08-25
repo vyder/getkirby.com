@@ -1,0 +1,45 @@
+Title: Translating your content
+
+----
+
+Text:
+
+## Translating your pages
+
+Translating the content of your pages is just a matter of adding a text file for every language:
+
+```
+/content/home/home.en.txt
+/content/home/home.de.txt
+/content/home/home.fr.txt
+```
+
+**The attached language code must match the code in your languages setup.**
+
+Make sure you always have a text file for your default language. Otherwise Kirby will not be able to provide a fallback for missing translations.
+
+In your content files you can use the same fields and just fill in the translated text. Best way to proceed at the beginning is to start with the default language and when you are happy with the results, duplicate the default language files, rename them and translate them.
+
+If you use the Panel, you don't have to worry about adding additional translation files. The Panel will handle that for you.
+
+
+## Translating your site.txt
+
+The global information about your site can be translated in the same way by adding a site.txt for every language:
+
+```
+/content/site.de.txt
+/content/site.en.txt
+/content/site.fr.txt
+```
+
+## Translating file meta information
+
+You can add meta information for each file in your content folders by simply adding a new text file for it. For example, to add meta info for an image called `myimage.jpg` you would add a new text file called `myimage.jpg.txt`. To translate those meta info files, you can simply append the language code again:
+
+```
+myimage.jpg
+myimage.jpg.en.txt
+myimage.jpg.de.txt
+myimage.jpg.fr.txt
+```

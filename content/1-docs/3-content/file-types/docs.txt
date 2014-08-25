@@ -1,0 +1,109 @@
+Title: File types
+
+----
+
+Text:
+
+Kirby can store a large number of file types and auto-categorize them.
+
+
+
+## Images
+
+- jpg
+- gif
+- png
+- svg
+- ico
+- tiff
+- bmp
+- psd
+- ai
+- eps
+- ps
+
+### Api method
+
+```php
+$page->images()
+```
+
+## Documents
+
+- md
+- pdf
+- doc
+- docx
+- xls
+- xlsx
+- ppt
+- csv
+- rtf
+
+### Api method
+
+```php
+$page->documents()
+```
+
+## Archives
+
+- zip
+- tar
+- gz
+- gzip
+- tgz
+
+### Api method
+
+```php
+$page->archives()
+```
+
+## Code
+
+- js
+- css
+- scss
+- html
+- xml
+- json
+
+### Api method
+
+```php
+$page->code()
+```
+
+## Videos
+
+- mov
+- avi
+- ogg
+- ogv
+- webm
+- flv
+- swf
+- mp4
+- mv4
+- mpg
+
+### Api method
+
+```php
+$page->videos()
+```
+
+## Audio
+
+- mp3
+- m4a
+- wav
+- aiff
+- midi
+
+### Api method
+
+```php
+$page->audio()
+```

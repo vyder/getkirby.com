@@ -1,0 +1,31 @@
+Title: Languages
+
+----
+
+Text:
+
+Kirby has built-in support for multi-language sites.
+
+## Setup
+
+Languages are being added in `/site/config/config.php`
+
+```php
+c::set('languages', array(
+  array(
+    'code'    => 'en',
+    'name'    => 'English',
+    'default' => true,
+    'locale'  => 'en_US',
+    'url'     => '/',
+  ),
+  array(
+    'code'    => 'de',
+    'name'    => 'Deutsch',
+    'locale'  => 'de_DE',
+    'url'     => '/de',
+  ),
+));
+```
+
+As soon as more than one languages are setup in the languages array, multi-language support is switched on automatically.

@@ -1,6 +1,0 @@
-Title: Admin Panel
-
-----
-
-Text:
-

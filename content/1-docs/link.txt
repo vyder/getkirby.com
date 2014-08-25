@@ -2,5 +2,5 @@ Title: Docs
 
 ----
 
-Link: docs/getting-started
+Link: docs/installation
 

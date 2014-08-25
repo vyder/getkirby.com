@@ -1,0 +1,186 @@
+Title: Your first template
+
+----
+
+Text:
+
+A template contains all the content for the current page.
+This would be a completely valid template:
+
+```markup
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Page</title>
+</head>
+<body>
+  Hello world!
+</body>
+</html>
+```
+
+But of course it wouldn't be very smart. Nothing in this template is dynamic. It would just render a very basic HTML document with a title and some text.
+
+Let's start by adding some dynamic content.
+
+## $site
+
+```php
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>
+    <?php echo $site->title() ?>
+  </title>
+</head>
+<body>
+  Hello world!
+</body>
+</html>
+```
+
+In this example we are using a very simple PHP tag to replace the hard-coded document title with `$site->title()`
+
+The `$site` object contains all important information about your site in general and all data stored in `/content/site.txt`
+
+### /content/site.txt
+
+A basic site.txt looks like this:
+
+    title: My Site
+    ----
+    description: This is my wonderful new site
+    ----
+    keywords: my, new, site
+
+It's the perfect place to store any data that you want to reuse throughout your site. Next to typical things like the description and keyword metatags you can also store a Twitter or Facebook account for example.
+
+    title: My Site
+    ----
+    description: This is my wonderful new site
+    ----
+    keywords: my, new, site
+    ----
+    copyright: 2014 - Acme Inc.
+    ----
+    facebook: http://facebook.com/myaccount
+    ----
+    twitter: http://twitter.com/myaccount
+
+All this data can be used in your templates instantly:
+
+```php
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="<?php echo $site->description() ?>">
+  <meta name="keywords" content="<?php echo $site->keywords() ?>">
+  <title>
+    <?php echo $site->title() ?>
+  </title>
+</head>
+<body>
+
+  <header>
+    <h1 class="logo">
+      <a href="<?php echo $site->url() ?>">
+        <?php echo $site->title() ?>
+      </a>
+    </h1>
+  </header>
+
+  Hello world!
+
+  <footer>
+
+    <p class="copyright"><?php echo $site->copyright() ?></p>
+
+    <ul>
+      <li><a href="<?php echo $site->twitter() ?>">Twitter</a></li>
+      <li><a href="<?php echo $site->facebook() ?>">Facebook</a></li>
+    </ul>
+
+  </footer>
+
+</body>
+</html>
+```
+
+As you can see, the `$site` object also contains the main URL of your site, which can be used to link the logo back to your homepage for example. **There are many more available methods available for the `$site` object, which you can find on the (link: docs/cheatsheet text: cheat sheet)**
+
+This is all great for the basic framework of our template, but now it's time to pull in some dynamic data for the current page.
+
+## $page
+
+```php
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="<?php echo $site->description() ?>">
+  <meta name="keywords" content="<?php echo $site->keywords() ?>">
+  <title>
+    <?php echo $page->title() ?> | <?php echo $site->title() ?>
+  </title>
+</head>
+<body>
+
+  <header>
+    <h1>
+      <a href="<?php echo $site->url() ?>">
+        <?php echo $site->title() ?>
+      </a>
+    </h1>
+  </header>
+
+  <main>
+    <h1><?php echo $page->title() ?></h1>
+    <?php echo $page->text() ?>
+  </main>
+
+  <footer>
+    <a href="<?php echo $site->twitter() ?>">Twitter</a>
+    <a href="<?php echo $site->facebook() ?>">Facebook</a>
+  </footer>
+
+</body>
+</html>
+```
+
+The document title and the main container of the page are now completed with data from the currently visited page.
+
+```php
+<?php echo $page->title() ?>
+```
+
+… and …
+
+```php
+<?php echo $page->text() ?>
+```
+
+Those variables get their content come from the text file of the current page.
+
+### Example
+
+URL
+: `yourdomain.com/about`
+
+Text file
+: `/content/about/about.txt`
+
+    Title: About us
+    ----
+    Text: We are a company.
+
+
+You are free to extend the data in a text file however needed. A text file can contain any number of fields. Fields must be separated by four regular dashes (----). Fetching the content of such a field always works the same way:
+
+
+| Field name    | Variable              |
+| -             | -                     |
+| Title:        | $page->title()        |
+| Text:         | $page->text()         |
+| FirstName:    | $page->firstname()    |
+| Company-Name: | $page->company_name() |
+
+Fieldnames are converted to lowercase and any punctuation is replaced by lower dashes.

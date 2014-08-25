@@ -1,0 +1,47 @@
+Title: Custom language variables
+
+----
+
+Text:
+
+When working with multi-language site projects, you often run into the problem of needing language-specific variables/strings. Simple things like translated button labels for your contact form for example or other translatable parts, which don't need to be administrated by editors.
+
+For such a case, Kirby has a built-in language variable management.
+
+Add the folder `/site/languages` and insert a PHP file with the specific language shortcode for each available language:
+
+```
+/site/languages/en.php
+/site/languages/de.php
+/site/languages/fr.php
+```
+
+Those files can contain as many custom variables as you need.
+
+#### /sites/languages/en.php
+
+```php
+<?php
+
+l::set('submit', 'Submit');
+l::set('cancel', 'Cancel');
+
+?>
+```
+
+#### /sites/languages/de.php
+
+```php
+<?php
+
+l::set('submit', 'Abschicken');
+l::set('cancel', 'Abbrechen');
+
+?>
+```
+
+Those translated variables can be used in any template, plugin or snippet:
+
+```php
+<input type="submit" value="<?php echo l::get('submit') ?>" />
+```

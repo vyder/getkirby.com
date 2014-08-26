@@ -1,8 +1,0 @@
-title: FAQ
-
-----
-
-Text: Check out the FAQ section and learn more about Kirby.
-
-----
-link: http://getkirby.com/answers

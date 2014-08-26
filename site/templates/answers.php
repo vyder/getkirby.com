@@ -1,10 +1,8 @@
 <?php snippet('header') ?>
 
 <main class="main grid" role="main">
-  <?php snippet('aboutmenu') ?>
 
-  <section class="col-5-6 last">
-    <?php snippet('breadcrumb') ?>
+  <section class="col-4-6">
 
     <h1 class="alpha">Answers</h1>
 
@@ -17,14 +15,14 @@
     </article>
     <?php endforeach ?>
 
-    <aside class="questions">
-      <h2 class="alpha">Questions?</h2>
-      <div class="body text">
-        <?php echo kirbytext($page->questions()) ?>
-      </div>
-    </aside>
-
   </section>
+
+  <aside class="questions col-2-6 last">
+    <h2 class="alpha">Questions?</h2>
+    <div class="body text">
+      <?php echo kirbytext($page->questions()) ?>
+    </div>
+  </aside>
 
 </main>
 

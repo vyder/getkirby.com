@@ -1026,17 +1026,34 @@ h6 a {
 /*
  :::  Answers
 -------------------------------------------------- */
-.answers section {
-  padding-bottom: 3em;
+@media only screen and (min-width : 45em) {
+  .answers > div {
+    padding-bottom: 3em;
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-fill: balance;
+    -moz-column-fill: balance;
+    column-fill: balance;
+    -webkit-column-rule: 1px solid #ddd;
+    -moz-column-rule: 1px solid #ddd;
+    column-rule: 1px solid #ddd;
+  }
 }
-.answers .alpha {
+.answers header {
+  padding-bottom: 2em;
   border-bottom: 1px solid #ddd;
-  margin: 0;
-  padding-bottom: .25em;
+  text-align: center;
 }
 .answer {
   border-bottom: 1px solid #ddd;
   padding: 1em 0;
+  -webkit-column-break-inside: avoid;
+  -moz-break-inside: avoid;
+  break-inside: avoid;
 }
 .answer .zeta {
   position: relative;
@@ -1045,6 +1062,7 @@ h6 a {
 .answer .zeta a {
   display: block;
 }
+/*
 .answer .zeta:after {
   position: absolute;
   content: "";
@@ -1053,7 +1071,7 @@ h6 a {
   border-top: 5px solid #999;
   right: 0;
   top: .5em;
-}
+}*/
 .answer .inner {
   padding-top: 1em;
   border-top: 1px dotted #ddd;
@@ -1075,16 +1093,24 @@ h6 a {
 /*
  :::  Support
 -------------------------------------------------- */
-.support .list-4 li {
+.support-items {
+  margin-bottom: 3em;
+  padding-bottom: 3em;
+  border-bottom: 1px solid #ddd;
+}
+.support-items li {
+  margin-top: 2em;
   margin-bottom: 2em;
   text-align: center;
 }
-.support .list-4 img {
+.support img {
   width: 120px;
   height: 120px;
   padding: .5em;
   margin-bottom: 1em;
+  opacity: .3;
 }
+
 
 
 

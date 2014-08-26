@@ -2,6 +2,10 @@ Title: Languages
 
 ----
 
+Description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+
+----
+
 Text:
 
 Kirby has built-in support for multi-language sites.

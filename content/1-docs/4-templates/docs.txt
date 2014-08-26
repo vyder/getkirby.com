@@ -2,6 +2,10 @@ Title: Templates
 
 ----
 
+Description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+
+----
+
 Text:
 
 Kirby's template engine is based on a mixture of simple PHP and HTML. **You don't need to know PHP to get started**. The methods which are being used to fetch data into your templates are very easy to understand. **You should have basic HTML skills though**.

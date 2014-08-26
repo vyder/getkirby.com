@@ -1,6 +1,0 @@
-Title: Docs
-
-----
-
-Link: docs/installation
-

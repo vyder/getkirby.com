@@ -1073,6 +1073,22 @@ h6 a {
 
 
 /*
+ :::  Support
+-------------------------------------------------- */
+.support .list-4 li {
+  margin-bottom: 2em;
+  text-align: center;
+}
+.support .list-4 img {
+  width: 120px;
+  height: 120px;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+
+
+/*
  :::  Article overview
 -------------------------------------------------- */
 .article-list li {

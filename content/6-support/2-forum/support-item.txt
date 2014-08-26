@@ -1,0 +1,8 @@
+title: Forum
+
+----
+
+Text: Join the community around Kirby and connect to others.
+
+----
+link: http://forum.getkirby.com

@@ -4,6 +4,12 @@ Title: Routing
 
 Text:
 
+- [Patterns](#patterns)
+- [Actions](#actions)
+- [Methods](#methods)
+- [Simulating Wordpress URLs](#simulating-wordpress-urls)
+- [Omitting the blog folder in URLs](#omitting-the-blog-folder-in-urls)
+
 Kirby has a built-in router, which can be extended with your own routes.
 
 Routes can be setup with the `routes` option in your `/site/config/config.php`

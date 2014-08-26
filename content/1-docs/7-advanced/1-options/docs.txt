@@ -29,6 +29,7 @@ cache | false | Enables/disables Kirby's cache
 cache.driver | file | Kirby has three built-in cache drivers: file, memcached and apc
 cache.ignore | null | An array of URIs of pages, which should be ignored by the cache
 cache.options | null | An array of options for the cache driver
+headers | null | An array with template names as keys and HTTP headers as values. Those headers will be sent before the template is rendered.
 
 
 ## Your own options

@@ -1027,7 +1027,7 @@ h6 a {
  :::  Answers
 -------------------------------------------------- */
 @media only screen and (min-width : 45em) {
-  .answers > div {
+  .answers .columns {
     padding-bottom: 3em;
     -webkit-column-gap: 3em;
     -moz-column-gap: 3em;
@@ -1637,7 +1637,6 @@ h6 a {
   margin-right: 8%;
   margin-bottom: 1em;
   max-height: 200px;
-  opacity: 0.8;
 }
 .connect .zeta {
   transition: color .3s;

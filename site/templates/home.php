@@ -120,7 +120,7 @@
       </li><!--
    --><li>
         <a class="grid" href="http://forum.getkirby.com">
-          <img class="" src="<?php echo url() ?>/assets/images/bubbles.svg">
+          <img class="" src="<?php echo url() ?>/assets/images/forum.svg">
           <div class="">
             <h3 class="gamma">Be part of the community!</h3>
             <p class="zeta">forum.getkirby.com</p>

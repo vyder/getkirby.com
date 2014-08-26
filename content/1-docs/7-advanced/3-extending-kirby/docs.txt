@@ -1,6 +1,0 @@
-Title: Extending Kirby
-
-----
-
-Text:
-

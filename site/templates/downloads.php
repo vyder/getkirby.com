@@ -19,14 +19,14 @@
 
   </section>
 
-  <?php foreach($page->children() as $category): ?>
+  <?php foreach($page->children()->visible() as $category): ?>
 
   <section class="section">
 
     <h2 class="beta"><?php echo html($category->title()) ?></h2>
 
     <ul class="download-list list-2"><!--
-      <?php foreach($category->children() as $download): ?><!--
+      <?php foreach($category->children()->visible() as $download): ?><!--
    --><li>
         <a href="<?php echo $download->url() ?>">
           <span class="icon" style="background-image: url(<?php echo $download->images()->first()->url() ?>)"></span>

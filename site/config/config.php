@@ -1,8 +1,25 @@
 <?php
 
-/*
-c::set('kirbytext.snippets', array(
-  'email' => 'mail@bastianallgeier.com',
-  'lorem' => 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.',
+
+c::set('routes', array(
+  array(
+    'pattern' => '(:any)',
+    'action'  => function($uid) {
+
+      if($page = page($uid)) {
+        return $page;
+      } else if($page = page('blog/' . $uid)) {
+        return $page;
+      } else {
+        return site()->errorPage();
+      }
+
+    }
+  ),
+  array(
+    'pattern' => 'blog/(:any)',
+    'action'  => function($uid) {
+      go($uid);
+    }
+  )
 ));
-*/

@@ -1,0 +1,8 @@
+title: Docs
+
+----
+
+Text: Read Kirby's detailed documentation to dig deeper.
+
+----
+link: http://getkirby.com/docs

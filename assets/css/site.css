@@ -150,7 +150,6 @@ a:hover {
 -------------------------------------------------- */
 .text table {
   width: 100%;
-  table-layout: fixed;
   margin-bottom: 1.5em;
   border-spacing: 0;
   border: 1px solid #ddd;
@@ -158,6 +157,7 @@ a:hover {
 .text th, .text td {
   text-align: left;
   padding: .5em 1em;
+  vertical-align: top;
 }
 .text th {
   border-bottom: 1px solid #ddd;

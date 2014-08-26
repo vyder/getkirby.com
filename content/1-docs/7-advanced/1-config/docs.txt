@@ -1,0 +1,70 @@
+Title: Options
+
+----
+
+Text:
+
+All available options can be set in your config file in `/site/config` like this:
+
+```php
+c::set('option', 'value');
+```
+
+There are a number of available options in Kirby, which help you to customize the system just the way you want it.
+
+Option | Default | Description
+-        | -       | -
+
+license | null | Setup for the license key
+url | false | Overwrites Kirby's auto-detected base URL
+routes | null | Additional route setup for Kirby's internal router
+languages | null | Language definition for multi-language sites
+timezone | UTC | The PHP timezone setting for all date functions
+tinyurl.enabled | true | Enables/disables tinyurls
+tinyurl.folder | x | Tinyurl format: yourdomain/{folder}/{hash}
+rewrite | true | Enables/disables URL rewriting
+markdown.extra | false | Enables/disables the Markdown extra parser with additional Markdown features like footnotes and tables.
+markdown.breaks | true | Enables/disables automatic line breaks in Markdown like on Github. Otherwise line breaks must be confirmed with three spaces at the end of the line.
+cache | false | Enables/disables Kirby's cache
+cache.driver | file | Kirby has three built-in cache drivers: file, memcached and apc
+cache.ignore | null | An array of URIs of pages, which should be ignored by the cache
+cache.options | null | An array of options for the cache driver
+
+
+## Your own options
+
+If you need a simple way to store options throughout the system and access them in any plugin, template or snippet, you can define your own options in the same way:
+
+```php
+c::set('yourOption', 'yourValue');
+```
+
+You can fetch your options later with…
+
+```php
+echo c::get('yourOption')
+// will output 'yourValue'
+```
+
+If you want to make sure to get a proper default value if the option is not set you can define a fallback:
+
+```php
+echo c::get('undefinedOption', 'fallbackValue')
+// will output 'fallbackValue' if undefinedOption is undefined
+```
+
+## Multi-environment setup
+
+Kirby has a built-in way to set different options based on the domain by adding additional config files containing the domain.
+
+### Example setup
+
+```
+/site/config/config.localhost.php
+/site/config/config.staging.yourdomain.com.php
+/site/config/config.yourdomain.com.php
+```
+
+By setting different options in those config files you get a very flexible system, which can be deployed to different servers and react to the current environment accordingly.
+
+

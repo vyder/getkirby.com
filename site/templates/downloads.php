@@ -7,19 +7,12 @@
   <section class="section">
     <h2 class="beta">Kirby</h2>
 
-    <ul class="download-list list-2"><!--
+    <ul class="download-list"><!--
    --><li>
         <a href="http://download.getkirby.com">
           <img class="icon" src="<?php echo url('assets/images/kirby-dark.png') ?>" alt="Kirby icon" />
           <h3 class="gamma">kirby-2.0.0.zip</h3>
-          <p>Download Kirby's minimal setup</p>
-        </a>
-      </li><!--
-   --><li>
-        <a href="http://download.getkirby.com/minimal/panel:true">
-          <img class="icon" src="<?php echo url('assets/images/kirby-dark.png') ?>" alt="Kirby icon" />
-          <h3 class="gamma">kirby-2.0.0-with-panel.zip</h3>
-          <p>Download Kirby's minimal setup including the panel</p>
+          <p>Download Kirby's Starterkit</p>
         </a>
       </li><!--
  --></ul>

@@ -1,0 +1,83 @@
+Title: Images, videos, documents…
+
+----
+
+Text:
+
+Pages can have any number and kind of (link: docs/content/media/file-types text: images, videos, documents or other files). Those files are being stored directly in the page folder.
+
+```
+/content/1-projects/project-a
+/content/1-projects/project-a/project.txt
+/content/1-projects/project-a/image-1.jpg
+/content/1-projects/project-a/image-2.jpg
+/content/1-projects/project-a/image-3.jpg
+/content/1-projects/project-a/project-info.pdf
+/content/1-projects/project-a/project-data.xls
+/content/1-projects/project-a/some-video.mp4
+…
+```
+
+## File types
+
+Type      | Extensions                                        | Api method
+-         | -                                                 | -
+Images    | jpg, gif, png, svg, ico, tiff, bmp, psd, ai       | $page->images()
+Documents | md, pdf, doc, docx, xls, xlsx, ppt, csv, rtf      | $page->documents()
+Archives  | zip, tar, gz, gzip, tgz                           | $page->archives()
+Code      | js, css, html, xml, json                          | $page->code()
+Videos    | mov, avi, ogg, ogv, webm, flv, swf, mp4, mv4      | $page->videos()
+Audio     | mp3, m4a, wav, aiff, midi                         | $page->audio()
+
+Files can be linked or embedded in any field with Kirbytags or used in templates to build complex galeries, download sections, etc.
+
+## Adding meta data to your files
+
+Files in Kirby can have their own content file with additional meta data, such as image captions, photographers, notes or anything else you want to store with a file.
+
+A meta data file is stored next to the file and named after the following pattern:
+
+```
+{filename}.txt
+```
+
+File | Meta data
+-    | -
+lake.jpg | lake.jpg.txt
+infosheet.pdf | infosheet.pdf.txt
+numbers.xls | numbers.xls.txt
+
+Meta data files follow the same scheme for fields like the main text files for pages. Like with pages you are not limited to any number of fields. The possibilities to add meta data to files are endless.
+
+Here's an example for a meta data file:
+
+##### /content/projects/project-a/lake.jpg.txt
+    Title: A day at the lake
+    ----
+    Caption: We spent an entire day at the lake. The weather was nice.
+    ----
+    Photographer: Ansel Adams' cat
+
+### Accessing meta data in templates
+
+Meta data is instantly available from the `$file` object in your tempaltes and snippets.
+
+```php
+<?php if($image = $page->image('lake.jpg'): ?>
+<figure>
+  <img src="<?php echo $image->url() ?>" alt="<?php echo html($image->title()) ?>">
+  <figcaption>
+    <span class="caption">
+      <?php echo html($image->caption()) ?>
+    </span>
+    <span class="photographer">
+      <?php echo html($image->photographer()) ?>
+    </span>
+  </figcaption>
+</figure>
+<?php endif ?>
+
+```
+
+
+

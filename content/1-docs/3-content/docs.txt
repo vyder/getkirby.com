@@ -103,23 +103,3 @@ For blogs or event pages a chronological order can be achived like this:
 /content/blog/20142806-the-latest-article
 ```
 
-## Adding files/images to a page
-
-Pages can have any number and kind of (link: docs/learn/content/file-types text: images, videos, documents or other files). Those files are being stored directly in the page folder.
-
-```
-/content/1-projects/project-a
-/content/1-projects/project-a/project.txt
-/content/1-projects/project-a/image-1.jpg
-/content/1-projects/project-a/image-2.jpg
-/content/1-projects/project-a/image-3.jpg
-/content/1-projects/project-a/project-info.pdf
-/content/1-projects/project-a/project-data.xls
-/content/1-projects/project-a/some-video.mp4
-…
-```
-
-Those files can be linked or embedded in any field with simple Kirbytext tags or they can be used in templates to build complex galeries, download sections, etc.
-
-
-

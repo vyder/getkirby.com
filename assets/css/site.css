@@ -1217,6 +1217,58 @@ h6 a {
 
 
 /*
+ :::  Cheatsheet
+-------------------------------------------------- */
+.cheatsheet .text div {
+  -webkit-column-break-inside: avoid;
+  -moz-break-inside: avoid;
+  break-inside: avoid;
+}
+.cheatsheet .text {
+  border-top: 1px solid #ddd;
+  margin-top: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.cheatsheet .text p {
+  font-size: 80%;
+  color: #777;
+}
+.cheatsheet .text h2 {
+  -webkit-column-span: all;
+  -moz-column-span: all;
+  column-span: all;
+}
+.cheatsheet .text h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+@media screen and (min-width: 35em) {
+  .cheatsheet .text {
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-fill: balance;
+    -moz-column-fill: balance;
+    column-fill: balance;
+    -webkit-column-rule: 1px solid #ddd;
+    -moz-column-rule: 1px solid #ddd;
+    column-rule: 1px solid #ddd;
+  }
+}
+@media screen and (min-width: 55em) {
+  .cheatsheet .text {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+}
+
+
+/*
  :::  Downloads
 -------------------------------------------------- */
 .downloads .section {
@@ -1836,3 +1888,59 @@ hr {
     border-color: #999;
   }
 }
+
+
+/*
+ :::  Print styles
+-------------------------------------------------- */
+@media only print {
+
+  * {
+    -webkit-print-color-adjust: exact;
+    -moz-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  @page {
+    margin: 2cm 1cm;
+  }
+  .main {
+    padding: 0;
+  }
+  .site-header,
+  .site-footer,
+  aside {
+    display: none;
+  }
+  section {
+    border: none;
+  }
+  div, pre, figure, img {
+    page-break-inside: avoid;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+  p {
+    orphans: 5;
+  }
+
+  .cheatsheet .text {
+    -webkit-column-gap: 3em;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-fill: balance;
+    -moz-column-fill: balance;
+    column-fill: balance;
+    -webkit-column-rule: 1px solid #ddd;
+    -moz-column-rule: 1px solid #ddd;
+    column-rule: 1px solid #ddd;
+    border: none;
+  }
+}
+
+
+
+

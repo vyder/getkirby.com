@@ -1,0 +1,10 @@
+Title: Advanced
+
+----
+
+Description: All options, caching, routing, extending Kirbytext and more…
+
+----
+
+Text:
+

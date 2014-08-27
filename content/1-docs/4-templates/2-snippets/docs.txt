@@ -2,6 +2,10 @@ Title: Snippets
 
 ----
 
+Description: Learn how to keep your templates clean by storing reusable code in snippets.
+
+----
+
 Text:
 
 To keep your templates clean and maintainable you should avoid to repeat yourself at all cost. **Snippets are a great way to store code, which is being reused in multiple templates.**

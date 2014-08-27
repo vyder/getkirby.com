@@ -2,6 +2,10 @@ Title: Formatting text
 
 ----
 
+Description: Learn how to use Markdown and Kirbytext to format your content, include images, embed videos and much more.
+
+----
+
 Text:
 
 - [Basic formats](#basic-formats)

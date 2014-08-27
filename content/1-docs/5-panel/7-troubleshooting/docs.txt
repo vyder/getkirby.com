@@ -1,9 +1,0 @@
-Title: 
-
-Troubleshooting
-
-----
-
-Text: 
-
-##File Permissions

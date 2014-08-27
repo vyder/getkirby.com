@@ -2,6 +2,10 @@ Title: Custom language variables
 
 ----
 
+Description: Learn how to define translatable variables, which can be used to translate fixed parts in your templates like buttons.
+
+----
+
 Text:
 
 When working with multi-language site projects, you often run into the problem of needing language-specific variables/strings. Simple things like translated button labels for your contact form for example or other translatable parts, which don't need to be administrated by editors.

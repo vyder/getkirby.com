@@ -1,8 +1,10 @@
-Title: 
-
-Extending the panel
+Title: Extending the panel
 
 ----
 
-Text: 
+Description: The panel can be extended with your own form fields. Learn how to develop custom fields.
+
+----
+
+Text:
 

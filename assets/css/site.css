@@ -1233,10 +1233,10 @@ h6 a {
 /*
  :::  Docs
 -------------------------------------------------- */
-.docs-entry .list-4 {
+.docs-index .list-4 {
   border-top: 1px solid #ddd;
 }
-.docs-entry .list-4 li {
+.docs-index .list-4 li {
   margin-top: 3em;
 }
 .search-form {

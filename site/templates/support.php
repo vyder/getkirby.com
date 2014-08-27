@@ -33,8 +33,8 @@
 
     <div class="columns">
       <?php foreach($page->find('answers')->children() as $answer): ?>
-      <article class="answer">
-        <h2 class="zeta"><a href=""><?php echo html($answer->title()) ?></a></h2>
+      <article class="answer" id="<?php echo $answer->uid() ?>">
+        <h2 class="zeta"><a href="#<?php echo $answer->uid() ?>"><?php echo html($answer->title()) ?></a></h2>
         <div class="inner text">
           <?php echo kirbytext($answer->text()) ?>
         </div>

@@ -1,8 +1,0 @@
-Title: Users
-
-----
-
-Text:
-
-Kirby has a very flexible new user API for panel and frontend users. It can be used to create any number of users, which have access to the panel to edit the site or to the frontend to access a secret client area for example.
-

@@ -1,0 +1,16 @@
+Title: Download & Requirements
+
+----
+
+Description:
+
+How to fetch the latest version of Kirby and what you need to get Kirby running on your local machine or server.
+
+
+----
+
+Text:
+
+- Apache 2 or Ngnix
+- URL rewriting (mod_rewrite)
+- PHP 5.3+

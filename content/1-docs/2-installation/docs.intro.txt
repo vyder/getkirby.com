@@ -1,0 +1,8 @@
+Title: Installation
+
+----
+
+Description: How to install Kirby's Starterkit on your server, Mac or Windows PC.
+
+----
+

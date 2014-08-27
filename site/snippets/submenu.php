@@ -5,13 +5,13 @@
     <li>
       <a<?php e($p->isActive(), ' class="is-active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a>
 
-      <?php if($p->hasChildren() && $p->isOpen()): ?>
+      <?php if($p->hasChildren() and $p->isOpen()): ?>
       <ul>
         <?php foreach($p->children()->visible() AS $child): ?>
         <li>
           <a<?php e($child->isActive(), ' class="is-active"') ?> href="<?php echo $child->url() ?>"><?php echo $child->title() ?></a>
 
-          <?php if($child->hasChildren() && $child->isOpen()): ?>
+          <?php if($child->hasChildren() and $child->isOpen()): ?>
           <ul>
             <?php foreach($child->children()->visible() AS $subchild): ?>
             <li>

@@ -1,8 +1,10 @@
-Title: 
-
-Validation
+Title: Validation
 
 ----
 
-Text: 
+Description: Learn about available validation methods for form fields in the panel and how to set them up.
+
+----
+
+Text:
 

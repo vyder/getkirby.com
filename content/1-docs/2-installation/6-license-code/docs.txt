@@ -1,0 +1,38 @@
+Title: Entering the license code
+
+----
+
+Description:
+
+Where and why to enter your license code…
+
+----
+
+Text:
+
+After purchasing a Kirby license you will receive your unique license code.
+
+Go to `/site/config/config.php` and search for
+
+```php
+c::set('license', 'your license key');
+```
+
+Fill in your license code to complete your installation of Kirby.
+
+## Note
+
+There's no validity check of your code or any other communication between your Kirby installation and the Kirby server. You get a clean installation without any hacks or tricks. Entering the license code is for your own records, so you can track which installation uses which license.
+
+I'm focusing on making Kirby better instead of fighting software pirates. I trust in you to support me with a legally purchased license if you like Kirby.
+
+----
+
+Blogposts:
+
+Free trial:
+  text: Free trial
+  link: blog/free-trial
+
+
+

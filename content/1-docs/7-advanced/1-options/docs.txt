@@ -2,6 +2,10 @@ Title: Options
 
 ----
 
+Description: Find out more about all available configuration options for Kirby.
+
+----
+
 Text:
 
 All available options can be set in your config file in `/site/config` like this:

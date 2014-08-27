@@ -2,6 +2,10 @@ Title: Caching
 
 ----
 
+Description: Learn how to switch on caching and setup cache drivers to enhance the performance of your site.
+
+----
+
 Text:
 
 For complex sites with lots of content or high amounts of traffic it might make sense to switch on Kirby's cache. Kirby' cache stores the entire result of a rendered page. As long as the cache is valid, visitors will be served the cached version which is pretty close in performance to a static html file.

@@ -1,10 +1,12 @@
-Title: 
-
-Form Fields
+Title: Form Fields
 
 ----
 
-Text: 
+Description: The Panel has a large number of available form fields for page and file forms. Read all about how to setup and customize them.
+
+----
+
+Text:
 
 - [Required fields](#required-fields)
 - [Validation](#validation)
@@ -17,13 +19,13 @@ Kirby comes with a huge set of custom form fields, which you can use in your blu
 
 ## Required fields
 
-You can mark fields as required to make sure that your users have to fill in some data before the form gets submitted. 
+You can mark fields as required to make sure that your users have to fill in some data before the form gets submitted.
 
 ### Example
 
 ```
-fields: 
-  text: 
+fields:
+  text:
     label: Text
     type: textarea
     required: true
@@ -31,32 +33,32 @@ fields:
 
 ## Validation
 
-Kirby offers multiple ways to validate data, which is stored by users. You can add them to any field of your fields and the form will automatically take care of the validation. 
+Kirby offers multiple ways to validate data, which is stored by users. You can add them to any field of your fields and the form will automatically take care of the validation.
 
 ## Creating grids
 
-Form fields can be displayed in a very flexible grid. This is great if you want to save some space in large forms or make it visually easier to scan a form. A perfect example would be an address form. 
+Form fields can be displayed in a very flexible grid. This is great if you want to save some space in large forms or make it visually easier to scan a form. A perfect example would be an address form.
 
 You can define the width of each field like this:
 
 ```
-fields: 
-  firstName: 
+fields:
+  firstName:
     label: First Name
     type: text
     width: 1/2
-  lastName: 
+  lastName:
     label: Last Name
     type: text
-    width: 1/2      
-  street: 
+    width: 1/2
+  street:
     label: Street
     type: text
-  zip: 
+  zip:
     label: ZIP
     type: number
     width: 1/4
-  location: 
+  location:
     label: Location
     type: text
     width: 3/4
@@ -68,11 +70,11 @@ The following column widths are available
 - 1/4
 - 3/4
 
-If you don't define a column width the field will span the entire width of the form 
+If you don't define a column width the field will span the entire width of the form
 
 ## Custom icons
 
-Most fields can have custom icons, which are set by the `icon` parameter. Custom icons can help to make your forms easier to scan. 
+Most fields can have custom icons, which are set by the `icon` parameter. Custom icons can help to make your forms easier to scan.
 
 Icons are provided by the (link: http://fontawesome.io/ text: fontawesome icon set). You can find a list of all available icons here: <http://fontawesome.io/icons></http:>
 
@@ -81,8 +83,8 @@ To define your custom icon, just search for the icon you'd like to add to a fiel
 ### Example
 
 ```
-fields: 
-  street: 
+fields:
+  street:
     label: Street
     type: text
     icon: map-marker

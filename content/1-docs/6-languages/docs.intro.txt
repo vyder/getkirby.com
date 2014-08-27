@@ -1,0 +1,8 @@
+Title: Languages
+
+----
+
+Description: How to setup and work with multi-language websites and how to translate templates.
+
+----
+

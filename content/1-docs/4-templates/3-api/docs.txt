@@ -1,0 +1,26 @@
+Title: Kirby’s API
+
+----
+
+Description: Learn the basics about Kirby's extensive API and how to use it to build any template you want.
+
+----
+
+Text:
+
+Kirby has a might API, which you can use in your templates to access each and every bit and piece of data and aspect of your site and system.
+
+This section is about to give you a good overview of the most basic things you can do with the API. If you want to dive deeper you can find a full overview of all available API methods on the cheat sheet.
+
+All parts of the API are inspired by the simplicity of jQuery. When you've played with jQuery before you will probably feel at home at once — even if it is PHP.
+
+## $site
+
+The `$site` object is present in all templates and snippets. It represents the root of your site with all information about the site. It's also the starting point to query for pages.
+
+
+## $page
+
+## Working with files/images
+
+## Languages

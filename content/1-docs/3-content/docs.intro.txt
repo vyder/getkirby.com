@@ -1,0 +1,8 @@
+Title: Content
+
+----
+
+Description: How to store and organize content and files and how to structure your site.
+
+----
+

@@ -2,6 +2,10 @@ Title: Your first template
 
 ----
 
+Description: Create your first template and learn how to dynamically fetch content from your pages.
+
+----
+
 Text:
 
 A template contains all the content for the current page.
@@ -162,11 +166,13 @@ Those variables get their content come from the text file of the current page.
 
 ### Example
 
-URL
-: `yourdomain.com/about`
+#### URL
+yourdomain.com/about
 
-Text file
-: `/content/about/about.txt`
+#### Text file
+/content/about/about.txt
+
+#### Data
 
     Title: About us
     ----

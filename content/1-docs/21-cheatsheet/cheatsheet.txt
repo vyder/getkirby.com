@@ -2,6 +2,6 @@ Title: Cheat Sheet
 
 ----
 
-Description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
+Description: A comprehensive list of Kirby's API methods and examples how to use them.
 
 ----

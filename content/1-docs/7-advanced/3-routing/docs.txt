@@ -2,6 +2,10 @@ Title: Routing
 
 ----
 
+Description: Learn how to extend Kirby's URL for pages with your own routes.
+
+----
+
 Text:
 
 - [Patterns](#patterns)

@@ -1,0 +1,37 @@
+Title: Template Basics
+
+----
+
+Description: Learn how to create different templates for your pages, how to handle default pages and where to store templates.
+
+----
+
+Text:
+
+Kirby's template engine is based on a mixture of simple PHP and HTML. **You don't need to know PHP to get started**. The methods which are being used to fetch data into your templates are very easy to understand. **You should have basic HTML skills though**.
+
+## /site/templates
+
+All templates for your site are located in the `/site/templates` folder.
+
+## Naming your templates
+
+The names of your templates are related to the filenames of your text files in the content folder. Here are a couple examples:
+
+| Text file                               | Template                     |
+| -                                       | -                            |
+| /content/home/home.txt                  | /site/templates/home.php     |
+| /content/projects/projects.txt          | /site/templates/projects.php |
+| /content/projects/project-1/project.txt | /site/templates/project.php  |
+| /content/projects/project-2/project.txt | /site/templates/project.php  |
+
+## The default template
+
+All the examples above assume that the template files exist. **If a template file with the same name as the text file does not exist, the default template is being loaded**.
+
+The default template is the only required template. It is called `default.php` and must exist in your templates folder. When you get started with a completely new site you might want to start with just the default template as your foundation.
+
+## Shared templates
+
+You might have already seen in the table above that `project-1` and `project-2` share the same filename for their content text file (`project.txt`) and thus they also share the same template (`project.php`). This can be repeated of course with any other template and as often as you like. By giving your content files appropriate filenames you can very easily build a complex variety of custom and shared templates throughout your site.
+

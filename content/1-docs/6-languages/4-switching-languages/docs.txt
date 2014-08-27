@@ -2,6 +2,10 @@ Title: Switching languages
 
 ----
 
+Description: Learn how to build a language switcher, which makes it possible for your users to change the current language.
+
+----
+
 Text:
 
 With multiple available languages you probably want to provide a way for your users to switch between those languages.

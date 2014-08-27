@@ -2,6 +2,10 @@ Title: Translating URLs
 
 ----
 
+Description: Learn how to translate the URLs for pages in all available languages.
+
+----
+
 Text:
 
 Kirby helps you to create nice URLs for all your pages.

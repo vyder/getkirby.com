@@ -2,6 +2,10 @@ Title: Translating your content
 
 ----
 
+Description: Learn how to translate your pages, global site information and meta data for files.
+
+----
+
 Text:
 
 ## Translating your pages

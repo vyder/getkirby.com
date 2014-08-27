@@ -1,0 +1,10 @@
+Title: Panel
+
+----
+
+Description: How to setup, customize and use Kirby's web interface, called Panel.
+
+----
+
+Text:
+

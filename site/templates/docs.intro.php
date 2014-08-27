@@ -14,8 +14,8 @@
         <?php foreach($page->children()->visible() as $item): ?><!--
      --><li>
           <div class="text">
-            <h4><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></h4>
-            <?php echo kirbytext($item->description()) ?>
+            <h2 class="delta docs-icon"><a href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></h2>
+              <?php echo kirbytext($item->description()) ?>
           </div>
         </li><!--
      --><?php endforeach ?>

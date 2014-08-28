@@ -1774,54 +1774,35 @@ h2.delta {
   width: 100%;
 }
 
-/* 2 items in a row */
 @media screen and (min-width: 36em) {
-  .list-2 li {
+  [class*='list-'] li {
     width: 47%;
     margin-right: 6%;
   }
-  .list-2 li:nth-child(even) {
+  [class*='list-'] li:nth-child(even) {
     margin-right: 0;
   }
 }
 
 /* 3 items in a row */
-@media screen and (min-width: 36em) and (max-width: 60em) {
-  .list-3 li {
-    width: 47%;
-    margin-right: 6%;
-  }
-  .list-3 li:nth-child(even) {
-    margin-right: 0;
-  }
-}
 @media screen and (min-width: 60em) {
   .list-3 li {
     width: 31%;
-    margin-right: 3.5%;
+    margin-right: 3.5% !important;
   }
   .list-3 li:nth-child(3n+3) {
-    margin-right: 0;
+    margin-right: 0 !important;
   }
 }
 
 /* 4 items in a row */
-@media screen and (min-width: 36em) and (max-width: 60em) {
-  .list-4 li {
-    width: 47%;
-    margin-right: 6%;
-  }
-  .list-4 li:nth-child(even) {
-    margin-right: 0;
-  }
-}
 @media screen and (min-width: 60em) {
   .list-4 li {
     width: 22%;
-    margin-right: 4%;
+    margin-right: 4% !important;
   }
   .list-4 li:nth-child(4n+4) {
-    margin-right: 0;
+    margin-right: 0 !important;
   }
 }
 

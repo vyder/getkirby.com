@@ -1,12 +1,29 @@
 <?php snippet('header') ?>
 
-<main class="main grid" role="main">
+<main class="main" role="main">
 
   <h1 class="alpha"><?php echo html($page->title()) ?></h1>
 
+  <section class="text">
+    <h2 class="beta">Objects & Collections</h2>
+    <div class="cheatsheet-grid">
+      <?php foreach($page->children()->visible() as $child): ?>
+      <?php if($child->hasVisibleChildren()): ?>
+      <div class="cheatsheet-grid-item">
+        <h3 class="gamma">
+          <a href="#<?php echo $child->uid() ?>">
+            <?php echo html($child->title()) ?>
+          </a>
+        </h3>
+      </div>
+      <?php endif ?>
+      <?php endforeach ?>
+    </div>
+  </section>
+
   <?php foreach($page->children()->visible() as $child): ?>
   <?php if($child->hasVisibleChildren()): ?>
-  <section class="text">
+  <section class="text" id="<?php echo $child->uid() ?>">
     <h2 class="beta"><?php echo html($child->title()) ?></h2>
     <?php echo kirbytext($child->text()) ?>
 

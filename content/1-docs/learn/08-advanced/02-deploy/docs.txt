@@ -1,6 +1,0 @@
-Title: Deploying Kirby
-
-----
-
-Text: 
-

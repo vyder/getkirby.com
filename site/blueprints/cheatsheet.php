@@ -3,7 +3,9 @@
 # Cheatsheet blueprint
 
 title: Cheat sheet
-pages: cheatsheet.item
+pages:
+  template: cheatsheet.item
+  num: zero
 files: true
 fields:
   title:

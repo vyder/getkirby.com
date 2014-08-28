@@ -1,9 +1,0 @@
-Title: 
-
-Extending Kirby
-
-----
-
-Text: 
-
-Kirby has multiple ways for developers to customize core features of the system.

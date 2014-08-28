@@ -4,20 +4,23 @@
 
   <h1 class="alpha"><?php echo html($page->title()) ?></h1>
 
-  <?php foreach($page->children() as $child): ?>
+  <?php foreach($page->children()->visible() as $child): ?>
+  <?php if($child->hasVisibleChildren()): ?>
   <section class="text">
     <h2 class="beta"><?php echo html($child->title()) ?></h2>
     <?php echo kirbytext($child->text()) ?>
 
-
-    <?php foreach($child->children() as $doc): ?>
-    <div>
-      <h3 class="gamma"><?php echo html($doc->title()) ?></h3>
-      <?php echo kirbytext($doc->excerpt()) ?>
+    <div class="cheatsheet-grid">
+      <?php foreach($child->children() as $doc): ?>
+      <div class="cheatsheet-grid-item">
+        <h3 class="gamma"><?php echo html($doc->title()) ?></h3>
+        <?php echo kirbytext($doc->excerpt()) ?>
+      </div>
+      <?php endforeach ?>
     </div>
-    <?php endforeach ?>
 
   </section>
+  <?php endif ?>
   <?php endforeach ?>
 
 </main>

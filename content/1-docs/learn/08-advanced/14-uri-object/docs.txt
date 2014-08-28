@@ -1,6 +1,0 @@
-Title: The URI object
-
-----
-
-Text: 
-

@@ -1271,42 +1271,70 @@ h2.delta {
  :::  Docs
 -------------------------------------------------- */
 .search-form {
-  margin: 3em 0;
+  position: relative;
+  padding: 1.5em 0 3em;
 }
 .search-form input {
+  position: relative;
   width: 100%;
-  margin-top: 1em;
   font-size: 1.2em;
-  padding: 1em;
-  font-weight: 300;
+  padding: .5em 1em;
   border: 2px solid #ddd;
-  background-color: rgba(200,200,200,.1);
-  background-image: url(../images/search.svg);
-  background-position: 95% center;
-  background-size: 2em 2em;
+  background: none;
   font-family: inherit;
   border-radius: 0;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
 }
+.search-form:after {
+  position: absolute;
+  content: "";
+  top: 1.5em;
+  right: .25em;
+  width: 3em;
+  height: 3em;
+  background-image: url(../images/search.svg);
+  background-position: center center;
+  background-size: 1.25em 1.25em;
+}
 .search-form input:focus {
   outline: 0;
   border-color: #aaa;
-  font-weight: 400;
-  background-color: rgba(255,255,255,.1);
 }
 
-
+.search-list li {
+  border-top: 1px solid #ddd;
+  padding: 1em 0;
+}
+.search-list .delta {
+  font-size: 1em;
+}
+.search-list-excerpt {
+  font-style: italic;
+  margin-bottom: 1em;
+}
+.search-list-crumb a {
+  position: relative;
+  display: inline-block;
+  padding: 0 1.5em 0 0;
+  font-size: .8em;
+  color: #777;
+}
+.search-list-crumb a:hover {
+  color: #000;
+}
+.search-list-crumb a:after {
+  position: absolute;
+  content: attr(data-separator);
+  font-size: 1.5em;
+  right: .4em;
+  top: -.05em;
+}
 
 /*
  :::  Cheatsheet
 -------------------------------------------------- */
-.cheatsheet .text div {
-  -webkit-column-break-inside: avoid;
-  -moz-break-inside: avoid;
-  break-inside: avoid;
-}
 .cheatsheet .text {
   border-top: 1px solid #ddd;
   margin-top: 2em;
@@ -1317,17 +1345,19 @@ h2.delta {
   font-size: 80%;
   color: #777;
 }
-.cheatsheet .text h2 {
-  -webkit-column-span: all;
-  -moz-column-span: all;
-  column-span: all;
-}
 .cheatsheet .text h3 {
   font-size: 1rem;
   font-weight: 600;
 }
+.cheatsheet-grid-item {
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  -o-column-break-inside: avoid;
+  column-break-inside: avoid;
+  display: table;
+}
 @media screen and (min-width: 35em) {
-  .cheatsheet .text {
+  .cheatsheet-grid {
     -webkit-column-gap: 3em;
     -moz-column-gap: 3em;
     column-gap: 3em;
@@ -1343,7 +1373,7 @@ h2.delta {
   }
 }
 @media screen and (min-width: 55em) {
-  .cheatsheet .text {
+  .cheatsheet-grid {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -2006,7 +2036,7 @@ hr {
     orphans: 5;
   }
 
-  .cheatsheet .text {
+  .cheatsheet-grid {
     -webkit-column-gap: 3em;
     -moz-column-gap: 3em;
     column-gap: 3em;

@@ -9,6 +9,7 @@
 
   <?php echo css(array(
     'assets/css/site.css',
+    'assets/css/autocomplete.css',
     'assets/css/prism.css',
   )) ?>
 

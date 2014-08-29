@@ -1,0 +1,11 @@
+Title: What are the system requirements for Kirby
+
+----
+
+Text:
+
+Kirby runs on PHP 5.3+, Apache 2 or Ngnix. Lighthttpd should be doable but is not officially supported.
+
+Kirby has been successfully tested on MAMP, XAMPP and PHP's built-in server for local installations.
+
+Kirby is not compatible with IIS.

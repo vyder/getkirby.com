@@ -41,7 +41,7 @@ html {
 @media screen and (min-width: 47em) {
 }
 body {
-  background: #fff url(../images/intro-2.jpg) no-repeat top center;
+  //background: #fff url(../images/intro-2.jpg) no-repeat top center;
   background-size: 100%;
   color: #222;
   line-height: 1;
@@ -1056,6 +1056,7 @@ h2.delta {
   -webkit-column-break-inside: avoid;
   -moz-break-inside: avoid;
   break-inside: avoid;
+  display: table;
 }
 .answer .zeta {
   position: relative;

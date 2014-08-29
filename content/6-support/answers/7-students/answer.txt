@@ -1,0 +1,7 @@
+Title: Do you offer student discounts?
+----
+Text:
+
+Yes! We have a 50% student discount. Just send an email with some proof that you are a student (i.e. student id) <support@getkirby.com>
+
+Educational projects in general get the same discount!

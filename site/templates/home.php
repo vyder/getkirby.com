@@ -1,3 +1,4 @@
+<?php go('docs') ?>
 <?php snippet('header') ?>
 
 <main class="main" role="main">

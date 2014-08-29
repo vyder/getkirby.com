@@ -2,7 +2,7 @@ title: Docs
 
 ----
 
-Text: Read Kirby's detailed documentation to dig deeper.
+Text: Check out Kirby's detailed tutorials and instructions.
 
 ----
-link: http://getkirby.com/docs
+link: (link: docs text: getkirby.com/docs class: btn)

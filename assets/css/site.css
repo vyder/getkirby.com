@@ -41,8 +41,6 @@ html {
 @media screen and (min-width: 47em) {
 }
 body {
-  //background: #fff url(../images/intro-2.jpg) no-repeat top center;
-  background-size: 100%;
   color: #222;
   line-height: 1;
   font-family: 'Source Sans Pro', helvetica, sans-serif;
@@ -56,12 +54,12 @@ body {
 .site {
   position: relative;
   margin: 0 auto;
-  padding: 1em .7em;
+  padding: 0 1.5em;
   max-width: 1100px;
 }
 @media screen and (min-width: 47em) {
   .site {
-    padding: 2em;
+    padding: 1.5em 3em;
   }
 }
 
@@ -70,10 +68,11 @@ body {
 /*
  :::  Main
 -------------------------------------------------- */
-main:after {
+.main:after {
   content: '';
   display: table;
   clear: both;
+  padding-bottom: 3em;
 }
 
 
@@ -369,334 +368,135 @@ h2.delta {
 .site-header {
   position: relative;
   margin-bottom: 1.5em;
-  border-bottom: 2px solid red;
-}
-@media only screen and (max-width: 47em) {
-  .site-header {
-    overflow: hidden;
-  }
 }
 .logo {
-  display: inline-block;
+  display: block;
   position: relative;
-  padding: .5em 0 .5em 2em;
+  padding: .25em 0 1em 2em;
   font-size: 2em;
   z-index: 999;
   text-transform: lowercase;
-  background: url(../images/kirbyicon.svg) no-repeat left center;
-  background-size: 45px 51px;
+  background: url(../images/kirbyicon.svg) no-repeat left top;
+  background-size: 1.3em;
 }
 .logo:hover {
   color: inherit;
 }
-
-
-
-/*
- :::  Sites navigation
--------------------------------------------------- */
-.sites-nav-wrap {
-  position: relative;
-  padding-bottom: 3em;
-}
-.sites-nav-open {
-  display: block;
-  text-align: right;
-  padding-bottom: .5em;
-}
-.sites-nav-open:hover {
-  color: #666;
-}
-.sites-nav ul {
-  position: relative;
-}
-.sites-nav-close {
-  display: none;
-}
-.sites-nav-close:hover {
-  color: transparent;
-}
 @media only screen and (min-width: 47em) {
-  .sites-nav-wrap {
-    position: absolute;
-    top: 0;
-    right: 2em;
-  }
-  .sites-nav {
-    position: absolute;
-    padding-top: 3.5em;
-    top: -12em;
-    right: -4.5em;
-    z-index: 999;
-    opacity: 0;
-    transform: scale(0);
-    transition: all .4s ease-out;
-  }
-
-  /* sites-nav open */
-  .sites-nav-open {
-    display: inline-block;
-    position: absolute;
-    padding: .5em 2em .5em 1em;
-    z-index: 999;
-    top: 0em;
-    right: 0em;
-    font-size: .9em;
-    white-space: nowrap;
-    background-color: #eee;
-    color: #666;
-  }
-  .sites-nav-open:after {
-    position: absolute;
-    content: '';
-    right: .75em;
-    top: 1.05em;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #999;
-  }
-
-  /* sites-nav close */
-  .sites-nav-close {
-    display: inline-block;
-    position: absolute;
-    padding: .5em 2em .5em 1em;
-    top: 0;
-    right: 0;
-    width: 123px;
-    color: transparent;
-  }
-
-  /* the magic */
-  #sites-nav:target {
-    opacity: 1;
-    top: 0em;
-    right: 0;
-    transform: scale(1);
+  .logo {
+    border-bottom: 0;
+    margin-bottom: 1em;
   }
 }
 
 
 
 /*
- :::  Navigation basic pattern
+ :::  Nav
 -------------------------------------------------- */
+.nav li {
+  list-style: none;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
 .nav li a {
   display: block;
   padding: 1em 0;
-  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
-.nav > li > a:hover,
-.nav > li.is-active > a {
-  color: red;
-}
+
 @media screen and (min-width: 47em) {
-  .nav {
-    float: left;
-  }
+
   .nav li {
     float: left;
-    position: relative;
-    display: inline-block;
     margin-right: 2em;
   }
-  .nav li:last-child {
-    margin-right: 0;
-  }
   .nav li a {
-    border-top: none;
+    border-bottom: 0;
   }
-  .nav-main .nav-right,
   .nav-right {
     float: right;
   }
-}
 
+}
 
 
 /*
- :::  Navigation dropdown pattern
+ :::  Main Menu
 -------------------------------------------------- */
-.dropdown {
-  z-index: 999;
+.menu {
+  border-top: 2px solid #ddd;
+  margin: 0 -1.5em;
+  border-bottom: 2px solid red;
 }
-.dropdown li {
-  width: 100%;
+.menu li {
+  float: left;
+  width: 50%;
 }
-.dropdown li a {
-  padding: 1em 2em;
+.menu a {
   display: block;
-  font-weight: 400;
-  font-size: .9em;
-  border-top: .1em solid #444;
-  white-space: nowrap;
-  background: #222;
-  color: #eee;
-}
-.dropdown li a:hover {
-  color: #fff;
-  background: #333;
-}
-.dropdown li.is-active a {
-  color: #666;
-  cursor: default;
-}
-.dropdown li.is-active a:hover {
-  background-color: #222;
-}
-
-/* Dropdown arrow */
-.dropdown:before {
-  position: absolute;
-  content: "";
-  top: -8px;
-  z-index: -1;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-}
-.dropdown.arrow-left:before {
-  left: 0;
-  border-left: 10px solid #222;
-}
-.dropdown.arrow-right:before {
-  right: 0;
-  border-right: 10px solid #222;
-}
-
-
-
-/*
- :::  Main navigation
--------------------------------------------------- */
-.nav-main {
-  padding-top: 2em;
-}
-.nav-main a {
+  padding: 1em 1.5em;
+  border-bottom: 1px solid #ddd;
   font-weight: 600;
 }
-
+.menu a:hover,
+.menu li.is-active a {
+  color: red;
+}
+.menu-left li:nth-child(odd) {
+  border-right: 1px solid #ddd;
+}
+.menu-right li:nth-child(1),
+.menu-right li:nth-child(2) {
+  display: none;
+}
 
 @media screen and (min-width: 47em) {
-
-  /* Nav right */
-  .nav-main .nav-right li:after {
+  .menu {
+    border-top: 0;
+    margin: 0;
+  }
+  .menu li {
+    float: left;
+    width: auto;
+    position: relative;
+    margin-right: 2em;
+    border: 0;
+  }
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  .menu a {
+    border: none;
+    padding: 1em 0;
+  }
+  .menu-left {
+    float: left;
+  }
+  .menu-left li:nth-child(odd) {
+    border: 0;
+  }
+  .menu-right {
+    float: right;
+  }
+  .menu-right li:nth-child(1),
+  .menu-right li:nth-child(2) {
+    display: block;
+  }
+  .menu-right li:after {
     position: absolute;
     content: "\203A";
     top: .5em;
     right: -.75em;
     color: #bbb;
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 200;
   }
-  .nav-main .nav-right li:last-child:after {
-    display: none;
-  }
-
-
-  /* Has dropdown arrow */
-  .nav > li.has-dropdown > a {
-    padding-right: 1em;
-  }
-  .nav > li.has-dropdown > a:after {
-    position: absolute;
-    content: "";
-    right: 0;
-    top: 1.4em;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid #999;
-  }
-  .nav > li.has-dropdown:hover > a:after {
-    border-top-color: #222;
-  }
-
-
-  /* Display dropdown */
-  .nav > li:hover .dropdown {
-    display: block;
-  }
-  .dropdown {
-    position: absolute;
-    left: 0;
-  }
-
-
-  /* Mobile nav trigger */
-  .nav-open,
-  .nav-main .nav-close {
+  .menu-right li:last-child:after {
     display: none;
   }
 }
-
-
-/* dropdown */
-.nav-main .dropdown {
-  display: none;
-}
-
-
-/* nav open button */
-.nav-open {
-  position: absolute;
-  z-index: 999;
-  top: -3px;
-  right: 0;
-}
-.nav-open:after {
-  content: '\2261';
-  position: relative;
-  top: 7px;
-  margin-left: 10px;
-  font-size: 3em;
-}
-
-
-/* nav close button */
-.nav-main .nav-close {
-  float: right;
-  margin-bottom: 1em;
-}
-
-
-/* Mobile behavior */
-@media screen and (max-width: 47em) {
-  .is-active .dropdown {
-    position: relative;
-    display: block;
-    left: 0;
-  }
-  .nav-main {
-    position: relative;
-    padding-top: 1em;
-    background-color: #fff;
-  }
-  .nav-main li {
-    width: 100%;
-    height: 0;
-    opacity: 0;
-    transition: height .3s, opacity .3s;
-  }
-
-  /* the fancy magic */
-  .nav-main:target {
-    padding-top: 95px;
-    margin-top: -80px;
-  }
-  .nav-main:target li {
-    height: auto;
-    opacity: 1;
-  }
-  .nav-main:not(:target) .nav-close {
-    display: none;
-  }
-
-
-  /* Hidden items on mobile */
-  .is-hidden-on-mobile {
-    display: none;
-  }
-}
-
 
 
 /*
@@ -734,9 +534,14 @@ h2.delta {
 /*
  :::  Submenu [docs]
 -------------------------------------------------- */
+.submenu {
+  margin-top: 1.5em;
+  margin-bottom: -3.1em;
+  border-top: 2px solid red;
+}
 .submenu a {
   display: block;
-  padding: .75em .5em .75em 0;
+  padding: 1em 0;
   border-bottom: 1px solid #ddd;
 }
 .submenu a:hover,
@@ -757,9 +562,11 @@ h2.delta {
 .submenu > ul > li > a {
   font-weight: 600;
 }
-@media screen and (max-width: 50em) {
+@media screen and (min-width: 47em) {
   .submenu {
-    margin-top: 3em;
+    margin-top: 0;
+    margin-bottom: 3em;
+    border-top: 0;
   }
 }
 
@@ -769,18 +576,21 @@ h2.delta {
  :::  Footer
 -------------------------------------------------- */
 .site-footer {
-  margin-top: 3rem;
   padding: 0 0 9em 0;
-  font-size: 0.9em;
   border-top: 2px solid red;
 }
-.site-footer p {
+
+.copyright {
   padding: 1em 0;
+  border-bottom: 2px solid #ddd;
+}
+.copyright p {
   line-height: 1em;
 }
 @media screen and (min-width: 47em) {
-  .site-footer p {
+  .copyright {
     float: left;
+    border: 0;
   }
 }
 
@@ -855,7 +665,11 @@ h2.delta {
 -------------------------------------------------- */
 .pagination {
   position: relative;
-  padding-top: 2em;
+  overflow: hidden;
+  padding: 1.5em 0;
+}
+.pagination a {
+  font-weight: 600;
 }
 .pagination .prev {
   float: left;
@@ -1236,11 +1050,8 @@ h2.delta {
 /*
  :::  Docs
 -------------------------------------------------- */
-.docs-index .list-4 {
-  border-top: 1px solid #ddd;
-}
 .docs-index .list-4 li {
-  margin-top: 3em;
+  margin-bottom: 3em;
 }
 .docs-icon:before {
   content: '';
@@ -1385,17 +1196,19 @@ h2.delta {
 /*
  :::  Downloads
 -------------------------------------------------- */
+
 .downloads .section {
-  padding-bottom: 2em;
-  border-bottom: none;
+  padding-bottom: 3.5em;
+}
+.downloads .section:last-child {
+  border: 0;
+  padding: 0;
 }
 .download-list {
-  border-top: 1px solid #ddd;
 }
 .download-list li {
   position: relative;
-  padding: 1.5em 0 1.5em 5em;
-  border-bottom: 1px solid #ddd;
+  padding: 0 0 0 4.5em;
 }
 .download-list li .icon {
   position: absolute;
@@ -1411,8 +1224,7 @@ h2.delta {
   border-radius: 50%;
 }
 .download-list p {
-  font-weight: 300;
-  color: #999;
+  color: #777;
 }
 
 
@@ -2038,3 +1850,24 @@ hr {
 
 
 
+.message {
+  background: #f5f5f5;
+  color: #000;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1.5em;
+  box-shadow: rgba(0,0,0, .05) 0 -5px 10px inset;
+}
+.message a {
+  color: red;
+}
+.message strong {
+  display: block;
+}
+@media screen and (min-width: 47em) {
+  .message {
+    font-size: 1.25em;
+  }
+}

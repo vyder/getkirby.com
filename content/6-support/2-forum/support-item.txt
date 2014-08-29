@@ -2,7 +2,8 @@ title: Forum
 
 ----
 
-Text: Join the community around Kirby and connect to others.
+Text: Join the Kirby community and connect with others.
 
 ----
-link: http://forum.getkirby.com
+
+Link: (link: http://forum.getkirby.com text: forum.getkirby.com class: btn)

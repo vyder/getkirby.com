@@ -1,3 +1,0 @@
-title: 3. Decide
-----
-text: Take your time and decide if Kirby is right for you. Check out what (link: made-with-kirby-and-love text: others built with Kirby).

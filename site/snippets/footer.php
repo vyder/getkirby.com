@@ -1,6 +1,6 @@
 
     <footer class="site-footer cf" role="contentinfo">
-      <?php echo kirbytext($site->copyright()) ?>
+      <div class="copyright"><?php echo kirbytext($site->copyright()) ?></div>
       <ul class="nav nav-right" role="navigation">
         <li><?php echo twitter('@getkirby') ?></li>
         <li><a href="<?php echo url('imprint') ?>">Imprint</a></li>

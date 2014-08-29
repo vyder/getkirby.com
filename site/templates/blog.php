@@ -21,7 +21,7 @@
   </ul>
 
   <?php if($articles->pagination()->hasPages()): /*** pagination ***/ ?>
-  <nav class="pagination cf text">
+  <nav class="pagination cf">
     <?php if($articles->pagination()->hasPrevPage()): ?>
     <a class="prev" href="<?php echo $articles->pagination()->prevPageURL() ?>">&larr; newer posts</a>
     <?php endif ?>

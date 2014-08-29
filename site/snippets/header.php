@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
 
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <?php echo css('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,400italic|Source+Code+Pro:400') ?>
@@ -30,10 +31,14 @@
   <meta name="apple-mobile-web-app-title" content="<?php echo html($site->title()) ?>">
   <link rel="alternate" type="application/rss+xml" href="<?php echo url('feed') ?>" title="<?php echo html($site->title()) ?> Blog Feed" />
 
-  <?php echo html::shiv() ?>
-
 </head>
 <body class="<?php echo str_replace('.', '-', $page->template()) ?>">
+
+  <div class="message">
+    <strong>This is a work-in-progress preview of the new <a href="<?php echo url('blog/kirby-2-beta-2') ?>">Kirby 2</a> site and docs.</strong>
+    Please visit <a href="http://getkirby.com">getkirby.com</a> for more information about Kirby 1.
+  </div>
+
   <div class="site">
 
     <!--[if lte IE 9]>

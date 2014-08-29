@@ -5,4 +5,4 @@ title: GitHub
 Text: Report Kirby-related issues directly on GitHub.
 
 ----
-link: http://github.com/getkirby
+link: (link: http://github.com/getkirby text: github.com/getkirby class: btn)

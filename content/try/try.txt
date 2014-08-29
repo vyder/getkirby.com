@@ -12,8 +12,15 @@ Subheadline: Don't buy a pig in a poke!
 
 Text:
 
-I want you to be happy with Kirby first, before you buy a license. This is why (link: http://github.com/getkirby text: Kirby's source code) is fully available without limitations. I like to call it commercial open-source.
+Kirby's license model is based on a single idea: you should be happy with Kirby first, before you buy a license!
 
-You'll find every relevant repository around Kirby in its (link: http://github.com/getkirby text: organization on Github). Besides the (link: http://github.com/getkirby/kirby text: core), the (link: http://github.com/getkirby/panel text: Panel) and the (link: http://github.com/getkirby/starterkit text: Starterkit) there's much more great Kirby-related stuff to discover.
+This is why **(link: http://github.com/getkirby text: Kirby's source code)** is fully available on Github without restrictions.
 
-Try it **locally** or install it on a **non-public staging server** and give it a spin as long as you want.
+Try Kirby on your **local machine** or on a **private test server** as long as you want. Once you are sure that Kirby is made for you, just **(link: buy text: get your license key)** and you are ready to go.
+
+## How to get started
+
+1. (link: http://download.getkirby.com text: Download Kirby's starterkit)
+2. (link: docs/installation text: Read the installation guides)
+3. (link: docs/content text: Learn how to add content)
+4. (link: docs/templates text: Learn how to build templates)

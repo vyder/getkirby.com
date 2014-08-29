@@ -2,7 +2,8 @@ title: Contact
 
 ----
 
-Text: If you've got any questions about Kirby let us know.
+Text: We are here to help if you get stuck or have feedback.
 
 ----
-link: (email: support@getkirby.com text: support@getkirby.com class: btn)
+
+Link: (email: support@getkirby.com text: support@getkirby.com class: btn)

@@ -5,19 +5,31 @@
   <h1 class="alpha margin-bottom">Downloads</h1>
 
   <section class="section">
-    <h2 class="beta">Kirby</h2>
-
+    <h2 class="beta">Kirby Starterkit</h2>
     <ul class="download-list"><!--
    --><li>
         <a href="http://download.getkirby.com">
           <img class="icon" src="<?php echo url('assets/images/kirby-dark.png') ?>" alt="Kirby icon" />
-          <h3 class="gamma">kirby-2.0.0.zip</h3>
+          <h3 class="gamma">kirby-2.0.0-beta2.zip</h3>
           <p>Download Kirby's Starterkit</p>
         </a>
       </li><!--
  --></ul>
 
   </section>
+
+  <section class="section">
+    <h2 class="beta">Plugins, Snippets and Templates</h2>
+
+    <div class="text">
+      We are currently reviewing all plugins, snippets and templates for Kirby 2.
+      Check back soon for the full list of downloads.
+      In the meantime you can find many new <a href="<?php echo url('docs/solutions') ?>">solutions and tutorials</a> on how to build things with Kirby in the docs.
+    </div>
+
+  </section>
+
+
 
   <?php foreach($page->children()->visible() as $category): ?>
 

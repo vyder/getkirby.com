@@ -1,0 +1,10 @@
+﻿Title: Buy
+
+----
+
+Text:
+
+Kirby 2 has not launched yet, but you can **(link: http://getkirby.com/buy text: buy a license for Kirby 1)**, which will contain a **free update for Kirby 2**.
+
+Follow **(twitter: getkirby text: Kirby on Twitter)** for updates about Kirby 2.
+Write us, if you have questions or feedback: <support@getkirby.com>

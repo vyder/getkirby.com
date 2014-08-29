@@ -14,11 +14,7 @@
           <h2 class="beta"><?php echo $item->title() ?></h2>
           <?php echo kirbytext($item->text()) ?>
         </div>
-        <?php if($item->uid() == 'contact'):?>
         <?php echo kirbytext($item->link()) ?>
-        <?php else: ?>
-        <a class="btn" href="<?php echo $item->link() ?>"><?php echo url::short($item->link()) ?></a>
-        <?php endif ?>
       </li><!--
    --><?php endforeach ?>
     </ul>

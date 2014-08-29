@@ -26,10 +26,10 @@
   <?php if($references->pagination()->hasPages()): ?>
   <nav class="pagination clear">
     <?php if($references->pagination()->hasPrevPage()): ?>
-    <a class="btn prev" href="<?php echo $references->pagination()->prevPageURL() ?>">newer entries</a>
+    <a class="prev" href="<?php echo $references->pagination()->prevPageURL() ?>">&larr; newer entries</a>
     <?php endif ?>
     <?php if($references->pagination()->hasNextPage()): ?>
-    <a class="btn next" href="<?php echo $references->pagination()->nextPageURL() ?>">older entries</a>
+    <a class="next" href="<?php echo $references->pagination()->nextPageURL() ?>">older entries &rarr;</a>
     <?php endif ?>
   </nav>
   <?php endif ?>

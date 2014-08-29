@@ -11,6 +11,18 @@ How to fetch the latest version of Kirby and what you need to get Kirby running 
 
 Text:
 
+You can download the latest version of Kirby by using the official download link:
+
+(link: http://download.getkirby.com text: Download Kirby class: btn)
+
+If you prefer using the terminal please run:
+
+```
+git clone --recursive https://github.com/getkirby/starterkit.git
+```
+
+## Requirements
+
 - Apache 2 or Ngnix
 - URL rewriting (mod_rewrite)
 - PHP 5.3+

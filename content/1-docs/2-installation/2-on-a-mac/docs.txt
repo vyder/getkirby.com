@@ -20,15 +20,15 @@ Installing MAMP is just a matter of downloading the app from the MAMP website an
 
 (image: mamp-02.png)
 
-By starting the MAMP app you are also starting your Apache and MySQL server. You should now be able to reach your local server at <http://localhost:8888>
+By starting the MAMP app you are also starting your Apache and MySQL server. You should now be able to reach your local server at <http://localhost:8888>.
 
 ## Download Kirby
 
-Grab the **(link: https://github.com/getkirby/cms/zipball/master text: latest Kirby version**) or choose your preferred (link: download text: download setup)!
+Grab the **(link: http://download.getkirby.com text: latest Kirby version**)!
 
 ## Copy ALL files
 
-You will find the source of Kirby in your Download folder, **but there's pitfall!** By default the Finder does not show invisible files. The .htaccess file, which is needed to generate nice URLs is such an invisible file. So we need to make sure to copy that as well.
+You will find the source of Kirby in your Download folder, **but there's pitfall!** By default the Finder does not show invisible files. The `.htaccess file, which is needed to generate nice URLs is such an invisible file. So we need to make sure to copy that as well.
 
 ## Show invisible files
 
@@ -43,14 +43,7 @@ Copy all files from the "bastianallgeier…" folder and add them to the `~/Appli
 That's basically – almost – all you need to do to install Kirby. You should now be able to access it at: <http://localhost:8888/kirby> in your browser.
 
 ----
-Docs:
 
-Installing Kirby in a subfolder:
-
-    text: Installing Kirby in a subfolder
-    link: docs/installation/troubleshooting/in-a-subfolder
-
-----
 Externals:
 
 MAMP:

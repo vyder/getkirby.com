@@ -371,11 +371,11 @@ There are some fantastic Markdown Editors for Mac and PC, which you can use to e
 - Mou (<http://mouapp.com>)
 - Byword (<http://bywordapp.com>)
 - Marked (<http://markedapp.com>)
-<br />
+- Write for Mac (<http://writeapp.net/mac/>)
+
 ### For Windows:
 
 - MarkdownPad (<http://markdownpad.com>)
 - WriteMonkey (<http://writemonkey.com>)
-<br />
 
 Of course you can still use any other editor, as this is all just plain text.

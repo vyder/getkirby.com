@@ -658,6 +658,12 @@ h2.delta {
   border-bottom-left-radius: 0;
 }
 
+/* buttons within .text */
+.text [class*='btn'] {
+  border-color: #222;
+}
+
+
 
 
 /*

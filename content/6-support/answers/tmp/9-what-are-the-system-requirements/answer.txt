@@ -1,5 +1,0 @@
-Title: What are the system requirements
-----
-Text:
-
-Kirby runs best on Linux, Apache and PHP 5.3+.

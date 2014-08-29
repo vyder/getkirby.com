@@ -1,9 +1,0 @@
-Title: Do you recommend any FTP-client?
-----
-Text:
-
-Any decent FTP-client is just fine! I love Transmit for Mac though (<http://panic.com/transmit>)
-
-
-
-

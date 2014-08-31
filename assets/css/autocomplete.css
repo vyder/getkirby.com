@@ -1,6 +1,6 @@
 .autocomplete {
   z-index: 1000;
-  margin-bottom: -3em;
+  border-bottom: 1px solid #ddd;
 }
 .autocomplete button {
   display: block;

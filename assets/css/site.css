@@ -871,6 +871,17 @@ h2.delta {
   border-bottom: 1px solid #ddd;
   text-align: center;
 }
+.answers header img {
+  display: inline-block;
+  position: relative;
+  top: .5em;
+  margin-right: .5em;
+  width: 40px;
+  opacity: .3;
+}
+.answers header h2 {
+  display: inline-block;
+}
 .answer {
   border-bottom: 1px solid #ddd;
   padding: 1em 0;
@@ -927,7 +938,7 @@ h2.delta {
   margin-bottom: 2em;
   text-align: center;
 }
-.support img {
+.support-items img {
   width: 120px;
   height: 120px;
   padding: .5em;
@@ -1057,7 +1068,7 @@ h2.delta {
 /*
  :::  Docs
 -------------------------------------------------- */
-.docs-index .list-4 li {
+.docs-index-list li {
   margin-bottom: 3em;
 }
 .docs-icon:before {
@@ -1750,57 +1761,14 @@ hr {
 
 
 /*
- :::  Error page
+ :::  Error
 -------------------------------------------------- */
-.error .wrap {
-  position: absolute;
-  padding: 1.5em;
-  top: 50%;
-  left: 50%;
-  border: 2px dashed #ddd;
-  min-width: 16em;
-  text-align: center;
-  -webkit-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  background-image: -webkit-repeating-linear-gradient(135deg, transparent, transparent 10px, rgba(180,180,180,.1) 10px, rgba(180,180,180,.1) 30px);
-  background-image: repeating-linear-gradient(135deg, transparent, transparent 10px, rgba(180,180,180,.1) 10px, rgba(180,180,180,.1) 30px);
-}
-.error header {
-  margin-bottom: 1.5em;
-  padding-bottom: 1em;
-}
-.error .btn {
-  display: inline-block;
-  background-color: #fff;
-  margin-top: 1em;
-}
-.error .btn:hover {
-  background-color: #222;
+.error-intro {
+  margin-bottom: 3em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ddd;
 }
 
-
-/* border-animation */
-.border-animation {
-  -webkit-animation: border-animation 1s 1s infinite ease-in-out normal both;
-  animation: border-animation 1s 1s infinite ease-in-out normal both;
-}
-@-webkit-keyframes border-animation {
-  0% {
-    border-color: #ddd;
-  }
-  50% {
-    border-color: #999;
-  }
-}
-@keyframes border-animation {
-  0% {
-    border-color: #ddd;
-  }
-  50% {
-    border-color: #999;
-  }
-}
 
 
 /*

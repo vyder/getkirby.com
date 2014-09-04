@@ -1,10 +1,12 @@
-﻿Title: Error
+﻿Title: Something went wrong...
 
 ----
 
 Text:
 
-The page has not been found.
-We are massively working on this site at the moment.
+## The page has not been found.
 
-**If you find broken links, please send us a short email: <support@getkirby.com>**
+We are massively working on this site at the moment.
+You might want to read the news about the (link: blog/kirby-2-beta-2 text: latest Kirby 2 beta).
+
+**If you find broken links, please send us a short email: <support@getkirby.com>!**

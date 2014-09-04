@@ -36,7 +36,7 @@
   </ul>
 
   <?php else: ?>
-  <ul class="list-4">
+  <ul class="docs-index-list list-4">
     <?php foreach($page->children()->visible() as $item): ?><!--
  --><li>
       <div class="text">

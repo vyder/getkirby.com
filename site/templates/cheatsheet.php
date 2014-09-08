@@ -30,8 +30,15 @@
     <div class="cheatsheet-grid">
       <?php foreach($child->children() as $doc): ?>
       <div class="cheatsheet-grid-item">
+        <?php if($doc->text() != ''): ?>
+        <a href="<?php echo $doc->url() ?>">
+          <h3 class="gamma"><?php echo html($doc->title()) ?></h3>
+          <?php echo kirbytext($doc->excerpt()) ?>
+        </a>
+        <?php else: ?>
         <h3 class="gamma"><?php echo html($doc->title()) ?></h3>
         <?php echo kirbytext($doc->excerpt()) ?>
+        <?php endif ?>
       </div>
       <?php endforeach ?>
     </div>

@@ -1,14 +1,18 @@
-Title: 
+Title:
 
 $camera->model()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the name of the camera model
 
 ----
 
-Text: 
+Text:
+
+```php
+<?php echo $page->image()->camera()->model() ?>
+```
 

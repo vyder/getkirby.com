@@ -1,14 +1,18 @@
-Title: 
+Title:
 
 $camera->make()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the camera brand/make
 
 ----
 
-Text: 
+Text:
+
+```php
+<?php echo $page->image()->camera()->make() ?>
+```
 

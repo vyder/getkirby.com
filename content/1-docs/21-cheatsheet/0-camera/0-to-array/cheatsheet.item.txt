@@ -1,14 +1,18 @@
-Title: 
+Title:
 
 $camera->toArray()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the make and model as associative array.
 
 ----
 
-Text: 
+Text:
+
+```php
+<?php echo $page->image()->camera()->toArray() ?>
+```
 

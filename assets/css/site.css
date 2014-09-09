@@ -89,6 +89,9 @@ img {
   display: block;
   margin-bottom: 1.5em;
 }
+.text figure a {
+  border-bottom: none;
+}
 .text figure figcaption {
   display: block;
   margin-top: 8px;

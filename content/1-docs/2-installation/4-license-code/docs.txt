@@ -4,13 +4,13 @@ Title: Entering the license code
 
 Description:
 
-Where and why to enter your license code…
+Where and why to enter your license code.
 
 ----
 
 Text:
 
-After purchasing a Kirby license you will receive your unique license code.
+After (link: buy text: purchasing a Kirby license) you will receive your unique license code.
 
 Go to `/site/config/config.php` and search for
 

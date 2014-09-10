@@ -223,14 +223,10 @@ p {
  :::  Description lists
 -------------------------------------------------- */
 .text dl {
-  margin-bottom: 1.5em;
+  margin-bottom: 2.5em;
 }
 .text dt {
-  margin-top: 1.25em;
-  margin-bottom: .25em;
-  font-size: 1.3rem;
-  font-weight: 400;
-  color: red;
+  margin-top: 1.5em;
 }
 
 
@@ -319,7 +315,7 @@ h6 a {
   color: red;
 }
 .text h2 {
-  margin: 0 0 .5em 0;
+  margin-bottom: .5em;
 }
 .gamma,
 .text h3,
@@ -330,7 +326,9 @@ h2.gamma {
   line-height: 1.5em;
 }
 .text h3 {
-  margin: 0 0 .5em 0;
+  margin-bottom: .5em;
+  padding-top: .5em;
+  font-weight: 600;
 }
 .text h4,
 .delta,
@@ -342,7 +340,7 @@ h2.delta {
   color: red;
 }
 .text h4 {
-  margin: 0 0 .5em 0;
+  margin-bottom: .5em;
 }
 .epsilon,
 .text h5 {
@@ -361,7 +359,7 @@ h2.delta {
 }
 .text h5,
 .text h6 {
-  margin: 0 0 .5em 0;
+  margin-bottom: .5em;
 }
 
 
@@ -1164,6 +1162,16 @@ h2.delta {
   right: .4em;
   top: -.05em;
 }
+
+
+
+/*
+ :::  Docs [languages]
+-------------------------------------------------- */
+.docs-languages dd span {
+  color: #888;
+}
+
 
 /*
  :::  Cheatsheet

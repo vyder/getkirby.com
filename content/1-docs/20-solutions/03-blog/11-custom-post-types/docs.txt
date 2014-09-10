@@ -65,7 +65,7 @@ We now have different article templates for each post type, but there's still th
 
 Open the main blog template in your editor. I suppose it's called `site/templates/blog.php` or something.
 
-```
+```php
 <?php foreach($articles as $article): ?>
 <article>
 

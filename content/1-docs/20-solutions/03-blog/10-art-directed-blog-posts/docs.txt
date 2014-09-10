@@ -19,7 +19,7 @@ Afterwards go to the header snippet for your site
 
 What we want to do is to include our stylesheet and script files in the head section of our html and it's just a few lines of code to do that.
 
-```
+```php
 <head>
 
 …
@@ -44,13 +44,13 @@ What we are doing here is to get all files in our content folder and filter them
 
 `css($url)` is a handy little helper function, which will automatically take the passed url and build a proper css link for it:
 
-```html
+```markup
 <link rel="stylesheet" type="text/css" media="all" href="http://theurltothestylesheet.com" />
 ```
 
 `js($url)` does the same for javascript files:
 
-```html
+```markup
 <script type="text/javascript" src="http://theurltothejavascript.com"></script>
 ```
 

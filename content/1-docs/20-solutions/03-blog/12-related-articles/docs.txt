@@ -33,7 +33,7 @@ Add any number of related pages with the YAML syntax. To link pages, you simply 
 
 Accessing those related posts in your templates could look like this:
 
-```
+```php
 <?php snippet('header') ?>
 
 <h1><?php echo html($page->title()) ?></h1>

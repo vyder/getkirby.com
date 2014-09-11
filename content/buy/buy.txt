@@ -8,3 +8,32 @@ Kirby 2 has not launched yet, but you can **(link: http://getkirby.com/buy text:
 
 Follow **(twitter: getkirby text: Kirby on Twitter)** for updates about Kirby 2.
 Write us, if you have questions or feedback: <support@getkirby.com>
+
+----
+volumes:
+
+Volume | EUR | Dollar
+- | -
+1 - 4 | 30,00 € | $39.00
+5 - 9 | 27,00 € | $35.10
+10 - 24 | 25,50 € | $33.15
+25 - 49 | 24,00 € | $31.20
+50 - 99 | 22,50 € | $29.25
+100+ | 21,00 € | $27.30
+
+----
+students:
+
+We have a 50% student discount. Just send (email: support@getkirby.com text: an email) with some proof that you are a student (i.e. student id).
+
+Educational projects in general get the same discount!
+
+----
+order:
+
+A license is valid for a single website. It contains updates for minor Kirby versions (i.e. 2.1 to 2.2). After your purchase with via (link: http://fastspring.com/ text: Fastspring) you will receive an email with a proper invoice and your license key(s).
+
+----
+voluntary:
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.

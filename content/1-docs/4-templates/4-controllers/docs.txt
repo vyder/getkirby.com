@@ -91,3 +91,17 @@ With such a controller, the template can be super clean. A foreach loop for the 
 
 <?php snippet('footer ?>
 ```
+
+## Arguments from the router
+
+If you are working with additional routes and you want to access the arguments from the router in your controller you can use the fourth argument to access an array of router arguments.
+
+```php
+<?php
+
+return function($site, $pages, $page, $args) {
+
+  // $args contains all arguments from the current route
+
+};
+```

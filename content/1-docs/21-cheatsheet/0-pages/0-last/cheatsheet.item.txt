@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $pages->last()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the last $page object from the collection
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->children()->last()->title() ?>
+```

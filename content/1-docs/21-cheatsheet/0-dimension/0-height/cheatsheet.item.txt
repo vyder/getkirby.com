@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $dimension->height()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the height in pixels
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->image()->height() ?>
+```

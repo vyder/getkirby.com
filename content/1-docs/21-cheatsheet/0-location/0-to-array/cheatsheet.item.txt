@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $location->toArray()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns latitude and longitude as associative array
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->image()->exif()->location()->toArray() ?>
+```

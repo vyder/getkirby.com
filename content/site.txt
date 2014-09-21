@@ -13,8 +13,4 @@ Description: Kirby is a file-based content management system – easy to setup, 
 Keywords: kirby, cms, content management, kirbycms, php, filesystem, flexible, websites
 
 ----
-
-Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier GmbH)
-
-----
 Email: support@getkirby.com

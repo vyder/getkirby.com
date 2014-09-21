@@ -1,14 +1,35 @@
-Title: 
+Title:
 
 $page->find($uri)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the $page object of a specific subpage by URI. If multiple URIs are given, the method will return a $pages collection with all matches.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+### Fetch a single subpage
+
+```php
+<?php echo $page->find('subpage-a')->title() ?>
+```
+
+### Fetch multiple subpages
+
+```php
+<ul>
+  <?php foreach($page->find('subpage-a', 'subpage-c', 'subpage-i') as $subpage): ?>
+  <li>
+    <a href="<?php echo $subpage->url() ?>">
+      <?php echo html($subpage->title()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

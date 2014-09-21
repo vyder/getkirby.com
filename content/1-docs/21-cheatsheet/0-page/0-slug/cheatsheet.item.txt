@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->slug()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the slug. The slug is the last part of the page's URL. It is translatable in multi-language sites while the UID always stays the page's directory name without the sorting number.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->slug() ?>
+```

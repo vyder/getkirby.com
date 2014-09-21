@@ -12,7 +12,9 @@ Returns the camera brand/make
 
 Text:
 
+## Example
+
 ```php
-<?php echo $page->image()->camera()->make() ?>
+<?php echo $page->image()->exif()->camera()->make() ?>
 ```
 

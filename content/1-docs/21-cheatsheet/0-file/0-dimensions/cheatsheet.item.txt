@@ -1,15 +1,22 @@
-Title: 
+Title:
 
 $file->dimensions()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the $dimensions object for the file. This is only available for images (jpg, png, gif)
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the $dimensions object for the file. This is only available for images (jpg, png, gif)
+## Example
+
+```php
+$dimensions = $page->image()->dimensions();
+
+echo $dimensions->width();
+echo $dimensions->height();
+```

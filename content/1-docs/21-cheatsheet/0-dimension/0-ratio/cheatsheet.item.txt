@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $dimension->ratio()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the ratio
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->image()->ratio() ?>
+```

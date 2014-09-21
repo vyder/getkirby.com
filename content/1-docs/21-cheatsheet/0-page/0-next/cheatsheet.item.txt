@@ -1,14 +1,21 @@
-Title: 
+Title:
 
 $page->next()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the next sibling
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php if($next = $page->next()): ?>
+<a href="<?php echo $next->url() ?>">next page</a>
+<?php endif ?>
+```

@@ -1,14 +1,29 @@
-Title: 
+Title:
 
 $page->isOpen()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if the page is open. This means that it is either active or it is a direct or indirect parent of the currently active page.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<nav role="navigation">
+  <ul>
+    <?php foreach($pages as $subpage): ?>
+    <li<?php e($subpage->isOpen(), ' class="active"') ?>>
+      <a href="<?php echo $subpage->url() ?>">
+        <?php echo html($subpage->title()) ?>
+      </a>
+    </li>
+    <?php endforeach ?>
+  </ul>
+</nav>
+```

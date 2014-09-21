@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->uid()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 The UID is the page directory name without the sorting number.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->uid() ?>
+```

@@ -1,14 +1,31 @@
-Title: 
+Title:
 
 $page->image($filename = false)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a specific image $file object by filename. If no filename is given, the first available image will be returned.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+### Fetching the first image
+
+```php
+<?php if($image = $page->image()): ?>
+<img src="<?php echo $image->url() ?>" alt="">
+<?php endif ?>
+```
+
+### Fetching a specific image
+
+```php
+<?php if($image = $page->image('myimage.jpg')): ?>
+<img src="<?php echo $image->url() ?>" alt="">
+<?php endif ?>
+```

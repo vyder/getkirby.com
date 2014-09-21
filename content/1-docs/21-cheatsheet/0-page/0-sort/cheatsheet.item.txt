@@ -1,14 +1,29 @@
-Title: 
+Title:
 
 $page->sort($num)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Changes the sorting number of the page.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+try {
+
+  page('invisible-page')->sort(12);
+  echo 'The page is now visible and has the sorting number 12';
+
+} catch(Exception $e) {
+
+  echo $e->getMessage();
+
+}
+
+```

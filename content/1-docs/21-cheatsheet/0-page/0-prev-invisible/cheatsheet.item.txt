@@ -1,14 +1,21 @@
-Title: 
+Title:
 
 $page->prevInvisible()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the previous invisble sibling.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php if($prev = $page->prevInvisible()): ?>
+<a href="<?php echo $prev->url() ?>">previous invisible page</a>
+<?php endif ?>
+```

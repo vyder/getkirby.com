@@ -1,14 +1,34 @@
-Title: 
+Title:
 
 $page->update($data = array())
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Updates the page content with all passed variables.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+try {
+
+  page('mypage')->update(array(
+    'title'        => 'A new title',
+    'text'         => 'Some text',
+    'anotherfield' => 'Some more data'
+  ));
+
+  echo 'The page has been updated';
+
+} catch(Exception $e) {
+
+  echo $e->getMessage();
+
+}
+
+```

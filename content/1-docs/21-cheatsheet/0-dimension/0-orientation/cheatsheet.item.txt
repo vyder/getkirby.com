@@ -1,0 +1,19 @@
+Title:
+
+$dimension->orientation()
+
+----
+
+Excerpt:
+
+Returns the orientation of the image as string (landscape|portrait|square)
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->image()->orientation(); ?>
+```

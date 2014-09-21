@@ -1,9 +1,14 @@
-Title: 
+Title:
 
 Example blueprints
 
 ----
 
-Text: 
+Text:
 
 We've collected a number of common blueprint examples, which you can use as a starting point for your own blueprints or just copy and paste if they fit.
+
+- (link: ./blog-article text: Blog Article)
+- (link: ./contact-page text: Contact page)
+- (link: ./event text: Event page)
+- (link: ./portfolio-project text: Portfolio project)

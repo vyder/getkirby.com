@@ -1,15 +1,20 @@
-Title: 
+Title:
 
 $file->ratio()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the ratio of an image file
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the ratio of an image file
+## Example
+
+```php
+echo $page->image('my-image.jpg')->ratio();
+// i.e. 1.345232
+```

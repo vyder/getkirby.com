@@ -1,14 +1,28 @@
-Title: 
+Title:
 
 $pages->visible()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns all visible items in the collection
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<h2>Visible subpages</h2>
+<ul>
+  <?php foreach($page->children()->visible() as $subpage): ?>
+  <li>
+    <a href="<?php echo $subpage->url() ?>">
+      <?php echo html($subpage->title()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

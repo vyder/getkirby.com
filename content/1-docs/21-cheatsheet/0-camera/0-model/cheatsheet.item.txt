@@ -12,7 +12,9 @@ Returns the name of the camera model
 
 Text:
 
+## Example
+
 ```php
-<?php echo $page->image()->camera()->model() ?>
+<?php echo $page->image()->exif()->camera()->model() ?>
 ```
 

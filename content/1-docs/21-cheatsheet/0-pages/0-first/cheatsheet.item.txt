@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $pages->first()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the first $page object from the collection
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->children()->first()->title() ?>
+```

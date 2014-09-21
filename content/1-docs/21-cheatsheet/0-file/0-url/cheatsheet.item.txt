@@ -1,15 +1,13 @@
-Title: 
+Title:
 
 $file->url()
 
 ----
 
-Text: 
-
-
+Text:
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the absolute URL for a file.

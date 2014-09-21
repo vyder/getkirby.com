@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $exif->focalLength()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the focal length of the image, if it is available in the exif data set.
 
 ----
 
-Text: 
+Text:
+
+## Example
+
+```php
+<?php echo $page->image()->exif()->focalLength() ?>
+```
 

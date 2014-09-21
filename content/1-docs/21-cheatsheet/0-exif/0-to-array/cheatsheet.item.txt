@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $exif->toArray()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns an associative array of all available exif data.
 
 ----
 
-Text: 
+Text:
+
+## Example
+
+```php
+<?php dump($page->image()->exif()->toArray()) ?>
+```
 

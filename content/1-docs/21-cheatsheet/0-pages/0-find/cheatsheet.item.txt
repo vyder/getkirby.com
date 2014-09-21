@@ -1,14 +1,35 @@
-Title: 
+Title:
 
 $pages->find()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Finds a $page object in the collection by UID or relative URI
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+### Fetch a single subpage
+
+```php
+<?php echo $page->children()->find('subpage-a')->title() ?>
+```
+
+### Fetch multiple subpages
+
+```php
+<ul>
+  <?php foreach($page->children()->find('subpage-a', 'subpage-c', 'subpage-i') as $subpage): ?>
+  <li>
+    <a href="<?php echo $subpage->url() ?>">
+      <?php echo html($subpage->title()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

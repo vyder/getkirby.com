@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->templateFile()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the full path of the template file.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->templateFile() ?>
+```

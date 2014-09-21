@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->num()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the sorting number
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->num() ?>
+```

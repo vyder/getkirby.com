@@ -1,15 +1,20 @@
-Title: 
+Title:
 
 $file->name()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the name of the file without extension
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the name of the file without extension
+## Example
+
+```php
+echo $page->file('my-image.jpg')->name();
+// my-image
+```

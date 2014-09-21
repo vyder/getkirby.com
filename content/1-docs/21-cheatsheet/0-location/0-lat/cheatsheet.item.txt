@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $location->lat()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the latitude
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->image()->exif()->location()->lat() ?>
+```

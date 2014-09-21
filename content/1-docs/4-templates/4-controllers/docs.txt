@@ -12,8 +12,7 @@ Templates should contain as little code as possible to separate logic and form. 
 
 ## The controllers directory
 
-Controllers go into `/site/controllers`. Please create the directory if it's not there yet.
-Controllers are named exactly like the templates they belong to:
+Controllers go into `/site/controllers`. Please create the directory if it's not there yet. Controllers are named exactly like the templates they belong to:
 
 Template | Controller
 -        | -

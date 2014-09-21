@@ -1,14 +1,23 @@
-Title: 
+Title:
 
 $page->parent()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the parent $page object
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+This page is a subpage of:
+
+<a href="<?php echo $page->parent()->url() ?>">
+  <?php echo html($page->parent()->title()) ?>
+</a>
+```

@@ -1,14 +1,21 @@
-Title: 
+Title:
 
 $dimension->portrait()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if the dimensions are "portrait"
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php if($page->image()->dimensions()->portrait()): ?>
+This image has been taken in portrait mode
+<?php endif ?>
+```

@@ -1,15 +1,21 @@
-Title: 
+Title:
 
 $file->isLandscape()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Checks if an image file has been taken in landscape mode.
 
 ----
 
-Excerpt: 
+Text:
 
-Checks if an image file has been taken in landscape mode.
+## Example
+
+```php
+<?php if($page->image()->isLandscape()): ?>
+This image has been taken in landscape mode
+<?php endif ?>
+```

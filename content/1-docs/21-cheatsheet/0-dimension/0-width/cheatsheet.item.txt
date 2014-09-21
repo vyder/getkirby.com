@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $dimension->width()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the width in pixels
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->image()->width() ?>
+```

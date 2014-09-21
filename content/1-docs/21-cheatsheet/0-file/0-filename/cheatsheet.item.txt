@@ -1,15 +1,19 @@
-Title: 
+Title:
 
 $file->filename()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the full filename including extension
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the full filename including extension
+## Example
+
+```php
+<?php echo $page->file()->extension();
+```

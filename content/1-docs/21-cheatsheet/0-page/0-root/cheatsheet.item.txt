@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->root()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the full root of the page directory
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->root() ?>
+```

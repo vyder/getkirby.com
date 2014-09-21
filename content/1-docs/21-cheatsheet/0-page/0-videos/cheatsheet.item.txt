@@ -1,14 +1,24 @@
-Title: 
+Title:
 
 $page->videos()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a $files collection with all videos in the page directory.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<h2>Videos</h2>
+<?php foreach($page->videos() as $video): ?>
+<video width="300" height="200" controls>
+  <source src="<?php echo $video->url() ?>" type="<?php echo $video->mime() ?>">
+</video>
+<?php endforeach ?>
+```

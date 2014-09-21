@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->dirname()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the full name of the page's directory.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->dirname() ?>
+```

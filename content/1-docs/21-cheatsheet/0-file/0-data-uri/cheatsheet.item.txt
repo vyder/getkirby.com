@@ -1,15 +1,19 @@
-Title: 
+Title:
 
 $file->dataUri()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns a full base64 encoded data uri with a proper mime type.
 
 ----
 
-Excerpt: 
+Text:
 
-Returns a full base64 encoded data uri with a proper mime type.
+## Example
+
+```php
+<?php echo $page->file()->dataUri() ?>
+```

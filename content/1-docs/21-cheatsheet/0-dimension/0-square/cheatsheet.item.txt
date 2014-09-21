@@ -1,14 +1,21 @@
-Title: 
+Title:
 
 $dimension->square()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if the dimensions are square
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php if($page->image()->square()): ?>
+This image is square
+<?php endif ?>
+```

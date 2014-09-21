@@ -1,14 +1,21 @@
-Title: 
+Title:
 
 $page->tinyurl()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the tinyurl for the page if tinyurls are activated in the config
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<a href="<?php echo $page->tinyurl() ?>">Tinyurl</a>
+```
+
+Tinyurls are only available when they are enabled in the config. Tinyurls are enabled by default.

@@ -1,14 +1,21 @@
-Title: 
+Title:
 
 $page->code()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns  a $files collection with all code files (css, js, html, etc.) in the page's directory.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php foreach($page->code()->filterBy('extension', 'css') as $css): ?>
+<?php echo css($css->url()) ?>
+<?php endforeach ?>
+```

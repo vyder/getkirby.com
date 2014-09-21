@@ -1,15 +1,21 @@
-Title: 
+Title:
 
 $file->isWritable()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Checks if the file is writable
 
 ----
 
-Excerpt: 
+Text:
 
-Checks if the file is writable
+## Example
+
+```php
+<?php if($page->file()->isWritable()): ?>
+The file is writable
+<?php endif ?>
+```

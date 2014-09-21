@@ -1,14 +1,29 @@
-Title: 
+Title:
 
 $page->hide()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Removes the sorting number from the page directory to switch it to invisible.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+try {
+
+  page('visible-page')->hide();
+  echo 'The page is now invisible';
+
+} catch(Exception $e) {
+
+  echo $e->getMessage();
+
+}
+
+```

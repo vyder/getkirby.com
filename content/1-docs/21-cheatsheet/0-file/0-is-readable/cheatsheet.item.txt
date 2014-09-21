@@ -1,15 +1,21 @@
-Title: 
+Title:
 
 $file->isReadable()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Checks if the file is readable
 
 ----
 
-Excerpt: 
+Text:
 
-Checks if the file is readable
+## Example
+
+```php
+<?php if($page->file()->isReadable()): ?>
+The file is readable
+<?php endif ?>
+```

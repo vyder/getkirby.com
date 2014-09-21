@@ -1,15 +1,19 @@
-Title: 
+Title:
 
 $file->base64()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the content of the file as base64 encoded string.
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the content of the file as base64 encoded string.
+## Example
+
+```php
+<?php echo $page->file()->base64() ?>
+```

@@ -1,14 +1,32 @@
-Title: 
+Title:
 
 $pages->filter($callback)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Filters the collection with a custom filter callback.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+// fetch children with a title starting with 'Project'
+$items = $page->children()->filter(function($child) {
+  return str::startsWith($child->title(), 'Project');
+});
+
+// fetch children with more than 2 images
+$items = $page->children()->filter(function($child) {
+  return $child->images()->count() > 2;
+});
+
+// fetch visible children which have visible children
+$items = $page->children()->visible()->filter(function($child) {
+  return $child->hasVisibleChildren();
+});
+```

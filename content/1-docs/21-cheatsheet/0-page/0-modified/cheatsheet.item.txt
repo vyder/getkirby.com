@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->modified($format = false)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the unix timestamp or a formatted date string of the last modification date of the page.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+Last update: <?php echo $page->modified('d/m/Y H:i') ?>
+```

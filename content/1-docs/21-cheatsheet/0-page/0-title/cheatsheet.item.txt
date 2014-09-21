@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->title()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the page title. The title is fetched from the content unless it does not exist. In this case it will be overwritten by the UID.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->title() ?>
+```

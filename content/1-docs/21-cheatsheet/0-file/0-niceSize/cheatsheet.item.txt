@@ -1,15 +1,20 @@
-Title: 
+Title:
 
 $file->niceSize()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the size of the file in a human readable format.
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the size of the file in a human readable format.
+## Example
+
+```php
+echo $page->file('my-image.jpg')->niceSize();
+// i.e. 1.2 mb
+```

@@ -1,14 +1,21 @@
-Title: 
+Title:
 
 $page->nextVisible()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the next visible sibling
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php if($next = $page->nextVisible()): ?>
+<a href="<?php echo $next->url() ?>">next visible page</a>
+<?php endif ?>
+```

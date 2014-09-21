@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->url()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the full URL of the page
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->url() ?>
+```

@@ -1,14 +1,24 @@
-Title: 
+Title:
 
 $pages->pluck($field, $split = null, $unique = false)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Extracts an array of values from each item by field.
 
 ----
 
-Text: 
+Text:
+
+## Example
+
+```php
+<ul>
+  <?php foreach($page->children()->pluck('title') as $title): ?>
+  <li><?php echo html($title) ?></li>
+  <?php endforeach ?>
+</ul>
+```
 

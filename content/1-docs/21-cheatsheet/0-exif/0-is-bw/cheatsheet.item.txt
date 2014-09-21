@@ -1,14 +1,22 @@
-Title: 
+Title:
 
 $exif->isBW()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if the image colorspace is grayscale
 
 ----
 
-Text: 
+Text:
+
+## Example
+
+```php
+<?php if($page->image()->exif()->isBW()): ?>
+This is a black and white picture
+<?php endif ?>
+```
 

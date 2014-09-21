@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->id()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the page id, which is the untranslated URI.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->id() ?>
+```

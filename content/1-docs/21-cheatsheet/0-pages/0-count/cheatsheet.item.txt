@@ -1,14 +1,39 @@
-Title: 
+Title:
 
 $pages->count()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the number of pages in the collection
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+### Counting first level pages
+
+```php
+The site has
+<?php echo $pages->count() ?>
+main pages
+```
+
+### Counting subpages
+
+```php
+This page has
+<?php echo $page->children()->count() ?>
+subpages
+```
+
+### Counting all pages
+
+```php
+The site has
+<?php echo $site->index()->count() ?>
+pages in total
+```

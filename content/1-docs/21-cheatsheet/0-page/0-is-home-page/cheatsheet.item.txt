@@ -1,14 +1,25 @@
-Title: 
+Title:
 
 $page->isHomePage()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if the page is the home page.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+### A custom title for the homepage
+
+```php
+<?php if($page->isHomePage()): ?>
+<title>Welcome to my website</title>
+<?php else: ?>
+<title><?php echo html($page->title() . ' / ' . $site->title()) ?></title>
+<?php endif ?>
+```

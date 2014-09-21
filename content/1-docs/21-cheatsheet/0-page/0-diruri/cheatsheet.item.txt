@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->diruri()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the full directory path of the page starting at /content
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->diruri() ?>
+```

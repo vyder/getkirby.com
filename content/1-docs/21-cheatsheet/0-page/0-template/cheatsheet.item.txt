@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->template()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the name of the used template for the page. Will return default if the intended template cannot be found.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->template() ?>
+```

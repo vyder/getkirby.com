@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $pages->flip()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the collection in reverse order.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php $articles = $page->children()->flip() ?>
+```

@@ -1,14 +1,21 @@
-Title: 
+Title:
 
 $pages->nth($n)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the nth page in the collection.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+// echo the title of the 4th subpage
+// (the index starts at 0)
+echo $page->children()->nth(3)->title();
+```

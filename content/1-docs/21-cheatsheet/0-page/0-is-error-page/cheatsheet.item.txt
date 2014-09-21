@@ -1,14 +1,23 @@
-Title: 
+Title:
 
 $page->isErrorPage()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if the page is the error page.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+### A custom css file for the error page
+
+```php
+<?php if($page->isErrorPage()): ?>
+<?php echo css('assets/css/error.css') ?>
+<?php endif ?>
+```

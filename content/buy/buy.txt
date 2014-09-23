@@ -36,4 +36,4 @@ A license is valid for a single website. It contains updates for minor Kirby ver
 ----
 voluntary:
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+Kirby 2 is a massive update and we want everyone to be able to upgrade without additional costs. We know that we let a big chunk of money pass this way. Everyone who wants to support our work is of course welcome to send us some money though and will get a special place in our hearts :)

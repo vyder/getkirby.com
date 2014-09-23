@@ -9,13 +9,21 @@
       <div class="buy-section-option text active">
         <h3 class="gamma">Buy new license for Kirby 2</h3>
         <div class="buy-section-option-content cf">
-          <form class="cf">
-            <label for="license-count">Licence(s) at 39$/30€ each</label>
-            <input type="number" name="license-count" value="1">
+          <form method="post" action="http://sites.fastspring.com/openwe/api/order">
+            <div class="cf">
+              <label for="license-count">Licence(s) at 39$/30€ each</label>
+              <input type="number" name="product_1_quantity" value="1" min="1">
+              <!-- Fastspring options -->
+              <input type="hidden" name="product_1_path" value="/kirby">
+              <input type="hidden" name="operation" value="create"/>
+              <input type="hidden" name="destination" value="checkout"/>
+              <!-- Fastspring options -->
+            </div>
+            <div class="buy-section-total cf">
+              <!--<b class="delta">Total price:</b> 39$<span>(plus VAT if applicable)</span>-->
+              <button class="btn-red">Next &rarr;</button>
+            </div>
           </form>
-          <div class="buy-section-total cf"><b class="delta">Total price:</b> 39$<span>(plus VAT if applicable)</span>
-          <button class="btn-red">Proceed &rarr;</button>
-          </div>
           <div class="buy-section-order-info text smaller">
             <h5 class="epsilon"><img src="<?php echo page('support/answers')->image()->url() ?>" alt="Info icon">About your order</h5>
             <?php echo kirbytext($page->order()) ?>
@@ -26,10 +34,10 @@
         <h3 class="gamma">Buy voluntary upgrade for Kirby 2</h3>
         <div class="buy-section-option-content cf vh">
           <form class="cf">
-            <label>Licence(s) at 39$/30€ each</label>
-            <input type="number" value="1">
+            <label>Licence(s) at 29$/20€ each</label>
+            <input type="number" value="1" min="1">
           </form>
-          <div class="buy-section-total cf"><b class="delta">Total price:</b> 39$<span>(plus VAT if applicable)</span>
+          <div class="buy-section-total cf"><b class="delta">Total price:</b> 29$<span>(plus VAT if applicable)</span>
           <button class="btn-red">Proceed &rarr;</button>
           </div>
           <div class="buy-section-order-info text smaller cf">

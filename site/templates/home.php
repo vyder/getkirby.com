@@ -95,7 +95,9 @@
       <?php foreach(page('voices')->children()->visible()->shuffle()->limit(4) as $voice): ?><!--
    --><li>
         <a href="http://twitter.com/<?php echo $voice->username() ?>">
-          <img class="avatar" src="http://twitter.com/api/users/profile_image/<?php echo $voice->username() ?>" alt="Useravatar: <?php echo $voice->username() ?>" />
+          <?php if($voice->image()): ?>
+          <img class="avatar" src="<?php echo thumb($voice->image(), array('width' => 100, 'height' => 100, 'crop' => true))->url() ?>" alt="Avatar of <?php echo $voice->title() ?>" />
+          <?php endif ?>
           <h2 class="gamma"><?php echo $voice->title() ?></h2>
           <p class="zeta">@<?php echo $voice->username() ?></p>
         </a>

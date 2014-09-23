@@ -1,0 +1,23 @@
+Title: page($uri = null)
+
+----
+
+Excerpt: Fetches any page by URI or the current page when no URI is specified
+
+----
+
+Text:
+
+## Example
+
+### Fetching a specific page by URI
+
+```php
+<?php echo page('blog')->title() ?>
+```
+
+### Fetching the current page
+
+```php
+<?php echo page()->title() ?>
+```

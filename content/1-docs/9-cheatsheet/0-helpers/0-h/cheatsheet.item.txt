@@ -1,0 +1,15 @@
+Title: h($text, $keepTags = true)
+
+----
+
+Excerpt: Converts any text to valid HTML (shortcut for html())
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo h($page->title()) ?>
+```

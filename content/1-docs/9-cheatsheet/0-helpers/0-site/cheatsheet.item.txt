@@ -1,0 +1,15 @@
+Title: site()
+
+----
+
+Excerpt: Returns the site object in any situation
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo site()->title() ?>
+```

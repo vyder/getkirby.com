@@ -1,0 +1,21 @@
+Title: kirbytag($attr)
+
+----
+
+Excerpt: Makes it possible to use any defined kirbytag as standalone function
+
+----
+
+Text:
+
+```php
+echo kirbytag(array(
+  'link'  => 'blog/my-article',
+  'text'  => 'Go to my blog article'
+));
+
+// will manually do the same as
+// (\link: blog/my-article text: Go to my blog article)
+// in Kirbytext
+
+```

@@ -1,0 +1,23 @@
+Title: twitter($username, $text = '')
+
+----
+
+Excerpt: Builds a Twitter profile link by username
+
+----
+
+Text:
+
+## Example
+
+### Without link text
+
+```php
+<?php echo twitter('getkirby') ?>
+```
+
+### With link text
+
+```php
+<?php echo twitter('getkirby', 'Follow Kirby on Twitter') ?>
+```

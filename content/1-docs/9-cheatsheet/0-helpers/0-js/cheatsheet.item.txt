@@ -1,0 +1,41 @@
+Title: js($path)
+
+----
+
+Excerpt: Creates a script tag to load a javascript file
+
+----
+
+Text:
+
+## Example
+
+### Creating a single script tag
+
+```php
+<?php echo css('assets/js/site.js') ?>
+```
+
+### Creating multiple script tags
+
+```php
+<?php echo js(array(
+  'assets/js/jquery.css',
+  'assets/js/jquery.ui.css',
+  'assets/js/site.js',
+)) ?>
+```
+
+### Autoloading template specific script files
+
+```php
+<?php echo js('@auto') ?>
+```
+
+Template specific js files must be located in `/assets/js/templates` and named like the template.
+
+Template                    | JS file
+-                           | -
+/site/templates/project.php | /assets/js/templates/project.js
+/site/templates/home.php    | /assets/js/templates/home.js
+/site/templates/blog.php    | /assets/js/templates/blog.js

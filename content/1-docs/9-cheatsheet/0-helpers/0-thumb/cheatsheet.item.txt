@@ -1,0 +1,15 @@
+Title: thumb($image, $params = array())
+
+----
+
+Excerpt: Creates a thumbnail for a given image object
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo thumb($page->image(), array('width' => 300)) ?>
+```

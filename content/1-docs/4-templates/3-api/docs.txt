@@ -8,7 +8,7 @@ Description: Learn the basics about Kirby's extensive API and how to use it to b
 
 Text:
 
-Kirby has a might API, which you can use in your templates to access each and every bit and piece of data and aspect of your site and system.
+Kirby has a might API, which you can use in your snippets, templates and plugins to access each and every bit and piece of data and aspect of your site and system.
 
 This section is about to give you a good overview of the most basic things you can do with the API. If you want to dive deeper you can find a full overview of all available API methods on the cheat sheet.
 
@@ -16,11 +16,13 @@ All parts of the API are inspired by the simplicity of jQuery. When you've playe
 
 ## $site
 
-The `$site` object is present in all templates and snippets. It represents the root of your site with all information about the site. It's also the starting point to query for pages.
+The `$site` object represents the root of your site with all the information stored in `/content/site.txt`. It's also the access point for registered users, available languages on multi-language sites and more.
 
+## $pages
+
+The `$pages` object contains the first level of pages. It can be used to build the main menu or dive deeper into the structure of your site.
 
 ## $page
 
-## Working with files/images
+The `$page` object represents the currently active page. It gives you access to the page's data, attached files, subpages and more.
 
-## Languages

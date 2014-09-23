@@ -1,0 +1,15 @@
+Title: kirbytext($text)
+
+----
+
+Excerpt: Parses any text with Markdown and Kirbytext
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirbytext($page->text()) ?>
+```

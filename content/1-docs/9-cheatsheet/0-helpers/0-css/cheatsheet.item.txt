@@ -1,0 +1,43 @@
+Title: css($path)
+
+----
+
+Excerpt: Creates one or multiple css link tags
+
+----
+
+Text:
+
+## Example
+
+### Creating a single link tag
+
+```php
+<?php echo css('assets/css/site.css') ?>
+```
+
+### Creating multiple link tags
+
+```php
+<?php echo css(array(
+  'assets/css/site.css',
+  'assets/css/form.css',
+  'assets/css/grid.css'
+)) ?>
+```
+
+
+### Autoloading template specific css files
+
+```php
+<?php echo css('@auto') ?>
+```
+
+Template specific css files must be located in `/assets/css/templates` and named like the template.
+
+Template                    | CSS file
+-                           | -
+/site/templates/project.php | /assets/css/templates/project.css
+/site/templates/home.php    | /assets/css/templates/home.css
+/site/templates/blog.php    | /assets/css/templates/blog.css
+

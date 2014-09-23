@@ -1,3 +1,4 @@
+<?php go('http://getkirby.com/buy') ?>
 <?php snippet('header') ?>
 
   <main class="main" role="main">

@@ -13,7 +13,7 @@ Text:
 ### Creating a single script tag
 
 ```php
-<?php echo css('assets/js/site.js') ?>
+<?php echo js('assets/js/site.js') ?>
 ```
 
 ### Creating multiple script tags

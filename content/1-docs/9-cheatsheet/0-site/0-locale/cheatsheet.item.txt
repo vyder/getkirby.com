@@ -1,15 +1,19 @@
-Title: 
+Title:
 
 $site->locale()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the locale settings for the site
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the locale settings for the site
+## Example
+
+```php
+<?php echo $site->locale() ?>
+```

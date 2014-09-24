@@ -1,15 +1,20 @@
-Title: 
+Title:
 
 $site->homePage()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the $page object for the home page
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the $page object for the home page
+## Example
+
+```php
+<?php echo $site->homePage()->text() ?>
+```
+

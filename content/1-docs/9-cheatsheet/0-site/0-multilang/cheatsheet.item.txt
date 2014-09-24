@@ -1,15 +1,22 @@
-Title: 
+Title:
 
 $site->multilang()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Checks if the site has multiple languages.
 
 ----
 
-Excerpt: 
+Text:
 
-Checks if the site has multiple languages.
+## Example
+
+```php
+<?php if($site->multilang()): ?>
+This is a multi-language website
+<?php endif ?>
+
+```

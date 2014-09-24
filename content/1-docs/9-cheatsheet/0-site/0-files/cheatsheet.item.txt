@@ -1,14 +1,29 @@
-Title: 
+Title:
 
 $site->files()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a $files collection with all files in /content
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<h2>Files</h2>
+<ul>
+  <?php foreach($site->files() as $file): ?>
+  <li>
+    <a href="<?php echo $file->url() ?>">
+      <?php echo $file->filename() ?>
+      (<?php echo $file->niceSize() ?>)
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

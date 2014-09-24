@@ -1,14 +1,27 @@
-Title: 
+Title:
 
 $site->images()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a $files collection with all images (jpg, png, gif, etc.) in /content
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<section class="gallery">
+  <?php foreach($site->images() as $image): ?>
+  <figure>
+    <a href="<?php echo $image->url() ?>">
+      <img src="<?php echo $image->url() ?>" alt="">
+    </a>
+  </figure>
+  <?php endforeach ?>
+</section>
+```

@@ -1,14 +1,27 @@
-Title: 
+Title:
 
 $site->url()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the base URL for the site
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+### Fetching the base URL for the site
+
+```php
+<?php echo $site->url() ?>
+```
+
+### Fetching the base URL for a language
+
+```php
+<?php echo $site->url('en') ?>
+```

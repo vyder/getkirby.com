@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $site->modified($format = false)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the last modification date for the site. This will walk all pages and subpages and search for the very last modification.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+Last update: <?php echo $site->modified('d/m/Y H:i') ?>
+```

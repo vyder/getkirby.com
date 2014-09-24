@@ -1,15 +1,25 @@
-Title: 
+Title:
 
 $site->pages()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns a $pages collection for all children in /content. It's an old version of $site->children()
 
 ----
 
-Excerpt: 
+Text:
 
-Returns a $pages collection for all children in /content. It's an old version of $site->children()
+## Example
+
+```php
+<nav class="main-menu" role="navigation">
+  <ul>
+    <?php foreach($site->pages()->visible() as $item): ?>
+    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+    <?php endforeach ?>
+  </ul>
+</nav>
+```

@@ -1,14 +1,23 @@
-Title: 
+Title:
 
 $site->children()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a $pages collection with all first-level children in the content folder
 
 ----
 
-Text: 
+Text:
 
+```php
+<nav class="main-menu" role="navigation">
+  <ul>
+    <?php foreach($site->children()->visible() as $item): ?>
+    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+    <?php endforeach ?>
+  </ul>
+</nav>
+```

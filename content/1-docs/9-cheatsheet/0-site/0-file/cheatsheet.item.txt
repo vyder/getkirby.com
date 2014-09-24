@@ -1,14 +1,35 @@
-Title: 
+Title:
 
 $site->file($filename)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Searches for a specific file in /content by filename
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+### Fetching the first file
+
+```php
+<?php if($file = $site->file()): ?>
+<a href="<?php echo $file->url() ?>">
+  <?php echo html($file->filename()) ?>
+</a>
+<?php endif ?>
+```
+
+### Fetching a specific file
+
+```php
+<?php if($file = $site->file('myfile.pdf')): ?>
+<a href="<?php echo $file->url() ?>">
+  <?php echo html($file->filename()) ?>
+</a>
+<?php endif ?>
+```

@@ -1,15 +1,30 @@
-Title: 
+Title:
 
 $site->breadcrumb()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns a $pages collection, prepared for a foreach loop to generate a breadcrumb
 
 ----
 
-Excerpt: 
+Text:
 
-Returns a $pages collection, prepared for a foreach loop to generate a breadcrumb
+## Example
+
+```php
+<nav class="breadcrumb" role="navigation">
+  <ul>
+    <?php foreach($site->breadcrumb() as $crumb): ?>
+    <li>
+      <a href="<?php echo $crumb->url() ?>">
+        <?php echo html($crumb->title()) ?>
+      </a>
+    </li>
+    <?php endforeach ?>
+  </ul>
+</nav>
+```
+

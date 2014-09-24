@@ -1,14 +1,35 @@
-Title: 
+Title:
 
 $site->find()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 FInds a single $page object or a collection of $pages in /content by a single UID or a set of multiple UIDs.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+### Fetch a single subpage
+
+```php
+<?php echo $site->find('subpage-a')->title() ?>
+```
+
+### Fetch multiple subpages
+
+```php
+<ul>
+  <?php foreach($site->find('subpage-a', 'subpage-c', 'subpage-i') as $subpage): ?>
+  <li>
+    <a href="<?php echo $subpage->url() ?>">
+      <?php echo html($subpage->title()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

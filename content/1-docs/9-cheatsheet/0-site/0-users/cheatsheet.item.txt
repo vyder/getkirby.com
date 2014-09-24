@@ -1,15 +1,25 @@
-Title: 
+Title:
 
 $site->users()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns a $users collection with all registered users.
 
 ----
 
-Excerpt: 
+Text:
 
-Returns a $users collection with all registered users.
+## Example
+
+```php
+<h2>Registered users</h2>
+<ul>
+  <?php foreach($site->users() as $user): ?>
+  <li><?php echo $user->username() ?></li>
+  <?php endforeach ?>
+</ul>
+
+```

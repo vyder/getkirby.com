@@ -1,14 +1,21 @@
-Title: 
+Title:
 
 $site->code()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a $files collection with all code files (css, js, html) in /content
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php foreach($site->code()->filterBy('extension', 'css') as $css): ?>
+<?php echo css($css->url()) ?>
+<?php endforeach ?>
+```

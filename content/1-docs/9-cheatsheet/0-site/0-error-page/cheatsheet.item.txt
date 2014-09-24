@@ -1,15 +1,20 @@
-Title: 
+Title:
 
 $site->errorPage()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the $page object for the error page.
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the $page object for the error page.
+## Example
+
+```php
+<?php echo $site->errorPage()->text() ?>
+```
+

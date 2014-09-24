@@ -1,14 +1,29 @@
-Title: 
+Title:
 
 $site->archives()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a $files collection with all archive files (zip, gzip, tar) in /content
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<h2>Downloads</h2>
+<ul>
+  <?php foreach($site->archives() as $archive): ?>
+  <li>
+    <a href="<?php echo $archive->url() ?>">
+      <?php echo $archive->filename() ?>
+      (<?php echo $archive->niceSize() ?>)
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

@@ -1,14 +1,24 @@
-Title: 
+Title:
 
 $site->audio()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a $files collection with all audio files in /content
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<h2>Songs</h2>
+<?php foreach($site->audio() as $audio): ?>
+<audio controls>
+  <source src="<?php echo $audio->url() ?>" type="<?php echo $audio->mime() ?>">
+</audio>
+<?php endforeach ?>
+```

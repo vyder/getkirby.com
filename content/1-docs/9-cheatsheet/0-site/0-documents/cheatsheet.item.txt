@@ -1,14 +1,29 @@
-Title: 
+Title:
 
 $site->documents()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a $files collection with all documents (pdf, doc, xls, etc.) in /content
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<h2>Available PDFs</h2>
+<ul>
+  <?php foreach($site->documents()->filterBy('extension', 'pdf') as $pdf): ?>
+  <li>
+    <a href="<?php echo $pdf->url() ?>">
+      <?php echo $pdf->filename() ?>
+      (<?php echo $pdf->niceSize() ?>)
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

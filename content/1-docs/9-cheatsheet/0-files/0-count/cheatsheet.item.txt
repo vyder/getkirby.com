@@ -1,14 +1,25 @@
-Title: 
+Title:
 
 $files->count()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the number of files in the collection
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+echo $page->files()->count();
+
+echo $page->images()->count();
+
+echo $page->documents()->count();
+
+echo $page->files()->filterBy('extension', 'pdf')->count();
+```

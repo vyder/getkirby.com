@@ -1,15 +1,19 @@
-Title: 
+Title:
 
 $user->username()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the username
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the username
+## Example
+
+```php
+<?php echo $site->user('bastian')->username() ?>
+```

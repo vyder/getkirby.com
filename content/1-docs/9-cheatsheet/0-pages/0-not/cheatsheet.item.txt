@@ -1,14 +1,28 @@
-Title: 
+Title:
 
 $pages->not()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the collection without any given pages. Excluded pages can be specified by passing the entire $page object, the UID or full URI.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<h2>All pages except project-b</h2>
+<ul>
+  <?php foreach($page->children()->not('project-b') as $subpage): ?>
+  <li>
+    <a href="<?php echo $subpage->url() ?>">
+      <?php echo html($subpage->title()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

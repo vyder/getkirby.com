@@ -1,15 +1,27 @@
-Title: 
+Title:
 
 $user->logout()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Logs out the user and kills the session.
 
 ----
 
-Excerpt: 
+Text:
 
-Logs out the user and kills the session.
+## Example
+
+```php
+<?php
+
+if($user = $site->user()) {
+  $user->logout();
+}
+
+go('login');
+
+?>
+```

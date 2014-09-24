@@ -1,14 +1,32 @@
-Title: 
+Title:
 
 $pages->keys()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns all keys/URIs from the collection.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+### Example pages
+
+- project-a
+- project-b
+- project-c
+
+```php
+<?php dump($page->children()->keys()) ?>
+/*
+array(
+  'project-a',
+  'project-b',
+  'project-c'
+)
+*/
+```

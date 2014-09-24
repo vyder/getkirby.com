@@ -1,14 +1,25 @@
-Title: 
+Title:
 
 $files->paginate($limit, $options = array())
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Applies pagination to the collection
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+$files      = $page->files()->paginate(10);
+$pagination = $files->pagination();
+
+```
+
+## Related
+
+Check out the (link: docs/cheatsheet#pagination text: docs for the $pagination object)

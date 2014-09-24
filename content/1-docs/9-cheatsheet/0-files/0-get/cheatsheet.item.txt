@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $files->get($filename)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a single file by filename
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->files()->get('myfile.pdf')->url() ?>
+```

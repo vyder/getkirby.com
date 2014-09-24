@@ -1,15 +1,19 @@
-Title: 
+Title:
 
 $user->email()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the email address for the user
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the email address for the user
+## Example
+
+```php
+<?php echo $site->user('bastian')->email() ?>
+```

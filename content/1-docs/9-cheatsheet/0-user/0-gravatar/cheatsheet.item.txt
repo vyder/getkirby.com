@@ -1,15 +1,19 @@
-Title: 
+Title:
 
 $user->gravatar($size = 256)
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the gravatar URL for the user.
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the gravatar URL for the user.
+## Example
+
+```php
+<img src="<?php echo $site->user('bastian')->gravatar() ?>" alt="Bastian's gravatar">
+```

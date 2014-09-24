@@ -1,14 +1,25 @@
-Title: 
+Title:
 
 $files->sortBy($field, $direction = 'desc', $method = SORT_REGULAR)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Sorts the files in the collection by field and direction
 
 ----
 
-Text: 
+Text:
 
+```php
+<ul>
+  <?php foreach($page->files()->sortBy('modified', 'desc') as $file): ?>
+  <li>
+    <a href="<?php echo $file->url() ?>">
+      <?php echo html($file->filename()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

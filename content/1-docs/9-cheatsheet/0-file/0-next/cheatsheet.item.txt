@@ -1,15 +1,22 @@
-Title: 
+Title:
 
 $file->next()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the next sibling
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the next sibling
+## Example
+
+```php
+if($next = $page->file('myfile.pdf')->next()) {
+  echo 'Next file: ' . $next->filename();
+}
+
+```

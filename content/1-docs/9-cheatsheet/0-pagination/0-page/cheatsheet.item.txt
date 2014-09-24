@@ -1,14 +1,26 @@
-Title: 
+Title:
 
 $pagination->page()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the current page number
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php
+
+$subpages   = $page->children()->paginate(10);
+$pagination = $subpages->pagination();
+
+echo 'The current page is ' . $pagination->page();
+
+?>
+```

@@ -28,3 +28,15 @@ $items = $page->children()->filterBy('date', '>', time());
 $items = $site->index()->filterBy('template', 'project');
 
 ```
+
+## Available filter operators
+
+Operator | Function
+-        | -
+==       | all values, which match exactly
+!=       | all values, which don't match
+*=       | all values, which contain the given string
+>        | all values, which are greater than the given value
+>=       | all values, which are greater or equal the given value
+<        | all values, which are smaller than the given value
+<=       | all values, which are smaller or equal the given value

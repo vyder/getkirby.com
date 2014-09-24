@@ -1,14 +1,34 @@
-Title: 
+Title:
 
 $files->keys()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns an array with all filenames in the collection.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+### Example Files
+
+- document.pdf
+- numbers.xls
+- myimage.jpg
+- download.zip
+
+```php
+<?php dump($page->files()->keys()) ?>
+/*
+array(
+  'document.pdf',
+  'numbers.xls',
+  'myimage.jpg',
+  'download.zip'
+)
+*/
+```

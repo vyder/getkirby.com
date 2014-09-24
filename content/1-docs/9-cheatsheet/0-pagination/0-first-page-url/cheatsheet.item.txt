@@ -1,14 +1,23 @@
-Title: 
+Title:
 
 $pagination->firstPageUrl()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the absolute URL for the first page
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+$subpages   = $page->children()->paginate(10);
+$pagination = $subpages->pagination();
+
+echo $pagination->firstPageUrl();
+// http://yourdomain/example/page:1
+```

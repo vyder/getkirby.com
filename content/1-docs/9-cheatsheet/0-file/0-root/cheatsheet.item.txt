@@ -1,15 +1,20 @@
-Title: 
+Title:
 
 $file->root()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the full root for a file
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the full root for a file
+## Example
+
+```php
+echo $page->file()->root();
+i.e. /var/www/yourdomain.com/html/content/some-page/some-file.jpg
+```

@@ -1,15 +1,20 @@
-Title: 
+Title:
 
 $file->size()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the raw file size
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the raw file size
+## Example
+
+```php
+echo $page->file()->size();
+// i.e. 123293829
+```

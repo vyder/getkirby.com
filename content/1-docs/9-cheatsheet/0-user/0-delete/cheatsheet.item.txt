@@ -1,15 +1,30 @@
-Title: 
+Title:
 
 $user->delete()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Deletes the user account. This cannot be undone
 
 ----
 
-Excerpt: 
+Text:
 
-Deletes the user account. This cannot be undone
+## Example
+
+```php
+try {
+
+  $site->user('bastian')->delete();
+  echo 'The user has been deleted';
+
+} catch(Exception $e) {
+
+  echo 'The user could not be deleted';
+  // optional reason: echo $e->getMessage();
+
+}
+
+```

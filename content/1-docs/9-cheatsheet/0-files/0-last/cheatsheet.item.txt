@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $files->last()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the last file in the collection
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->files()->last()->filename() ?>
+```

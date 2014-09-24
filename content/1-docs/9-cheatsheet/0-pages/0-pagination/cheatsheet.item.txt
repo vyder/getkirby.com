@@ -1,14 +1,17 @@
-Title: 
+Title:
 
 $pages->pagination()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the $pagination object if available.
 
 ----
 
-Text: 
+Text:
 
+## Related
+
+Check out the (link: docs/cheatsheet#pagination text: docs for the $pagination object)

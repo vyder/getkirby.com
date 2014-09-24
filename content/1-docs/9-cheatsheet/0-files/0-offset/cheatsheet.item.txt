@@ -1,14 +1,28 @@
-Title: 
+Title:
 
 $files->offset($offset)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the collection starting from a given offset
 
 ----
 
-Text: 
+Text:
+
+## Example
+
+```php
+<ul>
+  <?php foreach($page->files()->offset(10) as $file): ?>
+  <li>
+    <a href="<?php echo $file->url() ?>">
+      <?php echo html($file->filename()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```
 

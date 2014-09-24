@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $page->isWritable()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if the page is writable
 
 ----
 
-Text: 
+Text:
 
+```php
+<?php if($page->isWritable()): ?>
+Kirby can update this page
+<?php endif ?>
+```

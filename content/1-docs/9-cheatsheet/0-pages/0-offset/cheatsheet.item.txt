@@ -1,14 +1,27 @@
-Title: 
+Title:
 
 $pages->offset($offset)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the collection starting from the given offset.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<ul>
+  <?php foreach($page->children()->offset(10) as $subpage): ?>
+  <li>
+    <a href="<?php echo $subpage->url() ?>">
+      <?php echo html($subpage->title()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

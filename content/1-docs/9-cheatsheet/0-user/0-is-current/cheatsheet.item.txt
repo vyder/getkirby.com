@@ -1,15 +1,21 @@
-Title: 
+Title:
 
 $user->isCurrent()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Checks if the user is the currently logged in user.
 
 ----
 
-Excerpt: 
+Text:
 
-Checks if the user is the currently logged in user.
+## Example
+
+```php
+<?php if($site->user('bastian')->isCurrent()): ?>
+Bastian is the currently logged in user.
+<?php endif ?>
+```

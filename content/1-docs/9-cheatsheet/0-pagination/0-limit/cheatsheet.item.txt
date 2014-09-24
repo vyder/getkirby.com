@@ -1,14 +1,22 @@
-Title: 
+Title:
 
 $pagination->limit()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the limit of items per page
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+$subpages   = $page->children()->paginate(10);
+$pagination = $subpages->pagination();
+
+echo 'Displaying ' . $pagination->limit() . ' of ' . $pagination->items() . ' items';
+```

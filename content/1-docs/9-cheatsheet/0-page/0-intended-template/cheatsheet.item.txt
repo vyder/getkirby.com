@@ -1,14 +1,14 @@
-Title: 
+Title:
 
 $page->intendedTemplate()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the name of the intended template. This is the name of the content text file.
 
 ----
 
-Text: 
+Text:
 

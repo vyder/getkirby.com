@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $files->first()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the first file in the collection
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->files()->first()->filename() ?>
+```

@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $page->isDeletable()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if the page is deletable.
 
 ----
 
-Text: 
+Text:
 
+```php
+<?php if($page->isDeletable()): ?>
+This page could be deleted,
+but you probably wouldn't want that, right?
+<?php endif ?>
+```

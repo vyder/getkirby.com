@@ -1,15 +1,35 @@
-Title: 
+Title:
 
 $user->update($data = array())
 
 ----
 
-Text: 
+Excerpt:
 
-
+Updates the user account information.
 
 ----
 
-Excerpt: 
+Text:
 
-Updates the user account information.
+## Example
+
+```php
+try {
+
+  $site->user('bastian')->update(array(
+    'email'     => 'bastian@getkirby.com',
+    'firstName' => 'Bastian',
+    'lastName'  => 'Allgeier'
+  ));
+
+  echo 'The user has been updated';
+
+} catch(Exception $e) {
+
+  echo 'The user could not be updated';
+  // optional reason: echo $e->getMessage();
+
+}
+
+```

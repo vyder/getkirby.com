@@ -1,14 +1,27 @@
-Title: 
+Title:
 
 $pages->slice($offset = null, $limit = null)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a sliced version of the collection defined by offset and limit.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<ul>
+  <?php foreach($page->children()->slice(10, 20) as $subpage): ?>
+  <li>
+    <a href="<?php echo $subpage->url() ?>">
+      <?php echo html($subpage->title()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

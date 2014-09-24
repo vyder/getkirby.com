@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $pages->findByURI()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Finds a $page object in the collection by its full URI.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->children()->findByURI('some-page')->title() ?>
+
+```

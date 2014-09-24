@@ -1,14 +1,23 @@
-Title: 
+Title:
 
 $pagination->items()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the total number of items
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+$subpages   = $page->children()->paginate(10);
+$pagination = $subpages->pagination();
+
+echo 'There are ' . $pagination->items() . ' in total';
+
+```

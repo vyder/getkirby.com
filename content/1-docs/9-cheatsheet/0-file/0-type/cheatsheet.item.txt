@@ -1,15 +1,47 @@
-Title: 
+Title:
 
 $file->type()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the file type (image, document, video, archive, code, audio, unkown)
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the file type (image, document, video, archive, code, audio, unkown)
+## Example
+
+```php
+echo $page->file('myimage.jpg')->type();
+// image
+
+echo $page->file('terms.pdf')->type();
+// document
+
+echo $page->file('numbers.xls')->type();
+// document
+
+echo $page->file('software-1.0.0.zip')->type();
+// archive
+
+echo $page->file('some-movie.mov')->type();
+// video
+
+echo $page->file('styles.css')->type();
+// code
+
+```
+
+## All file types
+
+Type      | Extensions
+-         | -
+image     | jpg, gif, png, svg, ico, tiff, bmp, psd, ai
+document  | md, pdf, doc, docx, xls, xlsx, ppt, csv, rtf
+archive   | zip, tar, gz, gzip, tgz
+code      | js, css, html, xml, json
+video     | mov, avi, ogg, ogv, webm, flv, swf, mp4, mv4
+audio     | mp3, m4a, wav, aiff, midi

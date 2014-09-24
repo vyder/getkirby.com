@@ -1,14 +1,17 @@
-Title: 
+Title:
 
 $pages->paginate($limit, $options = array())
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Adds a $pagination object to the collection, which makes it easy to page through items.
 
 ----
 
-Text: 
+Text:
 
+## Related
+
+Check out the (link: docs/cheatsheet#pagination text: docs for the $pagination object)

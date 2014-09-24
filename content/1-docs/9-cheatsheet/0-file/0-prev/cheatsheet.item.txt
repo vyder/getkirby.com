@@ -1,15 +1,22 @@
-Title: 
+Title:
 
 $file->prev()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the previous sibling
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the previous sibling
+## Example
+
+```php
+if($prev = $page->file('myfile.pdf')->prev()) {
+  echo 'Previous file: ' . $prev->filename();
+}
+
+```

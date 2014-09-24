@@ -1,14 +1,27 @@
-Title: 
+Title:
 
 $files->flip()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the collection in reverse order
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<ul>
+  <?php foreach($page->files()->flip() as $file): ?>
+  <li>
+    <a href="<?php echo $file->url() ?>">
+      <?php echo html($file->filename()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

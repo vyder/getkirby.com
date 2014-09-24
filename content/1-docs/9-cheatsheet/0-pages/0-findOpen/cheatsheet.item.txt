@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $pages->findOpen()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Finds the open $page object in the collection.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->children()->findOpen()->title() ?>
+```

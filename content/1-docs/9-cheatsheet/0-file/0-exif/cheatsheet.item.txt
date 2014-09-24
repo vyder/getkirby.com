@@ -1,15 +1,35 @@
-Title: 
+Title:
 
 $file->exif()
 
 ----
 
-Text: 
+Excerpt:
 
-
+Returns the $exif object for the file, which can be used to fetch information such as the camera model or GPS data.
 
 ----
 
-Excerpt: 
+Text:
 
-Returns the $exif object for the file, which can be used to fetch information such as the camera model or GPS data.
+## Example
+
+```php
+$exif = $page->image('myimagewithexifdata.jpg')->exif();
+
+if($exif) {
+  echo $exif->aperture();
+  echo $exif->focalLength();
+  echo $exif->exposure();
+  echo $exif->isBW();
+  echo $exif->isColor();
+  echo $exif->iso();
+  echo $exif->location()->lat();
+  echo $exif->location()->lng();
+  echo $exif->timestamp();
+  echo $exif->camera()->model();
+  echo $exif->camera()->make();
+}
+
+```
+

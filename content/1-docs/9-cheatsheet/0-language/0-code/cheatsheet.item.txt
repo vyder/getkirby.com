@@ -1,0 +1,25 @@
+Title:
+
+$language->code()
+
+----
+
+Excerpt: Returns the iso language code
+
+----
+
+Text:
+
+## Example
+
+```php
+<ul>
+  <?php foreach($site->languages() as $language): ?>
+  <li>
+    <a href="<?php echo $language->url() ?>">
+      <?php echo $language->code() ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

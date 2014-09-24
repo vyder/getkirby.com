@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $files->nth($n)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the nth file in the collection.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->files()->nth(3)->filename() ?>
+```

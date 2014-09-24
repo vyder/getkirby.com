@@ -1,14 +1,25 @@
-Title: 
+Title:
 
 $files->pagination()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the $pagination object
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+$files      = $page->files()->paginate(10);
+$pagination = $files->pagination();
+
+```
+
+## Related
+
+Check out the (link: docs/cheatsheet#pagination text: docs for the $pagination object)

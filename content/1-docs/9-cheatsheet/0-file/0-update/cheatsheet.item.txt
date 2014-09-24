@@ -1,15 +1,37 @@
-Title: 
+Title:
 
 $file->update($data = array())
 
 ----
 
-Text: 
+Excerpt:
 
-
+Updates the meta information for a file
 
 ----
 
-Excerpt: 
+Text:
 
-Updates the meta information for a file
+## Example
+
+```php
+$file = $page->file('myimage.jpg');
+
+try {
+
+  $file->update(array(
+    'caption' => 'This is a really nice image',
+    'year'    => 2014
+  ));
+
+  echo 'The meta info has been updated';
+
+} catch(Exception $e) {
+
+  echo 'The meta info could not be updated';
+  // optional reason: echo $e->getMessage();
+
+}
+
+
+```

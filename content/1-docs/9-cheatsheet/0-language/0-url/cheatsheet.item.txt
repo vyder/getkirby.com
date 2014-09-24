@@ -1,0 +1,17 @@
+Title:
+
+$language->url()
+
+----
+
+Excerpt: Returns the assigned base URL for the language
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $site->language('en')->url() ?>
+```

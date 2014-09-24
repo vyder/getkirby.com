@@ -1,14 +1,23 @@
-Title: 
+Title:
 
 $pagination->firstPage()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the first page number — which is actually always 1.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+$subpages   = $page->children()->paginate(10);
+$pagination = $subpages->pagination();
+
+echo $pagination->firstPage();
+// most probably 1
+```

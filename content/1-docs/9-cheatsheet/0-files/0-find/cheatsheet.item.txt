@@ -1,14 +1,35 @@
-Title: 
+Title:
 
 $files->find()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Finds a single file or multiple files by one or many filenames.
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+### Fetch a single file
+
+```php
+<?php echo $page->files()->find('myfile.pdf')->url() ?>
+```
+
+### Fetch multiple files
+
+```php
+<ul>
+  <?php foreach($page->files()->find('document-a.pdf', 'document-b.pdf', 'document-c.pdf') as $file): ?>
+  <li>
+    <a href="<?php echo $file->url() ?>">
+      <?php echo html($file->filename()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

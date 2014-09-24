@@ -1,14 +1,24 @@
-Title: 
+Title:
 
 $pagination->pages()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the total number of available pages
 
 ----
 
-Text: 
+Text:
 
+```php
+<?php
+
+$subpages   = $page->children()->paginate(10);
+$pagination = $subpages->pagination();
+
+echo 'There are ' . $pagination->pages() . ' pages';
+
+?>
+```

@@ -1,15 +1,33 @@
-Title: 
+Title:
 
 $file->rename($to)
 
 ----
 
-Text: 
+Excerpt:
 
-
+Renames the file and all the meta text files.
 
 ----
 
-Excerpt: 
+Text:
 
-Renames the file and all the meta text files.
+## Example
+
+```php
+$file = $page->file('file-with-old-name.pdf');
+
+try {
+
+  $file->rename('new-name.pdf');
+  echo 'The file has been renamed';
+
+} catch(Exception $e) {
+
+  echo 'The file could not be renamed';
+  // optional reason: echo $e->getMessage();
+
+}
+
+
+```

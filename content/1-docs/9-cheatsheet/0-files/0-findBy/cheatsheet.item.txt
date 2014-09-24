@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $files->findBy($field, $value)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Finds a single file by key and value
 
 ----
 
-Text: 
+Text:
 
+## Example
+
+```php
+<?php echo $page->files()->findBy('name', 'myfile')->url() ?>
+```

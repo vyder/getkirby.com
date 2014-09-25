@@ -2,7 +2,7 @@
 
 <main class="main" role="main">
 
-  <?php $articles = $pages->find('blog')->children()->visible()->flip()->paginate(20) ?>
+  <?php $articles = $page->children()->visible()->flip()->paginate(20) ?>
 
   <h1 class="vh">Blog</h1>
 

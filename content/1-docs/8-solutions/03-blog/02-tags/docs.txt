@@ -106,7 +106,7 @@ To fetch all tags for a tagcloud you can use the new pluck method, which will ex
 <?php
 
 // fetch all tags
-$tags = $page->children()->visible()->pluck('tags', ',', false);
+$tags = $page->children()->visible()->pluck('tags', ',', true);
 
 ?>
 <ul class="tags">

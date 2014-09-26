@@ -1,10 +1,10 @@
-Title: 
+Title:
 
 File Settings
 
 ----
 
-Text: 
+Text:
 
 - [File fields](#file-fields)
 - [Sortable files](#sortable-files)
@@ -12,7 +12,13 @@ Text:
 
 ## File fields
 
-You can store any additional meta data for a file. This can be very handy to add captions to images or provide more information about downloads, etc. The form, in which this data can be entered can be found in the sidebar of the fileviewer. By default no fields except the filename field are shown. Additional fields can be setup just like page fields. All field types, which are available for pages are also available for files. Please check out the docs about field types for more information. The configuration for those fields go right into the file settings:
+You can store any additional meta data for a file. This can be very handy to add captions to images or provide more information about downloads, etc.
+
+The form, in which this data can be entered can be found in the sidebar of the fileviewer. Additional fields can be setup just like page fields. All field types, which are available for pages are also available for files.
+
+**Please check out the cheat sheet for a (link: docs/cheatsheet/#panel-fields text: full list of available panel field types).**
+
+The configuration for those fields go right into the file settings:
 
 ```
 …
@@ -34,7 +40,7 @@ files:
     sortable: true
 …
 ```
-To make use of manual sorting in your templates you must sort files by the newly generated sort field: 
+To make use of manual sorting in your templates you must sort files by the newly generated sort field:
 
 ```
 <?php foreach($page->files()->sortBy('sort', 'asc') as $file): ?>
@@ -44,9 +50,9 @@ To make use of manual sorting in your templates you must sort files by the newly
 
 ## Hide files
 
-Like pages, files can be entirely hidden in the panel as well. They won't appear in the sidebar and the files manager will not be accessible either. This can be helpful if panel users shouldn't be able to view or edit files for certain pages. 
+Like pages, files can be entirely hidden in the panel as well. They won't appear in the sidebar and the files manager will not be accessible either. This can be helpful if panel users shouldn't be able to view or edit files for certain pages.
 
 ```
-files: 
+files:
   hide: true
 ```

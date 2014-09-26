@@ -1,0 +1,33 @@
+Title: NotIn
+
+----
+
+Excerpt: Validates that a value is not included in the given array
+
+----
+
+Text:
+
+## In your code
+
+```php
+if(v::notIn('A', array('B', 'C', 'D'))) {
+  echo 'Yay, valid!';
+}
+
+```
+
+## In panel fields
+
+```
+fields:
+  example:
+    label: Example field
+    type: text
+    validate:
+      notIn:
+        - B
+        - C
+        - D
+```
+

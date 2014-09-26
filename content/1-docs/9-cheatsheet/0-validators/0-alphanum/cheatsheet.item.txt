@@ -1,0 +1,28 @@
+Title: Alphanum
+
+----
+
+Excerpt: Valid: A-Z and 0-9
+
+----
+
+Text:
+
+## In your code
+
+```php
+if(v::alphanum($input)) {
+  echo 'Yay, valid!';
+}
+
+```
+
+## In panel fields
+
+```
+fields:
+  example:
+    label: Example field
+    type: text
+    validate: alphanum
+```

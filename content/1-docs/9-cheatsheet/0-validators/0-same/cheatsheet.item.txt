@@ -1,0 +1,30 @@
+Title: Same
+
+----
+
+Excerpt: Checks if the value equals another given value
+
+----
+
+Text:
+
+## In your code
+
+```php
+if(v::equals('A', 'A')) {
+  echo 'Yay, valid!';
+}
+
+```
+
+## In panel fields
+
+```
+fields:
+  example:
+    label: Example field
+    type: text
+    validate:
+      equals: A
+```
+

@@ -1,0 +1,32 @@
+Title: Toggle
+
+----
+
+Excerpt:
+
+Yes/no or on/off toggle
+
+----
+
+Text:
+
+The toggle field is a shortcut for a radiobuttons list with yes/no or on/off options.
+
+## Example
+
+```
+fields:
+  toggle:
+    label: Is this a featured page?
+    type: toggle
+    text yes/no
+```
+
+Available text options are
+
+- yes/no
+- on/off
+
+The options are automatically translated.
+
+The field content will be 'true' or 'false'

@@ -1,0 +1,32 @@
+Title: Email
+
+----
+
+Excerpt:
+
+An email input field with autocompletion and validation
+
+----
+
+Text:
+
+The email field provides the most comfortable way to insert email addresses. It comes with autocompletion of addresses from all registered users and also has built-in validation for entered addresses.
+
+## Example
+
+```
+fields:
+  email:
+    label: Email
+    type: email
+```
+
+### Example with switched off autocompletion
+
+```
+fields:
+  email:
+    label: Email
+    type: email
+    autocomplete: false
+```

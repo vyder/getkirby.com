@@ -1,0 +1,22 @@
+Title: Textarea
+
+----
+
+Excerpt:
+
+A textarea field, which auto-resizes and has built-in format buttons.
+
+----
+
+Text:
+
+The textarea field creates a textarea for longer texts with automatic resizing and optional format buttons.
+
+## Example
+
+```
+fields:
+  text:
+    label: Text
+    type: textarea
+```

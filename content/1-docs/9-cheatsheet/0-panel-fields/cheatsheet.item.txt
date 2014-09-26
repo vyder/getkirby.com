@@ -1,0 +1,11 @@
+Title: Panel field types
+
+----
+
+Excerpt:
+
+All available field types for panel blueprints
+
+----
+
+Text:

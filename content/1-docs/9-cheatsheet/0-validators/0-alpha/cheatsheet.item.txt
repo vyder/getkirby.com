@@ -1,0 +1,29 @@
+Title: Alpha
+
+----
+
+Excerpt: Valid: A-Z
+
+----
+
+Text:
+
+
+## In your code
+
+```php
+if(v::alpha($input)) {
+  echo 'Yay, valid!';
+}
+
+```
+
+## In panel fields
+
+```
+fields:
+  example:
+    label: Example field
+    type: text
+    validate: alpha
+```

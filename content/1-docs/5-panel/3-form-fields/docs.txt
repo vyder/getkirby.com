@@ -8,6 +8,7 @@ Description: The Panel has a large number of available form fields for page and 
 
 Text:
 
+- [Available field types](#available-field-types)
 - [Required fields](#required-fields)
 - [Validation](#validation)
 - [Creating grids](#creating-grids)
@@ -16,6 +17,10 @@ Text:
 - [Placeholders](#placeholders)
 
 Kirby comes with a huge set of custom form fields, which you can use in your blueprints for page and file data. Additionally you can extend Kirby with your own custom fields.
+
+## Available field types
+
+**Please check out the cheat sheet for a (link: docs/cheatsheet/#panel-fields text: full list of available panel field types).**
 
 ## Required fields
 
@@ -34,6 +39,20 @@ fields:
 ## Validation
 
 Kirby offers multiple ways to validate data, which is stored by users. You can add them to any field of your fields and the form will automatically take care of the validation.
+
+```
+fields:
+  name:
+    label: Name
+    type: text
+    validate
+      min: 4
+      min: 140
+      alphanum
+```
+
+**You can find a (link: docs/cheatsheet/#validators text: list of all available validation methods) in the cheat sheet.**
+
 
 ## Creating grids
 
@@ -92,4 +111,27 @@ fields:
 
 ## Default values
 
+Most fields can have a default value. Default values can be entered as simple text:
+
+```
+fields:
+  street:
+    label: Street
+    type: text
+    default: Sesamestreet 23
+```
+
 ## Placeholders
+
+Most fields can show a placeholder text when the field is empty. This is a good option to guide users.
+
+### Example
+
+```
+fields:
+  street:
+    label: Street
+    type: text
+    placeholder: Please enter a street name…
+    icon: map-marker
+```

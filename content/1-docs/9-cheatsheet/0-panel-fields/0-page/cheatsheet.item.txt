@@ -1,0 +1,20 @@
+Title: Page
+
+----
+
+Excerpt:
+
+A single page input with autocompletion
+
+----
+
+Text:
+
+The page field is a simple text input field with autocompletion for page URIs of all pages of the site.
+
+## Example
+
+    fields:
+      relatedPage:
+        label: Related Page
+        type: page

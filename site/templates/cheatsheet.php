@@ -5,7 +5,7 @@
   <h1 class="alpha"><?php echo html($page->title()) ?></h1>
 
   <section class="text">
-    <h2 class="beta">Objects, Collections &amp; Helpers</h2>
+    <h2 class="beta">Table of contents</h2>
     <div class="cheatsheet-grid">
       <?php foreach($page->children()->visible() as $child): ?>
       <?php if($child->hasVisibleChildren()): ?>

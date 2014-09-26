@@ -1,0 +1,56 @@
+Title: Translations
+
+----
+
+Description: Help to internationalize the Kirby panel and learn how to add a translation in your language
+
+----
+Languages:
+
+-
+  lang:   Dansk
+  author: Jimmy Rittenborg
+  code:   da
+-
+  lang:   Deutsch
+  author: Bastian Allgeier
+  code:   de
+-
+  lang:   English
+  author: Bastian Allgeier
+  code:   en
+-
+  lang:   Español (América Latina)
+  author: Iván Soria
+  code:   es_LA
+-
+  lang:   Français
+  author: Philippe Gervaise & Aris Papathéodorou
+  code:   fr
+-
+  lang:   Hungarian
+  author: Dávid Bóta
+  code:   hu
+-
+  lang:   Nederlands
+  author: Donan Gallagher
+  code:   nl
+-
+  lang:   Romana
+  author: Structor
+  code:   ro
+-
+  lang:   Türkçe
+  author: Levent Usta
+  code:   tr
+
+
+----
+
+Text:
+
+## Get involved
+
+Any help with translations in other languages is very welcome!! You can (link: https://github.com/getkirby/panel text: fork the Panel on Github) or download the (link: https://github.com/getkirby/panel/blob/master/app/languages/en.php text: english language file) as reference and just translate it.
+
+Send us an email if you got any questions: (email: support@getkirby.com).

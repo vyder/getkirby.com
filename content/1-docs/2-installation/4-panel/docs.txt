@@ -1,4 +1,4 @@
-Title: Installation
+Title: Installing the panel
 
 ----
 

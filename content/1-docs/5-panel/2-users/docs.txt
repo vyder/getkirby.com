@@ -25,3 +25,7 @@ On the "Users" page either click directly on the little profile picture in the l
 ### Allowed profile picture formats
 
 The uploader only accepts JPG, PNG and GIF files for profile pictures. A square picture will give the best results. Otherwise the uploader will crop the profile picture from the center.
+
+## Users API
+
+**You can find out more about (link: docs/cheatsheet/#user text: Kirby's user API) on the cheat sheet.**

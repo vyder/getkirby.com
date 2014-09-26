@@ -9,12 +9,11 @@
 
       <h2>Available Translations</h2>
       <dl>
-        <?php $langs = yaml($page->languages()) ?>
+        <?php $langs = a::sort(yaml($page->languages()), 'lang', 'asc') ?>
         <?php foreach($langs as $lang): ?>
-        <dt class="gamma"><?php echo $lang['lang'] ?></dt>
+        <dt class="gamma"><a href="https://github.com/getkirby/panel/blob/master/app/languages/<?php echo $lang['code'] ?>.php"><?php echo $lang['lang'] ?></a></dt>
         <dd><span>Author: </span><?php echo $lang['author'] ?></dd>
-        <dd><span>Since: </span><?php echo $lang['since'] ?></dd>
-        <dd><span>File: </span><a href="<?php echo $lang['link'] ?>"><?php echo $lang['file'] ?></a></dd>
+        <dd><span>Code: </span><?php echo $lang['code'] ?></dd>
         <?php endforeach ?>
       </dl>
 

@@ -1,12 +1,7 @@
-<?php go('docs') ?>
+
 <?php snippet('header') ?>
 
 <main class="main" role="main">
-
-  <header class="section">
-    <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
-    <p class="beta"><?php echo html($page->subheadline()) ?></p>
-  </header>
 
   <section class="features section">
     <h2 class="beta">Features</h2>
@@ -28,21 +23,6 @@
    --><?php endforeach ?>
     </ul>
   </section>
-
-  <!--
-  <section class="panel section">
-    <h2 class="beta">The all new Panel</h2>
-
-    <?php $slides = $pages->find('home/panel-slides')->images() ?>
-    <ul class="slider slider-panel">
-    <?php foreach($slides as $slide): ?>
-      <li class="slide screenshot">
-        <img src="<?php echo $slide->url() ?>" alt="<?php echo $slide->title() ?>" />
-      </li>
-    <?php endforeach ?>
-    </ul>
-  </section>
-  -->
 
   <section class="random-refs section">
     <h2 class="beta"><a href="<?php echo url('made-with-kirby-and-love') ?>">Made with Kirby and &#9829;</a></h2>

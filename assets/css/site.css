@@ -575,6 +575,72 @@ h2.delta {
 
 
 /*
+ :::  Home Intro
+-------------------------------------------------- */
+.home .logo {
+  color: #fff;
+  background: url(../images/kirbyicon-white.svg) no-repeat left top;
+  background-size: 40px 45px;
+}
+.home .site-header {
+  color: #fff;
+  background-color: #212121;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.home .menu {
+  border-bottom: 2px solid #444;
+}
+.home .menu a {
+  color: #fff;
+}
+.home .menu a:hover {
+  color: red;
+}
+
+/**
+  Carousel/Hero
+*/
+.hero {
+}
+
+/**
+  Intro
+*/
+.intro {
+  padding-bottom: 3em;
+}
+.intro .beta {
+  color: #999;
+}
+.intro .btn-white {
+  border-radius: 0;
+  margin-top: .5em;
+  margin-bottom: 1em;
+  padding: 0.9em 3.5em 0.9em 1.5em;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+.intro .btn-white {
+  background-image: url(../images/download.svg);
+  background-repeat: no-repeat;
+  background-position: 85% center;
+  background-size: 30px;
+}
+.intro .btn-white:hover {
+  background-image: url(../images/download-dark.svg);
+  background-size: 30px;
+}
+@media screen and (min-width: 35em) {
+  .intro .btn-white {
+    float: right;
+    margin-left: 10%;
+  }
+}
+
+
+
+/*
  :::  Footer
 -------------------------------------------------- */
 .site-footer {
@@ -898,16 +964,6 @@ h2.delta {
 .answer .zeta a {
   display: block;
 }
-/*
-.answer .zeta:after {
-  position: absolute;
-  content: "";
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #999;
-  right: 0;
-  top: .5em;
-}*/
 .answer .inner {
   padding-top: 1em;
   border-top: 1px dotted #ddd;
@@ -1435,57 +1491,6 @@ h2.delta {
 }
 .read-more:hover {
   color: #222;
-}
-
-
-
-/*
- :::  Home: Slider
--------------------------------------------------- */
-.slider {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-}
-.slider li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-}
-.slider img {
-  width: 100%;
-}
-.panel {
-  padding-bottom: 3em;
-}
-
-
-
-/*
- :::  Home: Intro
--------------------------------------------------- */
-.intro {
-  padding-top: 1em;
-  padding-bottom: 3em;
-}
-.slider-intro {
-  margin: 0 auto;
-  max-width: 310px;
-}
-.slider-intro img {
-  border-radius: 50%;
-  background-color: #fff;
-  padding: 5px;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 0 10px #fff;
-}
-@media screen and (min-width: 40em) {
-  .slider-intro {
-    position: absolute;
-  }
 }
 
 

@@ -34,20 +34,43 @@
 </head>
 <body class="<?php echo str_replace('.', '-', $page->template()) ?>">
 
+  <!--[if lte IE 9]>
+  <div class="browserupdate">
+    You are using an obsolete browser which can harm your experience and cause security trouble. Please <a href="http://browsehappy.com/" target="_blank">update your browser!</a>
+  </div>
+  <![endif]-->
+
   <div class="message">
     <strong>This is a work-in-progress preview of the new <a href="<?php echo url('blog/kirby-2-beta-2') ?>">Kirby 2</a> site and docs.</strong>
     Please visit <a href="http://getkirby.com">getkirby.com</a> for more information about Kirby 1.
   </div>
 
+  <?php if($page->isHomePage()): ?>
+
+  <header class="site-header" role="banner">
+    <div class="site">
+      <a class="logo" href="<?php echo url() ?>">Kirby</a>
+      <?php snippet('menu') ?>
+      <section class="hero">
+        <img src="<?php echo $page->image('placeholder.png')->url() ?>">
+      </section>
+      <section class="intro">
+        <a class="btn-white" href="http://download.getkirby.com">Download Trial</a>
+        <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
+        <p class="beta"><?php echo html($page->subheadline()) ?></p>
+      </section>
+    </div>
+  </header>
+
   <div class="site">
 
-    <!--[if lte IE 9]>
-    <div class="browserupdate">
-      You are using an obsolete browser which can harm your experience and cause security trouble. Please <a href="http://browsehappy.com/" target="_blank">update your browser!</a>
-    </div>
-    <![endif]-->
+  <?php else: ?>
+
+  <div class="site">
 
     <header class="site-header" role="banner">
       <a class="logo" href="<?php echo url() ?>">Kirby</a>
       <?php snippet('menu') ?>
     </header>
+
+  <?php endif ?>

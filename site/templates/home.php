@@ -62,7 +62,7 @@
   <section class="section">
     <h2 class="beta">Featured on...</h2>
     <ul class="featured-on-list list-4">
-      <?php foreach(page('about/featured-on')->images()->shuffle()->limit(4) as $featured): ?><!--
+      <?php foreach($page->find('testimonials')->images()->shuffle()->limit(4) as $featured): ?><!--
    --><li><?php if($featured->link() != ''): ?><a href="<?php echo $featured->link() ?>"><?php endif ?><img src="<?php echo $featured->url() ?>" alt="<?php echo $featured->title() ?>" /><?php if($featured->link() != ''): ?></a><?php endif ?></li><!--
    --><?php endforeach ?>
     </ul>

@@ -58,7 +58,7 @@ body {
 }
 @media screen and (min-width: 47em) {
   .site {
-    padding: 1.5em 3em;
+    padding: 2em 3em;
   }
 }
 
@@ -107,6 +107,9 @@ body {
   border-bottom: 1px solid #ddd;
 }
 @media screen and (min-width: 47em) {
+  .nav {
+    float: left;
+  }
   .nav li {
     float: left;
     margin-right: 2em;

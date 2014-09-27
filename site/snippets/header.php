@@ -10,7 +10,7 @@
 
   <?php echo css(array(
     'assets/css/kirby.css',
-    'assets/css/site.css',
+    'assets/css/site.css'
   )) ?>
 
   <?php if($page->isHomePage()): ?>

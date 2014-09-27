@@ -3,7 +3,7 @@
 <article class="main">
 
   <h1 class="alpha"><?php echo kirbytext($page->title(), false) ?></h1>
-  <section class="error-intro text">
+  <section class="error-intro section text">
     <?php echo kirbytext($page->text()) ?>
   </section>
 

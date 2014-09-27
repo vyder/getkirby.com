@@ -16,5 +16,4 @@
   <?php echo js('@auto') ?>
 
 </body>
-
 </html>

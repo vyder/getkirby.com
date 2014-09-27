@@ -1,0 +1,18 @@
+Title: $field->empty()
+
+----
+
+Excerpt: Checks if the field is empty
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if(!$page->address()->empty()): ?>
+  <h2>Address</h2>
+  <?php echo $page->address()->kirbytext() ?>
+<?php endif ?>
+```

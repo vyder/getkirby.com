@@ -1,0 +1,13 @@
+Title: $field->upper()
+
+----
+
+Excerpt: Converts the field content to uppercase
+
+----
+
+Text:
+
+```php
+<h1><?php echo $page->title()->upper()->html() ?></h1>
+```

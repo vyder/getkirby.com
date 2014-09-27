@@ -6,9 +6,7 @@ File Settings
 
 Text:
 
-- [File fields](#file-fields)
-- [Sortable files](#sortable-files)
-- [Hide files](#hide-files)
+(toc)
 
 ## File fields
 

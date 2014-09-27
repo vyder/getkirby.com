@@ -8,13 +8,7 @@ Description: Learn to create any kind of menu you need for your project.
 
 Text:
 
-- [Main menu](#main-menu)
-- [Sub menu](#sub-menu)
-- [Breadcrumb](#breadcrumb)
-- [Tree menu](#tree-menu)
-- [Nested menu](#nested-menu)
-- [Custom menu](#custom-menu)
-- [Selectbox menu](#selectbox-menu)
+(toc)
 
 ## Main menu
 

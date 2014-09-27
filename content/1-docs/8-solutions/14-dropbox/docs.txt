@@ -8,6 +8,8 @@ Description: Learn how to setup Dropbox Sync for your Kirby site (VPS or dedicat
 
 Text:
 
+(toc)
+
 It's possible to connect Kirby with (link: https://www.dropbox.com text: Dropbox) but you need your own server. It's not possible on shared hosting (scroll down for [an exception](#uberspace-user)). You need to have a dedicated or virtual server with SSH access and the permissions to install things on it.
 
 ## Disclaimer

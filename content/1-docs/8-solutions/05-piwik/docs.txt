@@ -8,6 +8,8 @@ Description: Add visitor analytics to your site with Piwik.
 
 Text:
 
+(toc)
+
 Piwik is an awesome open source software for self-hosted web analytics. It's totally free, highly customizable and quite straightforward to install on your own server. Learn more about it and check out the (link: http://piwik.org text: website)!
 
 ## Simple integration

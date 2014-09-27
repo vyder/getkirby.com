@@ -8,11 +8,7 @@ Description: Learn how to extend Kirby's URL for pages with your own routes.
 
 Text:
 
-- [Patterns](#patterns)
-- [Actions](#actions)
-- [Methods](#methods)
-- [Simulating Wordpress URLs](#simulating-wordpress-urls)
-- [Omitting the blog folder in URLs](#omitting-the-blog-folder-in-urls)
+(toc)
 
 Kirby has a built-in router, which can be extended with your own routes.
 

@@ -8,13 +8,7 @@ Description: Learn how to create your own form fields for the panel.
 
 Text:
 
-- [Getting started](#getting-started)
-- [Anatomy of a field folder](#anatomy-of-a-field-folder)
-- [HTML anatomy of a field](#html-anatomy-of-a-field)
-- [The BaseField class](#the-basefield-class)
-- [The InputField class](#the-inputfield-class)
-- [The InputListField class](#the-inputlistfield-class)
-- [Adding field assets](#adding-field-assets)
+(toc)
 
 Kirby comes with a (link: docs/cheatsheet/#panel-fields text: big set of predefined form field types), but you will probably want to extend this set sooner or later. Creating your own form fields is very simple and yet you have the freedom to come up with very complex fields if you need to (the structure field is such a complex example)
 

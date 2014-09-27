@@ -1,19 +1,12 @@
-Title: 
+Title:
 
 Page Settings
 
 ----
 
-Text: 
+Text:
 
-- [Templates for subpages](#templates-for-subpages)
-- [Maximum number of subpages](#maximum-number-of-subpages)
-- [Reverse sorting of subpages](#reverse-sorting-of-subpages)
-- [Limit displayed subpages](#limit-displayed-subpages)
-- [Numbering of subpages](#numbering-of-subpages)
-- [Hide subpages](#hide-subpages)
-- [Subpage builder](#subpage-builder)
-
+(toc)
 
 ## Templates for subpages
 
@@ -31,7 +24,7 @@ pages: project
 
 ```
 …
-pages: 
+pages:
   template: project
 …
 ```
@@ -41,7 +34,7 @@ pages:
 ```
 …
 pages: project
-  template: 
+  template:
     - project
     - article
     - contact
@@ -50,11 +43,11 @@ pages: project
 
 ## Maximum number of subpages
 
-You can set the maximum number of subpages, which will hide the "Add" button as soon as the maximum is reached. This can help avoid unwanted effects in a template, when the page has too many subpages. 
+You can set the maximum number of subpages, which will hide the "Add" button as soon as the maximum is reached. This can help avoid unwanted effects in a template, when the page has too many subpages.
 
  ```
 …
-pages: 
+pages:
   max: 15
 …
 ```
@@ -65,7 +58,7 @@ Sometimes it is helpful to display subpages in reverse order in the panel. You c
 
  ```
 …
-pages: 
+pages:
   sort: flip
 …
 ```
@@ -76,18 +69,18 @@ The panel will automatically start paginating subpages in the sidebar and in the
 
  ```
 …
-pages: 
+pages:
   limit: 50
 …
 ```
 
 ## Numbering of subpages
 
-Kirby has three different modes for the numbering of visible subpages. 
+Kirby has three different modes for the numbering of visible subpages.
 
 ### Default numbering
 
-Default numbering doesn't require any setup. Pages will be sorted via Drag & Drop in the subpages manager and will get a 
+Default numbering doesn't require any setup. Pages will be sorted via Drag & Drop in the subpages manager and will get a
 
 ```
 1-first-page
@@ -108,7 +101,7 @@ Alphabetical numbering can be setup like this:
 
 ```
 …
-pages: 
+pages:
   num: zero
 …
 ```
@@ -125,7 +118,7 @@ Date-base numbering can be setup like this:
 
 ```
 …
-pages: 
+pages:
   num: date
 …
 ```
@@ -134,7 +127,7 @@ By default dates for numbers are taken from the `date` field. You can change tha
 
 ```
 …
-pages: 
+pages:
   num: date
   field: added
 …
@@ -144,7 +137,7 @@ Even the format can be changed. To set the format, use (link: http://php.net/man
 
 ```
 …
-pages: 
+pages:
   num: date
   field: added
   format: YmdHi
@@ -164,14 +157,14 @@ pages:
 
 ## Subpage builder
 
-With Kirby 2 you can let blueprints create entire subpage structures for you. The so called builder creates subpages on demand as soon as new page is being added. 
+With Kirby 2 you can let blueprints create entire subpage structures for you. The so called builder creates subpages on demand as soon as new page is being added.
 
 Setting up the builder is very straight forward:
 
 ```
 …
 pages:
-  build: 
+  build:
     - title: Gallery
       uid: gallery
       template: gallery

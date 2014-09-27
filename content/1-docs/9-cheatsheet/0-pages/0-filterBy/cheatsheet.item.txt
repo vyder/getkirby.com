@@ -29,9 +29,9 @@ $items = $site->index()->filterBy('template', 'project');
 
 ```
 
-## Available filter operators
+## Available filter methods
 
-Operator | Function
+Method   | Function
 -        | -
 ==       | all values, which match exactly
 !=       | all values, which don't match

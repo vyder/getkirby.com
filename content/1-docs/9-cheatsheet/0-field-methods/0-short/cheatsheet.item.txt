@@ -1,0 +1,15 @@
+Title: $field->short($chars)
+
+----
+
+Excerpt: Shortens the field content by the given length
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->title()->short(10) ?>
+```

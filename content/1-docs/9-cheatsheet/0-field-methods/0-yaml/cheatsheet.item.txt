@@ -1,0 +1,53 @@
+Title: $field->yaml()
+
+----
+
+Excerpt: Converts YAML-structured field content to an array
+
+----
+
+Text:
+
+You can store structured data in fields with YAML. YAML is a simple structuring syntax, which is easy to understand and use.
+
+For this example we are going to store multiple addresses in a single field:
+
+    Title: Addresses
+    ----
+    Addresses:
+
+    -
+      Street: Rue de WTF 17
+      ZIP:    1112
+      City:   Monaco
+      Phone:  555-1234
+      Email:  me@monaco.org
+    -
+      Street: 1212 Broadway
+      ZIP:    4321
+      City:   New York
+      Phone:  666-4321
+      Email:  me@ny.org
+    -
+      Street: At the beach
+      ZIP:    9999
+      City:   The capitol of the Bahamas
+      Phone:  777-9999
+      Email:  me@bahamas.org
+
+Those addresses can be fetched and parsed very easily in your templates with the `yaml()` helper.
+
+```php
+<?php foreach($page->addresses()->yaml() as $address): ?>
+  <div class="address">
+    <?php echo $address['street'] ?><br />
+    <?php echo $address['zip'] ?> <?php echo $address['city'] ?>
+  </div>
+  <div class="contact">
+    <?php echo $address['phone'] ?><br />
+    <?php echo $address['email'] ?>
+  </div>
+</div>
+<?php endforeach ?>
+
+```

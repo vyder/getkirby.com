@@ -8,6 +8,8 @@ Description: Learn everything about the content folder and how to store data for
 
 Text:
 
+(toc)
+
 ## The content folder
 
 Kirby has no database. The content for your site is stored in the `/content` folder. All you need to add and edit content is your Finder or Windows Explorer and a text editor.

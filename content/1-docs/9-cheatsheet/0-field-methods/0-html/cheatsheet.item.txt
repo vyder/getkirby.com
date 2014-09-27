@@ -1,0 +1,15 @@
+Title: $field->html()
+
+----
+
+Excerpt: Converts the field content to valid HTML
+
+----
+
+Text:
+
+## Example
+
+```php
+<h1><?php echo $page->title()->html() ?></h1>
+```

@@ -1,0 +1,21 @@
+Title: $field->split($separator = ',')
+
+----
+
+Excerpt: Splits the field content into an array
+
+----
+
+Text:
+
+## Example
+
+```php
+<h2>Tags</h2>
+<ul>
+  <?php foreach($page->tags()->split(',') as $tag): ?>
+  <li><?php echo $tag ?></li>
+  <?php endforeach ?>
+</ul>
+
+```

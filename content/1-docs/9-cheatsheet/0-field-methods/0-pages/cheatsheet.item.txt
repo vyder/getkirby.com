@@ -1,0 +1,38 @@
+Title: $field->pages()
+
+----
+
+Excerpt: Converts a yaml list of page URIs to valid page objects
+
+----
+
+Text:
+
+## Example
+
+### Text file
+
+    title: My page
+    ----
+    text: Some text
+    ----
+    related:
+
+    - blog/article-a
+    - blog/article-b
+
+### Template
+
+```php
+<h2>Related articles</h2>
+<ul>
+  <?php foreach($page->related()->pages() as $related): ?>
+  <li>
+    <a href="<?php echo $related->url() ?>">
+      <?php echo $related->title()->html() ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+
+```

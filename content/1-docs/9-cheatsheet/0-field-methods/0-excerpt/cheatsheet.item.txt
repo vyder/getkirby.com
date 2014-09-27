@@ -1,0 +1,21 @@
+Title: $field->excerpt($chars = 140)
+
+----
+
+Excerpt: Creates a short text excerpt
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php foreach($page->children()->visible() as $article): ?>
+<article>
+  <h1><?php echo $article->title()->html() ?></h1>
+  <p><?php echo $article->excerpt(300) ?></p>
+  <p><a href="<?php echo $article->url() ?>">Read more…</a></p>
+</article>
+<?php endforeach ?>
+```

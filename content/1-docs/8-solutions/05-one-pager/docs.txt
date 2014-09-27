@@ -8,6 +8,8 @@ Description: One-pager sites are a perfect solution for many small companies or 
 
 Text:
 
+(toc)
+
 The data structure behind a Kirby site is very simple: one folder = one page. But this does not mean that you have to stick to this pattern. In fact it's very simple to build a one-page website with multiple different sections and still have a folder for each section.
 
 One-page websites are very popular for small businesses, freelance designers, photographers, etc. It's the modern version of a printed business card and can be very effective to represent a small business without the hassle of maintaining a huge site.
@@ -15,11 +17,10 @@ One-page websites are very popular for small businesses, freelance designers, ph
 In this tutorial we are going to build a very basic one-pager. Here's a rough mock-up to show you what's coming up:
 
 (image: 01.png)
-<br>
-## 1. The content file structure
+
+## The content file structure
 
 (image: 02.png)
-<br>
 
 This looks like a regular Kirby-powered websites with multiple subpages, but this will work just great for our single-page website as well.
 

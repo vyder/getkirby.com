@@ -8,17 +8,7 @@ Description: Learn how to use Markdown and Kirbytext to format your content, inc
 
 Text:
 
-- [Basic formats](#basic-formats)
-- [Links](#links)
-- [Images](#images)
-- [Files](#files)
-- [Youtube & Vimeo videos](#youtube--vimeo-videos)
-- [Twitter Profile Links](#twitter-profile-links)
-- [Embedding Github Gists](#embedding-github-gists)
-- [Extending Kirbytext](#extending-kirbytext)
-- [More Markdown features](#more-markdown-features)
-- [Markdown Extra](#markdown-extra)
-- [Editors](#editors)
+(toc)
 
 Kirby uses an extended version of John Gruber's fantastic (link: http://daringfireball.net/projects/markdown/syntax text: Markdown), called Kirbytext.
 Kirbytext is a simple syntax to format plain text, which is easy to understand and read.

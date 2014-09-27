@@ -8,13 +8,7 @@ Description: The Panel has a large number of available form fields for page and 
 
 Text:
 
-- [Available field types](#available-field-types)
-- [Required fields](#required-fields)
-- [Validation](#validation)
-- [Creating grids](#creating-grids)
-- [Custom icons](#custom-icons)
-- [Default values](#default-values)
-- [Placeholders](#placeholders)
+(toc)
 
 Kirby comes with a huge set of custom form fields, which you can use in your blueprints for page and file data. Additionally you can extend Kirby with your own custom fields.
 

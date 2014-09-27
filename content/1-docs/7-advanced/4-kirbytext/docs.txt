@@ -8,6 +8,8 @@ Description: Learn how to create your own Kirbytags and add filters to further e
 
 Text:
 
+(toc)
+
 Kirbytext — Kirby's extension of Markdown — comes with a set of helpful tags, which editors can use to add links, include images, embed videos and much more.
 
 To make it even easier for your editors to create content and format text Kirbytext can be further extended with your own custom tags and rules.

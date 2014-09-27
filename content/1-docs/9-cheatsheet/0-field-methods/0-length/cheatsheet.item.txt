@@ -1,0 +1,25 @@
+Title: $field->length()
+
+----
+
+Excerpt: Returns the length of the field content
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->text()->kirbext() ?>
+
+<dl class="text-stats">
+
+  <dt>Characters</dt>
+  <dd><?php $page->text()->length() ?></dd>
+
+  <dt>Words</dt>
+  <dd><?php $page->text()->words() ?></dd>
+
+</dl>
+```

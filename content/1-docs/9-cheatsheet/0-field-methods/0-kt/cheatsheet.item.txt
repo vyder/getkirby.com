@@ -1,0 +1,15 @@
+Title: $field->kt()
+
+----
+
+Excerpt: Converts the field content from Markdown/Kirbytext to valid HTML
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->text()->kt() ?>
+```

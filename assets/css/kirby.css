@@ -202,6 +202,21 @@ body {
 
 
 /*
+ :::  Pagination
+-------------------------------------------------- */
+.pagination {
+  padding: 1.5em 0;
+}
+.pagination .prev {
+  float: left;
+}
+.pagination .next {
+  float: right;
+}
+
+
+
+/*
  :::  Main
 -------------------------------------------------- */
 .main:after {

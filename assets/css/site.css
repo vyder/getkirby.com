@@ -190,26 +190,6 @@
 
 
 /*
- :::  Pagination
--------------------------------------------------- */
-.pagination {
-  position: relative;
-  overflow: hidden;
-  padding: 1.5em 0;
-}
-.pagination a {
-  font-weight: 600;
-}
-.pagination .prev {
-  float: left;
-}
-.pagination .next {
-  float: right;
-}
-
-
-
-/*
  :::  Reference list
 -------------------------------------------------- */
 .reference-list li {
@@ -450,6 +430,7 @@
 }
 
 
+
 /*
  :::  Breadcrumb [docs]
 -------------------------------------------------- */
@@ -641,6 +622,7 @@
 }
 
 
+
 /*
  :::  Cheatsheet [Docs]
 -------------------------------------------------- */
@@ -693,7 +675,6 @@
 /*
  :::  Downloads
 -------------------------------------------------- */
-
 .downloads .section {
   padding-bottom: 3.5em;
 }
@@ -774,6 +755,7 @@
 .download-meta small a:hover {
   color: red;
 }
+
 
 
 /*
@@ -941,6 +923,7 @@
 .try-process li:last-child h2:after {
   content: '!';
 }
+
 
 
 /*

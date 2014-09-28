@@ -36,6 +36,10 @@ Languages:
   author: Donan Gallagher
   code:   nl
 -
+  lang:   Polski
+  author: Piotr Świderek
+  code:   pl
+-
   lang:   Romana
   author: Structor
   code:   ro

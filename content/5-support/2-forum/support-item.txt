@@ -6,4 +6,4 @@ Text: Join the Kirby community and connect with others.
 
 ----
 
-Link: (link: http://forum.getkirby.com text: forum.getkirby.com class: btn)
+Link: (link: forum text: getkirby.com/forum class: btn)

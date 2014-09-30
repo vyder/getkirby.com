@@ -11,7 +11,7 @@ c::set('routes', array(
     'pattern' => 'docs.json',
     'action'  => function() {
 
-      $cache = new Cache\Driver\File(c::get('root.site') . DS . 'cache');
+      $cache = new Cache\Driver\File(kirby()->roots()->cache());
       $data  = $cache->get('docs');
 
       if(empty($data)) {

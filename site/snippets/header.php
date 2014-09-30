@@ -48,7 +48,15 @@
       <a class="logo" href="<?php echo url() ?>">Kirby</a>
       <?php snippet('menu') ?>
       <section class="hero">
-        <img src="<?php echo $page->image('placeholder.png')->url() ?>">
+        <ul class="hero-slider">
+          <?php foreach($page->children()->find('hero')->images() as $slide): ?>
+          <li><img src="<?php echo $slide->url() ?>"></li>
+          <?php endforeach ?>
+        </ul>
+        <nav class="hero-nav">
+          <a class="prev" href="#"><span class="vh">Previous</span></a>
+          <a class="next" href="#"><span class="vh">Next</span></a>
+        </nav>
       </section>
       <section class="intro">
         <a class="btn-white" href="http://download.getkirby.com">Download Trial</a>

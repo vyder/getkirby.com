@@ -32,15 +32,80 @@
   color: red;
 }
 
-/**
-  Carousel/Hero
-*/
+
+
+/*
+ :::  Carousel/Hero
+-------------------------------------------------- */
 .hero {
+  position: relative;
+  padding-bottom: 46%;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+.hero-slider {
+  text-align: center;
+}
+.hero-slider li {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  opacity: 0.5;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: opacity 3s;
+  transition: opacity 3s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.hero-slider li.active {
+  opacity: 1;
+  z-index: 99;
+}
+.hero-slider li.active img {
+  width: 70%;
+}
+.hero img {
+  width: 50%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 /**
-  Intro
+  Hero nav
 */
+.hero-nav {
+  width: 100%;
+}
+.hero-nav a {
+  position: absolute;
+  z-index: 99999999;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  margin-top: -25px;
+  background-size: 40px 40px;
+  opacity: 0.7;
+}
+.hero-nav a:hover {
+  opacity: 0.9;
+}
+.hero-nav .prev {
+  left: 5%;
+  background-image: url(../images/arrow-left.svg);
+}
+.hero-nav .next {
+  right: 5%;
+  background-image: url(../images/arrow-right.svg);
+}
+
+
+
+/*
+ :::  Intro
+-------------------------------------------------- */
 .intro {
   padding-bottom: 3em;
 }

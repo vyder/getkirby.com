@@ -1,5 +1,7 @@
 <?php
 
+c::set('stage', true);
+
 c::set('markdown.extra', true);
 
 c::set('cache.driver', 'file');

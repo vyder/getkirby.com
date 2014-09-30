@@ -1,0 +1,59 @@
+Title: Upgrade from Kirby 1
+
+----
+
+Description:
+
+Learn how to smoothly upgrade your old installation.
+
+----
+
+Text:
+
+(toc)
+
+## Advice
+
+Don't update directly on your live server. You need to exchange a couple of things and your website would probably be broken during the upgrade. It's better to do the upgrade on a local installation.
+
+## Updating the /kirby and /panel folders
+
+Updating the /kirby and /panel folder still works like with 1.x versions. Just (link: http://download.getkirby.com text: download the latest Kirby starterkit) and replace the old folders.
+
+## New index.php
+
+Kirby 2 will not work with the old `index.php`.
+**(link: https://github.com/getkirby/starterkit/blob/master/index.php text: Please upgrade to the new index.php)**
+
+## Changed site folder structure
+
+The folder structure in your site folder has slightly changed. Please move your folders according to the following table.
+
+Old                    | New
+-                      | -
+/site/panel/accounts   | /site/accounts
+/site/panel/fields     | /site/fields
+
+## Panel config
+
+The panel config file is no longer loaded from `/site/panel/config.php`. Instead you should move all panel configuration options to `/site/config/config.php`
+
+## Panel fields
+
+Panel fields are completely different and more powerful in Kirby 2. Your old custom fields will not be working in Kirby 2. Read the guide (link: docs/panel/custom-form-fields text: how to create panel fields in Kirby 2).
+
+## Kirbytext extensions
+
+Kirby 2 has a new concept for simpler Kirbytext extensions, which are easier to share between projects or other Kirby users. Unfortunately Kirby 1 Kirbytext extensions are not compatible with Kirby 2. Read (link: docs/advanced/kirbytext text: how to create Kirbytext extensions in Kirby 2).
+
+## Accounts
+
+Kirby 2 has a completely rewritten user management which supports secure password encryption. Old account files are thus no longer compatible with your new installation.
+
+<!--
+## Plugins & Themes
+
+We've upgraded all (link: downloads text: official plugins) to work with Kirby 2. Please install the latest versions to make sure they are compatible.
+
+3rd-party plugins and themes should mostly be compatible, but may have issues. Please let plugin and themes developers know when something is not working with Kirby 2.
+-->

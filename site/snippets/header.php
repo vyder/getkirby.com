@@ -47,15 +47,15 @@
     <div class="site">
       <a class="logo" href="<?php echo url() ?>">Kirby</a>
       <?php snippet('menu') ?>
-      <section class="hero">
-        <ul class="hero-slider">
+      <section class="slider">
+        <div class="slider-track">
           <?php foreach($page->children()->find('hero')->images() as $slide): ?>
-          <li><img src="<?php echo $slide->url() ?>"></li>
+          <figure><img src="<?php echo $slide->url() ?>"></figure>
           <?php endforeach ?>
-        </ul>
-        <nav class="hero-nav">
-          <a class="prev" href="#"><span class="vh">Previous</span></a>
-          <a class="next" href="#"><span class="vh">Next</span></a>
+        </div>
+        <nav class="slider-nav">
+          <a class="slider-prev" href="#"><span>&lsaquo;</span></a>
+          <a class="slider-next" href="#"><span>&rsaquo;</span></a>
         </nav>
       </section>
       <section class="intro">

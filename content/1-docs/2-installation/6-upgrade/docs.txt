@@ -67,3 +67,7 @@ Please check for updates of 3rd-party plugins and be aware that there might be i
 ## .htaccess
 
 We try to keep our .htaccess as compatible with many server environments as possible. Please (link: https://github.com/getkirby/starterkit/blob/master/.htaccess text: get the latest .htaccess) for Kirby 2, which will make installation of Kirby 2 less complicated in most situations — especially when installing Kirby 2 in a subfolder.
+
+## Multi language version
+
+The configuration for multi-language sites and the API for working with available languages has changed fundamentally. Please check out (link: docs/languages/setup text: the new way to setup multiple languages) and the (link: docs/languages/switching-languages text: examples for how to work with the language API). More can be found in the (link: docs/cheatsheet/#language text: cheat sheet).

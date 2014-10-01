@@ -173,10 +173,15 @@ figure.slider-index {
   margin-bottom: 2em;
 }
 .feature-list img {
-  margin-bottom: 1em;
   padding: 5px;
   width: 100%;
   border: 1px solid #ddd;
+  -webkit-transition: opacity .5s, border-color .5s;
+  transition: opacity .5s, border-color .5s;
+}
+.feature-list img:hover {
+  opacity: .7;
+  border-color: #999;
 }
 
 

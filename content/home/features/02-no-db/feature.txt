@@ -8,4 +8,4 @@ Kirby is file-based – No database involved. This means easy backups, super fas
 
 ----
 
-Link: docs/installation
+Link: docs/installation/download

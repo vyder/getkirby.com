@@ -56,7 +56,7 @@ Add a `blog.php` and a `blogarticle.php` to `site/templates`
 This is the template for `http://yourdomain.com/blog`, which will show
 a list of all articles.
 
-```
+```php
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
@@ -87,7 +87,7 @@ First we include our header and main menu snippets and start the content section
 By giving the content section a second `blog` selector we can easily style it later in
 our css.
 
-```
+```php
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
@@ -97,7 +97,7 @@ our css.
 
 Next we build the title of our blog and the short description, which we've added in `blog.txt`
 
-```
+```php
 <h1><?php echo html($page->title()) ?></h1>
 <?php echo kirbytext($page->text()) ?>
 
@@ -105,7 +105,7 @@ Next we build the title of our blog and the short description, which we've added
 
 The next few lines of code is a loop, where we build a short version for each article of our blog:
 
-```
+```php
 <?php foreach($page->children()->visible()->flip() as $article): ?>
 
 <article>
@@ -136,7 +136,7 @@ So what we do is to add `->flip()`: `$page->children()->visible()->flip`, which 
 
 Now we can build our foreach loop with that:
 
-```
+```php
 <?php foreach($page->children()->visible()->flip() as $article): ?>
 …
 <?php endforeach ?>
@@ -145,7 +145,7 @@ Now we can build our foreach loop with that:
 
 Within the foreach loop, we build the html for each article in our list.
 
-```
+```php
 <?php foreach($page->children()->visible()->flip() as $article): ?>
 
 <article>
@@ -160,7 +160,7 @@ Within the foreach loop, we build the html for each article in our list.
 
 Let's have a close look at the following line:
 
-```
+```php
 <p><?php echo excerpt($article->text(), 300) ?></p>
 
 ```
@@ -171,7 +171,7 @@ With `excerpt($article->text(), 300)` we get an excerpt with a maximum of 300 ch
 
 With the next line…
 
-```
+```php
 <a href="<?php echo $article->url() ?>">Read more…</a>
 
 ```
@@ -188,7 +188,7 @@ This is going to be super easy. Open `blogarticle.php` in your editor. It will b
 
 The template code for this is very short and easy to understand.
 
-```
+```php
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 

@@ -1,23 +1,25 @@
-Title: 
+Title:
 
 Contact Page
 
 ----
 
-Text: 
+Text:
+
+## Blueprint
 
 ```
 title: Contact page
 pages: false
 files: false
-fields: 
-  title: 
+fields:
+  title:
     label: Title
     type: title
-  street: 
+  street:
     label: Street
     type: text
-  zip: 
+  zip:
     label: ZIP
     type: number
     width: 1/4
@@ -25,22 +27,26 @@ fields:
     label: Location
     type: text
     width: 3/4
-  phone: 
+  phone:
     label: Phone
     type: tel
     width: 1/2
-  email: 
+  email:
     label: Email
     type: email
     width: 1/2
-  website: 
+  website:
     label: Website
     type: url
     width: 1/2
-  twitter: 
+  twitter:
     label: Twitter
     type: text
     placeholder: @
     icon: twitter
     width: 1/2
 ```
+
+## Result
+
+(image: contact-page.png)

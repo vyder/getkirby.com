@@ -1,31 +1,38 @@
-Title: 
+Title:
 
 Blog Article
 
 ----
 
-Text: 
+Text:
+
+## Blueprint
 
 ```
 title: Blog Article
 pages: false
 files: true
-fields: 
-  title: 
+fields:
+  title:
     label: Title
     type: title
-  date: 
+  date:
     label: Date
     type: date
     width: 1/2
-  author: 
+    default: today
+  author:
     label: Author
     type: user
     width: 1/2
-  tags: 
+  tags:
     label: Tags
     type: tags
-  text: 
+  text:
     label: Text
     type: textarea
 ```
+
+## Result
+
+(image: blog-article.png)

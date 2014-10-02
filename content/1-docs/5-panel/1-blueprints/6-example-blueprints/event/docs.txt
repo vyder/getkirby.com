@@ -1,31 +1,38 @@
-Title: 
+Title:
 
 Event
 
 ----
 
-Text: 
+Text:
+
+## Blueprint
 
 ```
 title: Event
 pages: false
 files: true
-fields: 
-  title: 
+fields:
+  title:
     label: Title
     type: title
-  date: 
+  date:
     label: Date
     type: date
     width: 1/2
-  time: 
+    default: today
+  time:
     label: Time
     type: time
     width: 1/2
-  location: 
+  location:
     label: Location
     type: text
-  text: 
+  text:
     label: Text
     type: textarea
 ```
+
+## Result
+
+(image: event.png)

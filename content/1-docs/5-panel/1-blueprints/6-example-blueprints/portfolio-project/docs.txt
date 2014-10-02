@@ -1,38 +1,44 @@
-Title: 
+Title:
 
 Portfolio Project
 
 ----
 
-Text: 
+Text:
+
+## Blueprint
 
 ```
 title: Portfolio project
 pages: false
-files: 
+files:
   sortable: true
-fields: 
-  title: 
+fields:
+  title:
     label: Title
     type: title
-  categories: 
+  categories:
     label: Categories
     type: checkboxes
-    options: 
+    options:
       corporate-design: Corporate design
       illustration: Illustration
       logo: Logo design
       photography: Photography
       web: Web design
-  year: 
+  year:
     label: Year
     type: text
     width: 1/2
-  website: 
+  website:
     label: Website
     type: url
     width: 1/2
-  text: 
+  text:
     label: Text
     type: textarea
 ```
+
+## Result
+
+(image: project.png)

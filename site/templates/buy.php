@@ -1,4 +1,4 @@
-<?php go('http://getkirby.com/buy') ?>
+<?php if(c::get('stage')) go('http://getkirby.com/buy') ?>
 <?php snippet('header') ?>
 
   <main class="main" role="main">
@@ -8,14 +8,14 @@
 
     <section class="buy-section col-4-6">
       <div class="buy-section-option text active">
-        <h3 class="gamma">Buy new license for Kirby 2</h3>
+        <h3 class="gamma">Kirby 2</h3>
         <div class="buy-section-option-content cf">
           <form method="post" action="http://sites.fastspring.com/openwe/api/order">
             <div class="cf">
               <label for="license-count">Licence(s) at 39$/30€ each</label>
               <input type="number" name="product_1_quantity" value="1" min="1">
               <!-- Fastspring options -->
-              <input type="hidden" name="product_1_path" value="/kirby">
+              <input type="hidden" name="product_1_path" value="/kirby2">
               <input type="hidden" name="operation" value="create"/>
               <input type="hidden" name="destination" value="checkout"/>
               <!-- Fastspring options -->
@@ -32,7 +32,7 @@
         </div>
       </div>
       <div class="buy-section-option text smaller">
-        <h3 class="gamma">Buy voluntary upgrade for Kirby 2</h3>
+        <h3 class="gamma">Voluntary upgrade for Kirby 2</h3>
         <div class="buy-section-option-content cf vh">
           <form class="cf">
             <label>Licence(s) at 29$/20€ each</label>

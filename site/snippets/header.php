@@ -39,7 +39,7 @@
   </div>
   <![endif]-->
 
-  <?php snippet('message') ?>
+  <?php if(c::get('stage')) snippet('message') ?>
 
   <?php if($page->isHomePage()): ?>
 

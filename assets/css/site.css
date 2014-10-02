@@ -511,6 +511,11 @@ figure.slider-index {
   background-image: url(../images/docs.svg);
 }
 
+
+
+/*
+ :::  Further reading [Docs]
+-------------------------------------------------- */
 .further-reading {
   margin-top: 3em;
   padding-top: 2em;
@@ -521,6 +526,46 @@ figure.slider-index {
     padding-bottom: 2em;
     border-bottom: 2px solid #ddd;
   }
+}
+
+
+
+/*
+ :::  Table of contents [Docs]
+-------------------------------------------------- */
+ul.toc {
+  margin-left: 0;
+  counter-reset: count;
+}
+.toc li {
+  list-style: none;
+  margin-bottom: 1px;
+  counter-increment: count;
+}
+.toc a {
+  display: block;
+  padding: .4em 1em;
+  background-color: #f4f4f4;
+  border-bottom: 0;
+  border-left: 10px solid #ddd;
+}
+.toc a:hover {
+  color: #fff;
+  background-color: #333;
+  border-left: 20px solid red;
+}
+.toc a:after {
+  content: '#';
+  float: right;
+  color: #999;
+  font-weight: 300;
+}
+.toc a:before {
+  content: counter(count, decimal-leading-zero);
+  float: right;
+  color: #999;
+  font-weight: 300;
+  margin-left: 2px;
 }
 
 

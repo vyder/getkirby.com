@@ -271,8 +271,8 @@ img {
 a {
   color: #222;
   text-decoration: none;
-  -webkit-transition: background .3s, color .3s, opacity .3s, border-color .3s;
-  transition: background .3s, color .3s, opacity .3s, border-color .3s;
+  -webkit-transition: background .3s, color .3s, opacity .3s, border .3s;
+  transition: background .3s, color .3s, opacity .3s, border .3s;
 }
 a:hover {
   color: red;

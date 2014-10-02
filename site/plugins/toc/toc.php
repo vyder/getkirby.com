@@ -7,6 +7,7 @@ kirbytext::$post[] = function($kirbytext, $value) {
     preg_match_all('!<h2>(.*)</h2>!', $value, $matches);
 
     $ul = brick('ul');
+    $ul->addClass('toc');
 
     foreach($matches[1] as $match) {
       $li = brick('li', '<a href="#' . str::slug($match) . '">' . $match . '</a>');

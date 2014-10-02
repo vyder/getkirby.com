@@ -39,6 +39,11 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+@media screen and (max-width: 40em) {
+  html {
+    font-size: 90%;
+  }
+}
 body {
   color: #222;
   line-height: 1;
@@ -452,7 +457,7 @@ h6 a {
   font-size: 36px;
   font-size: 2.25rem;
   font-weight: 400;
-  line-height: 1.25em;
+  line-height: 1.1;
 }
 .text h1 {
   margin: 0 0 .5em 0;
@@ -462,7 +467,7 @@ h6 a {
   font-size: 36px;
   font-size: 2.25rem;
   font-weight: 300;
-  line-height: 1.25em;
+  line-height: 1.25;
   color: red;
 }
 .text h2 {
@@ -474,7 +479,7 @@ h2.gamma {
   font-size: 24px;
   font-size: 1.5rem;
   font-weight: 400;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 .text h3 {
   margin-bottom: .5em;
@@ -487,7 +492,7 @@ h2.delta {
   font-size: 18px;
   font-size: 1.125rem;
   font-weight: 600;
-  line-height: 1.5em;
+  line-height: 1.5;
   color: red;
 }
 .text h4 {
@@ -498,14 +503,14 @@ h2.delta {
   font-size: 18px;
   font-size: 1.125rem;
   font-weight: 600;
-  line-height: 1.5em;
+  line-height: 1.5;
 }
 .zeta,
 .text h6 {
   font-size: 18px;
   font-size: 1.125rem;
   font-weight: 400;
-  line-height: 1.5em;
+  line-height: 1.5;
   color: red;
 }
 .text h5,

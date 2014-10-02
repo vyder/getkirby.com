@@ -545,6 +545,7 @@ ul.toc {
 .toc a {
   display: block;
   padding: .4em 1em;
+  font-size: .9em;
   background-color: #f4f4f4;
   border-bottom: 0;
   border-left: 10px solid #ddd;
@@ -554,18 +555,21 @@ ul.toc {
   background-color: #333;
   border-left: 20px solid red;
 }
-.toc a:after {
-  content: '#';
-  float: right;
-  color: #999;
-  font-weight: 300;
-}
-.toc a:before {
-  content: counter(count, decimal-leading-zero);
-  float: right;
-  color: #999;
-  font-weight: 300;
-  margin-left: 2px;
+@media screen and (min-width: 25em) {
+  .toc a:after {
+    content: '#';
+    float: right;
+    color: #999;
+    font-weight: 300;
+    margin-left: 1em;
+  }
+  .toc a:before {
+    content: counter(count, decimal-leading-zero);
+    float: right;
+    color: #999;
+    font-weight: 300;
+    margin-left: 2px;
+  }
 }
 
 
@@ -815,17 +819,16 @@ ul.toc {
  :::  Downloads
 -------------------------------------------------- */
 .downloads .section {
-  padding-bottom: 3.5em;
+  padding-bottom: 1.5em;
 }
 .downloads .section:last-child {
   border: 0;
   padding: 0;
 }
-.download-list {
-}
 .download-list li {
   position: relative;
   padding: 0 0 0 4.5em;
+  margin-bottom: 2em;
 }
 .download-list li .icon {
   position: absolute;
@@ -956,6 +959,7 @@ ul.toc {
   display: block;
   right: auto;
   line-height: 1.5em;
+  margin-top: .5em;
 }
 .article-date .month {
   color: red;
@@ -966,10 +970,10 @@ ul.toc {
     top: 0;
     right: 0;
     text-align: right;
+    margin-top: 0;
   }
   .article-date .month {
     display: block;
-    padding-bottom: .025em;
   }
 }
 

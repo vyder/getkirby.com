@@ -47,8 +47,9 @@ This will do the same as the example above – just in one line. As an argument 
 
 So if we take a look at our blog article template, it is very easy to include a date there and this is just a very general example.
 
-```
+```php
 <article>
+
   <h1><?php echo html($article->title()) ?></h1>
   <?php echo kirbytext($article->text()) ?>
 

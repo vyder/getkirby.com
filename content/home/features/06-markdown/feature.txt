@@ -8,4 +8,4 @@ Write your content with plain Markdown or use Kirbytext, a powerful, extended ve
 
 ----
 
-Link: docs/formatting-text
+Link: docs/content/text

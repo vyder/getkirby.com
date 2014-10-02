@@ -90,7 +90,7 @@ If you're searching for a more maintainable solution you can add fields for the 
 
     title: My awesome site
     ----
-    Author: © 2013 Kirby
+    Author: © 2014 Kirby
     ----
     piwik_url: stats.getkirby.com
     ----

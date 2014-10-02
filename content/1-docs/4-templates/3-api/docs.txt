@@ -18,11 +18,17 @@ All parts of the API are inspired by the simplicity of jQuery. When you've playe
 
 The `$site` object represents the root of your site with all the information stored in `/content/site.txt`. It's also the access point for registered users, available languages on multi-language sites and more.
 
+(link: docs/cheatsheet#site class: btn text: Learn more about $site)
+
 ## $pages
 
 The `$pages` object contains the first level of pages. It can be used to build the main menu or dive deeper into the structure of your site.
 
+(link: docs/cheatsheet#pages class: btn text: Learn more about $pages)
+
 ## $page
 
 The `$page` object represents the currently active page. It gives you access to the page's data, attached files, subpages and more.
+
+(link: docs/cheatsheet#page class: btn text: Learn more about $page)
 

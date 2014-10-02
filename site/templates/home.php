@@ -8,17 +8,21 @@
 
     <ul class="feature-list list-3">
       <?php foreach($pages->find('home/features')->children()->limit(6) as $feature): ?><!--
-   --><li class="text smaller">
+   --><li>
         <?php if($image = $feature->image()): ?>
-        <img src="<?php echo thumb($image, array('width' => 640, 'height' => 400, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $feature->title() ?>" />
+        <a href="<?php echo $feature->link() ?>">
+          <img src="<?php echo thumb($image, array('width' => 640, 'height' => 400, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $feature->title() ?>" />
+        </a>
         <?php endif ?>
-        <h3 class="gamma"><?php echo html($feature->title()) ?></h3>
-        <p>
-          <?php echo $feature->text() ?>
-          <?php if($feature->link() != ''): ?>
-          <a class="read-more" href="<?php echo $feature->link() ?>">Read more →</a>
-          <?php endif ?>
-        </p>
+        <div class="text smaller">
+          <h3 class="gamma"><?php echo html($feature->title()) ?></h3>
+          <p>
+            <?php echo $feature->text() ?>
+            <?php if($feature->link() != ''): ?>
+            <a class="read-more" href="<?php echo $feature->link() ?>">Read more →</a>
+            <?php endif ?>
+          </p>
+        </div>
       </li><!--
    --><?php endforeach ?>
     </ul>

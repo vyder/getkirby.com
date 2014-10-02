@@ -21,14 +21,19 @@
   background: #212121 url(../images/home.png) no-repeat center center;
   background-size: cover;
 }
-.home .menu {
-  border-bottom: 2px solid #333;
-}
 .home .menu a {
   color: #fff;
 }
 .home .menu a:hover {
   color: red;
+}
+/**
+  Menu borders
+*/
+.home .menu,
+.home .menu a,
+.home .menu-left li:nth-child(odd) {
+  border-color: #444;
 }
 
 

@@ -55,7 +55,7 @@
       <?php $latest = $pages->find('blog')->children()->visible()->flip()->limit(2) ?>
       <?php foreach($latest as $post): ?><!--
    --><li class="text smaller">
-        <time datetime="<?php echo $post->date('c') ?>"><?php echo $post->date('d M y') ?></time>
+        <time datetime="<?php echo $post->date('c') ?>"><?php echo $post->date('d M Y') ?></time>
         <h3 class="gamma"><a href="<?php echo $post->url() ?>"><?php echo html($post->title()) ?></a></h3>
         <p><?php echo excerpt($post->text(), 180) ?> <a class="read-more" href="<?php echo $post->url() ?>">read more →</a></p>
       </li><!--
@@ -106,11 +106,11 @@
         </a>
       </li><!--
    --><li>
-        <a class="grid" href="http://forum.getkirby.com">
+        <a class="grid" href="<?php echo url('forum') ?>">
           <img class="" src="<?php echo url() ?>/assets/images/forum.svg">
           <div class="">
             <h3 class="gamma">Be part of the community!</h3>
-            <p class="zeta">forum.getkirby.com</p>
+            <p class="zeta">getkirby.com/forum</p>
           </div>
         </a>
       </li><!--

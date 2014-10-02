@@ -193,12 +193,12 @@ figure.slider-index {
   margin-bottom: 3em;
 }
 .latest-posts time {
+  font-size: .8em;
   font-weight: 300;
-  font-size: .9em;
   color: #999;
 }
 .latest-posts .gamma {
-  margin-bottom: .5em;
+  padding-top: 0;
 }
 
 
@@ -224,10 +224,10 @@ figure.slider-index {
 }
 .connect img {
   float: left;
-  max-width: 70px;
+  width: 70px;
+  height: 70px;
   margin-right: 8%;
   margin-bottom: 1em;
-  max-height: 200px;
 }
 .connect .zeta {
   transition: color .3s;

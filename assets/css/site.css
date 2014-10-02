@@ -338,10 +338,12 @@ figure.slider-index {
   left: 50%;
   transition: all .3s;
   -webkit-transform: translate(-50%,-150%);
+  -ms-transform: translate(-50%,-150%);
   transform: translate(-50%,-150%);
 }
 .reference-list .screen-wrap:hover .btn-white {
   -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
 }
 .reference-list img {

@@ -534,43 +534,39 @@ figure.slider-index {
  :::  Table of contents [Docs]
 -------------------------------------------------- */
 ul.toc {
-  margin-left: 0;
+  margin: 0;
   counter-reset: count;
-  border-top: 1px solid #ddd;
+  border: 1px solid #ddd;
+  border-bottom: 0;
 }
 .toc li {
   list-style: none;
-  margin-bottom: 1px;
   counter-increment: count;
 }
 .toc a {
+  position: relative;
   display: block;
-  padding: .4em 1em;
-  font-size: .9em;
   border-bottom: 1px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-left: 10px solid #ddd;
+  padding: .75em 0 .75em 3em;
+  line-height: 1.5em;
+  font-size: .9em;
 }
 .toc a:hover {
-  border-left: 15px solid #ddd;
-  border-right: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-color: #ddd;
 }
-@media screen and (min-width: 25em) {
-  .toc a:after {
-    content: '#';
-    float: right;
-    color: #999;
-    font-weight: 300;
-    margin-left: 1em;
-  }
-  .toc a:before {
-    content: counter(count, decimal-leading-zero);
-    float: right;
-    color: #999;
-    font-weight: 300;
-    margin-left: 2px;
-  }
+.toc a:after {
+  position: absolute;
+  right: 1em;
+  content: '#';
+  color: #999;
+  font-weight: 300;
+}
+.toc a:before {
+  position: absolute;
+  left: 1em;
+  content: counter(count, decimal-leading-zero);
+  color: #999;
+  font-weight: 300;
 }
 
 

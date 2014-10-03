@@ -7,6 +7,14 @@
 
     <section class="text col-4-6">
       <?php echo kirbytext($page->text()) ?>
+      <?php if($page->image()): ?>
+      <h2 class="beta">Result</h2>
+      <figure>
+        <?php foreach($page->images() as $image): ?>
+        <img src="<?php echo $image->url() ?>" alt="Screenshot <?php echo $page->title() ?>">
+        <?php endforeach ?>
+      </figure>
+      <?php endif ?>
     </section>
 
     <nav class="sidebar col-2-6 last">

@@ -16,7 +16,7 @@ The radiobuttons field displays any number of radio buttons in a list. This is p
 fields:
   category:
     label: Category
-    type: radiobuttons
+    type: radio
     options:
       design: Design
       architecture: Architecture
@@ -31,7 +31,7 @@ fields:
 fields:
   category:
     label: Category
-    type: radiobuttons
+    type: radio
     default: architecture
     options:
       design: Design

@@ -23,12 +23,14 @@ license | null | Setup for the license key
 url | false | Overwrites Kirby's auto-detected base URL
 routes | null | Additional route setup for Kirby's internal router
 languages | null | Language definition for multi-language sites
+roles | null | Available user roles
 timezone | UTC | The PHP timezone setting for all date functions
 tinyurl.enabled | true | Enables/disables tinyurls
 tinyurl.folder | x | Tinyurl format: yourdomain/{folder}/{hash}
 rewrite | true | Enables/disables URL rewriting
 markdown.extra | false | Enables/disables the Markdown extra parser with additional Markdown features like footnotes and tables.
 markdown.breaks | true | Enables/disables automatic line breaks in Markdown like on Github. Otherwise line breaks must be confirmed with three spaces at the end of the line.
+smartypants | false | Enables/disables the smartypants plugin
 cache | false | Enables/disables Kirby's cache
 cache.driver | file | Kirby has three built-in cache drivers: file, memcached and apc
 cache.ignore | null | An array of URIs of pages, which should be ignored by the cache

@@ -1,4 +1,4 @@
-Title: Phone
+Title: Tel
 
 ----
 
@@ -18,5 +18,5 @@ The phone field creates a text input with the type `tel` and a custom phone icon
 fields:
   phone:
     label: Phone
-    type: phone
+    type: tel
 ```

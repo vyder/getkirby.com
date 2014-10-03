@@ -1,8 +1,10 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Showcase
+title: Reference
 pages: false
 preview: parent
+files:
+  sortable: true
 fields:
   title:
     label: Title

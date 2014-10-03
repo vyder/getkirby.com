@@ -1,10 +1,9 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Answers
+title: Support
 pages:
-  template: answer
-preview: parent
-files: false
+  template: support.item
+files: true
 fields:
   title:
     label: Title

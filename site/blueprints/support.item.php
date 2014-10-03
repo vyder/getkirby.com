@@ -1,8 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Answer
+title: Support item
 pages: false
-preview: false
 files: true
 fields:
   title:
@@ -10,5 +9,8 @@ fields:
     type:  text
   text:
     label: Text
-    type: textarea
-    icon: file-text-o
+    type:  textarea
+    icon:  file-text-o
+  link:
+    label: Link
+    type:  url

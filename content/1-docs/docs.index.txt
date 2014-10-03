@@ -1,10 +1,2 @@
 Title: Docs
 
-----
-
-Description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.
-
-----
-
-Link: docs/installation
-

@@ -1,10 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Answers
-pages:
-  template: answer
-preview: parent
-files: false
+title: Docs Index
+pages: docs
+files: true
 fields:
   title:
     label: Title

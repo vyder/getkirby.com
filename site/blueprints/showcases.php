@@ -2,7 +2,7 @@
 
 title: Showcases
 pages:
-  template: showcase
+  template: reference
   sort:     flip
 files: false
 fields:

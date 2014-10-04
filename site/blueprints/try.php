@@ -1,9 +1,7 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: Try
-pages:
-  template: try-item
-  max:      4
+pages: false
 files: true
 fields:
   title:

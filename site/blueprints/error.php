@@ -5,7 +5,7 @@ pages: false
 files: false
 fields:
   title:
-    label: Title
+    label: Error message
     type:  text
   text:
     label: Text

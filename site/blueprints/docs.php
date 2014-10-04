@@ -14,27 +14,57 @@ fields:
   line-a:
     type:  line
   docs:
-    label: Docs [Further reading]
-    type:  textarea
-    icon:  link
-    width: 1/2
+    label: Docs
+    type: structure
+    fields:
+      text:
+        label: Title
+        type:  text
+      link:
+        label: Link
+        type:  text
+        icon:  link
   blogposts:
-    label: Blogposts [Further reading]
-    type:  textarea
-    icon:  link
-    width: 1/2
+    label: Blogposts
+    type: structure
+    fields:
+      text:
+        label: Title
+        type:  text
+      link:
+        label: Link
+        type:  text
+        icon:  link
   forumposts:
-    label: Forumposts [Further reading]
-    type:  textarea
-    icon:  link
-    width: 1/2
+    label: Forumposts
+    type: structure
+    fields:
+      text:
+        label: Title
+        type:  text
+      link:
+        label: Link
+        type:  text
+        icon:  link
   internals:
-    label: Internal resources [Further reading]
-    type:  textarea
-    icon:  link
-    width: 1/2
+    label: Internals
+    type: structure
+    fields:
+      text:
+        label: Title
+        type:  text
+      link:
+        label: Link
+        type:  text
+        icon:  link
   externals:
-    label: External resources [Further reading]
-    type:  textarea
-    icon:  link
-    width: 1/2
+    label: Externals
+    type: structure
+    fields:
+      text:
+        label: Title
+        type:  text
+      link:
+        label: Link
+        type:  text
+        icon:  link

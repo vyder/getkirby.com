@@ -12,10 +12,12 @@ fields:
     label: Username
     type:  text
     icon:  user
+    width: 1/2
   tweet:
     label: Tweet
     type:  text
     icon:  twitter
+    width: 1/2
   text:
     label: Text
     type:  textarea

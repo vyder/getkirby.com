@@ -1,5 +1,0 @@
-title: Kirby 2 Beta 1
-----
-date: 05/05/2014
-----
-description: Bacon ipsum dolor sit amet swine beef (link: blog/kirby-2-beta text: ribeye venison) ham Meatball sausage tri-tip drumstick tongue doner.

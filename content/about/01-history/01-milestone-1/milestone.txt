@@ -1,5 +1,0 @@
-title: First custom build for a client
-----
-date: 6/01/2009
-----
-description: Bacon ipsum dolor sit amet swine beef ribeye venison ham Meatball sausage tri-tip drumstick tongue doner.

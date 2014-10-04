@@ -62,8 +62,6 @@
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-transition: opacity .75s;
-  transition: opacity .75s;
 }
 .slider figure img {
   width: 100%;

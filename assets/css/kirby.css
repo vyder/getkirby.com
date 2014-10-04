@@ -48,6 +48,7 @@ body {
   color: #222;
   line-height: 1;
   font-family: 'Source Sans Pro', helvetica, sans-serif;
+  background: url(../images/pattern-white.png) repeat-x right top;
 }
 
 
@@ -63,7 +64,7 @@ body {
 }
 @media screen and (min-width: 47em) {
   .site {
-    padding: 4.5em 3em;
+    padding: 6em 3em;
   }
 }
 
@@ -80,11 +81,12 @@ body {
   display: inline-block;
   position: relative;
   padding: .21em 0 1em 1.75em;
-  font-size: 2em;
+  font-size: 36px;
+  font-size: 2.25rem;
   z-index: 999;
   text-transform: lowercase;
   background: url(../images/kirbyicon.svg) no-repeat left top;
-  background-size: 40px 45px;
+  background-size: 1.25em;
 }
 .logo:hover {
   color: inherit;

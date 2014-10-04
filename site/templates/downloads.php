@@ -2,7 +2,7 @@
 
 <main class="main" role="main">
 
-  <h1 class="alpha margin-bottom">Downloads</h1>
+  <h1 class="alpha">Downloads</h1>
 
   <section class="section">
     <h2 class="beta">Kirby Starterkit</h2>

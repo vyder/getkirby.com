@@ -50,7 +50,9 @@ body {
   font-family: 'Source Sans Pro', helvetica, sans-serif;
   background: url(../images/pattern-white.png) repeat-x right top;
 }
-
+body.stage {
+  background: none;
+}
 
 
 /*

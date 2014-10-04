@@ -1,7 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Featured on
+title: Testimonials
 pages: false
+preview: parent
 files:
   sortable: true
   fields:
@@ -10,7 +11,7 @@ files:
       type:  text
     link:
       label: URL
-      type: url
+      type:  url
 fields:
   title:
     label: Title

@@ -197,7 +197,6 @@ figure.slider-index {
 }
 .latest-posts time {
   font-size: .8em;
-  font-weight: 300;
   color: #999;
 }
 .latest-posts .gamma {
@@ -227,10 +226,11 @@ figure.slider-index {
 }
 .connect img {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 3.5em;
+  height: 3.5em;
   margin-right: 8%;
   margin-bottom: 1em;
+  margin-top: .25em;
 }
 .connect .zeta {
   transition: color .3s;
@@ -969,7 +969,7 @@ ul.toc {
 @media only screen and (min-width : 47em) {
   .article-date {
     position: absolute;
-    top: 0;
+    top: -.25em;
     right: 0;
     text-align: right;
     margin-top: 0;

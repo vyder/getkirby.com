@@ -98,18 +98,18 @@
     <ul class="list-2"><!--
    --><li>
         <a class="cf" href="http://twitter.com/getkirby">
-          <img class="" src="<?php echo url() ?>/assets/images/twitter.svg">
-          <div class="">
-            <h3 class="gamma">Follow Kirby on Twitter!</h3>
+          <img src="<?php echo url() ?>/assets/images/twitter.svg">
+          <div>
+            <h3 class="gamma">Follow Kirby on Twitter</h3>
             <p class="zeta">@getkirby</p>
           </div>
         </a>
       </li><!--
    --><li>
         <a class="grid" href="<?php echo url('forum') ?>">
-          <img class="" src="<?php echo url() ?>/assets/images/forum.svg">
-          <div class="">
-            <h3 class="gamma">Be part of the community!</h3>
+          <img src="<?php echo url() ?>/assets/images/forum.svg">
+          <div>
+            <h3 class="gamma">Visit the Kirby forum</h3>
             <p class="zeta">getkirby.com/forum</p>
           </div>
         </a>

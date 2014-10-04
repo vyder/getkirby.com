@@ -4,7 +4,7 @@ Title: Markdown Syntax
 
 Text:
 
-Write your content with plain Markdown or use Kirbytext, a powerful, extended version of the popular Markdown syntax.
+Use your favorite editor to write your content with plain Markdown or use Kirbytext, a powerful, extended version of the popular Markdown syntax.
 
 ----
 

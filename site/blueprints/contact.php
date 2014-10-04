@@ -7,11 +7,11 @@ fields:
   title:
     label: Title
     type:  text
-  text:
-    label: Text
+  contact:
+    label: Contact
     type:  textarea
-    icon:  file-text-o
-  web:
-    label: Web
+    icon:  user
+  disclaimer:
+    label: Disclaimer
     type:  textarea
-    icon:  share
+    icon:  legal

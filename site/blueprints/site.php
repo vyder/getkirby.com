@@ -7,7 +7,6 @@ fields:
   title:
     label: Title
     type:  text
-    width: 1/2
   email:
     label: Email
     type:  email
@@ -15,13 +14,8 @@ fields:
   author:
     label: Author
     type:  text
-    width: 1/4
+    width: 1/2
     icon:  user
-  copyright:
-    label: Copyright
-    type:  text
-    width: 3/4
-    icon:  exclamation
   description:
     label: Description
     type:  text

@@ -231,7 +231,7 @@ How to add authors to your articles:
 Externals:
 
 Baseblog:
-  text: Baseblog — A nice and clean basic blog for Kirby
+  text: Baseblog — A solid and clean blog theme for Kirby
   link: http://baseblog.sashtown.de
 
 ----

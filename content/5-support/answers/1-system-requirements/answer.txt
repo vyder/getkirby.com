@@ -9,3 +9,5 @@ Kirby runs on PHP 5.3+, Apache 2 or Ngnix. Lighthttpd should be doable but is no
 Kirby has been successfully tested on MAMP, XAMPP and PHP's built-in server for local installations.
 
 Kirby is not compatible with IIS.
+
+The Kirby Panel works great with any modern browser starting with Internet Explorer 10.

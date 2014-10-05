@@ -1,14 +1,14 @@
-Title: Do you offer volume discounts?
+Title: Do you offer volume discounts for the commercial license?
 ----
 Text:
 
-Yes! We offer the following volume discounts. They are automatically applied in the store when you purchase multiple license.
+Yes! We offer the following volume discounts. They are automatically applied in the store when you purchase multiple licenses.
 
-Volume | EUR | Dollar
-- | -
-1 - 4 | 30,00 € | $39.00
-5 - 9 | 27,00 € | $35.10
-10 - 24 | 25,50 € | $33.15
-25 - 49 | 24,00 € | $31.20
-50 - 99 | 22,50 € | $29.25
-100+ | 21,00 € | $27.30
+Volume  | EUR     | Dollar
+-       | -
+1 - 4   | 79,00 € | $99.00
+5 - 9   | 77,00 € | $96.40
+10 - 24 | 75,00 € | $93.80
+25 - 49 | 73,00 € | $91.40
+50 - 99 | 71,00 € | $88.80
+100+    | 69,00 € | $86.00

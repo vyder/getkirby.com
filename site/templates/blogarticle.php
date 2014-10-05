@@ -17,9 +17,9 @@
 
       <?php echo str_replace('(\\', '(', kirbytext($page->text())) ?>
 
-      <?php if(!c::get('local')): ?>
+      <?php if(server::get('SERVER_NAME') != 'getkirby.com'): ?>
       <section class="disqus">
-      <?php snippet('disqus', array('disqus_shortname' => 'getkirby')) ?>
+      <?php echo disqus('getkirby') ?>
       </section>
       <?php endif ?>
 

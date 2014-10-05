@@ -12,11 +12,11 @@ Subheadline: Don't buy a pig in a poke!
 
 Text:
 
-Kirby's license model is based on a single idea: you should be happy with Kirby first, before you buy a license!
+Kirby's license model is based on a single idea: you should be happy with Kirby first, before you buy a **(link: buy text: commercial license.)**
 
 This is why **(link: http://github.com/getkirby text: Kirby's source code)** is fully available on Github without restrictions.
 
-Try Kirby on your **local machine** or on a **private test server** as long as you want. Once you are sure that Kirby is made for you, just **(link: buy text: get your license key)** and you are ready to go.
+Try Kirby on your **local machine** or on a **private test server** as long as you want. Once you are sure that Kirby fits your commercial project, **(link: buy text: get your license key)** and you are ready to go.
 
 ## How to get started
 

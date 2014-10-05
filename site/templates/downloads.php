@@ -18,20 +18,6 @@
   </section>
 
 
-  <?php if(c::get('stage')): ?>
-  <section class="section">
-    <h2 class="beta">Plugins, Snippets and Templates</h2>
-
-    <div class="text">
-      We are currently reviewing all plugins, snippets and templates for Kirby 2.
-      Check back soon for the full list of downloads.
-      In the meantime you can find many new <a href="<?php echo url('docs/solutions') ?>">solutions and tutorials</a> on how to build things with Kirby in the docs.
-    </div>
-
-  </section>
-  <?php endif ?>
-
-
   <?php foreach($page->children()->visible() as $category): ?>
 
   <section class="section">
@@ -52,6 +38,23 @@
   </section>
 
   <?php endforeach ?>
+
+  <section class="section grid">
+    <ul class="list-2">
+      <li>
+        <h2 class="beta">Code snippets &amp; examples</h2>
+        <div class="text">
+          If you are looking for code snippets and tutorials how to build all kinds of solutions with Kirby, please <a href="/docs/solutions"><strong>check out the new docs</strong></a>.
+        </div>
+      </li><!--
+   --><li>
+        <h2 class="beta">More Kirby 2 plugins…</h2>
+        <div class="text">
+          Please come back soon for more brand new Kirby 2 plugins and extensions.
+        </div>
+      </li>
+    </ul>
+  </section>
 
 </main>
 

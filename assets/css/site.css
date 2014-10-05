@@ -1000,6 +1000,14 @@ ul.toc {
   }
 }
 
+/**
+  Disqus
+*/
+.disqus {
+  margin-top: 3em;
+  padding-top: 3em;
+  border-top: 1px dashed #ddd;
+}
 
 
 /*

@@ -6,8 +6,7 @@
   <article class="col-4-6 four">
     <p class="gamma subtitle"><?php echo $page->subtitle() ?></p>
     <div class="text">
-      <?php echo kirbytext($page->install()) ?>
-      <p>Check out the <a href="<?php echo $page->docs() ?>">full documentation</a> to learn more!
+      <?php echo kirbytext($page->text()) ?>
     </div>
   </article>
 

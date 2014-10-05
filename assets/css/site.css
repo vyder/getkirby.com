@@ -830,20 +830,19 @@ ul.toc {
 .download-list li {
   position: relative;
   padding: 0 0 0 4.5em;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
-.download-list li .icon {
+.download-list a:after {
   position: absolute;
   top: 50%;
   left: 0;
-  width: 3em;
-  height: 3em;
+  content: "";
   margin-top: -1.5em;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  background-color: #222;
+  width: 3.25em;
+  height: 3.25em;
   border-radius: 50%;
+  background: #000 url(../images/download.svg) no-repeat center center;
+  background-size: 1.25em;
 }
 .download-list p {
   color: #777;
@@ -1075,7 +1074,20 @@ ul.toc {
  :::  Buy
 -------------------------------------------------- */
 .buy-section {
+  position: relative;
   margin-bottom: 3em;
+}
+
+.buy-section h3 {
+  margin-bottom: 0;
+}
+.buy-section h4 {
+  font-size: 1.25em;
+}
+.buy-section h4 small {
+  font-weight: 400;
+  color: #999;
+  font-size: .7em;
 }
 .buy-section-option {
   position: relative;

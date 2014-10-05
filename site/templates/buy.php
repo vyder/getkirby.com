@@ -3,8 +3,36 @@
 
   <main class="main" role="main">
 
-    <h1 class="alpha"><?php echo $page->title() ?></h1>
-    <h2 class="beta margin-bottom">Get your license for Kirby!</h2>
+    <h1 class="alpha"><?php echo $page->title()->html() ?></h1>
+    <h2 class="beta margin-bottom"><?php echo $page->subtitle()->html() ?></h2>
+
+    <div class="grid">
+      <div class="col-3-6 buy-section">
+        <div class="text">
+          <h3 class="gamma"><a href="http://download.getkirby.com">Personal license</a></h3>
+          <h4>Free</h4>
+          <?php echo $page->personal()->kirbytext() ?>
+        </div>
+        <a href="http://download.getkirby.com" class="btn">Download now</a>
+
+      </div><!--
+   --><div class="col-3-6 buy-section">
+        <div class="text">
+          <h3 class="gamma"><a href="https://sites.fastspring.com/openwe/instant/kirby2">Commercial license</a></h3>
+          <h4>€80 / $99 <small>(excluding VAT)</small></h4>
+          <?php echo $page->commercial()->kirbytext() ?>
+        </div>
+        <a href="https://sites.fastspring.com/openwe/instant/kirby2" class="btn">Buy now</a>
+
+      </div>
+    </div>
+
+    <?php if(1==2): ?>
+
+
+
+
+
 
     <section class="buy-section col-4-6">
       <div class="buy-section-option text active">
@@ -57,6 +85,7 @@
       <?php echo kirbytext($page->students()) ?>
     </aside>
 
+    <?php endif ?>
 
   </main>
 

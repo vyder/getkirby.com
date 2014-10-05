@@ -2,15 +2,50 @@
 
 ----
 
-Text:
-
-Kirby 2 has not launched yet, but you can **(link: http://getkirby.com/buy text: buy a license for Kirby 1)**, which will contain a **free update for Kirby 2**.
-
-Follow **(twitter: getkirby text: Kirby on Twitter)** for updates about Kirby 2.
-Write us, if you have questions or feedback: <support@getkirby.com>
+Subtitle: Get your Kirby license
 
 ----
-volumes:
+
+Personal:
+
+##### Includes
+
+- All features
+- A license for a non-commercial website
+- Forum-based support
+
+##### Examples
+
+- A personal, non-commercial blog
+- Non-profit student projects
+- A family website
+- A website for your dog
+- Sites for open-source projects
+
+(email: support@getkirby.com text: Not sure? Ask us!)
+
+----
+
+Commercial:
+
+##### Includes
+
+- All features
+- A license for a single, commercial website
+- Personal support!
+
+##### Examples
+
+- A company website
+- Any client project
+- A blog with advertisement
+- A product site
+- A conference website
+
+(email: support@getkirby.com text: Not sure? Ask us!)
+
+----
+Volumes:
 
 Volume | EUR | Dollar
 - | -
@@ -22,18 +57,18 @@ Volume | EUR | Dollar
 100+ | 21,00 € | $27.30
 
 ----
-students:
+Students:
 
 We have a 50% student discount. Just send (email: support@getkirby.com text: an email) with some proof that you are a student (i.e. student id).
 
 Educational projects in general get the same discount!
 
 ----
-order:
+Order:
 
 A license is valid for a single website. It contains updates for minor Kirby versions (i.e. 2.1 to 2.2). After your purchase with via (link: http://fastspring.com/ text: Fastspring) you will receive an email with a proper invoice and your license key(s).
 
 ----
-voluntary:
+Voluntary:
 
 Kirby 2 is a massive update and we want everyone to be able to upgrade without additional costs. We know that we let a big chunk of money pass this way. Everyone who wants to support our work is of course welcome to send us some money though and will get a special place in our hearts :)

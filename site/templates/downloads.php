@@ -9,15 +9,16 @@
     <ul class="download-list"><!--
    --><li>
         <a href="http://download.getkirby.com">
-          <img class="icon" src="<?php echo url('assets/images/kirby-dark.png') ?>" alt="Kirby icon" />
-          <h3 class="gamma">kirby-2.0.0-beta3.zip</h3>
-          <p>Download Kirby's Starterkit</p>
+          <h3 class="gamma">kirby-starterkit.zip</h3>
+          <p>Download the latest version of Kirby's Starterkit</p>
         </a>
       </li><!--
  --></ul>
 
   </section>
 
+
+  <?php if(c::get('stage')): ?>
   <section class="section">
     <h2 class="beta">Plugins, Snippets and Templates</h2>
 
@@ -28,22 +29,21 @@
     </div>
 
   </section>
-
+  <?php endif ?>
 
 
   <?php foreach($page->children()->visible() as $category): ?>
 
   <section class="section">
 
-    <h2 class="beta"><?php echo html($category->title()) ?></h2>
+    <h2 class="beta"><?php echo $category->title()->html() ?></h2>
 
     <ul class="download-list list-2"><!--
       <?php foreach($category->children()->visible() as $download): ?><!--
    --><li>
         <a href="<?php echo $download->url() ?>">
-          <span class="icon" style="background-image: url(<?php echo $download->images()->first()->url() ?>)"></span>
-          <h3 class="gamma"><?php echo html($download->title()) ?></h3>
-          <p><?php echo html($download->subtitle()) ?></p>
+          <h3 class="gamma"><?php echo $download->title()->html() ?></h3>
+          <p><?php echo $download->subtitle()->html() ?></p>
         </a>
       </li><!--
    --><?php endforeach ?>

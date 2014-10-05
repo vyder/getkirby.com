@@ -17,11 +17,11 @@
 
       <?php echo str_replace('(\\', '(', kirbytext($page->text())) ?>
 
-      <?php if($page->docs() or $page->blogposts() or $page->forumposts() or $page->internals() or $page->externals()): ?>
+      <?php if($page->docs() != '' or $page->blogposts() != '' or $page->forumposts() != '' or $page->internals() != '' or $page->externals() != ''): ?>
       <footer class="further-reading">
         <h2 class="beta">Further reading</h2>
 
-        <?php if($page->docs()): ?>
+        <?php if($page->docs() != ''): ?>
         <h3 class="gamma">Docs</h3>
         <ul>
             <?php $docs = yaml($page->docs()) ?>
@@ -31,7 +31,7 @@
         </ul>
         <?php endif ?>
 
-        <?php if($page->blogposts()): ?>
+        <?php if($page->blogposts() != ''): ?>
         <h3 class="gamma">Blogposts</h3>
         <ul>
             <?php $blogposts = yaml($page->blogposts()) ?>
@@ -41,7 +41,7 @@
         </ul>
         <?php endif ?>
 
-        <?php if($page->forumposts()): ?>
+        <?php if($page->forumposts() != ''): ?>
         <h3 class="gamma">Forumposts</h3>
         <ul>
             <?php $forumposts = yaml($page->forumposts()) ?>
@@ -51,7 +51,7 @@
         </ul>
         <?php endif ?>
 
-        <?php if($page->internals()): ?>
+        <?php if($page->internals() != ''): ?>
         <h3 class="gamma">Internal resources</h3>
         <ul>
             <?php $internals = yaml($page->internals()) ?>
@@ -61,7 +61,7 @@
         </ul>
         <?php endif ?>
 
-        <?php if($page->externals()): ?>
+        <?php if($page->externals() != ''): ?>
         <h3 class="gamma">External resources</h3>
         <ul>
             <?php $externals = yaml($page->externals()) ?>

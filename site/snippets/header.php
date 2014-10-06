@@ -67,7 +67,9 @@
       <section class="slider">
         <div class="slider-track">
           <?php foreach($page->children()->find('hero')->images() as $slide): ?>
-          <figure><img src="<?php echo $slide->url() ?>"></figure>
+          <figure title="<?php echo $slide->caption() ?>">
+            <img src="<?php echo $slide->url() ?>">
+          </figure>
           <?php endforeach ?>
         </div>
         <nav class="slider-nav">
@@ -76,9 +78,9 @@
         </nav>
       </section>
       <section class="intro">
+        <h1 class="alpha with-beta">Kirby is a file&#8209;based&nbsp;CMS</h1>
+        <p class="beta">Easy&nbsp;to&nbsp;setup. Easy&nbsp;to&nbsp;use. Flexible&nbsp;as&nbsp;hell.</p>
         <a class="btn-white" href="<?php echo url('try') ?>">Download v2</a>
-        <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
-        <p class="beta"><?php echo html($page->subheadline()) ?></p>
       </section>
     </div>
   </header>

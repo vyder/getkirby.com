@@ -11,6 +11,9 @@
 /*
  :::  Intro [Home]
 -------------------------------------------------- */
+body.home {
+  background-image: none;
+}
 .home .logo {
   color: #fff;
   background: url(../images/kirbyicon-white.svg) no-repeat left top;
@@ -44,6 +47,7 @@
 .slider {
   position: relative;
   margin: 1.5em auto;
+  padding: 1.5em 0;
 }
 .slider-track {
   position: relative;
@@ -89,6 +93,7 @@ figure.slider-index {
   width: 95%;
   box-shadow: rgba(0,0,0, .7) 0 5px 30px;
 }
+
 .slider-nav a {
   position: absolute;
   top: 50%;
@@ -134,15 +139,16 @@ figure.slider-index {
  :::  Intro
 -------------------------------------------------- */
 .intro {
+  position: relative;
   padding-bottom: 1.5em;
+  text-align: center;
 }
 .intro .beta {
   color: #999;
 }
 .intro .btn-white {
   border-radius: 0;
-  margin-top: .5em;
-  margin-bottom: 1em;
+  margin-top: 1.5em;
   padding: .75em 3.5em .75em 1.5em;
   font-weight: 400;
   font-size: 1.5em;
@@ -158,9 +164,15 @@ figure.slider-index {
   background-size: 30px;
 }
 @media screen and (min-width: 35em) {
+  .intro {
+    padding-right: 20em;
+    text-align: left;
+    padding-bottom: 0;
+  }
   .intro .btn-white {
-    float: right;
-    margin-left: 10%;
+    position: absolute;
+    bottom: .4em;
+    right: 0;
   }
 }
 

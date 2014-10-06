@@ -11,7 +11,7 @@
    --><li>
         <?php if($image = $feature->image()): ?>
         <a href="<?php echo $feature->link() ?>">
-          <img src="<?php echo thumb($image, array('width' => 640, 'height' => 400, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $feature->title() ?>" />
+          <img src="<?php echo $image->url() ?>" alt="Screenshot: <?php echo $feature->title() ?>" />
         </a>
         <?php endif ?>
         <div class="text smaller">
@@ -36,7 +36,7 @@
    --><li class="screenshot">
         <div class="screen-wrap">
           <?php if($image = $reference->image()): ?>
-          <img src="<?php echo thumb($image, array('width' => 350, 'height' => 220, 'crop' => true))->url() ?>" alt="Screenshot: <?php echo $reference->title() ?>" />
+          <img src="<?php echo thumb($image, array('width' => 350, 'height' => 220, 'crop' => true, 'quality' => 80))->url() ?>" alt="Screenshot: <?php echo $reference->title() ?>" />
           <?php endif ?>
           <div class="screen-refl"><a class="btn-white" href="<?php echo $reference->link() ?>">visit</a></div>
         </div>

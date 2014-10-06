@@ -1,5 +1,5 @@
-Title: Do you offer student discounts for the commercial license?
+Title: Do you offer student discounts?
 ----
 Text:
 
-Yes! We have a 50% student discount. Just send an email with some proof that you are a student (i.e. student id) <support@getkirby.com>
+We don't offer student discounts anymore. The new personal licenses are now available for all students at the same price of the old Kirby 1 student discounts.

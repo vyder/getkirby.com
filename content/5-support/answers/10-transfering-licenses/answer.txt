@@ -1,5 +1,0 @@
-Title: Can I transfer a license?
-----
-Text:
-
-Licenses are not bound to domains/projects or persons. You can transfer a license to different domains/projects, your clients or other persons anytime as long as there is always a valid license per domain/project.

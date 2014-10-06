@@ -2,4 +2,4 @@ Title: Can I run additional websites with a single license?
 ----
 Text:
 
-No. A license is valid for a single Kirby installation, running on a single domain. If you plan to add additional installations (i.e. under additional subdomains or subfolders) you need to purchase licenses for each of those installations. Otherwise the license price for Kirby would be too low. You can make use of volume discounts though.
+No. A license is valid for a single Kirby installation, running on a single domain. If you plan to add additional installations (i.e. under additional subdomains or subfolders) you need to purchase licenses for each of those installations.

@@ -2,43 +2,23 @@
 
 ----
 
-Subtitle: Get your Kirby license
+Subtitle: Buy a Kirby 2 license
 
 ----
 
 Personal:
 
-##### Includes
-
-- A license for non-commercial websites
+- A single website
+- Personal (non-commercial) use only!
 - No support
-
-##### Examples
-
-- A personal blog without ads
-- Non-profit student projects
-- A family website
-- A website for your dog
-- Sites for free open-source projects
-
-(email: support@getkirby.com text: Not sure? Ask us!)
+- No volume discounts
 
 ----
 
 Commercial:
 
-##### Includes
-
-- A license for a single, commercial website
-- Personal Email-Support
-
-##### Examples
-
-- A company website
-- Any client project
-- A blog with advertisement
-- A product site
-- A conference website
-
-(email: support@getkirby.com text: Not sure? Ask us!)
+- A single website
+- Unlimited commercial use
+- Personal email support
+- Volume discounts
 

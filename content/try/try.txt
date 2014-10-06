@@ -2,25 +2,30 @@ Title: Try
 
 ----
 
-Headline: Try Kirby before you buy it!
+Headline: Try Kirby before you buy it
 
 ----
 
-Subheadline: Don't buy a pig in a poke!
+Subheadline: Don't buy a pig in a poke
 
 ----
 
 Text:
 
-Kirby's license model is based on a single idea: you should be happy with Kirby first, before you buy a **(link: buy text: commercial license.)**
+Kirby's license model is based on a single idea: you should be happy with Kirby first, before you **(link: buy text: buy a license.)**
 
-This is why **(link: http://github.com/getkirby text: Kirby's source code)** is fully available on Github without restrictions.
+Try Kirby on your **local machine** or on a **private test server**. Once you are sure that Kirby fits your project, **(link: buy text: get your license key)** and publish your site.
 
-Try Kirby on your **local machine** or on a **private test server** as long as you want. Once you are sure that Kirby fits your commercial project, **(link: buy text: get your license key)** and you are ready to go.
+**(link: http://download.getkirby.com text: Download Kirby's Starterkit class: btn)**
+
+…or install Kirby via Git:
+
+```
+git clone --recursive https://github.com/getkirby/starterkit.git
+```
 
 ## How to get started
 
-1. (link: http://download.getkirby.com text: Download Kirby's starterkit)
-2. (link: docs/installation text: Read the installation guides)
+1. (link: docs/installation text: Read the installation guides)
 3. (link: docs/content text: Learn how to add content)
 4. (link: docs/templates text: Learn how to build templates)

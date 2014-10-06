@@ -18,11 +18,11 @@
       </div><!--
    --><div class="col-3-6 buy-section">
         <div class="text">
-          <h3 class="gamma"><a href="https://sites.fastspring.com/openwe/instant/kirby2-commercial">Pro license</a></h3>
-          <h4><a href="https://sites.fastspring.com/openwe/instant/kirby2-commercial">€79 / $99</a> <small>(excluding VAT)</small></h4>
+          <h3 class="gamma"><a href="https://sites.fastspring.com/openwe/instant/kirby2-professional">Pro license</a></h3>
+          <h4><a href="https://sites.fastspring.com/openwe/instant/kirby2-professional">€79 / $99</a> <small>(excluding VAT)</small></h4>
           <?php echo $page->commercial()->kirbytext() ?>
         </div>
-        <a href="https://sites.fastspring.com/openwe/instant/kirby2-commercial" class="btn">Buy now &rarr;</a>
+        <a href="https://sites.fastspring.com/openwe/instant/kirby2-professional" class="btn">Buy now &rarr;</a>
       </div>
     </div>
 
@@ -46,9 +46,9 @@
               We've got the most amazing users and some of them asked us to provide a way to pay for an upgrade nonetheless. We made this possible with a set of voluntary Kirby 1 upgrade packages.
             </p>
             <ul class="upgrade-list">
-              <li><a href="">The <i>I'm a Kirby Addict</i> upgrade <small>€29 / $36</small></a></li>
-              <li><a href="">The <i>I love Kirby</i> upgrade <small>€19 / $24</small></a></li>
-              <li><a href="">The <i>I really like Kirby</i> upgrade <small>€9 / $12</small></a></li>
+              <li><a href="https://sites.fastspring.com/openwe/instant/kirby2-addict-upgrade">The <i>I'm a Kirby Addict</i> upgrade <small>€29 / $36</small></a></li>
+              <li><a href="https://sites.fastspring.com/openwe/instant/kirby2-love-upgrade">The <i>I love Kirby</i> upgrade <small>€19 / $24</small></a></li>
+              <li><a href="https://sites.fastspring.com/openwe/instant/kirby2-small-upgrade">The <i>I really like Kirby</i> upgrade <small>€9 / $12</small></a></li>
             </ul>
           </div>
         </div>

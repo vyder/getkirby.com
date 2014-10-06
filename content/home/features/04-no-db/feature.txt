@@ -4,7 +4,7 @@ Title: NoSQL? Kirby Prefers NoDB!
 
 Text:
 
-Kirby is file-based – No database involved. This means easy backups, super fast content editing with your favorite editor and many other awesome sideeffects.
+Kirby is file-based – No database involved. This means first class performance, version controllable content, simple backups and many other awesome sideeffects.
 
 ----
 

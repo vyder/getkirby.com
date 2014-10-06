@@ -76,7 +76,7 @@
         </nav>
       </section>
       <section class="intro">
-        <a class="btn-white" href="<?php echo url('try') ?>">Download Trial</a>
+        <a class="btn-white" href="<?php echo url('try') ?>">Download v2</a>
         <h1 class="alpha with-beta"><?php echo html($page->headline()) ?></h1>
         <p class="beta"><?php echo html($page->subheadline()) ?></p>
       </section>

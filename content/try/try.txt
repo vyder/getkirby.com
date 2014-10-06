@@ -16,9 +16,9 @@ Kirby's license model is based on a single idea: you should be happy with Kirby 
 
 Try Kirby on your **local machine** or on a **private test server**. Once you are sure that Kirby fits your project, **(link: buy text: get your license key)** and publish your site.
 
-**(link: http://download.getkirby.com text: Download Kirby's Starterkit class: btn)**
+**(link: http://download.getkirby.com text: Download Kirby 2 Starterkit class: btn)**
 
-…or install Kirby via Git:
+…or install Kirby 2 with Git:
 
 ```
 git clone --recursive https://github.com/getkirby/starterkit.git

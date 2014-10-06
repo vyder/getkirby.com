@@ -6,9 +6,8 @@
 
   <article class="col-4-6">
     <p class="gamma subtitle"><?php echo $page->subtitle() ?></p>
-    <?php $image = $page->images()->nth(2) ?>
     <figure>
-      <a href="<?php echo $zip->url() ?>"><img src="<?php echo $image->url() ?>" alt="<?php echo $page->title() ?>" /></a>
+      <a href="<?php echo $zip->url() ?>"><img src="<?php echo $page->files()->filterBy('extension', '*=', 'png')->first()->url() ?>" alt="<?php echo $page->title() ?>" /></a>
     </figure>
   </article>
 

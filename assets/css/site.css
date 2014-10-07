@@ -152,16 +152,36 @@ figure.slider-index {
   padding: .75em 3.5em .75em 1.5em;
   font-weight: 400;
   font-size: 1.5em;
+  position: relative;
 }
-.intro .btn-white {
-  background-image: url(../images/download.svg);
+.intro .btn-white:after,
+.intro .btn-white:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 15%;
+  width: 30px;
+  height: 30px;
   background-repeat: no-repeat;
-  background-position: 85% center;
   background-size: 30px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  transition: opacity .3s ease-out;
 }
-.intro .btn-white:hover {
+.intro .btn-white:after {
+  background-image: url(../images/download.svg);
+}
+.intro .btn-white:before {
   background-image: url(../images/download-dark.svg);
-  background-size: 30px;
+  opacity: 0;
+}
+.intro .btn-white:hover:after {
+  opacity: 0;
+}
+.intro .btn-white:hover:before {
+  opacity: 1;
 }
 @media screen and (min-width: 35em) {
   .intro {

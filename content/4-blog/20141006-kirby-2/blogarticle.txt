@@ -92,6 +92,12 @@ We've turned everything upside-down to better structure the content and make it 
 
 We are especially proud of (link: docs/cheatsheet text: the new cheat sheet), which moved from the old dusty PDF into a great new page with lots of code examples and explanations.
 
+### Kirby illustration by Jon Burgerman
+
+With the updated design there's also one very special new element on this website. You might have noticed it hovering in the background. I saw (link: http://jonburgerman.com text: Jon Burgerman) speak at the (link: http://beyondtellerrand.com text: beyond tellerrand) conference in May and he blew me away with his humor and his brilliant illustrations. His style is really one of a kind. Sometimes art does something to you, which is very hard to explain. His illustrations feel like the perfect resemblance of  the creative inspirational chaos inside my brain whenever I get started with a new project. It's something very personal, but Kirby has always been a very personal project too. I'm so happy that he agreed to create an illustration just for Kirby. It feels like the perfect companion for this site and I really hope that it might inspire you as well for your next project.
+
+(image: burgerman.png link: self)
+
 ### Broken links?
 
 While we believe that the site is much cleaner and more easy to navigate now there might possibily be broken links here and there. Please let us know if you get stuck somewhere: <support@getkirby.com>

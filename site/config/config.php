@@ -1,6 +1,6 @@
 <?php
 
-c::set('stage', true);
+c::set('stage', false);
 
 c::set('markdown.extra', true);
 

@@ -17,7 +17,7 @@
 
       <?php echo str_replace('(\\', '(', kirbytext($page->text())) ?>
 
-      <?php if(server::get('SERVER_NAME') != 'getkirby.com'): ?>
+      <?php if(server::get('SERVER_NAME') == 'getkirby.com'): ?>
       <section class="disqus">
       <?php echo disqus('getkirby') ?>
       </section>

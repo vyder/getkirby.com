@@ -8,7 +8,7 @@
 --><ul class="menu-right">
     <li class="<?php e($page->uid() == 'try', ' is-active') ?>"><a title="Download and test Kirby on your local machine as long as you want." href="<?php echo url('try') ?>">Try</a></li><!--
  --><li class="<?php e($page->uid() == 'made-with-kirby-and-love', ' is-active') ?>"><a class="red" title="Build an awesome website with Kirby!" href="<?php echo url('made-with-kirby-and-love') ?>">&#9829;</a></li><!--
- --><li class="<?php e($page->uid() == 'buy', ' is-active') ?>"><a title="Buy a Kirby license for just $39" href="<?php echo url('buy') ?>">Buy</a></li>
+ --><li class="<?php e($page->uid() == 'buy', ' is-active') ?>"><a title="Buy a Kirby license" href="<?php echo url('buy') ?>">Buy</a></li>
   </ul>
 
 </nav>

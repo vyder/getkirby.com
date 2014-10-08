@@ -23,6 +23,5 @@ git clone --recursive https://github.com/getkirby/starterkit.git
 
 ## Requirements
 
-- Apache 2 or Ngnix
-- URL rewriting (mod_rewrite)
+- Apache 2 with URL rewriting (mod_rewrite) or nginx
 - PHP 5.3+

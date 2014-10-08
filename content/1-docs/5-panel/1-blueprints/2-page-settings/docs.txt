@@ -146,7 +146,7 @@ pages:
 
 ## Hide subpages
 
-Subpages can be entirely hided, so they don't show up in the sidebar and the subpages manager isn't available either. This can be useful if subpages are not allowed at all or if you've set a fixed number of subpages, which shouldn't be browsable nor modifiable — think of pure data providers for a template, which don't need to be edited by panel users. Hiding pages goes like this:
+Subpages can be entirely hidden, so they don't show up in the sidebar and the subpages manager isn't available either. This can be useful if subpages are not allowed at all or if you've set a fixed number of subpages, which shouldn't be browsable nor modifiable — think of pure data providers for a template, which don't need to be edited by panel users. Hiding pages goes like this:
 
 ```
 …

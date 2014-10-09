@@ -1,0 +1,16 @@
+Title: Running from Command Line
+
+----
+
+Description:
+
+How to run kirby on a local webserver using php on the command line
+
+----
+
+Text:
+
+If you're command line addicted and you've already installed php, you can simply run
+`php -S localhost:8000` to start a local webserver with php.
+
+You should now be able to reach your local server at <http://localhost:8000>.

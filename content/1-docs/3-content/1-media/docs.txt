@@ -8,7 +8,7 @@ Description: Learn how to store images, videos, documents and other files for yo
 
 Text:
 
-Pages can have any number and kind of (link: docs/content/media/file-types text: images, videos, documents or other files). Those files are being stored directly in the page folder.
+Pages can have any number and kind of (link: #file-types text: images, videos, documents or other files). Those files are being stored directly in the page folder.
 
 ```
 /content/1-projects/project-a

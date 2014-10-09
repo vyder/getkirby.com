@@ -24,9 +24,7 @@ getstarted:
 
 ## How to get started
 
-**(link: http://download.getkirby.com text: Download Kirby 2 Starterkit class: btn)**
-
-…or install Kirby 2 with Git:
+**(link: http://download.getkirby.com text: Download the Kirby 2 Starterkit)** or install Kirby 2 with Git:
 
 ```
 git clone --recursive https://github.com/getkirby/starterkit.git

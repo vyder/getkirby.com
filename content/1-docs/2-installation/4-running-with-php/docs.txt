@@ -10,7 +10,7 @@ How to run Kirby on a local webserver using php on the command line
 
 Text:
 
-If you're command line addicted and you've already installed php, you can install and run Kirby 2 with just three lines:
+If you're command line addicted and you've already installed PHP 5.4 or newer, you can install and run Kirby 2 with just three lines:
 
 ```
 git clone --recursive https://github.com/getkirby/starterkit.git

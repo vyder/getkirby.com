@@ -12,11 +12,11 @@ Tags: tutorial, kirbytext, blog
 
 Text:
 
-Kirby has a built in formatting language called (link: docs/formatting-text text: Kirbytext). Kirbytext is an extension of (link: http://daringfireball.net/projects/markdown/ text: John Gruber's Markdown).
+Kirby has a built in formatting language called (link: docs/content/text text: Kirbytext). Kirbytext is an extension of (link: http://daringfireball.net/projects/markdown/ text: John Gruber's Markdown).
 
 > Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write   using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
 
-(link: docs/formatting-text text: Kirbytext) combines all the features of Markdown with a set of Kirby-specific tags to make it easier to build links or embed videos and images for example.
+(link: docs/content/text text: Kirbytext) combines all the features of Markdown with a set of Kirby-specific tags to make it easier to build links or embed videos and images for example.
 
 With the latest release it is now possible to extend Kirbytext and add your own tags, which you can use as shortcuts in your content.
 

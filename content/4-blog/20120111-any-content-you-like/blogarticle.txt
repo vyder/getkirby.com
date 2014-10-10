@@ -268,6 +268,6 @@ I've already wrote a quite lengthy tutorial about how to setup your own blog, so
 
 ## Conclusion
 
-I hope this gave you a good overview how to structure your content and how versatile the data for your pages can be. There's plenty of things you can do with all that data in your templates. There are a lot of (link: docs/helpers text: helper functions), ways to (link: docs/formatting-text text: format your text) and other (link: docs text: methods) available to come up with the result you are looking for.
+I hope this gave you a good overview how to structure your content and how versatile the data for your pages can be. There's plenty of things you can do with all that data in your templates. There are a lot of (link: docs/helpers text: helper functions), ways to (link: docs/content/text text: format your text) and other (link: docs text: methods) available to come up with the result you are looking for.
 
 Are you looking for some special solutions? Let me know: <bastian@getkirby.com>

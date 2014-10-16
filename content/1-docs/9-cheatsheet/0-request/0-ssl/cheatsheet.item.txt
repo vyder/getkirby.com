@@ -1,0 +1,15 @@
+Title: $request->ssl()
+
+----
+
+Excerpt: Checks if this is an SSL request
+
+----
+
+Text:
+
+```php
+if(kirby()->request()->ssl()) {
+  echo 'This is an ssl request'; 
+}
+```

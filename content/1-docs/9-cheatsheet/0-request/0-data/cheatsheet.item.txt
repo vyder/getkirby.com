@@ -1,0 +1,13 @@
+Title: $request->data()
+
+----
+
+Excerpt: Returns an array of request data coming through the query and the post body.
+
+----
+
+Text:
+
+```php
+dump(kirby()->request()->data());
+```

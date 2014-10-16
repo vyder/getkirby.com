@@ -1,0 +1,13 @@
+Title: $request->method()
+
+----
+
+Excerpt: Returns the request method (GET, POST, DELETE, etc.)
+
+----
+
+Text:
+
+```php
+echo kirby()->request()->method();  
+```

@@ -1,0 +1,13 @@
+Title: $request->body()
+
+----
+
+Excerpt: Returns the raw request body
+
+----
+
+Text:
+
+```php
+var_dump(kirby()->request()->body());  
+```

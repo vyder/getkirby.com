@@ -1,0 +1,24 @@
+Title: $request->is()
+
+----
+
+Excerpt: Checks for the type of method 
+
+----
+
+Text:
+
+```php
+if(kirby()->request()->is('post')) {
+  echo 'This is a POST request';
+}
+
+if(kirby()->request()->is('get')) {
+  echo 'This is a GET request';
+}
+
+if(kirby()->request()->is('ajax')) {
+  echo 'This is an Ajax request';
+}
+
+```

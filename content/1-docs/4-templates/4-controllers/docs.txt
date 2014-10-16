@@ -48,6 +48,8 @@ A typical example when a controller can come in handy is a blog template. Fetchi
 The controller will take care of fetching the right articles and add pagination to them. It will then pass an `$articles` variable to the template to keep it nice and clean.
 
 ```php
+<?php
+
 return function($site, $pages, $page) {
 
   // get all articles and add pagination

@@ -1,0 +1,15 @@
+Title: $urls->index()
+
+----
+
+Excerpt: Returns the base url of the site
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirby()->urls()->index() ?>
+```

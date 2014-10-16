@@ -1,0 +1,15 @@
+Title: $roots->cache()
+
+----
+
+Excerpt: Returns the root of the cache folder. 
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirby()->roots()->cache() ?>
+```

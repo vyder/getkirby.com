@@ -1,0 +1,15 @@
+Title: $roots->templates()
+
+----
+
+Excerpt: Returns the root of the templates folder. 
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirby()->roots()->templates() ?>
+```

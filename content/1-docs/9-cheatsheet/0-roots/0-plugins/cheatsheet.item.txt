@@ -1,0 +1,15 @@
+Title: $roots->plugins()
+
+----
+
+Excerpt: Returns the root of the plugins folder. 
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirby()->roots()->plugins() ?>
+```

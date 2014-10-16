@@ -1,0 +1,15 @@
+Title: $roots->content()
+
+----
+
+Excerpt: Returns the root of the content folder
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirby()->roots()->content() ?>
+```

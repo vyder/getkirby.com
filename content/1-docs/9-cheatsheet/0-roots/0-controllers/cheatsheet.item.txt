@@ -1,0 +1,15 @@
+Title: $roots->controllers()
+
+----
+
+Excerpt: Returns the root of the controllers folder. 
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirby()->roots()->controllers() ?>
+```

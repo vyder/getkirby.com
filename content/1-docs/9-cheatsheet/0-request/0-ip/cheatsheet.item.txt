@@ -1,0 +1,13 @@
+Title: $request->ip()
+
+----
+
+Excerpt: Returns the IP address of the current visitor
+
+----
+
+Text:
+
+```php
+echo kirby()->request()->ip();
+```

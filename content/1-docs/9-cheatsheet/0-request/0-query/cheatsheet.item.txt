@@ -1,0 +1,15 @@
+Title: $request->query()
+
+----
+
+Excerpt: Returns the query from the current URL as object
+
+----
+
+Text:
+
+```php
+// http://example.com/some/path/?foo=bar&page=2
+echo kirby()->request()->query()->foo();  
+echo kirby()->request()->query()->page();
+```

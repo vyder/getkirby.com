@@ -1,0 +1,24 @@
+Title: $site->languages()
+
+----
+
+Excerpt:
+
+Returns the collection of available languages for multi-language sites
+----
+
+Text:
+
+## Example
+
+```php
+<ul>
+  <?php foreach($site->languages() as $language): ?>
+  <li>
+    <a href="<?php echo $language->url() ?>">
+      <?php echo html($language->name()) ?>
+    </a>
+  </li>
+  <?php endforeach ?>
+</ul>
+```

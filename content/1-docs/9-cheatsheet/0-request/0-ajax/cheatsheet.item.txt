@@ -1,0 +1,15 @@
+Title: $request->ajax()
+
+----
+
+Excerpt: Checks if this request is an Ajax request
+
+----
+
+Text:
+
+```php
+if(kirby()->request()->ajax()) {
+  echo 'This is an ajax request'
+}
+```

@@ -1,0 +1,14 @@
+Title: $site->defaultLanguage()
+
+----
+
+Excerpt: Returns the $language object for the default language
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $site->defaultLanguage()->name() ?>
+```

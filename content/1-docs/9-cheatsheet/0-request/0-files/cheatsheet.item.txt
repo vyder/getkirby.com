@@ -1,0 +1,13 @@
+Title: $request->files()
+
+----
+
+Excerpt: Returns the $_FILES array
+
+----
+
+Text:
+
+```php
+var_dump(kirby()->request()->files());  
+```

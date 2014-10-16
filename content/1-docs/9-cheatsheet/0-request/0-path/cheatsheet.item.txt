@@ -1,0 +1,23 @@
+Title: $request->path()
+
+----
+
+Excerpt: Returns the path in the current URL as object
+
+----
+
+Text:
+
+```php
+// some/awesome/path
+echo kirby()->request()->path();
+
+// get the first fragment of the path (some)
+echo kirby()->request()->path()->first();
+
+// get the 2nd fragment of the path (awesome)
+echo kirby()->request()->path()->nth(1);
+
+// get the last fragment of the path (path)
+echo kirby()->request()->path()->last();
+```

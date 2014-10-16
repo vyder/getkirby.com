@@ -1,0 +1,16 @@
+Title: $request->referer()
+
+----
+
+Excerpt: Returns the referer. Also available with to "rr"
+
+----
+
+Text:
+
+```php
+echo kirby()->request()->referer();
+
+// just because I can never remember how to write it
+echo kirby()->request()->referrer();
+```

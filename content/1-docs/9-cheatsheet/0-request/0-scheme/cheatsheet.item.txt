@@ -1,0 +1,13 @@
+Title: $request->scheme()
+
+----
+
+Excerpt: Returns the URL scheme (http, https, ftp, etc.)
+
+----
+
+Text:
+
+```php
+echo kirby()->request()->scheme();
+```

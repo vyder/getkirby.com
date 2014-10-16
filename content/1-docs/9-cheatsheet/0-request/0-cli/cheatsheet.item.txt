@@ -1,0 +1,15 @@
+Title: $request->cli()
+
+----
+
+Excerpt: Checks if this request is comming from the command line
+
+----
+
+Text:
+
+```php
+if(kirby()->request()->cli()) {
+  echo 'This request is comming from the command line'
+}
+```

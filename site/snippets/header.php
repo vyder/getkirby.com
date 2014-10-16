@@ -4,9 +4,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-  <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <?php echo css('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,400italic|Source+Code+Pro:400') ?>
-
   <?php echo css(array(
     'assets/css/kirby.css',
     'assets/css/site.css'

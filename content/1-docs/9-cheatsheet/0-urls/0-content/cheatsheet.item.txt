@@ -1,0 +1,15 @@
+Title: $urls->content()
+
+----
+
+Excerpt: Returns the url of the content folder
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirby()->urls()->content() ?>
+```

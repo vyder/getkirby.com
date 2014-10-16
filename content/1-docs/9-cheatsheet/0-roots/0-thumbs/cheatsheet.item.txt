@@ -1,0 +1,15 @@
+Title: $roots->thumbs()
+
+----
+
+Excerpt: Returns the root of the thumbs folder. 
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirby()->roots()->thumbs() ?>
+```

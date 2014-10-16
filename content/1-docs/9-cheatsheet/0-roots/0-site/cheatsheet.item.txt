@@ -1,0 +1,15 @@
+Title: $roots->site()
+
+----
+
+Excerpt: Returns the root of the site folder
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirby()->roots()->site() ?>
+```

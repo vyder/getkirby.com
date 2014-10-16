@@ -1,0 +1,15 @@
+Title: $roots->index()
+
+----
+
+Excerpt: Returns the document root of the website
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo kirby()->roots()->index() ?>
+```

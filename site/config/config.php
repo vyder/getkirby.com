@@ -27,5 +27,11 @@ c::set('routes', array(
 
       return response::json($data);
     }
+  ),
+  array(
+    'pattern' => 'blog/feed', 
+    'action'  => function() {
+      go('feed');
+    }
   )
 ));

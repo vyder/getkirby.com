@@ -11,7 +11,6 @@
       <p class="delta">Coming soon...</p>
       <p>At the moment we're working hard to complete and improve the docs. Thanks for your patience! In case you've got an urgent issue with Kirby please send us an email.</p>
       <p><?php echo str::email($site->email()) ?></p>
-      <p>In the meantime you might want to check out our <a href="https://github.com/getkirby/docs">docs repository on GitHub</a> where we already collected a whole bunch of stuff.</p>
 
       <?php else: ?>
 

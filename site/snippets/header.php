@@ -56,11 +56,11 @@
     <div class="site">
       <a class="logo" href="<?php echo url() ?>">Kirby</a>
       <?php snippet('menu') ?>
-      <section class="slider">
+      <div class="slider">
         <div class="slider-track">
           <?php foreach($page->children()->find('hero')->images() as $slide): ?>
           <figure title="<?php echo $slide->caption() ?>">
-            <img src="<?php echo $slide->url() ?>">
+            <img src="<?php echo $slide->url() ?>" alt="Screenshot: <?php echo $slide->caption() ?>">
           </figure>
           <?php endforeach ?>
         </div>
@@ -68,7 +68,7 @@
           <a class="slider-prev" href="#"><span>&lsaquo;</span></a>
           <a class="slider-next" href="#"><span>&rsaquo;</span></a>
         </nav>
-      </section>
+      </div>
       <section class="intro">
         <h1 class="alpha with-beta">Kirby is a file&#8209;based&nbsp;CMS</h1>
         <p class="beta">Easy&nbsp;to&nbsp;setup. Easy&nbsp;to&nbsp;use. Flexible&nbsp;as&nbsp;hell.</p>

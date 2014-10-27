@@ -1,8 +1,8 @@
-Title: Installation
+Title: Installation & Updates
 
 ----
 
-Description: How to install Kirby's Starterkit on your server, Mac or Windows PC.
+Description: How to install Kirby's Starterkit on your server, Mac or Windows PC and keep Kirby updated.
 
 ----
 

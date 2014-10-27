@@ -1,0 +1,29 @@
+Title: Kirby Updates
+
+----
+
+Description:
+
+Learn how to keep Kirby up to date.
+
+----
+
+Text:
+
+## Manual updates
+
+Kirby has two updatable components: The **kirby** folder and the **panel** folder. 
+The most straight forward way to update is to fetch the latest ZIP file from **<http://download.getkirby.com>** and just replace those two folders on your server.
+
+## Updates with Git
+
+If you are using Git submodules for the kirby core and the panel, updating via the command line is very easy:
+
+```
+git submodule foreach --recursive git checkout master
+git submodule foreach --recursive git pull
+```
+
+## Cleaning the cache
+
+If you've got caching enabled, you might need to clean the cache entirely to be sure nothing breaks. Just delete all contents from **/site/cache** in order to do so.

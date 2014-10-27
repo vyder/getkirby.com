@@ -22,7 +22,7 @@ I took the chance to include some cool new feature requests in this release:
 
 ### Extendable Kirbytext
 
-(twitter: nerdismus) asked if it would be possible to extend the kirbytext class so you could add your own (link: docs/formatting-text text: text formatting) tags. That's actually a very good suggestion and so I made the kirbytext class extendable.
+(twitter: nerdismus) asked if it would be possible to extend the kirbytext class so you could add your own (link: docs/content/text text: text formatting) tags. That's actually a very good suggestion and so I made the kirbytext class extendable.
 
 I will write a more detailed article about how to extend kirbytext soon, but you can find a quick example over at Github: <https://gist.github.com/1662410>
 

@@ -17,7 +17,7 @@ Here's the direct (link: https://github.com/bastianallgeier/kirbycms/zipball/mas
 
 The update includes a crucial fix for broken content. This occurred so far only on sites hosted on Mediatemple, but it might occur on other server setups as well. 
 
-I've also changed the embed code for Youtube and Vimeo videos to the iframe versions, so videos will run on with the HTML5 player instead of the flash player wherever possible. Read more about (link: docs/formatting-text text: embedding Youtube and Vimeo videos) in the docs. Thanks to (twitter: @nirusu) for the suggestion.
+I've also changed the embed code for Youtube and Vimeo videos to the iframe versions, so videos will run on with the HTML5 player instead of the flash player wherever possible. Read more about (link: docs/content/text text: embedding Youtube and Vimeo videos) in the docs. Thanks to (twitter: @nirusu) for the suggestion.
 
 There's also a slight update to the css() and js() functions, as suggested by <https://github.com/nebelschwade>
 

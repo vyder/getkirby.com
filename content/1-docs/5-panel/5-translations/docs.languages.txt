@@ -40,7 +40,7 @@ Languages:
   author: Piotr Świderek
   code:   pl
 -
-  lang:   Romana
+  lang:   Română
   author: Structor
   code:   ro
 -

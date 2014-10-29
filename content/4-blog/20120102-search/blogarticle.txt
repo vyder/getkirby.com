@@ -12,6 +12,13 @@ Tags: tutorial, search
 
 Text:
 
+
+## Update
+
+**This article still refers to the old search plugin for Kirby 1. The plugin is no longer compatible with Kirby 2. More info about how to search your site can be found (link: docs/cheatsheet/site/search text: in the Kirby 2 docs)**
+
+
+
 ## Disclaimer
 
 This has started as an experiment, how difficult or easy it would be to build a search for Kirby. It's not yet perfect and there are limits when it comes to the size of your site, but the current version already works pretty good and has some cool features. I've setup a little (link: search text: search page) for this site, where you can try the current version.

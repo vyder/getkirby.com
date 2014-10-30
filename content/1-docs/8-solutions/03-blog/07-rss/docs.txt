@@ -38,7 +38,7 @@ All we need to do now is to get the right set of items for our feed and to embed
 ```php
 <?php
 
-$articles = page('blog')->children()->visible()->flip()->limit(10)->feed(array(
+echo page('blog')->children()->visible()->flip()->limit(10)->feed(array(
   'title'       => $page->title(),
   'description' => $page->description(),
   'link'        => 'blog',

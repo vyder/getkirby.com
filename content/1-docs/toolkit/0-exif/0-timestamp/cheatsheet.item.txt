@@ -1,0 +1,18 @@
+Title: exif::timestamp
+
+----
+
+Excerpt:
+
+Returns the unix timestamp of when the image was taken.
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->image()->exif()->timestamp() ?>
+```
+

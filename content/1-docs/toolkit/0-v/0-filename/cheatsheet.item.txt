@@ -1,0 +1,31 @@
+Title: v::filename
+
+----
+
+Excerpt: Checks for valid filenames
+
+----
+
+Text:
+
+## In your code
+
+```php
+if(v::filename('myfile.jpg')) {
+  echo 'Yay, valid!';
+}
+
+```
+
+## In panel fields
+
+```
+fields:
+  example:
+    label: Example field
+    type: text
+    validate: filename
+```
+
+
+

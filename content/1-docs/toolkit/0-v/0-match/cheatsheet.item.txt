@@ -1,0 +1,31 @@
+Title: v::match
+
+----
+
+Excerpt: Checks if the value matches a given regular expression
+
+----
+
+Text:
+
+## In your code
+
+```php
+if(v::match($value, '[a-z0-9]+')) {
+  echo 'Yay, valid!';
+}
+
+```
+
+## In panel fields
+
+```
+fields:
+  example:
+    label: Example field
+    type: text
+    validate:
+      match: [a-z0-9]+
+```
+
+

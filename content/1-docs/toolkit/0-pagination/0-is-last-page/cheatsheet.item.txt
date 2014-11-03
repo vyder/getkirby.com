@@ -1,0 +1,23 @@
+Title: pagination::isLastPage
+
+----
+
+Excerpt:
+
+Checks if the current page is the last page
+
+----
+
+Text:
+
+## Example
+
+```php
+$subpages   = $page->children()->paginate(10);
+$pagination = $subpages->pagination();
+
+if($pagination->isLastPage()) {
+  echo 'This is the last page';
+}
+
+```

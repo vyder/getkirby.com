@@ -1,0 +1,18 @@
+Title: camera::make
+
+----
+
+Excerpt:
+
+Returns the camera brand/make
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->image()->exif()->camera()->make() ?>
+```
+

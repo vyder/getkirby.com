@@ -1,0 +1,10 @@
+Title: collection::paginate
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

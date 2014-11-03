@@ -1,0 +1,10 @@
+Title: collection::map
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

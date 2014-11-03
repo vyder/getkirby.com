@@ -1,0 +1,23 @@
+Title: go
+
+----
+
+Excerpt: Redirects to a different URL
+
+----
+
+Text:
+
+## Example
+
+### Simple internal redirect
+
+```php
+go('blog');
+```
+
+### External redirect
+
+```php
+go('http://getkirby.com');
+```

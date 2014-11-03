@@ -1,0 +1,32 @@
+Title: v::size
+
+----
+
+Excerpt: Checks if the value matches a given size
+
+----
+
+Text:
+
+## In your code
+
+```php
+if(v::size(f::size('/my/file.jpg'), 12121912)) {
+  echo 'Yay, valid!';
+}
+
+```
+
+## In panel fields
+
+```
+fields:
+  example:
+    label: Example field
+    type: text
+    validate:
+      size: 12121912
+```
+
+
+

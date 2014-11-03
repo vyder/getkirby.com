@@ -1,0 +1,10 @@
+Title: query::insert
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

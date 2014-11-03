@@ -1,0 +1,29 @@
+Title: v::email
+
+----
+
+Excerpt: Checks for valid email addresses
+
+----
+
+Text:
+
+## In your code
+
+```php
+if(v::email('bastian@getkirby.com')) {
+  echo 'Yay, valid!';
+}
+
+```
+
+## In panel fields
+
+```
+fields:
+  example:
+    label: Example field
+    type: text
+    validate: email
+```
+

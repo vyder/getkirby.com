@@ -1,0 +1,27 @@
+Title: pagination::pageUrl
+
+----
+
+Excerpt:
+
+Returns the absolute URL for the given page
+
+----
+
+Text:
+
+```php
+<?php
+
+$subpages   = $page->children()->paginate(10);
+$pagination = $subpages->pagination();
+
+?>
+
+…
+
+<a href="<?php echo $pagination->pageUrl(5) ?>">
+  Go to page 5
+</a>
+
+```

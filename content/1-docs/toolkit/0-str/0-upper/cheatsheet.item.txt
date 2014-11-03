@@ -1,0 +1,10 @@
+Title: str::upper
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

@@ -1,0 +1,30 @@
+Title: v::different
+
+----
+
+Excerpt: Checks for a value, which does not equal the given value
+
+----
+
+Text:
+
+## In your code
+
+```php
+if(v::different('A', 'B')) {
+  echo 'Yay, valid!';
+}
+
+```
+
+## In panel fields
+
+```
+fields:
+  example:
+    label: Example field
+    type: text
+    validate:
+      different: B
+```
+

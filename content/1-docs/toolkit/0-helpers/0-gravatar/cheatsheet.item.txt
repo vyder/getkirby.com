@@ -1,0 +1,15 @@
+Title: gravatar
+
+----
+
+Excerpt: Builds the Gravatar URL by email
+
+----
+
+Text:
+
+## Example
+
+```php
+<img src="<?php echo gravatar('bastian@getkirby.com') ?>" alt="my gravatar">
+```

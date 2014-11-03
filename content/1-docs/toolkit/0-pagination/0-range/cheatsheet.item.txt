@@ -1,0 +1,12 @@
+Title: pagination::range
+
+----
+
+Excerpt: 
+
+Returns an array of page numbers in a range of the given value.
+
+----
+
+Text: 
+

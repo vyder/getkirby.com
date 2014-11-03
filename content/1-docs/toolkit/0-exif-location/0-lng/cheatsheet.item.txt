@@ -1,0 +1,17 @@
+Title: location::lng
+
+----
+
+Excerpt:
+
+Returns the longitude
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->image()->exif()->location()->lng() ?>
+```

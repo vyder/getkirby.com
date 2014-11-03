@@ -1,0 +1,31 @@
+Title: v::num
+
+----
+
+Excerpt: Checks for a valid number
+
+----
+
+Text:
+
+## In your code
+
+```php
+if(v::num(1.0)) {
+  echo 'Yay, valid!';
+}
+
+```
+
+## In panel fields
+
+```
+fields:
+  example:
+    label: Example field
+    type: text
+    validate: num
+```
+
+
+

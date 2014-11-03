@@ -1,0 +1,15 @@
+Title: html
+
+----
+
+Excerpt: Converts any text to valid HTML
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo html($page->title()) ?>
+```

@@ -1,0 +1,10 @@
+Title: silo::remove
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

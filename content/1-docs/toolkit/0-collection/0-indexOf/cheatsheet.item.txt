@@ -1,0 +1,10 @@
+Title: collection::indexOf
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

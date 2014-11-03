@@ -1,0 +1,10 @@
+Title: query::avg
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

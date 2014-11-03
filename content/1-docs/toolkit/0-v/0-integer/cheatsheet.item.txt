@@ -1,0 +1,30 @@
+Title: v::integer
+
+----
+
+Excerpt: Checks for a valid integer value
+
+----
+
+Text:
+
+## In your code
+
+```php
+if(v::integer(12)) {
+  echo 'Yay, valid!';
+}
+
+```
+
+## In panel fields
+
+```
+fields:
+  example:
+    label: Example field
+    type: text
+    validate: integer
+```
+
+

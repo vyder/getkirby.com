@@ -1,0 +1,20 @@
+Title: pagination::lastPage
+
+----
+
+Excerpt:
+
+Returns the last page number
+
+----
+
+Text:
+
+## Example
+
+```php
+$subpages   = $page->children()->paginate(10);
+$pagination = $subpages->pagination();
+
+echo $pagination->lastPage();
+```

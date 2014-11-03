@@ -1,0 +1,9 @@
+Title: f::mimeToExtension
+
+----
+
+Excerpt:
+
+----
+
+Text:

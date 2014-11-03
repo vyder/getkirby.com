@@ -1,0 +1,10 @@
+Title: detect::exif
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

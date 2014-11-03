@@ -1,0 +1,25 @@
+Title: r
+
+----
+
+Excerpt: Returns either $a or $b by the given condition
+
+----
+
+Text:
+
+## Example
+
+### With two options
+
+```php
+r(1 == 2, 'hell freezes over', 'everything is ok');
+// will most definitely return 'everything is ok'
+```
+
+### With a single option
+
+```php
+r(1 == 2, 'hell freezes over');
+// will return null
+```

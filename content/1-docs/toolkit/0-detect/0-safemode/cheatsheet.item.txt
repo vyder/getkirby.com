@@ -1,0 +1,10 @@
+Title: detect::safemode
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

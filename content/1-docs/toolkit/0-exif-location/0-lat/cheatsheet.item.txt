@@ -1,0 +1,17 @@
+Title: location::lat
+
+----
+
+Excerpt:
+
+Returns the latitude
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->image()->exif()->location()->lat() ?>
+```

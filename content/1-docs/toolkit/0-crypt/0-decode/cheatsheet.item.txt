@@ -1,0 +1,10 @@
+Title: crypt::decode
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

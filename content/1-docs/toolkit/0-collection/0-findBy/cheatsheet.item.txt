@@ -1,0 +1,10 @@
+Title: collection::findBy
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

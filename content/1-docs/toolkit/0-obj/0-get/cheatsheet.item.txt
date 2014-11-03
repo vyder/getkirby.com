@@ -1,0 +1,10 @@
+Title: obj::get
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

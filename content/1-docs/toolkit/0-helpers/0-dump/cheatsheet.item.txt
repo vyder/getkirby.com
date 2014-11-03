@@ -1,0 +1,29 @@
+Title: dump
+
+----
+
+Excerpt: Dumps the content of any variable in a human readable way for debugging
+
+----
+
+Text:
+
+## Example
+
+```php
+
+$foo = array(
+  'a', 'b', 'c'
+);
+
+dump($foo);
+
+/*
+array(
+  'a',
+  'b',
+  'c'
+)
+*/
+
+```

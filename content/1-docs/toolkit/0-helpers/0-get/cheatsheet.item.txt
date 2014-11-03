@@ -1,0 +1,20 @@
+Title: get
+
+----
+
+Excerpt: Fetches a POST or GET parameter by key
+
+----
+
+Text:
+
+## Example
+
+### The most simple search setup
+
+```php
+// http://yourdomain.com/search/?q=hello
+if($q = get('q')) {
+  $results = $site->index()->search($q);
+}
+```

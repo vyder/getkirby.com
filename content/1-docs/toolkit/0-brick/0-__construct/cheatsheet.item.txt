@@ -1,0 +1,10 @@
+Title: brick::__construct
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

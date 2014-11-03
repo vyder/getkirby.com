@@ -19,7 +19,7 @@
 
     <nav class="sidebar col-2-6 last">
       <ul>
-        <li><a href="<?php echo url('docs/cheatsheet#') ?><?php echo $page->parent()->uid() ?>"><small>↑</small>Back to the Cheat Sheet</a></li>
+        <li><a href="<?php echo url((string)kirby()->request()->path()->slice(0, 2)) ?>"><small>↑</small>Back</a></li>
 
         <?php if($prev = $page->prevVisible()): ?>
         <li><a href="<?php echo $prev->url() ?>"><small>&larr;</small> <?php echo html($prev->title()) ?></a></li>

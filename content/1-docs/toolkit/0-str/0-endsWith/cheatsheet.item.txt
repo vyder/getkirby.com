@@ -1,0 +1,10 @@
+Title: str::endsWith
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

@@ -155,7 +155,7 @@ The `blog.php` template has no logic in it afterwards, which makes it very simpl
 <h1>Blog</h1>
 
 <!-- articles -->
-<?php foreach($articles as $article) ?>
+<?php foreach($articles as $article): ?>
 <article>
   <h1><a href="<?php echo $article->url() ?>"><?php echo $article->title()->html() ?></a></h1>
   <?php echo $article->text()->excerpt(300) ?>

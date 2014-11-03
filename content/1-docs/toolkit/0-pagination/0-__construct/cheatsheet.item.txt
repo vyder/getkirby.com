@@ -1,0 +1,12 @@
+Title: pagination::__construct
+
+----
+
+Excerpt:
+
+Initiates a new pagination object
+
+----
+
+Text:
+

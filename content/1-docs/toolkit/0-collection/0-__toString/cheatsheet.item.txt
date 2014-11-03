@@ -1,0 +1,10 @@
+Title: collection::__toString
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

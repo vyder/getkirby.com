@@ -1,0 +1,20 @@
+Title: exif::isColor
+
+----
+
+Excerpt:
+
+Checks if the image colorspace is either RGB or CMYK
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if($page->image()->exif()->isColor()): ?>
+This is a color picture
+<?php endif ?>
+```
+

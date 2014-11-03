@@ -1,0 +1,18 @@
+Title: exif::aperture
+
+----
+
+Excerpt:
+
+Returns the aperture value of the image, if it is available in the exif data set.
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->image()->exif()->aperture() ?>
+```
+

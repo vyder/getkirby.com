@@ -1,0 +1,20 @@
+Title: attr
+
+----
+
+Excerpt: Creates attributes for an html tag
+
+----
+
+Text:
+
+## Example
+
+```php
+<img<?php echo attr(array(
+  'src'    => 'http://yourdomain.com/someimage.jpg',
+  'width'  => 300,
+  'height' => 200,
+  'alt'    => 'Nice image'
+)) ?>>
+```

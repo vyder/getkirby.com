@@ -1,0 +1,10 @@
+Title: database::dropTable
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

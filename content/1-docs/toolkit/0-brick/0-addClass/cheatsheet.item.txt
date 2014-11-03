@@ -1,0 +1,10 @@
+Title: brick::addClass
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

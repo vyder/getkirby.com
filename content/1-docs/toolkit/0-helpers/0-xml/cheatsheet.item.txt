@@ -1,0 +1,15 @@
+Title: xml
+
+----
+
+Excerpt: Converts any text to valid XML
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo xml($page->text()) ?>
+```

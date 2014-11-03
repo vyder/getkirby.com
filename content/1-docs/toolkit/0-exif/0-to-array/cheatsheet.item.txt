@@ -1,0 +1,18 @@
+Title: exif::toArray
+
+----
+
+Excerpt:
+
+Returns an associative array of all available exif data.
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php dump($page->image()->exif()->toArray()) ?>
+```
+

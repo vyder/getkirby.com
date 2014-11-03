@@ -1,0 +1,9 @@
+Title: folder::type
+
+----
+
+Excerpt:
+
+----
+
+Text:

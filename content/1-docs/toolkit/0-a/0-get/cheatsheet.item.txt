@@ -1,0 +1,33 @@
+Title: a::get
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+
+## Example
+
+```php
+
+$array = array(
+  'cat'  => 'miao',
+  'dog'  => 'wuff',
+  'bird' => 'tweet'
+);
+
+echo a::get($array, 'cat');
+// output: 'miao'
+
+echo a::get($array, 'elephant', 'shut up');
+// output: 'shut up'
+
+$catAndDog = a::get(array('cat', 'dog'));
+// result: array(
+//   'cat' => 'miao',
+//   'dog' => 'wuff'
+// );
+
+```

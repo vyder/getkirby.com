@@ -1,0 +1,20 @@
+Title: exif::camera
+
+----
+
+Excerpt:
+
+Returns the $camera object for the image, which contains the make and model.
+
+----
+
+Text:
+
+```php
+$camera = $page->image()->camera();
+
+echo $camera->make();
+echo $camera->model();
+
+```
+

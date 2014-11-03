@@ -1,0 +1,10 @@
+Title: c::remove
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

@@ -1,0 +1,10 @@
+Title: media::delete
+
+----
+
+Excerpt: 
+
+----
+
+Text:
+

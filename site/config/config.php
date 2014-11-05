@@ -34,10 +34,16 @@ c::set('routes', array(
     'pattern' => 'docs/toolkit/generate', 
     'action'  => function() {
       
-      $documentor = new Documentor();
-      $data       = $documentor->start();
+      if(c::get('documentor')) {
 
-      dump($data);
+        $documentor = new Documentor();
+        $data       = $documentor->start();
+
+        dump($data);
+
+      } else {
+        go();
+      }
 
     }
   ),

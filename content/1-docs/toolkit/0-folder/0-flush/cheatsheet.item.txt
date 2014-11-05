@@ -2,8 +2,17 @@ Title: folder::flush
 
 ----
 
-Excerpt:
+Excerpt: Deletes all contents of the directory
 
 ----
 
-Text:
+Call: folder::flush()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

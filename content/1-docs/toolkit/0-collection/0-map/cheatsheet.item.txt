@@ -2,9 +2,20 @@ Title: collection::map
 
 ----
 
-Excerpt: 
+Excerpt: Map a function to each item in the collection
 
 ----
 
-Text:
+Call: collection::map($callback)
 
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: - 
+  name: $callback
+  type: \function
+  text:

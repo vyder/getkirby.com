@@ -1,0 +1,18 @@
+Title: cache\\value::created
+
+----
+
+Excerpt: Returns the creation date as UNIX timestamp
+
+----
+
+Call: cache\\value::created()
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

@@ -1,0 +1,21 @@
+Title: cache\\driver::retrieve
+
+----
+
+Excerpt: Private method to retrieve the cache value This needs to be defined by the driver
+
+----
+
+Call: cache\\driver::retrieve($key)
+
+----
+
+Return: type: object
+text: Value
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

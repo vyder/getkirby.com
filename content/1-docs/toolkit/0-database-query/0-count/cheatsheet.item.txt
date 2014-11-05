@@ -1,10 +1,18 @@
-Title: query::count
+Title: database\\query::count
 
 ----
 
-Excerpt: 
+Excerpt: Builds a count query
 
 ----
 
-Text:
+Call: database\\query::count()
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: 

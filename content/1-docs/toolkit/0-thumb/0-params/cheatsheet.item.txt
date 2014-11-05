@@ -2,9 +2,20 @@ Title: thumb::params
 
 ----
 
-Excerpt: 
+Excerpt: Makes it possible to pass a string of params which is shorter and more convenient than passing a full array of keys and values: width:300|height:200|crop:true
 
 ----
 
-Text:
+Call: thumb::params($params)
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $params
+  type: array
+  text:

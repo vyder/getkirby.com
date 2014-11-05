@@ -2,9 +2,24 @@ Title: remote::delete
 
 ----
 
-Excerpt: 
+Excerpt: Static method to send a DELETE request
 
 ----
 
-Text: 
+Call: remote::delete($url, $params = array())
 
+----
+
+Return: type: object
+text: Response
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text:
+- 
+  name: $params
+  type: array
+  text:

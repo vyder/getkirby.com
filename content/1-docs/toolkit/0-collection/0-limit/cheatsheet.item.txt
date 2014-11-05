@@ -2,9 +2,20 @@ Title: collection::limit
 
 ----
 
-Excerpt: 
+Excerpt: Returns a new collection with a limited number of elements
 
 ----
 
-Text:
+Call: collection::limit($limit)
 
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: - 
+  name: $limit
+  type: int
+  text: The number of elements to return

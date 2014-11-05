@@ -2,9 +2,17 @@ Title: database::lastError
 
 ----
 
-Excerpt: 
+Excerpt: Returns the last db error (exception object)
 
 ----
 
-Text:
+Call: database::lastError()
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: 

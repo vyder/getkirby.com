@@ -2,9 +2,20 @@ Title: collection::indexOf
 
 ----
 
-Excerpt: 
+Excerpt: Tries to find the index number for the given element
 
 ----
 
-Text:
+Call: collection::indexOf($needle)
 
+----
+
+Return: type: mixed
+text: the name of the key or false
+
+----
+
+Params: - 
+  name: $needle
+  type: mixed
+  text: the element to search for

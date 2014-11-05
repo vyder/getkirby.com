@@ -2,9 +2,20 @@ Title: password::isHash
 
 ----
 
-Excerpt: 
+Excerpt: Checks if a given string is already a hash
 
 ----
 
-Text: 
+Call: password::isHash($hash)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name:
+  type: string
+  text:

@@ -2,9 +2,17 @@ Title: media::width
 
 ----
 
-Excerpt: 
+Excerpt: Returns the width of the asset
 
 ----
 
-Text:
+Call: media::width()
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

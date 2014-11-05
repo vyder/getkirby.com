@@ -1,0 +1,21 @@
+Title: header::notfound
+
+----
+
+Excerpt: Sends a 404 header
+
+----
+
+Call: header::notfound($send = true)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $send
+  type: boolean
+  text:

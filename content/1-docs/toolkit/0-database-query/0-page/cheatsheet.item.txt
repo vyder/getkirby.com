@@ -1,10 +1,35 @@
-Title: query::page
+Title: database\\query::page
 
 ----
 
-Excerpt: 
+Excerpt: Automatically adds pagination to a query
 
 ----
 
-Text:
+Call: database\\query::page($page, $limit, $params = array())
 
+----
+
+Return: type: object
+text: >
+  Collection iterator with attached
+  pagination object
+
+----
+
+Params: - 
+  name: $page
+  type: int
+  text:
+- 
+  name: $limit
+  type: int
+  text: >
+    The number of rows, which should be
+    returned for each page
+- 
+  name: $params
+  type: array
+  text: >
+    Optional params for the pagination
+    object

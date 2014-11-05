@@ -2,9 +2,17 @@ Title: system::available
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the system() function is available
 
 ----
 
-Text:
+Call: system::available()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

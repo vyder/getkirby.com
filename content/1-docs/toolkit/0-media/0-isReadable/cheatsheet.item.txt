@@ -2,9 +2,17 @@ Title: media::isReadable
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the file is readable
 
 ----
 
-Text:
+Call: media::isReadable()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

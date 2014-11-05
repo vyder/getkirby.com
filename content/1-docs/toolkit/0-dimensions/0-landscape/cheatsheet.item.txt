@@ -2,9 +2,17 @@ Title: dimensions::landscape
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the dimensions are landscape
 
 ----
 
-Text:
+Call: dimensions::landscape()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

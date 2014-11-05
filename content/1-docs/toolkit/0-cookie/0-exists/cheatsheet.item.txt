@@ -2,9 +2,17 @@ Title: cookie::exists
 
 ----
 
-Excerpt: 
+Excerpt: Checks if a cookie exists
 
 ----
 
-Text:
+Call: cookie::exists($key)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

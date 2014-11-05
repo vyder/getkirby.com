@@ -1,9 +1,0 @@
-Title: folder::__toString
-
-----
-
-Excerpt:
-
-----
-
-Text:

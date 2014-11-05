@@ -1,10 +1,18 @@
-Title: query::all
+Title: database\\query::all
 
 ----
 
-Excerpt: 
+Excerpt: Returns all matching rows from a table
 
 ----
 
-Text:
+Call: database\\query::all()
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

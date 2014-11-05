@@ -6,6 +6,8 @@ c::set('markdown.extra', true);
 
 c::set('cache.driver', 'file');
 
+c::set('debug', true);
+
 c::set('routes', array(
   array(
     'pattern' => 'docs.json',
@@ -29,9 +31,20 @@ c::set('routes', array(
     }
   ),
   array(
+    'pattern' => 'docs/toolkit/generate', 
+    'action'  => function() {
+      
+      $documentor = new Documentor();
+      $data       = $documentor->start();
+
+      dump($data);
+
+    }
+  ),
+  array(
     'pattern' => 'blog/feed', 
     'action'  => function() {
       go('feed');
     }
-  )
+  ),
 ));

@@ -2,8 +2,17 @@ Title: i::valid
 
 ----
 
-Excerpt:
+Excerpt: Checks if an element is valid This is needed for the Iterator implementation
 
 ----
 
-Text:
+Call: i::valid()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

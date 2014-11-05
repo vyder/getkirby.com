@@ -2,8 +2,24 @@ Title: xml::encode
 
 ----
 
-Excerpt: 
+Excerpt: Converts a string to a xml-safe string Converts it to html-safe first and then it will replace html entities to xml entities
 
 ----
 
-Text: 
+Call: xml::encode($string, $html = true)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $text
+  type: string
+  text:
+- 
+  name: $html
+  type: boolean
+  text: 'True: convert to html first'

@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: url::stripPath($url = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

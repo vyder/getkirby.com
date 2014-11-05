@@ -1,10 +1,21 @@
-Title: query::orWhere
+Title: database\\query::orWhere
 
 ----
 
-Excerpt: 
+Excerpt: Shortcut to attach a where clause with an OR operator.
 
 ----
 
-Text:
+Call: database\\query::orWhere()
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name:
+  type: \list
+  text:

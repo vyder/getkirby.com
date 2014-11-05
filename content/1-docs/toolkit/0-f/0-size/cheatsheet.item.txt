@@ -2,8 +2,20 @@ Title: f::size
 
 ----
 
-Excerpt:
+Excerpt: Returns the size of a file.
 
 ----
 
-Text:
+Call: f::size($file)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text: The path

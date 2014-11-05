@@ -2,9 +2,20 @@ Title: dir::readable
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the dir is readable
 
 ----
 
-Text:
+Call: dir::readable($dir)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $dir
+  type: string
+  text:

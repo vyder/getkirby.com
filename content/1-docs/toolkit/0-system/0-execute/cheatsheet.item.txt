@@ -2,9 +2,28 @@ Title: system::execute
 
 ----
 
-Excerpt: 
+Excerpt: Execute a given shell command
 
 ----
 
-Text:
+Call: system::execute($command, $arguments = array(), $what = 'all')
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $command
+  type: string
+  text: Name or path of the command
+- 
+  name: $arguments
+  type: string
+  text: Additional arguments
+- 
+  name: $what
+  type: string
+  text: "What to return ('status', 'success', 'output' or 'all')"

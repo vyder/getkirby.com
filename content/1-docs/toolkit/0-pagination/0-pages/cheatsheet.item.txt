@@ -2,21 +2,17 @@ Title: pagination::pages
 
 ----
 
-Excerpt:
-
-Returns the total number of available pages
+Excerpt: Alternative for countPages()
 
 ----
 
-Text:
+Call: pagination::pages()
 
-```php
-<?php
+----
 
-$subpages   = $page->children()->paginate(10);
-$pagination = $subpages->pagination();
+Return: type: int
+text:
 
-echo 'There are ' . $pagination->pages() . ' pages';
+----
 
-?>
-```
+Params: 

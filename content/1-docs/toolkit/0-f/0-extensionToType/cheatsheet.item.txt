@@ -2,8 +2,20 @@ Title: f::extensionToType
 
 ----
 
-Excerpt:
+Excerpt: Returns the file type for a passed extension
 
 ----
 
-Text:
+Call: f::extensionToType($extension)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $extension
+  type: string
+  text:

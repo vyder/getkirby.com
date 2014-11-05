@@ -2,9 +2,24 @@ Title: cache::setup
 
 ----
 
-Excerpt: 
+Excerpt: Setup simplifier for the current driver
 
 ----
 
-Text:
+Call: cache::setup($driver, $args = null)
 
+----
+
+Return: type: \Cache\Driver
+text:
+
+----
+
+Params: - 
+  name: $driver
+  type: string
+  text:
+- 
+  name: $args
+  type: mixed
+  text:

@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: data::write($file, $data, $type = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

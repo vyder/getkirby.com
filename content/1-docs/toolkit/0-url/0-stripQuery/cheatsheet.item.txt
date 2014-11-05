@@ -2,9 +2,20 @@ Title: url::stripQuery
 
 ----
 
-Excerpt: 
+Excerpt: Strips the query from the URL
 
 ----
 
-Text:
+Call: url::stripQuery($url = null)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text:

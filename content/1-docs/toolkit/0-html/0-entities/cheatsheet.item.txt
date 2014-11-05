@@ -2,8 +2,17 @@ Title: html::entities
 
 ----
 
-Excerpt:
+Excerpt: Returns the full array with all HTML entities
 
 ----
 
-Text:
+Call: html::entities()
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

@@ -1,0 +1,25 @@
+Title: yaml::write
+
+----
+
+Excerpt: Creates a new yaml file from an array
+
+----
+
+Call: yaml::write($file, $array)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text:
+- 
+  name: $array
+  type: array
+  text:

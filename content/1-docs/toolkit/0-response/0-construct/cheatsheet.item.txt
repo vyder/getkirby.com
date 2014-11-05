@@ -1,0 +1,28 @@
+Title: response::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: response::__construct($content, $format = 'html', $code = 200)
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $content
+  type: string
+  text:
+- 
+  name: $format
+  type: string
+  text:
+- 
+  name: $code
+  type: int
+  text: Optional HTTP code

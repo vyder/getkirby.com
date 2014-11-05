@@ -1,10 +1,25 @@
-Title: query::update
+Title: database\\query::update
 
 ----
 
-Excerpt: 
+Excerpt: Fires an update query
 
 ----
 
-Text:
+Call: database\\query::update($values = null, $where = null)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $values
+  type: array
+  text: 'You can pass values here or set them with ->values() before'
+- 
+  name: $where
+  type: mixed
+  text: 'You can pass a where clause here or set it with ->where() before'

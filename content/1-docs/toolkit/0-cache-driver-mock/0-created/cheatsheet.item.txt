@@ -1,0 +1,21 @@
+Title: cache\\driver\\mock::created
+
+----
+
+Excerpt: Checks when the cache has been created
+
+----
+
+Call: cache\\driver\\mock::created($key)
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

@@ -2,9 +2,17 @@ Title: media::dataUri
 
 ----
 
-Excerpt: 
+Excerpt: Returns the file as data uri
 
 ----
 
-Text:
+Call: media::dataUri()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

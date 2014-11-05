@@ -1,0 +1,21 @@
+Title: cache\\driver\\mock::expired
+
+----
+
+Excerpt: Checks if an item in the cache is expired
+
+----
+
+Call: cache\\driver\\mock::expired($key)
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

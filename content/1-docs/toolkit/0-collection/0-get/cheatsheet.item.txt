@@ -1,0 +1,17 @@
+Title: collection::get
+
+----
+
+Excerpt: 
+
+----
+
+Call: collection::get($key, $default = null)
+
+----
+
+Return: 
+
+----
+
+Params: 

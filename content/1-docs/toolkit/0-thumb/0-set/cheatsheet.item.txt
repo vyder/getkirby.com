@@ -1,0 +1,17 @@
+Title: thumb::set
+
+----
+
+Excerpt: 
+
+----
+
+Call: thumb::set($key, $value)
+
+----
+
+Return: 
+
+----
+
+Params: 

@@ -1,0 +1,18 @@
+Title: pagination::nextPageURL
+
+----
+
+Excerpt: Returns the url for the next page
+
+----
+
+Call: pagination::nextPageURL()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

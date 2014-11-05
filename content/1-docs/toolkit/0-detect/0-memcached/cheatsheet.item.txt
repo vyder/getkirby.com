@@ -2,9 +2,17 @@ Title: detect::memcached
 
 ----
 
-Excerpt: 
+Excerpt: Check if the Memcached extension is installed
 
 ----
 
-Text:
+Call: detect::memcached()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

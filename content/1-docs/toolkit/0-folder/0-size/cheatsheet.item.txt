@@ -2,8 +2,17 @@ Title: folder::size
 
 ----
 
-Excerpt:
+Excerpt: Returns the entire size of the directory and all its contents
 
 ----
 
-Text:
+Call: folder::size()
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

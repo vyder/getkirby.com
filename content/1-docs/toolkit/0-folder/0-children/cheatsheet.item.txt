@@ -2,8 +2,24 @@ Title: folder::children
 
 ----
 
-Excerpt:
+Excerpt: Return a collection of subfolders
 
 ----
 
-Text:
+Call: folder::children($ignore = null, $plain = false)
+
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: - 
+  name: $ignore
+  type: array
+  text:
+- 
+  name: $plain
+  type: boolean
+  text:

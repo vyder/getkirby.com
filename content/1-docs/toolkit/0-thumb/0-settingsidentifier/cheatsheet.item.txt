@@ -1,0 +1,18 @@
+Title: thumb::settingsIdentifier
+
+----
+
+Excerpt: Builds a hash for all relevant settings
+
+----
+
+Call: thumb::settingsIdentifier()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

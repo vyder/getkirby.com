@@ -2,9 +2,17 @@ Title: router::filters
 
 ----
 
-Excerpt: 
+Excerpt: Return all registered filters
 
 ----
 
-Text: 
+Call: router::filters()
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

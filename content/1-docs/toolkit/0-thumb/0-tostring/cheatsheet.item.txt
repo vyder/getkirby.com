@@ -1,0 +1,17 @@
+Title: thumb::__toString
+
+----
+
+Excerpt: Makes it possible to echo the entire object
+
+----
+
+Call: thumb::__toString()
+
+----
+
+Return: 
+
+----
+
+Params: 

@@ -2,9 +2,20 @@ Title: url::fix
 
 ----
 
-Excerpt: 
+Excerpt: Tries to fix a broken url without protocol
 
 ----
 
-Text:
+Call: url::fix($url)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text:

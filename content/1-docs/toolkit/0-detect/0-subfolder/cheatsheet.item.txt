@@ -2,9 +2,17 @@ Title: detect::subfolder
 
 ----
 
-Excerpt: 
+Excerpt: Detect if the script is installed in a subfolder
 
 ----
 
-Text:
+Call: detect::subfolder()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

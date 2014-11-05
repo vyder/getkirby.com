@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: data::encode($data, $type)
 
+----
+
+Return: 
+
+----
+
+Params: 

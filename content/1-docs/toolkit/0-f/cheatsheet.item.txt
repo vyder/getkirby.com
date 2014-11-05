@@ -1,12 +1,1 @@
-Title: F
-
-----
-
-Excerpt: 
-
-
-
-----
-
-Text: 
-
+Title: f

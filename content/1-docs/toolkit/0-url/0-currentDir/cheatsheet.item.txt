@@ -2,9 +2,17 @@ Title: url::currentDir
 
 ----
 
-Excerpt: 
+Excerpt: Returns the url for the current directory
 
 ----
 
-Text:
+Call: url::currentDir()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

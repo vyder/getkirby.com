@@ -1,0 +1,24 @@
+Title: exif\\camera::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: exif\\camera::__construct($exif)
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $make
+  type: string
+  text:
+- 
+  name: $model
+  type: string
+  text:

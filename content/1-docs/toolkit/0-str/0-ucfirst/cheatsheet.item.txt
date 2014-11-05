@@ -2,9 +2,20 @@ Title: str::ucfirst
 
 ----
 
-Excerpt: 
+Excerpt: An UTF-8 safe version of ucfirst()
 
 ----
 
-Text:
+Call: str::ucfirst($string)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:

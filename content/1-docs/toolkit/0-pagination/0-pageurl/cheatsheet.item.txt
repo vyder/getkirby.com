@@ -1,0 +1,21 @@
+Title: pagination::pageURL
+
+----
+
+Excerpt: Returns a page url for any given page number
+
+----
+
+Call: pagination::pageURL($page)
+
+----
+
+Return: type: string
+text: The url
+
+----
+
+Params: - 
+  name: $page
+  type: int
+  text: The page number

@@ -1,10 +1,21 @@
-Title: query::table
+Title: database\\query::table
 
 ----
 
-Excerpt: 
+Excerpt: Sets the name of the table, which should be queried
 
 ----
 
-Text:
+Call: database\\query::table($table)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $table
+  type: string
+  text:

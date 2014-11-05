@@ -2,9 +2,17 @@ Title: detect::mbstring
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the mb string extension is installed
 
 ----
 
-Text:
+Call: detect::mbstring()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

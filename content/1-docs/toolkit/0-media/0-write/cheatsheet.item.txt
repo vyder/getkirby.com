@@ -2,9 +2,20 @@ Title: media::write
 
 ----
 
-Excerpt: 
+Excerpt: Alternative for save
 
 ----
 
-Text:
+Call: media::write($content = null, $format = null)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $content
+  type: string
+  text:

@@ -2,19 +2,17 @@ Title: pagination::limit
 
 ----
 
-Excerpt:
-
-Returns the limit of items per page
+Excerpt: Returns the chosen limit This is used for the slice() method together with the offset to get the correct items from collections
 
 ----
 
-Text:
+Call: pagination::limit()
 
-## Example
+----
 
-```php
-$subpages   = $page->children()->paginate(10);
-$pagination = $subpages->pagination();
+Return: type: int
+text:
 
-echo 'Displaying ' . $pagination->limit() . ' of ' . $pagination->items() . ' items';
-```
+----
+
+Params: 

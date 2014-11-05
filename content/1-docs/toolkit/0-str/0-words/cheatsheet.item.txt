@@ -2,9 +2,19 @@ Title: str::words
 
 ----
 
-Excerpt: 
+Excerpt: Returns an array with all words in a string
 
 ----
 
-Text:
+Call: str::words($string)
 
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:

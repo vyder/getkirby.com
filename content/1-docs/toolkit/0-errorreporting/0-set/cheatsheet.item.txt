@@ -2,9 +2,20 @@ Title: errorreporting::set
 
 ----
 
-Excerpt: 
+Excerpt: Sets a new raw error reporting value
 
 ----
 
-Text:
+Call: errorreporting::set($level)
 
+----
+
+Return: type: int
+text: The new value
+
+----
+
+Params: - 
+  name: $level
+  type: int
+  text: The new level to set

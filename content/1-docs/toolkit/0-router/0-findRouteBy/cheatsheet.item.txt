@@ -2,9 +2,24 @@ Title: router::findRouteBy
 
 ----
 
-Excerpt: 
+Excerpt: Find a registered route by a field and value
 
 ----
 
-Text: 
+Call: router::findRouteBy($field, $value)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $field
+  type: string
+  text:
+- 
+  name: $value
+  type: string
+  text:

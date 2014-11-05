@@ -2,9 +2,19 @@ Title: redirect::back
 
 ----
 
-Excerpt: 
+Excerpt: Redirects to the last location of the user
 
 ----
 
-Text: 
+Call: redirect::back($fallback = null)
 
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $fallback
+  type: string
+  text:

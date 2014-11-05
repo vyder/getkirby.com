@@ -1,10 +1,21 @@
-Title: query::limit
+Title: database\\query::limit
 
 ----
 
-Excerpt: 
+Excerpt: Sets the limit for select clauses
 
 ----
 
-Text:
+Call: database\\query::limit($limit)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $limit
+  type: int
+  text:

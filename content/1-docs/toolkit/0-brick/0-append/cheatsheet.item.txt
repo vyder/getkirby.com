@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: brick::append($html)
 
+----
+
+Return: 
+
+----
+
+Params: 

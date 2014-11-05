@@ -1,0 +1,18 @@
+Title: pagination::hasPages
+
+----
+
+Excerpt: Checks if multiple pages are needed or if the collection can be displayed on a single page
+
+----
+
+Call: pagination::hasPages()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

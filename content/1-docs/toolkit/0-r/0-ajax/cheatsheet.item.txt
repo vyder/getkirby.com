@@ -2,9 +2,17 @@ Title: r::ajax
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the request is an AJAX request
 
 ----
 
-Text: 
+Call: r::ajax()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

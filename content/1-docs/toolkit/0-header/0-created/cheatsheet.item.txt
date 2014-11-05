@@ -2,8 +2,20 @@ Title: header::created
 
 ----
 
-Excerpt:
+Excerpt: Sends a 201 header
 
 ----
 
-Text:
+Call: header::created($send = true)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $send
+  type: boolean
+  text:

@@ -1,0 +1,18 @@
+Title: exif\\camera::toArray
+
+----
+
+Excerpt: Converts the object into a nicely readable array
+
+----
+
+Call: exif\\camera::toArray()
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

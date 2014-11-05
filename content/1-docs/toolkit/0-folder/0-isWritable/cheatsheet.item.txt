@@ -2,8 +2,20 @@ Title: folder::isWritable
 
 ----
 
-Excerpt:
+Excerpt: Checks if the directory is writable
 
 ----
 
-Text:
+Call: folder::isWritable($recursive = false)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $recursive
+  type: boolean
+  text:

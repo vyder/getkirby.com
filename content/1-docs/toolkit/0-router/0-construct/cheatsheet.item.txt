@@ -1,0 +1,20 @@
+Title: router::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: router::__construct($routes = array())
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $routes
+  type: array
+  text:

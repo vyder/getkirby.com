@@ -1,12 +1,1 @@
-Title: Exif\\Location
-
-----
-
-Excerpt: 
-
-
-
-----
-
-Text: 
-
+Title: exif\\location

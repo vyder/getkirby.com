@@ -2,9 +2,17 @@ Title: media::base64
 
 ----
 
-Excerpt: 
+Excerpt: Returns the file content as base64 encoded string
 
 ----
 
-Text:
+Call: media::base64()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

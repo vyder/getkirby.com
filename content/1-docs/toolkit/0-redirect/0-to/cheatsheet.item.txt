@@ -2,9 +2,23 @@ Title: redirect::to
 
 ----
 
-Excerpt: 
+Excerpt: Redirects to a specific URL. You can pass either a normal URI a controller path or simply nothing (which redirects home)
 
 ----
 
-Text: 
+Call: redirect::to()
 
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $uri
+  type: string
+  text:
+- 
+  name: $arguments
+  type: array
+  text:

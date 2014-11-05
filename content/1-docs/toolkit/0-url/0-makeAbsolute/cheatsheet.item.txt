@@ -2,9 +2,24 @@ Title: url::makeAbsolute
 
 ----
 
-Excerpt: 
+Excerpt: Convert a relative path into an absolute URL
 
 ----
 
-Text:
+Call: url::makeAbsolute($path, $home = null)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $path
+  type: string
+  text:
+- 
+  name: $home
+  type: string
+  text:

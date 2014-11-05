@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: l::remove($key = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

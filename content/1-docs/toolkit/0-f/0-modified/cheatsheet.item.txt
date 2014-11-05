@@ -2,8 +2,24 @@ Title: f::modified
 
 ----
 
-Excerpt:
+Excerpt: Get the file's last modification time.
 
 ----
 
-Text:
+Call: f::modified($file, $format = null)
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text:
+- 
+  name: $format
+  type: string
+  text:

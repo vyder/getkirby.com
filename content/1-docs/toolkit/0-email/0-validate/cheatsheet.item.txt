@@ -2,9 +2,16 @@ Title: email::validate
 
 ----
 
-Excerpt: 
+Excerpt: Validates the constructed email to make sure it can be sent at all
 
 ----
 
-Text:
+Call: email::validate()
 
+----
+
+Return: 
+
+----
+
+Params: 

@@ -2,15 +2,17 @@ Title: exif::data
 
 ----
 
-Excerpt:
-
-Returns the full exif data set as a raw array.
+Excerpt: Returns the raw data array from the parser
 
 ----
 
-Text:
+Call: exif::data()
 
-```php
-dump($page->image()->exif()->data());
-```
+----
 
+Return: type: array
+text:
+
+----
+
+Params: 

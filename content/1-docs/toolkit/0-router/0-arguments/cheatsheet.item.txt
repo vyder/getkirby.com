@@ -2,9 +2,17 @@ Title: router::arguments
 
 ----
 
-Excerpt: 
+Excerpt: Returns the arguments array from the current route
 
 ----
 
-Text: 
+Call: router::arguments()
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

@@ -1,0 +1,21 @@
+Title: cache\\driver\\session::created
+
+----
+
+Excerpt: Checks when the cache has been created
+
+----
+
+Call: cache\\driver\\session::created($key)
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

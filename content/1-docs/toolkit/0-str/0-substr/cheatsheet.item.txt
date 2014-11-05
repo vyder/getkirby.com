@@ -2,9 +2,28 @@ Title: str::substr
 
 ----
 
-Excerpt: 
+Excerpt: An UTF-8 safe version of substr()
 
 ----
 
-Text:
+Call: str::substr($str, $start, $length = null)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $str
+  type: string
+  text:
+- 
+  name: $start
+  type: int
+  text:
+- 
+  name: $length
+  type: int
+  text:

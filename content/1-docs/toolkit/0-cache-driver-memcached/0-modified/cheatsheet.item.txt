@@ -1,0 +1,17 @@
+Title: cache\\driver\\memcached::modified
+
+----
+
+Excerpt: Alternate version for cache::created($key)
+
+----
+
+Call: cache\\driver\\memcached::modified($key)
+
+----
+
+Return: 
+
+----
+
+Params: 

@@ -2,9 +2,17 @@ Title: media::name
 
 ----
 
-Excerpt: 
+Excerpt: Returns the name of the file without extension
 
 ----
 
-Text:
+Call: media::name()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

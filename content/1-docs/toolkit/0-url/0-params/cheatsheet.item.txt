@@ -2,9 +2,16 @@ Title: url::params
 
 ----
 
-Excerpt: 
+Excerpt: Returns the params in the url
 
 ----
 
-Text:
+Call: url::params($url = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

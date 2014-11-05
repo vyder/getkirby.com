@@ -2,9 +2,20 @@ Title: media::save
 
 ----
 
-Excerpt: 
+Excerpt: Saves the file
 
 ----
 
-Text:
+Call: media::save($content = null, $format = null)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $content
+  type: string
+  text:

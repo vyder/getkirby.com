@@ -1,10 +1,23 @@
-Title: query::select
+Title: database\\query::select
 
 ----
 
-Excerpt: 
+Excerpt: Sets the columns, which should be selected from the table By default all columns will be selected
 
 ----
 
-Text:
+Call: database\\query::select($select)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $select
+  type: mixed
+  text: >
+    Pass either a string of columns or an
+    array

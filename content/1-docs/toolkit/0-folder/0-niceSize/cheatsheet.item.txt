@@ -2,8 +2,17 @@ Title: folder::niceSize
 
 ----
 
-Excerpt:
+Excerpt: Returns the size as a human-readable string
 
 ----
 
-Text:
+Call: folder::niceSize()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

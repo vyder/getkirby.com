@@ -1,18 +1,18 @@
-Title: camera::model
+Title: exif\\camera::model
 
 ----
 
-Excerpt:
-
-Returns the name of the camera model
+Excerpt: Returns the camera model
 
 ----
 
-Text:
+Call: exif\\camera::model()
 
-## Example
+----
 
-```php
-<?php echo $page->image()->exif()->camera()->model() ?>
-```
+Return: type: string
+text:
 
+----
+
+Params: 

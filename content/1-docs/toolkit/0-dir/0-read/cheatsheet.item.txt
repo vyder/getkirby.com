@@ -2,9 +2,26 @@ Title: dir::read
 
 ----
 
-Excerpt: 
+Excerpt: Reads all files from a directory and returns them as an array.
 
 ----
 
-Text:
+Call: dir::read($dir, $ignore = array())
 
+----
+
+Return: type: mixed
+text: An array of filenames or false
+
+----
+
+Params: - 
+  name: $dir
+  type: string
+  text: The path of directory
+- 
+  name: $ignore
+  type: array
+  text: >
+    Optional array with filenames, which
+    should be ignored

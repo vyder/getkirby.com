@@ -2,9 +2,17 @@ Title: detect::memcache
 
 ----
 
-Excerpt: 
+Excerpt: Check if the Memcache extension is installed
 
 ----
 
-Text:
+Call: detect::memcache()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

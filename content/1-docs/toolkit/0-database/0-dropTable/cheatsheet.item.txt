@@ -2,9 +2,20 @@ Title: database::dropTable
 
 ----
 
-Excerpt: 
+Excerpt: Drops a table
 
 ----
 
-Text:
+Call: database::dropTable($table)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $table
+  type: string
+  text:

@@ -2,9 +2,17 @@ Title: thumb::error
 
 ----
 
-Excerpt: 
+Excerpt: Returns the exception if available
 
 ----
 
-Text:
+Call: thumb::error()
 
+----
+
+Return: type: \Exception
+text:
+
+----
+
+Params: 

@@ -2,9 +2,37 @@ Title: url::short
 
 ----
 
-Excerpt: 
+Excerpt: Shortens a URL It removes http:// or https:// and uses str::short afterwards
 
 ----
 
-Text:
+Call: url::short($url, $length = false, $base = false, $rep = '…')
 
+----
+
+Return: type: string
+text: The shortened URL
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text: The URL to be shortened
+- 
+  name: $chars
+  type: int
+  text: >
+    The final number of characters the URL
+    should have
+- 
+  name: $base
+  type: boolean
+  text: 'True: only take the base of the URL.'
+- 
+  name: $rep
+  type: string
+  text: >
+    The element, which should be added if
+    the string is too long. Ellipsis is the
+    default.

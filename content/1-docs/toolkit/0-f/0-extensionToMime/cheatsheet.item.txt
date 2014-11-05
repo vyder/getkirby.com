@@ -2,8 +2,20 @@ Title: f::extensionToMime
 
 ----
 
-Excerpt:
+Excerpt: Converts a file extension to a mime type
 
 ----
 
-Text:
+Call: f::extensionToMime($extension)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $extension
+  type: string
+  text:

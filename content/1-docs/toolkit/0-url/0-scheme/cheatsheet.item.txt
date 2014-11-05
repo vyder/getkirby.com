@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: url::scheme($url = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

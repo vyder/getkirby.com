@@ -1,0 +1,17 @@
+Title: error::__construct
+
+----
+
+Excerpt: 
+
+----
+
+Call: error::__construct($message, $code, $previous)
+
+----
+
+Return: 
+
+----
+
+Params: 

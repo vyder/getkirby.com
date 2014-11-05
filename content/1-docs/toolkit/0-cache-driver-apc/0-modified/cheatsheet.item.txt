@@ -1,0 +1,17 @@
+Title: cache\\driver\\apc::modified
+
+----
+
+Excerpt: Alternate version for cache::created($key)
+
+----
+
+Call: cache\\driver\\apc::modified($key)
+
+----
+
+Return: 
+
+----
+
+Params: 

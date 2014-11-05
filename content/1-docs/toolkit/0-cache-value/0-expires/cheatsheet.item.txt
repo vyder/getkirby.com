@@ -1,0 +1,18 @@
+Title: cache\\value::expires
+
+----
+
+Excerpt: Returns the expiration date as UNIX timestamp
+
+----
+
+Call: cache\\value::expires()
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

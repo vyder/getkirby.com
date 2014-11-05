@@ -2,9 +2,20 @@ Title: a::json
 
 ----
 
-Excerpt: 
+Excerpt: Converts an array to a JSON string It's basically a shortcut for json_encode()
 
 ----
 
-Text:
+Call: a::json($array)
 
+----
+
+Return: type: string
+text: The JSON string
+
+----
+
+Params: - 
+  name: $array
+  type: array
+  text: The source array

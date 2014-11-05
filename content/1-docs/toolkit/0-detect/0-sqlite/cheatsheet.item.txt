@@ -2,9 +2,17 @@ Title: detect::sqlite
 
 ----
 
-Excerpt: 
+Excerpt: Checks if SQLite 3 is installed
 
 ----
 
-Text:
+Call: detect::sqlite()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

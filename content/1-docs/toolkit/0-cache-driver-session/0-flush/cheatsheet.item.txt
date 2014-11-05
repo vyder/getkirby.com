@@ -1,0 +1,18 @@
+Title: cache\\driver\\session::flush
+
+----
+
+Excerpt: Flush the entire cache directory
+
+----
+
+Call: cache\\driver\\session::flush()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

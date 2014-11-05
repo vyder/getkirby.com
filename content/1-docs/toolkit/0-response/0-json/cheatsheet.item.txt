@@ -2,9 +2,20 @@ Title: response::json
 
 ----
 
-Excerpt: 
+Excerpt: Converts an array to json and returns it properly
 
 ----
 
-Text: 
+Call: response::json($data, $code = 200)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $data
+  type: array
+  text:

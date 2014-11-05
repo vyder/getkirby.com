@@ -2,9 +2,17 @@ Title: url::current
 
 ----
 
-Excerpt: 
+Excerpt: Returns the current url with all bells and whistles
 
 ----
 
-Text:
+Call: url::current()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

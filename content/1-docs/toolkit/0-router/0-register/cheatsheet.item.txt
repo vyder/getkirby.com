@@ -2,9 +2,20 @@ Title: router::register
 
 ----
 
-Excerpt: 
+Excerpt: Adds a new route
 
 ----
 
-Text: 
+Call: router::register($pattern, $params = array(), $optional = array())
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $route
+  type: object
+  text:

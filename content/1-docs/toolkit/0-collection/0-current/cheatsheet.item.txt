@@ -1,0 +1,18 @@
+Title: collection::current
+
+----
+
+Excerpt: Returns the current element of the array
+
+----
+
+Call: collection::current()
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

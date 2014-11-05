@@ -2,9 +2,17 @@ Title: media::dir
 
 ----
 
-Excerpt: 
+Excerpt: Returns the parent directory path
 
 ----
 
-Text:
+Call: media::dir()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

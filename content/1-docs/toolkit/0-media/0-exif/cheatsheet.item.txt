@@ -2,9 +2,17 @@ Title: media::exif
 
 ----
 
-Excerpt: 
+Excerpt: Returns the exif object for this file (if image)
 
 ----
 
-Text:
+Call: media::exif()
 
+----
+
+Return: type: \Exif
+text:
+
+----
+
+Params: 

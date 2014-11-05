@@ -2,11 +2,17 @@ Title: pagination::offset
 
 ----
 
-Excerpt: 
-
-Returns the offset, which is being applied to the items collection
+Excerpt: Returns the current offset This is used for the slice() method together with the limit to get the correct items from collections
 
 ----
 
-Text: 
+Call: pagination::offset()
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

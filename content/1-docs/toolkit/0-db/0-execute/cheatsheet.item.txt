@@ -2,9 +2,24 @@ Title: db::execute
 
 ----
 
-Excerpt: 
+Excerpt: Executes a raw sql query which expects no set of results (i.e. update, insert, delete)
 
 ----
 
-Text:
+Call: db::execute($query, $bindings = array())
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $query
+  type: string
+  text:
+- 
+  name: $bindings
+  type: array
+  text:

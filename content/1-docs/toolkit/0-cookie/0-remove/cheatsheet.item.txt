@@ -2,9 +2,24 @@ Title: cookie::remove
 
 ----
 
-Excerpt: 
+Excerpt: Remove a cookie
 
 ----
 
-Text:
+Call: cookie::remove($key, $path = '/', $domain = null, $secure = false)
 
+----
+
+Return: type: mixed
+text: 'true: the cookie has been removed, false: the cookie could not be removed'
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text: The name of the cookie
+- 
+  name: $domain
+  type: string
+  text: The domain of the cookie

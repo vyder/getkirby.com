@@ -1,10 +1,1 @@
-Title: Embed
-
-----
-
-Excerpt: 
-
-----
-
-Text: 
-
+Title: embed

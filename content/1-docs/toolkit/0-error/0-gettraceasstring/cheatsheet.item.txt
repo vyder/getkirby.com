@@ -1,0 +1,17 @@
+Title: error::getTraceAsString
+
+----
+
+Excerpt: 
+
+----
+
+Call: error::getTraceAsString()
+
+----
+
+Return: 
+
+----
+
+Params: 

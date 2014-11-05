@@ -2,9 +2,17 @@ Title: media::isLandscape
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the dimensions of the asset are landscape
 
 ----
 
-Text:
+Call: media::isLandscape()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

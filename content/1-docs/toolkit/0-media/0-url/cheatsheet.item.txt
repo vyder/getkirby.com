@@ -2,9 +2,17 @@ Title: media::url
 
 ----
 
-Excerpt: 
+Excerpt: Returns the url
 
 ----
 
-Text:
+Call: media::url()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

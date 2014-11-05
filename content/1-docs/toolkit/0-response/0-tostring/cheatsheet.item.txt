@@ -1,0 +1,18 @@
+Title: response::__toString
+
+----
+
+Excerpt: Echos the content and sends the appropriate header
+
+----
+
+Call: response::__toString()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

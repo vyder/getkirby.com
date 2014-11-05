@@ -2,9 +2,20 @@ Title: system::isExecutable
 
 ----
 
-Excerpt: 
+Excerpt: Checks if a command is executable
 
 ----
 
-Text:
+Call: system::isExecutable($command)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $command
+  type: string
+  text: Name or path of the command to check

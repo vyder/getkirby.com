@@ -2,9 +2,17 @@ Title: detect::windows
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the site is running on Windows
 
 ----
 
-Text:
+Call: detect::windows()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

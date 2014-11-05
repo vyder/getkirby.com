@@ -1,10 +1,21 @@
-Title: query::fetch
+Title: database\\query::fetch
 
 ----
 
-Excerpt: 
+Excerpt: Sets the object class, which should be fetched Set this to array to get a simple array instead of an object
 
 ----
 
-Text:
+Call: database\\query::fetch($fetch)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $fetch
+  type: string
+  text:

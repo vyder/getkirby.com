@@ -2,8 +2,17 @@ Title: folder::clean
 
 ----
 
-Excerpt:
+Excerpt: Alternative for flush
 
 ----
 
-Text:
+Call: folder::clean()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

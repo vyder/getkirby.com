@@ -1,0 +1,20 @@
+Title: exif::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: exif::__construct($media)
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $media
+  type: \Media
+  text:

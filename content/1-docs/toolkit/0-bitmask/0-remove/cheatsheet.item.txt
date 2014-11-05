@@ -2,9 +2,24 @@ Title: bitmask::remove
 
 ----
 
-Excerpt: 
+Excerpt: Removes a value from a bitmask
 
 ----
 
-Text:
+Call: bitmask::remove($value, $bitmask)
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: - 
+  name: $value
+  type: int
+  text: The value to remove
+- 
+  name: $bitmask
+  type: int
+  text: The bitmask to remove the value from

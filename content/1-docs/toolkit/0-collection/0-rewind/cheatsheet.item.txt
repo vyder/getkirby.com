@@ -1,0 +1,17 @@
+Title: collection::rewind
+
+----
+
+Excerpt: Moves the cusor to the first element of the array
+
+----
+
+Call: collection::rewind()
+
+----
+
+Return: 
+
+----
+
+Params: 

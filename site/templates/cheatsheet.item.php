@@ -2,10 +2,36 @@
 
   <main class="main" role="main">
 
-    <h1 class="alpha"><?php echo html($page->title()) ?></h1>
+    <?php if(!$page->call()->isEmpty()): ?>
+    <h1 class="alpha"><?php echo $page->call()->html() ?></h1>
+    <?php else: ?>
+    <h1 class="alpha"><?php echo $page->title()->html() ?></h1>
+    <?php endif ?>
+
     <p class="zeta subtitle margin-bottom"><?php echo $page->excerpt() ?></p>
 
     <section class="text col-4-6">
+
+      <?php if(!$page->params()->isEmpty() or !$page->return()->isEmpty()): ?>
+      <?php $params = $page->params()->yaml() ?>
+      <?php $return = $page->return()->yaml() ?>
+      <ul> 
+        <?php foreach($params as $param): ?>
+        <li>
+          <strong><?php echo $param['name'] ?></strong> (<?php echo $param['type'] ?>)<br />
+          <em><?php echo $param['text'] ?></em>
+        </li>
+        <?php endforeach ?>
+        <?php if(!empty($return)): ?>
+        <li>
+          <strong>return </strong> (<?php echo $return['type'] ?>)<br />
+          <em><?php echo $return['text'] ?></em>
+        </li>
+        <?php endif ?>
+      </ul>
+      <?php endif ?>
+
+
       <?php echo kirbytext($page->text()) ?>
       <?php if($page->image()): ?>
       <h2 class="beta">Result</h2>

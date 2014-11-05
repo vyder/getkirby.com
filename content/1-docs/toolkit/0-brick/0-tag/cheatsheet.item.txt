@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: brick::tag($tag = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

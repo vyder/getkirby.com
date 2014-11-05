@@ -1,0 +1,17 @@
+Title: folder::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: folder::__construct($root)
+
+----
+
+Return: 
+
+----
+
+Params: 

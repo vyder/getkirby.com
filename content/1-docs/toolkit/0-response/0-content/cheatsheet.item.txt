@@ -2,9 +2,17 @@ Title: response::content
 
 ----
 
-Excerpt: 
+Excerpt: Returns the content of this response
 
 ----
 
-Text: 
+Call: response::content()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

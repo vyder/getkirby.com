@@ -2,9 +2,16 @@ Title: s::destroy
 
 ----
 
-Excerpt: 
+Excerpt: Destroys a session
 
 ----
 
-Text: 
+Call: s::destroy()
 
+----
+
+Return: 
+
+----
+
+Params: 

@@ -2,9 +2,20 @@ Title: collection::offset
 
 ----
 
-Excerpt: 
+Excerpt: Returns a new collection starting from the given offset
 
 ----
 
-Text:
+Call: collection::offset($offset)
 
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: - 
+  name: $offset
+  type: int
+  text: The index to start from

@@ -2,9 +2,20 @@ Title: errorreporting::remove
 
 ----
 
-Excerpt: 
+Excerpt: Removes a level from the current error reporting
 
 ----
 
-Text:
+Call: errorreporting::remove($level)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $level
+  type: int
+  text: The level to remove

@@ -2,9 +2,17 @@ Title: url::to
 
 ----
 
-Excerpt: 
+Excerpt: The url smart handler. Must be defined before
 
 ----
 
-Text:
+Call: url::to()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

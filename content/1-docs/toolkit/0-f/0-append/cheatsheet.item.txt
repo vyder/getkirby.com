@@ -2,8 +2,26 @@ Title: f::append
 
 ----
 
-Excerpt:
+Excerpt: Appends new content to an existing file
 
 ----
 
-Text:
+Call: f::append($file, $content)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text: The path for the file
+- 
+  name: $content
+  type: mixed
+  text: >
+    Either a string or an array. Arrays will
+    be converted to JSON.

@@ -2,9 +2,24 @@ Title: remote::head
 
 ----
 
-Excerpt: 
+Excerpt: Static method to send a HEAD request
 
 ----
 
-Text: 
+Call: remote::head($url, $params = array())
 
+----
+
+Return: type: object
+text: Response
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text:
+- 
+  name: $params
+  type: array
+  text:

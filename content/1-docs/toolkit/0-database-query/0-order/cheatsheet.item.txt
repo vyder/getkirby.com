@@ -1,10 +1,21 @@
-Title: query::order
+Title: database\\query::order
 
 ----
 
-Excerpt: 
+Excerpt: Attaches an order clause
 
 ----
 
-Text:
+Call: database\\query::order($order)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $order
+  type: string
+  text:

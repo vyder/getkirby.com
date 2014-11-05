@@ -2,8 +2,17 @@ Title: i::current
 
 ----
 
-Excerpt:
+Excerpt: Returns the current element of the array
 
 ----
 
-Text:
+Call: i::current()
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

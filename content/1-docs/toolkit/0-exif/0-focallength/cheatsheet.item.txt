@@ -1,0 +1,18 @@
+Title: exif::focalLength
+
+----
+
+Excerpt: Returns the focal length
+
+----
+
+Call: exif::focalLength()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

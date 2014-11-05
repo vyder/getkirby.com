@@ -1,10 +1,21 @@
-Title: query::delete
+Title: database\\query::delete
 
 ----
 
-Excerpt: 
+Excerpt: Fires a delete query
 
 ----
 
-Text:
+Call: database\\query::delete($where = null)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $where
+  type: mixed
+  text: 'You can pass a where clause here or set it with ->where() before'

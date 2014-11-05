@@ -2,9 +2,17 @@ Title: url::isAbsolute
 
 ----
 
-Excerpt: 
+Excerpt: Checks if an URL is absolute
 
 ----
 
-Text:
+Call: url::isAbsolute($url)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

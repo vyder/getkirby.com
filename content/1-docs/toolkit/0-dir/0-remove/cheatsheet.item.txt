@@ -2,9 +2,26 @@ Title: dir::remove
 
 ----
 
-Excerpt: 
+Excerpt: Deletes a directory
 
 ----
 
-Text:
+Call: dir::remove($dir, $keep = false)
 
+----
+
+Return: type: boolean
+text: 'True: the directory has been removed, false: removing failed'
+
+----
+
+Params: - 
+  name: $dir
+  type: string
+  text: The path of the directory
+- 
+  name: $keep
+  type: boolean
+  text: >
+    If set to true, the directory will
+    flushed but not removed.

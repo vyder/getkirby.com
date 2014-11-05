@@ -2,8 +2,26 @@ Title: html::attr
 
 ----
 
-Excerpt:
+Excerpt: Generates a single attribute or a list of attributes
 
 ----
 
-Text:
+Call: html::attr($name, $value = null)
+
+----
+
+Return: type: string
+text: the generated html
+
+----
+
+Params: - 
+  name: $name
+  type: string
+  text: "mixed string: a single attribute with that name will be generated. array: a list of attributes will be generated. Don't pass a second argument in that case."
+- 
+  name: $value
+  type: string
+  text: >
+    if used for a single attribute, pass the
+    content for the attribute here

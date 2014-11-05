@@ -2,9 +2,22 @@ Title: r::referer
 
 ----
 
-Excerpt: 
+Excerpt: Returns the referer if available
 
 ----
 
-Text: 
+Call: r::referer($default = null)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $default
+  type: string
+  text: >
+    Pass an optional URL to use as default
+    referer if no referer is being found

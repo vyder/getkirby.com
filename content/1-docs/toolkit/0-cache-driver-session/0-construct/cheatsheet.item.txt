@@ -1,0 +1,17 @@
+Title: cache\\driver\\session::__construct
+
+----
+
+Excerpt: Make sure the session is started within the constructor
+
+----
+
+Call: cache\\driver\\session::__construct()
+
+----
+
+Return: 
+
+----
+
+Params: 

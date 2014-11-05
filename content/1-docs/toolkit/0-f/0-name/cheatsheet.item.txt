@@ -2,8 +2,20 @@ Title: f::name
 
 ----
 
-Excerpt:
+Excerpt: Extracts the name from a file path or filename without extension
 
 ----
 
-Text:
+Call: f::name($name)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text: The path or filename

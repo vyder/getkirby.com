@@ -2,9 +2,28 @@ Title: dimensions::fit
 
 ----
 
-Excerpt: 
+Excerpt: Recalculates the width and height to fit into the given box.
 
 ----
 
-Text:
+Call: dimensions::fit($box, $force = false)
 
+----
+
+Return: type: object
+text: >
+  returns this object with recalculated
+  dimensions
+
+----
+
+Params: - 
+  name: $box
+  type: int
+  text: the max width and/or height
+- 
+  name: $force
+  type: boolean
+  text: >
+    If true, the dimensions will be upscaled
+    to fit the box if smaller

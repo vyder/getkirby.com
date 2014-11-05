@@ -2,9 +2,17 @@ Title: errorreporting::get
 
 ----
 
-Excerpt: 
+Excerpt: Returns the current raw value
 
 ----
 
-Text:
+Call: errorreporting::get()
 
+----
+
+Return: type: int
+text: The current value
+
+----
+
+Params: 

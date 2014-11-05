@@ -1,0 +1,18 @@
+Title: pagination::prevPage
+
+----
+
+Excerpt: Returns the number of the previous page
+
+----
+
+Call: pagination::prevPage()
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

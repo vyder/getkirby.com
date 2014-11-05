@@ -2,8 +2,17 @@ Title: visitor::ip
 
 ----
 
-Excerpt: 
+Excerpt: Returns the ip address of the current visitor
 
 ----
 
-Text: 
+Call: visitor::ip()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

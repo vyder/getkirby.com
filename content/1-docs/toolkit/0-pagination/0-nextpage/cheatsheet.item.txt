@@ -1,0 +1,18 @@
+Title: pagination::nextPage
+
+----
+
+Excerpt: Returns the number of the next page
+
+----
+
+Call: pagination::nextPage()
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

@@ -1,0 +1,18 @@
+Title: collection::key
+
+----
+
+Excerpt: Returns the current key from the array
+
+----
+
+Call: collection::key()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

@@ -2,9 +2,22 @@ Title: sql::delete
 
 ----
 
-Excerpt: 
+Excerpt: Builds a delete clause
 
 ----
 
-Text:
+Call: sql::delete($params = array())
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $params
+  type: array
+  text: >
+    List of parameters for the delete
+    clause. See defaults for more info

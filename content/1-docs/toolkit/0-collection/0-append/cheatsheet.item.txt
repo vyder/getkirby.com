@@ -2,9 +2,24 @@ Title: collection::append
 
 ----
 
-Excerpt: 
+Excerpt: Appends an element to the data array
 
 ----
 
-Text:
+Call: collection::append($key, $object)
 
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:
+- 
+  name: $object
+  type: mixed
+  text:

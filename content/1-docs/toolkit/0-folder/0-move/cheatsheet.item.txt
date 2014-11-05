@@ -2,8 +2,20 @@ Title: folder::move
 
 ----
 
-Excerpt:
+Excerpt: Moves the directory to a new location
 
 ----
 
-Text:
+Call: folder::move($to)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $to
+  type: string
+  text:

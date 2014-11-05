@@ -2,9 +2,24 @@ Title: remote::headers
 
 ----
 
-Excerpt: 
+Excerpt: Static method to send a HEAD request which only returns an array of headers
 
 ----
 
-Text: 
+Call: remote::headers($url, $params = array())
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text:
+- 
+  name: $params
+  type: array
+  text:

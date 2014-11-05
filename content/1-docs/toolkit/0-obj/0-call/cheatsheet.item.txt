@@ -1,0 +1,17 @@
+Title: obj::__call
+
+----
+
+Excerpt: 
+
+----
+
+Call: obj::__call($method, $arguments)
+
+----
+
+Return: 
+
+----
+
+Params: 

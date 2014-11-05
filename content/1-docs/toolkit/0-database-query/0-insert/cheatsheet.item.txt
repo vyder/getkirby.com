@@ -1,10 +1,23 @@
-Title: query::insert
+Title: database\\query::insert
 
 ----
 
-Excerpt: 
+Excerpt: Fires an insert query
 
 ----
 
-Text:
+Call: database\\query::insert($values = null)
 
+----
+
+Return: type: mixed
+text: >
+  Returns the last inserted id on success
+  or false.
+
+----
+
+Params: - 
+  name: $values
+  type: array
+  text: 'You can pass values here or set them with ->values() before'

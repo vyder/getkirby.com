@@ -2,9 +2,20 @@ Title: url::stripHash
 
 ----
 
-Excerpt: 
+Excerpt: Strips a hash value from the URL
 
 ----
 
-Text:
+Call: url::stripHash($url)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text:

@@ -2,9 +2,28 @@ Title: collection::slice
 
 ----
 
-Excerpt: 
+Excerpt: Returns a slice of the collection
 
 ----
 
-Text:
+Call: collection::slice($offset = null, $limit = null)
 
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: - 
+  name: $offset
+  type: int
+  text: >
+    The optional index to start the slice
+    from
+- 
+  name: $limit
+  type: int
+  text: >
+    The optional number of elements to
+    return

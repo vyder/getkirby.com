@@ -2,8 +2,20 @@ Title: folder::copy
 
 ----
 
-Excerpt:
+Excerpt: Copies the directory to a new location
 
 ----
 
-Text:
+Call: folder::copy($to)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $to
+  type: string
+  text:

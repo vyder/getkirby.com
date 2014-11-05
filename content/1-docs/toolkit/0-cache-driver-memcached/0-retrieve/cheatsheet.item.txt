@@ -1,0 +1,21 @@
+Title: cache\\driver\\memcached::retrieve
+
+----
+
+Excerpt: Retrieve the CacheValue object from the cache.
+
+----
+
+Call: cache\\driver\\memcached::retrieve($key)
+
+----
+
+Return: type: object
+text: CacheValue
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

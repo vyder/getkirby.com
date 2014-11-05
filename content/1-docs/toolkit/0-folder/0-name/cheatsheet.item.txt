@@ -2,8 +2,17 @@ Title: folder::name
 
 ----
 
-Excerpt:
+Excerpt: Returns the name of the directory without the full path
 
 ----
 
-Text:
+Call: folder::name()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

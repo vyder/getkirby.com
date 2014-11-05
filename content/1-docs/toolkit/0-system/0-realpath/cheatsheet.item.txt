@@ -2,9 +2,20 @@ Title: system::realpath
 
 ----
 
-Excerpt: 
+Excerpt: Returns the path to a specific executable
 
 ----
 
-Text:
+Call: system::realpath($command)
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $command
+  type: string
+  text: Name or path of the command

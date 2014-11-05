@@ -2,8 +2,19 @@ Title: f::show
 
 ----
 
-Excerpt:
+Excerpt: Read and send the file with the correct headers
 
 ----
 
-Text:
+Call: f::show($file)
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text:

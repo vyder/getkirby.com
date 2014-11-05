@@ -2,8 +2,20 @@ Title: f::safeName
 
 ----
 
-Excerpt:
+Excerpt: Sanitize a filename to strip unwanted special characters
 
 ----
 
-Text:
+Call: f::safeName($string)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text: The file name

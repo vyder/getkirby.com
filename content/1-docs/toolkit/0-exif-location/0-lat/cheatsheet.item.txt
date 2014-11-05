@@ -1,17 +1,18 @@
-Title: location::lat
+Title: exif\\location::lat
 
 ----
 
-Excerpt:
-
-Returns the latitude
+Excerpt: Returns the latitude
 
 ----
 
-Text:
+Call: exif\\location::lat()
 
-## Example
+----
 
-```php
-<?php echo $page->image()->exif()->location()->lat() ?>
-```
+Return: type: float
+text:
+
+----
+
+Params: 

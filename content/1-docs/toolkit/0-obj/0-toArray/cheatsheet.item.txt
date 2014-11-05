@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: obj::toArray()
 
+----
+
+Return: 
+
+----
+
+Params: 

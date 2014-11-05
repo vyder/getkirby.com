@@ -1,10 +1,23 @@
-Title: query::values
+Title: database\\query::values
 
 ----
 
-Excerpt: 
+Excerpt: Sets the values which should be used for the update or insert clause
 
 ----
 
-Text:
+Call: database\\query::values($values = array())
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $values
+  type: mixed
+  text: >
+    Can either be a string or an array of
+    values

@@ -1,10 +1,1 @@
-Title: Thumb
-
-----
-
-Excerpt: 
-
-----
-
-Text: 
-
+Title: thumb

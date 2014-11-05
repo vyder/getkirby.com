@@ -2,8 +2,26 @@ Title: f::extension
 
 ----
 
-Excerpt:
+Excerpt: Gets the extension of a file
 
 ----
 
-Text:
+Call: f::extension($file, $extension = false)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text: The filename or path
+- 
+  name: $extension
+  type: string
+  text: >
+    Set an optional extension to overwrite
+    the current one

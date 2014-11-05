@@ -2,9 +2,17 @@ Title: detect::maxUploadSize
 
 ----
 
-Excerpt: 
+Excerpt: Returns the max accepted upload size defined in the php.ini
 
 ----
 
-Text:
+Call: detect::maxUploadSize()
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

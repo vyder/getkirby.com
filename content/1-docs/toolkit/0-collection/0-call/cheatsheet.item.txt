@@ -1,0 +1,17 @@
+Title: collection::__call
+
+----
+
+Excerpt: 
+
+----
+
+Call: collection::__call($key, $arguments)
+
+----
+
+Return: 
+
+----
+
+Params: 

@@ -2,8 +2,24 @@ Title: f::move
 
 ----
 
-Excerpt:
+Excerpt: Moves a file to a new location
 
 ----
 
-Text:
+Call: f::move($old, $new)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $old
+  type: string
+  text: The current path for the file
+- 
+  name: $new
+  type: string
+  text: The path to the new location

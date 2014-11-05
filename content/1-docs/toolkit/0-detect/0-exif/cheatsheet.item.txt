@@ -2,9 +2,17 @@ Title: detect::exif
 
 ----
 
-Excerpt: 
+Excerpt: Check if the exif extension is installed
 
 ----
 
-Text:
+Call: detect::exif()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

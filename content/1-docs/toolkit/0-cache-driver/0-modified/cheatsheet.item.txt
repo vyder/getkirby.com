@@ -1,0 +1,17 @@
+Title: cache\\driver::modified
+
+----
+
+Excerpt: Alternate version for cache::created($key)
+
+----
+
+Call: cache\\driver::modified($key)
+
+----
+
+Return: 
+
+----
+
+Params: 

@@ -1,0 +1,17 @@
+Title: cache\\driver\\mock::modified
+
+----
+
+Excerpt: Alternate version for cache::created($key)
+
+----
+
+Call: cache\\driver\\mock::modified($key)
+
+----
+
+Return: 
+
+----
+
+Params: 

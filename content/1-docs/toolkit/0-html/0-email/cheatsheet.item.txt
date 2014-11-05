@@ -2,8 +2,30 @@ Title: html::email
 
 ----
 
-Excerpt:
+Excerpt: Generates an "a mailto" tag
 
 ----
 
-Text:
+Call: html::email($email, $text = null, $attr = array())
+
+----
+
+Return: type: string
+text: the generated html
+
+----
+
+Params: - 
+  name: $href
+  type: string
+  text: The url for the a tag
+- 
+  name: $text
+  type: mixed
+  text: >
+    The optional text. If null, the url will
+    be used as text
+- 
+  name: $attr
+  type: array
+  text: Additional attributes for the tag

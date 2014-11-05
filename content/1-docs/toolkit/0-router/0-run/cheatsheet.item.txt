@@ -2,9 +2,20 @@ Title: router::run
 
 ----
 
-Excerpt: 
+Excerpt: Iterate through every route to find a matching route.
 
 ----
 
-Text: 
+Call: router::run($path = null)
 
+----
+
+Return: type: \Route
+text:
+
+----
+
+Params: - 
+  name: $path
+  type: string
+  text: Optional path to match against

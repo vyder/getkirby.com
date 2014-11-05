@@ -2,8 +2,17 @@ Title: folder::exists
 
 ----
 
-Excerpt:
+Excerpt: Checks if the dir exists
 
 ----
 
-Text:
+Call: folder::exists()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

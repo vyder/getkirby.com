@@ -2,8 +2,17 @@ Title: i::next
 
 ----
 
-Excerpt:
+Excerpt: Moves the cursor to the next element in the array and returns it
 
 ----
 
-Text:
+Call: i::next()
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

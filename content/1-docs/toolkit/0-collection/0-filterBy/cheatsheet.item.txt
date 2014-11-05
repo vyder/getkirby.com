@@ -2,9 +2,17 @@ Title: collection::filterBy
 
 ----
 
-Excerpt: 
+Excerpt: Filters the current collection by a field, operator and search value
 
 ----
 
-Text:
+Call: collection::filterBy()
 
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: 

@@ -1,0 +1,18 @@
+Title: pagination::rangeEnd
+
+----
+
+Excerpt: Returns the last page of the created range
+
+----
+
+Call: pagination::rangeEnd()
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

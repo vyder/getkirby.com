@@ -2,9 +2,28 @@ Title: database::query
 
 ----
 
-Excerpt: 
+Excerpt: Exectues a sql query, which is expected to return a set of results
 
 ----
 
-Text:
+Call: database::query($query, $bindings = array(), $params = array())
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $query
+  type: string
+  text:
+- 
+  name: $bindings
+  type: array
+  text:
+- 
+  name: $params
+  type: array
+  text:

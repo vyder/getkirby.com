@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: url::hash($url = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

@@ -2,9 +2,17 @@ Title: detect::curl
 
 ----
 
-Excerpt: 
+Excerpt: Checks if CURL is installed
 
 ----
 
-Text:
+Call: detect::curl()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

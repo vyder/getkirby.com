@@ -2,9 +2,20 @@ Title: str::sentences
 
 ----
 
-Excerpt: 
+Excerpt: Returns an array with all sentences in a string
 
 ----
 
-Text:
+Call: str::sentences($string)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:

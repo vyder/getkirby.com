@@ -1,0 +1,17 @@
+Title: error::getLine
+
+----
+
+Excerpt: 
+
+----
+
+Call: error::getLine()
+
+----
+
+Return: 
+
+----
+
+Params: 

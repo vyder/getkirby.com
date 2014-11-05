@@ -2,9 +2,17 @@ Title: detect::imagick
 
 ----
 
-Excerpt: 
+Excerpt: Checks if imageick is installed
 
 ----
 
-Text:
+Call: detect::imagick()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

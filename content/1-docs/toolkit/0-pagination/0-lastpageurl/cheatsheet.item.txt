@@ -1,0 +1,18 @@
+Title: pagination::lastPageURL
+
+----
+
+Excerpt: Returns the url for the last page
+
+----
+
+Call: pagination::lastPageURL()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

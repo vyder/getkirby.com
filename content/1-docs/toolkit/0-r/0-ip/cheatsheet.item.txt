@@ -2,9 +2,19 @@ Title: r::ip
 
 ----
 
-Excerpt: 
+Excerpt: Returns the IP address from the request user if available
 
 ----
 
-Text: 
+Call: r::ip()
 
+----
+
+Return: 
+
+----
+
+Params: - 
+  name:
+  type: mixed
+  text:

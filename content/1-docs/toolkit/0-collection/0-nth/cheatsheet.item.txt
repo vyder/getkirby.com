@@ -2,9 +2,17 @@ Title: collection::nth
 
 ----
 
-Excerpt: 
+Excerpt: Returns the nth element from the array
 
 ----
 
-Text:
+Call: collection::nth($n)
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

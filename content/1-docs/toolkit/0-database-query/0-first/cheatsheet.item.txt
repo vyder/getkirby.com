@@ -1,10 +1,18 @@
-Title: query::first
+Title: database\\query::first
 
 ----
 
-Excerpt: 
+Excerpt: Selects only one row from a table
 
 ----
 
-Text:
+Call: database\\query::first()
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: 

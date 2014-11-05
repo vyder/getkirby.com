@@ -2,9 +2,20 @@ Title: url::base
 
 ----
 
-Excerpt: 
+Excerpt: Returns the base url
 
 ----
 
-Text:
+Call: url::base($url = null)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text:

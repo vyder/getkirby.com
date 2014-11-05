@@ -2,9 +2,17 @@ Title: r::has
 
 ----
 
-Excerpt: 
+Excerpt: Checks for a specific key in the data array
 
 ----
 
-Text: 
+Call: r::has($key)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

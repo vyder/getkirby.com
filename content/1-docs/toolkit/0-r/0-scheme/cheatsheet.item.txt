@@ -2,9 +2,17 @@ Title: r::scheme
 
 ----
 
-Excerpt: 
+Excerpt: Returns the request scheme
 
 ----
 
-Text: 
+Call: r::scheme()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

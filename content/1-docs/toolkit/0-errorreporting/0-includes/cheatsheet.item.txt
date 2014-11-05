@@ -2,9 +2,24 @@ Title: errorreporting::includes
 
 ----
 
-Excerpt: 
+Excerpt: Check if the current error reporting includes an error level
 
 ----
 
-Text:
+Call: errorreporting::includes($level, $current = null)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $level
+  type: mixed
+  text: The level to check for
+- 
+  name: $current
+  type: int
+  text: A custom current level

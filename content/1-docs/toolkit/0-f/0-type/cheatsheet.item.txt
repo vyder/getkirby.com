@@ -2,8 +2,20 @@ Title: f::type
 
 ----
 
-Excerpt:
+Excerpt: Categorize the file
 
 ----
 
-Text:
+Call: f::type($file)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text: Either the file path or extension

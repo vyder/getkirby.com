@@ -2,9 +2,17 @@ Title: media::isExecutable
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the file is executable
 
 ----
 
-Text:
+Call: media::isExecutable()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

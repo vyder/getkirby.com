@@ -1,0 +1,21 @@
+Title: cache\\driver\\session::retrieve
+
+----
+
+Excerpt: Retrieve an item from the cache.
+
+----
+
+Call: cache\\driver\\session::retrieve($key)
+
+----
+
+Return: type: object
+text: CacheValue
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

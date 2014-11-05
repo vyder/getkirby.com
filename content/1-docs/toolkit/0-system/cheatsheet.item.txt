@@ -1,10 +1,1 @@
-Title: System
-
-----
-
-Excerpt: 
-
-----
-
-Text: 
-
+Title: system

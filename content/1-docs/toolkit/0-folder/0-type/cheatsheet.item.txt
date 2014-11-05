@@ -2,8 +2,17 @@ Title: folder::type
 
 ----
 
-Excerpt:
+Excerpt: Corresponding method to File::type() which makes it possible to filter a collection of files and directories by type.
 
 ----
 
-Text:
+Call: folder::type()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

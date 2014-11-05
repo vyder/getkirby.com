@@ -2,8 +2,28 @@ Title: header::contentType
 
 ----
 
-Excerpt:
+Excerpt: Sends a content type header
 
 ----
 
-Text:
+Call: header::contentType($mime, $charset = 'UTF-8', $send = true)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $mime
+  type: string
+  text:
+- 
+  name: $charset
+  type: string
+  text:
+- 
+  name: $send
+  type: boolean
+  text:

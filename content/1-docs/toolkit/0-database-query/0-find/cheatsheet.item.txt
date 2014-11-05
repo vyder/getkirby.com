@@ -1,10 +1,21 @@
-Title: query::find
+Title: database\\query::find
 
 ----
 
-Excerpt: 
+Excerpt: Find a single row by its primary key
 
 ----
 
-Text:
+Call: database\\query::find($id)
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $id
+  type: mixed
+  text:

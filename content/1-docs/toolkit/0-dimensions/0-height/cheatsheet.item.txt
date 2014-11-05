@@ -2,9 +2,17 @@ Title: dimensions::height
 
 ----
 
-Excerpt: 
+Excerpt: Returns the height
 
 ----
 
-Text:
+Call: dimensions::height()
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

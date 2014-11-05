@@ -2,8 +2,20 @@ Title: xml::parse
 
 ----
 
-Excerpt: 
+Excerpt: Parses a XML string and returns an array
 
 ----
 
-Text: 
+Call: xml::parse($xml)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $xml
+  type: string
+  text:

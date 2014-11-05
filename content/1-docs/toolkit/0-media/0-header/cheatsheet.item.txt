@@ -2,9 +2,20 @@ Title: media::header
 
 ----
 
-Excerpt: 
+Excerpt: Sends an appropriate header for the asset
 
 ----
 
-Text:
+Call: media::header($send = true)
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $send
+  type: boolean
+  text:

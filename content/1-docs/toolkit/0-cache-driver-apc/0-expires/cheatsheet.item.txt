@@ -1,0 +1,21 @@
+Title: cache\\driver\\apc::expires
+
+----
+
+Excerpt: Checks when an item in the cache expires
+
+----
+
+Call: cache\\driver\\apc::expires($key)
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

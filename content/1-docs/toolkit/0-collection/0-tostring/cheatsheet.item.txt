@@ -1,0 +1,18 @@
+Title: collection::__toString
+
+----
+
+Excerpt: Makes it possible to echo the entire object
+
+----
+
+Call: collection::__toString()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

@@ -2,9 +2,20 @@ Title: str::ucwords
 
 ----
 
-Excerpt: 
+Excerpt: An UTF-8 safe version of ucwords()
 
 ----
 
-Text:
+Call: str::ucwords($string)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:

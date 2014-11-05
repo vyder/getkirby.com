@@ -1,0 +1,17 @@
+Title: cache\\driver\\session::modified
+
+----
+
+Excerpt: Alternate version for cache::created($key)
+
+----
+
+Call: cache\\driver\\session::modified($key)
+
+----
+
+Return: 
+
+----
+
+Params: 

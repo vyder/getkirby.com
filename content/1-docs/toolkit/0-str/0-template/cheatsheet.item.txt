@@ -2,9 +2,26 @@ Title: str::template
 
 ----
 
-Excerpt: 
+Excerpt: A super simple string template engine, which replaces tags like {mytag} with any other string
 
 ----
 
-Text:
+Call: str::template($string, $data = array())
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:
+- 
+  name: $replace
+  type: array
+  text: >
+    An associative array with keys, which
+    should be replaced and values.

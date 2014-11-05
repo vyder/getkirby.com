@@ -2,8 +2,20 @@ Title: f::mimeToType
 
 ----
 
-Excerpt:
+Excerpt: Returns the type for a given mime
 
 ----
 
-Text:
+Call: f::mimeToType($mime)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $mime
+  type: string
+  text:

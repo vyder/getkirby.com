@@ -1,0 +1,18 @@
+Title: pagination::isFirstPage
+
+----
+
+Excerpt: Checks if the current page is the first page
+
+----
+
+Call: pagination::isFirstPage()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

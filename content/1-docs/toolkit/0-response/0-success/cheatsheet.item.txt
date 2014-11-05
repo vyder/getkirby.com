@@ -2,9 +2,28 @@ Title: response::success
 
 ----
 
-Excerpt: 
+Excerpt: Returns a success response
 
 ----
 
-Text: 
+Call: response::success($message = 'Everything went fine', $data = array(), $code = 200)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $message
+  type: string
+  text:
+- 
+  name: $data
+  type: mixed
+  text:
+- 
+  name: $code
+  type: mixed
+  text:

@@ -1,0 +1,21 @@
+Title: collection::__isset
+
+----
+
+Excerpt: Checks if the current key is set
+
+----
+
+Call: collection::__isset($key)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text: the key to check

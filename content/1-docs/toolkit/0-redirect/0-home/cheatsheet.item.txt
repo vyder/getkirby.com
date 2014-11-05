@@ -2,9 +2,16 @@ Title: redirect::home
 
 ----
 
-Excerpt: 
+Excerpt: Redirects to the home page of the app
 
 ----
 
-Text: 
+Call: redirect::home()
 
+----
+
+Return: 
+
+----
+
+Params: 

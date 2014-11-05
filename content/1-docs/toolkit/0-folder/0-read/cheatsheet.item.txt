@@ -2,8 +2,20 @@ Title: folder::read
 
 ----
 
-Excerpt:
+Excerpt: Alternative for scan
 
 ----
 
-Text:
+Call: folder::read($ignore = null)
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $ignore
+  type: array
+  text:

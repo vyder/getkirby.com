@@ -2,8 +2,16 @@ Title: f::download
 
 ----
 
-Excerpt:
+Excerpt: 
 
 ----
 
-Text:
+Call: f::download($file, $name = null)
+
+----
+
+Return: 
+
+----
+
+Params: 

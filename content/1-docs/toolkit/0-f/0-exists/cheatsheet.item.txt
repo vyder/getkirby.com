@@ -2,8 +2,20 @@ Title: f::exists
 
 ----
 
-Excerpt:
+Excerpt: Checks if a file exists
 
 ----
 
-Text:
+Call: f::exists($file)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text:

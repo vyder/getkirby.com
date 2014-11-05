@@ -2,9 +2,17 @@ Title: r::getData
 
 ----
 
-Excerpt: 
+Excerpt: Only returns get data
 
 ----
 
-Text: 
+Call: r::getData($key = null, $default = null)
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

@@ -1,0 +1,25 @@
+Title: v::__callStatic
+
+----
+
+Excerpt: Calls an installed validator and passes all arguments
+
+----
+
+Call: v::__callStatic($method, $arguments)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $method
+  type: string
+  text:
+- 
+  name: $arguments
+  type: array
+  text:

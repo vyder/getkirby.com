@@ -2,9 +2,20 @@ Title: str::lines
 
 ----
 
-Excerpt: 
+Excerpt: Returns an array with all lines in a string
 
 ----
 
-Text:
+Call: str::lines($string)
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:

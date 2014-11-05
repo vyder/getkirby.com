@@ -2,8 +2,20 @@ Title: folder::make
 
 ----
 
-Excerpt:
+Excerpt: Creates the directory if it does not exist yet
 
 ----
 
-Text:
+Call: folder::make($recursive = true)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $recursive
+  type: boolean
+  text:

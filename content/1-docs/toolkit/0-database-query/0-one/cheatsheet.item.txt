@@ -1,10 +1,18 @@
-Title: query::one
+Title: database\\query::one
 
 ----
 
-Excerpt: 
+Excerpt: Selects only one row from a table
 
 ----
 
-Text:
+Call: database\\query::one()
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: 

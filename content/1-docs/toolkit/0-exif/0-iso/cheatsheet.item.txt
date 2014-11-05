@@ -2,17 +2,17 @@ Title: exif::iso
 
 ----
 
-Excerpt:
-
-Returns the iso value of the image, if it is available in the exif data set.
+Excerpt: Returns the iso value
 
 ----
 
-Text:
+Call: exif::iso()
 
-## Example
+----
 
-```php
-<?php echo $page->image()->exif()->iso() ?>
-```
+Return: type: int
+text:
 
+----
+
+Params: 

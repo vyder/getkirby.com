@@ -2,9 +2,20 @@ Title: database::escape
 
 ----
 
-Excerpt: 
+Excerpt: Escapes a value to be used for a safe query
 
 ----
 
-Text:
+Call: database::escape($value)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $value
+  type: string
+  text:

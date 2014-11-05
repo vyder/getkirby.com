@@ -2,8 +2,17 @@ Title: folder::child
 
 ----
 
-Excerpt:
+Excerpt: Returns a subfolder object by path
 
 ----
 
-Text:
+Call: folder::child($path)
+
+----
+
+Return: type: mixed
+text: Directory
+
+----
+
+Params: 

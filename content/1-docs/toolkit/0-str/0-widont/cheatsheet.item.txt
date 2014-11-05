@@ -2,9 +2,20 @@ Title: str::widont
 
 ----
 
-Excerpt: 
+Excerpt: The widont function makes sure that there are no typographical widows at the end of a paragraph – that's a single word in the last line
 
 ----
 
-Text:
+Call: str::widont($string = '')
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:

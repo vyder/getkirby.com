@@ -1,0 +1,21 @@
+Title: yaml::decode
+
+----
+
+Excerpt: Parses a yaml string and returns the array
+
+----
+
+Call: yaml::decode($yaml)
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $yaml
+  type: string
+  text:

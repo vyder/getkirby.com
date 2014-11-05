@@ -2,23 +2,17 @@ Title: pagination::page
 
 ----
 
-Excerpt:
-
-Returns the current page number
+Excerpt: Returns the current page number
 
 ----
 
-Text:
+Call: pagination::page()
 
-## Example
+----
 
-```php
-<?php
+Return: type: int
+text:
 
-$subpages   = $page->children()->paginate(10);
-$pagination = $subpages->pagination();
+----
 
-echo 'The current page is ' . $pagination->page();
-
-?>
-```
+Params: 

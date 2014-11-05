@@ -2,9 +2,24 @@ Title: bitmask::add
 
 ----
 
-Excerpt: 
+Excerpt: Adds a value to a bitmask
 
 ----
 
-Text:
+Call: bitmask::add($value, $bitmask)
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: - 
+  name: $value
+  type: int
+  text: The value to add
+- 
+  name: $bitmask
+  type: int
+  text: The bitmask to add the value to

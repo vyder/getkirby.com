@@ -2,9 +2,17 @@ Title: response::format
 
 ----
 
-Excerpt: 
+Excerpt: Returns the content format
 
 ----
 
-Text: 
+Call: response::format()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

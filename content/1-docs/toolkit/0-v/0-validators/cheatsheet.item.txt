@@ -1,0 +1,18 @@
+Title: v::validators
+
+----
+
+Excerpt: Return the list of all validators
+
+----
+
+Call: v::validators()
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

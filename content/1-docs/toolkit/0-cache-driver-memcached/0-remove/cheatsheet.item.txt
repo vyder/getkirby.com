@@ -1,0 +1,21 @@
+Title: cache\\driver\\memcached::remove
+
+----
+
+Excerpt: Remove an item from the cache
+
+----
+
+Call: cache\\driver\\memcached::remove($key)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

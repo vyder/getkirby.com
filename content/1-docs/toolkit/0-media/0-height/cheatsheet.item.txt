@@ -2,9 +2,17 @@ Title: media::height
 
 ----
 
-Excerpt: 
+Excerpt: Returns the height of the asset
 
 ----
 
-Text:
+Call: media::height()
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

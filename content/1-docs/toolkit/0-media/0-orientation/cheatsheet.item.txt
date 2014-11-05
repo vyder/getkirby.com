@@ -2,9 +2,17 @@ Title: media::orientation
 
 ----
 
-Excerpt: 
+Excerpt: Returns the orientation as string landscape | portrait | square
 
 ----
 
-Text:
+Call: media::orientation()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

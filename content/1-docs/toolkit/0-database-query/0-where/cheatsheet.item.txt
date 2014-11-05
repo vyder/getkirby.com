@@ -1,10 +1,21 @@
-Title: query::where
+Title: database\\query::where
 
 ----
 
-Excerpt: 
+Excerpt: Attaches an additional where clause
 
 ----
 
-Text:
+Call: database\\query::where()
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name:
+  type: \list
+  text:

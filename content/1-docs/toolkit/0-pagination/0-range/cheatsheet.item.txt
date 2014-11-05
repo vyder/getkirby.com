@@ -2,11 +2,17 @@ Title: pagination::range
 
 ----
 
-Excerpt: 
-
-Returns an array of page numbers in a range of the given value.
+Excerpt: Creates a range of page numbers for Google-like pagination
 
 ----
 
-Text: 
+Call: pagination::range($range = 5)
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

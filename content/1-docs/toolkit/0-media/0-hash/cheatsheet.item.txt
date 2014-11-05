@@ -2,9 +2,16 @@ Title: media::hash
 
 ----
 
-Excerpt: 
+Excerpt: Returns a md5 hash of the root
 
 ----
 
-Text:
+Call: media::hash()
 
+----
+
+Return: 
+
+----
+
+Params: 

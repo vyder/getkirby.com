@@ -1,0 +1,21 @@
+Title: cache\\driver\\file::__construct
+
+----
+
+Excerpt: Set all parameters which are needed for the file cache see defaults for available parameters
+
+----
+
+Call: cache\\driver\\file::__construct($params = array())
+
+----
+
+Return: type: void
+text:
+
+----
+
+Params: - 
+  name: $params
+  type: array
+  text:

@@ -2,9 +2,17 @@ Title: media::filename
 
 ----
 
-Excerpt: 
+Excerpt: Returns the filename of the file i.e. somefile.jpg
 
 ----
 
-Text:
+Call: media::filename()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

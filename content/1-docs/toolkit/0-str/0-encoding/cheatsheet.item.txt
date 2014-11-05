@@ -2,9 +2,20 @@ Title: str::encoding
 
 ----
 
-Excerpt: 
+Excerpt: Tries to detect the string encoding
 
 ----
 
-Text:
+Call: str::encoding($string)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:

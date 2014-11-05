@@ -1,0 +1,18 @@
+Title: exif\\location::toArray
+
+----
+
+Excerpt: Converts the object into a nicely readable array
+
+----
+
+Call: exif\\location::toArray()
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

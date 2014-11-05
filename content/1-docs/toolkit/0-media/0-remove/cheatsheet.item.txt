@@ -2,9 +2,17 @@ Title: media::remove
 
 ----
 
-Excerpt: 
+Excerpt: Alternative for delete
 
 ----
 
-Text:
+Call: media::remove()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

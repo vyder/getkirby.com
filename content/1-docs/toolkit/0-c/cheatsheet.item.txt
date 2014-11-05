@@ -1,10 +1,1 @@
-Title: C
-
-----
-
-Excerpt: 
-
-----
-
-Text: 
-
+Title: c

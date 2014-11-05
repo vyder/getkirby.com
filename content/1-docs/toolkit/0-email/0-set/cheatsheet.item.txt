@@ -1,0 +1,17 @@
+Title: email::set
+
+----
+
+Excerpt: 
+
+----
+
+Call: email::set($key, $value)
+
+----
+
+Return: 
+
+----
+
+Params: 

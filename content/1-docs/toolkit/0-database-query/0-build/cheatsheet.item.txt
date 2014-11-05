@@ -1,10 +1,21 @@
-Title: query::build
+Title: database\\query::build
 
 ----
 
-Excerpt: 
+Excerpt: Builds the different types of SQL queries This uses the SQL class to build stuff.
 
 ----
 
-Text:
+Call: database\\query::build($type)
 
+----
+
+Return: type: string
+text: The final query
+
+----
+
+Params: - 
+  name: $type
+  type: string
+  text: (select, update, insert)

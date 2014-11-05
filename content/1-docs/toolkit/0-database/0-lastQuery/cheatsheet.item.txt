@@ -2,9 +2,17 @@ Title: database::lastQuery
 
 ----
 
-Excerpt: 
+Excerpt: Returns the last query
 
 ----
 
-Text:
+Call: database::lastQuery()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

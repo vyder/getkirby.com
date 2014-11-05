@@ -2,9 +2,32 @@ Title: sql::values
 
 ----
 
-Excerpt: 
+Excerpt: Builds a safe list of values for insert, select or update queries
 
 ----
 
-Text:
+Call: sql::values($values, $separator = ', ', $set = true)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $values
+  type: mixed
+  text: A value string or array of values
+- 
+  name: $separator
+  type: string
+  text: >
+    A separator which should be used to join
+    values
+- 
+  name: $set
+  type: boolean
+  text: >
+    If true builds a set list of values for
+    update clauses

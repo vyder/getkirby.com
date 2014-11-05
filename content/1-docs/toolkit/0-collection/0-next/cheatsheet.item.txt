@@ -1,0 +1,18 @@
+Title: collection::next
+
+----
+
+Excerpt: Moves the cursor to the next element in the array and returns it
+
+----
+
+Call: collection::next()
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

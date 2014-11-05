@@ -2,9 +2,20 @@ Title: str::upper
 
 ----
 
-Excerpt: 
+Excerpt: An UTF-8 safe version of strotoupper()
 
 ----
 
-Text:
+Call: str::upper($str)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $str
+  type: string
+  text:

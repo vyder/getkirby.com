@@ -1,0 +1,18 @@
+Title: exif\\camera::__toString
+
+----
+
+Excerpt: Returns the full make + model name
+
+----
+
+Call: exif\\camera::__toString()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

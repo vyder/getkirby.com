@@ -2,9 +2,20 @@ Title: a::last
 
 ----
 
-Excerpt: 
+Excerpt: Returns the last element of an array
 
 ----
 
-Text:
+Call: a::last($array)
 
+----
+
+Return: type: mixed
+text: The last element
+
+----
+
+Params: - 
+  name: $array
+  type: array
+  text: The source array

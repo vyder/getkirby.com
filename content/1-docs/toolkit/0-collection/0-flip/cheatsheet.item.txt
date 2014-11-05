@@ -2,9 +2,17 @@ Title: collection::flip
 
 ----
 
-Excerpt: 
+Excerpt: Returns the array in reverse order
 
 ----
 
-Text:
+Call: collection::flip()
 
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: 

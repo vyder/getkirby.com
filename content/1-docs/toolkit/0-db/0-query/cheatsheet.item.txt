@@ -2,9 +2,28 @@ Title: db::query
 
 ----
 
-Excerpt: 
+Excerpt: Executes a raw sql query which expects a set of results
 
 ----
 
-Text:
+Call: db::query($query, $bindings = array(), $params = array())
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $query
+  type: string
+  text:
+- 
+  name: $bindings
+  type: array
+  text:
+- 
+  name: $params
+  type: array
+  text:

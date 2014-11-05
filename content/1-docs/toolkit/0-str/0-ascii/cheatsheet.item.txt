@@ -2,9 +2,20 @@ Title: str::ascii
 
 ----
 
-Excerpt: 
+Excerpt: Convert a string to 7-bit ASCII.
 
 ----
 
-Text:
+Call: str::ascii($string)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:

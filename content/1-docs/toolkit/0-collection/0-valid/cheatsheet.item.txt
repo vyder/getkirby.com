@@ -1,0 +1,18 @@
+Title: collection::valid
+
+----
+
+Excerpt: Checks if an element is valid This is needed for the Iterator implementation
+
+----
+
+Call: collection::valid()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

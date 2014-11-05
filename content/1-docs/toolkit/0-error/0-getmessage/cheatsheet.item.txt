@@ -1,0 +1,17 @@
+Title: error::getMessage
+
+----
+
+Excerpt: 
+
+----
+
+Call: error::getMessage()
+
+----
+
+Return: 
+
+----
+
+Params: 

@@ -1,0 +1,18 @@
+Title: pagination::countItems
+
+----
+
+Excerpt: Returns the total number of items in the collection
+
+----
+
+Call: pagination::countItems()
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

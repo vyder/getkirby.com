@@ -2,8 +2,20 @@ Title: f::remove
 
 ----
 
-Excerpt:
+Excerpt: Deletes a file
 
 ----
 
-Text:
+Call: f::remove($file)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text: The path for the file

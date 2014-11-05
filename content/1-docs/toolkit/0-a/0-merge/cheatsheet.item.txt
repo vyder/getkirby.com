@@ -2,9 +2,24 @@ Title: a::merge
 
 ----
 
-Excerpt: 
+Excerpt: Merges arrays recursively
 
 ----
 
-Text:
+Call: a::merge($array1, $array2)
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $array1
+  type: array
+  text:
+- 
+  name: $array2
+  type: array
+  text:

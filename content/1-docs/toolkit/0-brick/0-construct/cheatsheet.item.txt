@@ -1,0 +1,17 @@
+Title: brick::__construct
+
+----
+
+Excerpt: 
+
+----
+
+Call: brick::__construct($tag, $html = false, $attr = array())
+
+----
+
+Return: 
+
+----
+
+Params: 

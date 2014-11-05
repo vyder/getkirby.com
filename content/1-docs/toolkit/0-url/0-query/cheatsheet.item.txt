@@ -2,9 +2,16 @@ Title: url::query
 
 ----
 
-Excerpt: 
+Excerpt: Returns the query as array
 
 ----
 
-Text:
+Call: url::query($url = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

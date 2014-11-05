@@ -1,10 +1,21 @@
-Title: query::offset
+Title: database\\query::offset
 
 ----
 
-Excerpt: 
+Excerpt: Sets the offset for select clauses
 
 ----
 
-Text:
+Call: database\\query::offset($offset)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $offset
+  type: int
+  text:

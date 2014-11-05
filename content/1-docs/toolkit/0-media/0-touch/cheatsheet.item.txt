@@ -2,9 +2,17 @@ Title: media::touch
 
 ----
 
-Excerpt: 
+Excerpt: Change the file's modification date to now and create it with an empty content if it is not there yet
 
 ----
 
-Text:
+Call: media::touch()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

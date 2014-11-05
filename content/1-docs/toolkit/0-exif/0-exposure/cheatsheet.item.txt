@@ -2,17 +2,17 @@ Title: exif::exposure
 
 ----
 
-Excerpt:
-
-Returns the exposure value of the image, if it is available in the exif data set.
+Excerpt: Returns the exposure
 
 ----
 
-Text:
+Call: exif::exposure()
 
-## Example
+----
 
-```php
-<?php echo $page->image()->exif()->exposure() ?>
-```
+Return: type: string
+text:
 
+----
+
+Params: 

@@ -2,9 +2,24 @@ Title: dir::niceSize
 
 ----
 
-Excerpt: 
+Excerpt: Returns a nicely formatted size of all the contents of the folder
 
 ----
 
-Text:
+Call: dir::niceSize($dir)
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $dir
+  type: string
+  text: The path of the directory
+- 
+  name: $recursive
+  type: boolean
+  text:

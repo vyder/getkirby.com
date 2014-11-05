@@ -2,9 +2,17 @@ Title: s::id
 
 ----
 
-Excerpt: 
+Excerpt: Returns the current session id
 
 ----
 
-Text: 
+Call: s::id()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

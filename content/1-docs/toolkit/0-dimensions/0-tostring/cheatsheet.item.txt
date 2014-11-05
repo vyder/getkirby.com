@@ -1,0 +1,18 @@
+Title: dimensions::__toString
+
+----
+
+Excerpt: Echos the dimensions as width x height
+
+----
+
+Call: dimensions::__toString()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

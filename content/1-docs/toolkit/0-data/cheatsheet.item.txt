@@ -1,10 +1,1 @@
-Title: Data
-
-----
-
-Excerpt: 
-
-----
-
-Text: 
-
+Title: data

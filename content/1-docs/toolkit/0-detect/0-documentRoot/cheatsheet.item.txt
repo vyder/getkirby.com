@@ -2,9 +2,17 @@ Title: detect::documentRoot
 
 ----
 
-Excerpt: 
+Excerpt: Detect the document root
 
 ----
 
-Text:
+Call: detect::documentRoot()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

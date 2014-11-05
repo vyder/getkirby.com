@@ -2,9 +2,38 @@ Title: cookie::forever
 
 ----
 
-Excerpt: 
+Excerpt: Stores a cookie forever
 
 ----
 
-Text:
+Call: cookie::forever($key, $value, $path = '/', $domain = null, $secure = false)
 
+----
+
+Return: type: boolean
+text: 'true: the cookie has been created, false: cookie creation failed'
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text: The name of the cookie
+- 
+  name: $value
+  type: string
+  text: The cookie content
+- 
+  name: $path
+  type: string
+  text: >
+    The path on the server to set the cookie
+    for
+- 
+  name: $domain
+  type: string
+  text: the domain
+- 
+  name: $secure
+  type: boolean
+  text: only sets the cookie over https

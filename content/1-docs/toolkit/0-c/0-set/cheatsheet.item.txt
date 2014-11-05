@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: c::set($key, $value = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

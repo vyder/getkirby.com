@@ -2,9 +2,17 @@ Title: r::ssl
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the request is encrypted
 
 ----
 
-Text: 
+Call: r::ssl()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

@@ -1,0 +1,26 @@
+Title: cache\\value::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: cache\\value::__construct($value, $minutes = null)
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $value
+  type: mixed
+  text:
+- 
+  name: $minutes
+  type: int
+  text: >
+    the number of minutes until the value
+    expires

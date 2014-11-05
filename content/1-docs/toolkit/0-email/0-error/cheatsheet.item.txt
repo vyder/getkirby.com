@@ -2,9 +2,17 @@ Title: email::error
 
 ----
 
-Excerpt: 
+Excerpt: Public getter for the error exception
 
 ----
 
-Text:
+Call: email::error()
 
+----
+
+Return: type: \Exception
+text:
+
+----
+
+Params: 

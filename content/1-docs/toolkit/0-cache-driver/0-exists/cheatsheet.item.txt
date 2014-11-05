@@ -1,0 +1,21 @@
+Title: cache\\driver::exists
+
+----
+
+Excerpt: Determine if an item exists in the cache.
+
+----
+
+Call: cache\\driver::exists($key)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

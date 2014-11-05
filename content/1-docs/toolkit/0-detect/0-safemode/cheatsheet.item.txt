@@ -2,9 +2,17 @@ Title: detect::safemode
 
 ----
 
-Excerpt: 
+Excerpt: Checks if safe mode is enabled
 
 ----
 
-Text:
+Call: detect::safemode()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

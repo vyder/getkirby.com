@@ -1,10 +1,1 @@
-Title: Crypt
-
-----
-
-Excerpt: 
-
-----
-
-Text: 
-
+Title: crypt

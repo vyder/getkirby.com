@@ -2,9 +2,17 @@ Title: detect::imap
 
 ----
 
-Excerpt: 
+Excerpt: Check if the imap extension is installed
 
 ----
 
-Text:
+Call: detect::imap()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

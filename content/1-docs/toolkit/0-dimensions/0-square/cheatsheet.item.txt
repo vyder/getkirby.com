@@ -2,9 +2,17 @@ Title: dimensions::square
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the dimensions are square
 
 ----
 
-Text:
+Call: dimensions::square()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

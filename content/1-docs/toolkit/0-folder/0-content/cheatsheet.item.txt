@@ -2,8 +2,20 @@ Title: folder::content
 
 ----
 
-Excerpt:
+Excerpt: Returns a collection with full File and Directory objects for each item in the directory
 
 ----
 
-Text:
+Call: folder::content($ignore = null)
+
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: - 
+  name: $ignore
+  type: array
+  text:

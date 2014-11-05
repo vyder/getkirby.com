@@ -2,9 +2,20 @@ Title: str::utf8
 
 ----
 
-Excerpt: 
+Excerpt: Converts a string to UTF-8
 
 ----
 
-Text:
+Call: str::utf8($string)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:

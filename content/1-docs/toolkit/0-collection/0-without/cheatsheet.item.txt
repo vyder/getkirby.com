@@ -2,9 +2,22 @@ Title: collection::without
 
 ----
 
-Excerpt: 
+Excerpt: Returns a new collection without the given element(s)
 
 ----
 
-Text:
+Call: collection::without()
 
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: - 
+  name:
+  type: \args
+  text: >
+    any number of keys, passed as individual
+    arguments

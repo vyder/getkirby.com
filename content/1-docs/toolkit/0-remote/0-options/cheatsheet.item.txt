@@ -2,9 +2,17 @@ Title: remote::options
 
 ----
 
-Excerpt: 
+Excerpt: Returns all options which have been set for the current request
 
 ----
 
-Text: 
+Call: remote::options()
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

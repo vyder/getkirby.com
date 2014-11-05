@@ -2,8 +2,21 @@ Title: header::download
 
 ----
 
-Excerpt:
+Excerpt: Sends download headers for anything that is downloadable
 
 ----
 
-Text:
+Call: header::download($params = array())
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $params
+  type: array
+  text: >
+    Check out the defaults array for
+    available parameters

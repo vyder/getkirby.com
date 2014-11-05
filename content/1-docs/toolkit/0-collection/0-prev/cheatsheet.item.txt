@@ -1,0 +1,18 @@
+Title: collection::prev
+
+----
+
+Excerpt: Moves the cursor to the previous element in the array and returns it
+
+----
+
+Call: collection::prev()
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

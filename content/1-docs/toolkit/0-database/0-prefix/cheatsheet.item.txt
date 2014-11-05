@@ -2,9 +2,17 @@ Title: database::prefix
 
 ----
 
-Excerpt: 
+Excerpt: Returns the used table name prefix
 
 ----
 
-Text:
+Call: database::prefix()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

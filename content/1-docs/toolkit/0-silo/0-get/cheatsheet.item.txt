@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: silo::get($key = null, $default = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

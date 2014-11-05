@@ -2,9 +2,17 @@ Title: url::home
 
 ----
 
-Excerpt: 
+Excerpt: Returns the home url if defined
 
 ----
 
-Text:
+Call: url::home()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

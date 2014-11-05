@@ -1,0 +1,25 @@
+Title: cache::__callStatic
+
+----
+
+Excerpt: Accessor for all static driver methods
+
+----
+
+Call: cache::__callStatic($method, $args)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $method
+  type: string
+  text:
+- 
+  name: $args
+  type: mixed
+  text:

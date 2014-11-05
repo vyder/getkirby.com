@@ -2,9 +2,20 @@ Title: bitmask::validValue
 
 ----
 
-Excerpt: 
+Excerpt: Checks if a value can be used as bitmask value (checks for a power of two)
 
 ----
 
-Text:
+Call: bitmask::validValue($value)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $value
+  type: mixed
+  text: The value to check for

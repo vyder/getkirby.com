@@ -2,20 +2,17 @@ Title: pagination::items
 
 ----
 
-Excerpt:
-
-Returns the total number of items
+Excerpt: Alternative for countItems()
 
 ----
 
-Text:
+Call: pagination::items()
 
-## Example
+----
 
-```php
-$subpages   = $page->children()->paginate(10);
-$pagination = $subpages->pagination();
+Return: type: int
+text:
 
-echo 'There are ' . $pagination->items() . ' in total';
+----
 
-```
+Params: 

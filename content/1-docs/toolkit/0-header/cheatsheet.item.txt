@@ -1,10 +1,1 @@
-Title: Header
-
-----
-
-Excerpt: 
-
-----
-
-Text: 
-
+Title: header

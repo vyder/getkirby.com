@@ -2,9 +2,17 @@ Title: detect::path
 
 ----
 
-Excerpt: 
+Excerpt: Detects the current path
 
 ----
 
-Text:
+Call: detect::path()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

@@ -2,8 +2,17 @@ Title: folder::parent
 
 ----
 
-Excerpt:
+Excerpt: Returns the parent directory object
 
 ----
 
-Text:
+Call: folder::parent()
+
+----
+
+Return: type: \Directory
+text:
+
+----
+
+Params: 

@@ -2,9 +2,17 @@ Title: r::is
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the request is of a specific type:
 
 ----
 
-Text: 
+Call: r::is($method)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

@@ -1,0 +1,18 @@
+Title: exif::toArray
+
+----
+
+Excerpt: Converts the object into a nicely readable array
+
+----
+
+Call: exif::toArray()
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

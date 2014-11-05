@@ -2,8 +2,20 @@ Title: header::error
 
 ----
 
-Excerpt:
+Excerpt: Sends a 400 header
 
 ----
 
-Text:
+Call: header::error($send = true)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $send
+  type: boolean
+  text:

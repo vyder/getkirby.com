@@ -2,9 +2,17 @@ Title: media::modified
 
 ----
 
-Excerpt: 
+Excerpt: Get the file's last modification time.
 
 ----
 
-Text:
+Call: media::modified($format = null)
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

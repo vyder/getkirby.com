@@ -2,9 +2,17 @@ Title: r::secure
 
 ----
 
-Excerpt: 
+Excerpt: Alternative for r::ssl()
 
 ----
 
-Text: 
+Call: r::secure()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

@@ -2,9 +2,22 @@ Title: response::header
 
 ----
 
-Excerpt: 
+Excerpt: Sends the correct header for the response
 
 ----
 
-Text: 
+Call: response::header($send = true)
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $send
+  type: boolean
+  text: >
+    If set to false, the header will be
+    returned

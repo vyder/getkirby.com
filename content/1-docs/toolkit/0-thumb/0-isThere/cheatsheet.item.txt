@@ -2,9 +2,17 @@ Title: thumb::isThere
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the thumbnail already exists and is newer than the original file
 
 ----
 
-Text:
+Call: thumb::isThere()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

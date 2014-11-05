@@ -1,0 +1,21 @@
+Title: cache\\driver\\apc::__construct
+
+----
+
+Excerpt: Set all parameters which are needed to connect to the cache storage
+
+----
+
+Call: cache\\driver\\apc::__construct($params = array())
+
+----
+
+Return: type: void
+text:
+
+----
+
+Params: - 
+  name: $params
+  type: array
+  text:

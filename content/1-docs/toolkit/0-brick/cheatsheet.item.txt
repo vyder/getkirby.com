@@ -1,10 +1,1 @@
-Title: Brick
-
-----
-
-Excerpt: 
-
-----
-
-Text: 
-
+Title: brick

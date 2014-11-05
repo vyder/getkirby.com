@@ -2,9 +2,24 @@ Title: remote::put
 
 ----
 
-Excerpt: 
+Excerpt: Static method to send a PUT request
 
 ----
 
-Text: 
+Call: remote::put($url, $params = array())
 
+----
+
+Return: type: object
+text: Response
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text:
+- 
+  name: $params
+  type: array
+  text:

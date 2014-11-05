@@ -2,9 +2,24 @@ Title: remote::get
 
 ----
 
-Excerpt: 
+Excerpt: Static method to send a GET request
 
 ----
 
-Text: 
+Call: remote::get($url, $params = array())
 
+----
+
+Return: type: object
+text: Response
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text:
+- 
+  name: $params
+  type: array
+  text:

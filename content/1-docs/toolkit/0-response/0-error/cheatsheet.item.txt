@@ -2,9 +2,30 @@ Title: response::error
 
 ----
 
-Excerpt: 
+Excerpt: Returns an error response
 
 ----
 
-Text: 
+Call: response::error($message = 'Something went wrong', $code = 400, $data = array())
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $message
+  type: mixed
+  text: >
+    Either a message string or an error or
+    errors object
+- 
+  name: $code
+  type: mixed
+  text:
+- 
+  name: $data
+  type: mixed
+  text:

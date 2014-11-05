@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: tpl::load($file, $data = array(), $return = true)
 
+----
+
+Return: 
+
+----
+
+Params: 

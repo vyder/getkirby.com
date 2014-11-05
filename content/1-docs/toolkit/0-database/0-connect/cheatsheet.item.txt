@@ -2,9 +2,22 @@ Title: database::connect
 
 ----
 
-Excerpt: 
+Excerpt: Connects to a database
 
 ----
 
-Text:
+Call: database::connect($params = null)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $params
+  type: mixed
+  text: >
+    This can either be a config key or an
+    array of parameters for the connection

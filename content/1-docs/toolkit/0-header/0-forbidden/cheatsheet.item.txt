@@ -2,8 +2,20 @@ Title: header::forbidden
 
 ----
 
-Excerpt:
+Excerpt: Sends a 403 header
 
 ----
 
-Text:
+Call: header::forbidden($send = true)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $send
+  type: boolean
+  text:

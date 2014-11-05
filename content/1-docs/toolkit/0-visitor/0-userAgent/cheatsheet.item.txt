@@ -2,8 +2,17 @@ Title: visitor::userAgent
 
 ----
 
-Excerpt: 
+Excerpt: A more readable but longer alternative for ua()
 
 ----
 
-Text: 
+Call: visitor::userAgent()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

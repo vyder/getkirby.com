@@ -1,0 +1,17 @@
+Title: email::toArray
+
+----
+
+Excerpt: 
+
+----
+
+Call: email::toArray()
+
+----
+
+Return: 
+
+----
+
+Params: 

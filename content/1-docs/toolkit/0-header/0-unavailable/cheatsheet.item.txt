@@ -2,8 +2,20 @@ Title: header::unavailable
 
 ----
 
-Excerpt:
+Excerpt: Sends a 503 header
 
 ----
 
-Text:
+Call: header::unavailable($send = true)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $send
+  type: boolean
+  text:

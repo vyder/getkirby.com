@@ -2,8 +2,20 @@ Title: f::isWritable
 
 ----
 
-Excerpt:
+Excerpt: Checks if the file is writable
 
 ----
 
-Text:
+Call: f::isWritable($file)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text:

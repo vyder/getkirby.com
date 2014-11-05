@@ -2,9 +2,26 @@ Title: dir::move
 
 ----
 
-Excerpt: 
+Excerpt: Moves a directory to a new location
 
 ----
 
-Text:
+Call: dir::move($old, $new)
 
+----
+
+Return: type: boolean
+text: 'True: the directory has been moved, false: moving failed'
+
+----
+
+Params: - 
+  name: $old
+  type: string
+  text: The current path of the directory
+- 
+  name: $new
+  type: string
+  text: >
+    The desired path where the dir should be
+    moved to

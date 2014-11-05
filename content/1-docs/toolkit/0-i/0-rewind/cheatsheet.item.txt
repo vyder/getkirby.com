@@ -2,8 +2,16 @@ Title: i::rewind
 
 ----
 
-Excerpt:
+Excerpt: Moves the cusor to the first element of the array
 
 ----
 
-Text:
+Call: i::rewind()
+
+----
+
+Return: 
+
+----
+
+Params: 

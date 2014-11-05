@@ -1,0 +1,17 @@
+Title: obj::__construct
+
+----
+
+Excerpt: 
+
+----
+
+Call: obj::__construct($data = array())
+
+----
+
+Return: 
+
+----
+
+Params: 

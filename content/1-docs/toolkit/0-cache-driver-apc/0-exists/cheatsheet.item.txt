@@ -1,0 +1,21 @@
+Title: cache\\driver\\apc::exists
+
+----
+
+Excerpt: Checks if the current key exists in cache
+
+----
+
+Call: cache\\driver\\apc::exists($key)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

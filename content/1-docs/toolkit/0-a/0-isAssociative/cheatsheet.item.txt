@@ -2,9 +2,20 @@ Title: a::isAssociative
 
 ----
 
-Excerpt: 
+Excerpt: Checks wether an array is associative or not (experimental)
 
 ----
 
-Text:
+Call: a::isAssociative($array)
 
+----
+
+Return: type: boolean
+text: "true: The array is associative false: It's not"
+
+----
+
+Params: - 
+  name: $array
+  type: array
+  text: The array to analyze

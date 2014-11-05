@@ -2,9 +2,27 @@ Title: cookie::get
 
 ----
 
-Excerpt: 
+Excerpt: Get a cookie value
 
 ----
 
-Text:
+Call: cookie::get($key = null, $default = null)
 
+----
+
+Return: type: mixed
+text: The found value
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text: The name of the cookie
+- 
+  name: $default
+  type: string
+  text: >
+    The default value, which should be
+    returned if the cookie has not been
+    found

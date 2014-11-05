@@ -2,9 +2,17 @@ Title: thumb::source
 
 ----
 
-Excerpt: 
+Excerpt: Returns the source media object
 
 ----
 
-Text:
+Call: thumb::source()
 
+----
+
+Return: type: \Media
+text:
+
+----
+
+Params: 

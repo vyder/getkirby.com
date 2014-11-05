@@ -1,0 +1,17 @@
+Title: error::getFile
+
+----
+
+Excerpt: 
+
+----
+
+Call: error::getFile()
+
+----
+
+Return: 
+
+----
+
+Params: 

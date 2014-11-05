@@ -2,9 +2,17 @@ Title: detect::gdlib
 
 ----
 
-Excerpt: 
+Excerpt: Checks if gdlib is installed
 
 ----
 
-Text:
+Call: detect::gdlib()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

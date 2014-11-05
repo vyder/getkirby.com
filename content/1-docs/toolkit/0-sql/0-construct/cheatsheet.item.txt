@@ -1,0 +1,20 @@
+Title: sql::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: sql::__construct($db)
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $db
+  type: object
+  text:

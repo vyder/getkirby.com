@@ -2,9 +2,24 @@ Title: collection::findBy
 
 ----
 
-Excerpt: 
+Excerpt: Find a single item by a key and value pair
 
 ----
 
-Text:
+Call: collection::findBy($key, $value)
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:
+- 
+  name: $value
+  type: mixed
+  text:

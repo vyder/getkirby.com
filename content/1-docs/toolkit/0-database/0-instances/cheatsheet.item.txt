@@ -2,9 +2,17 @@ Title: database::instances
 
 ----
 
-Excerpt: 
+Excerpt: Returns all started instances
 
 ----
 
-Text:
+Call: database::instances()
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

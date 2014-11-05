@@ -2,9 +2,17 @@ Title: media::ratio
 
 ----
 
-Excerpt: 
+Excerpt: Returns the ratio of the asset
 
 ----
 
-Text:
+Call: media::ratio()
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

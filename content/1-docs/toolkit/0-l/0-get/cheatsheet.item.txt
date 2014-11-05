@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: l::get($key = null, $default = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

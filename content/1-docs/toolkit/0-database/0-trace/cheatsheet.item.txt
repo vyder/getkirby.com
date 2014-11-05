@@ -1,0 +1,21 @@
+Title: database::trace
+
+----
+
+Excerpt: Adds a value to the db trace and also returns the entire trace if nothing is specified
+
+----
+
+Call: database::trace($data = null)
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $data
+  type: array
+  text:

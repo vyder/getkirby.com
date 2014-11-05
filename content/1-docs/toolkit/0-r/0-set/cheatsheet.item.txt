@@ -2,9 +2,26 @@ Title: r::set
 
 ----
 
-Excerpt: 
+Excerpt: Sets or overwrites a variable in the data array
 
 ----
 
-Text: 
+Call: r::set($key, $value = null)
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: mixed
+  text: >
+    The key to set/replace. Use an array to
+    set multiple values at once
+- 
+  name: $value
+  type: mixed
+  text: The value

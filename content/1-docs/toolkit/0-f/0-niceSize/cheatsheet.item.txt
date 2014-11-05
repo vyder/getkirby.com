@@ -2,8 +2,20 @@ Title: f::niceSize
 
 ----
 
-Excerpt:
+Excerpt: Converts an integer size into a human readable format
 
 ----
 
-Text:
+Call: f::niceSize($size)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $size
+  type: int
+  text: The file size or a file path

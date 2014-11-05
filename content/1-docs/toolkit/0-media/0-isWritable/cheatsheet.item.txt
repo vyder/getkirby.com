@@ -2,9 +2,17 @@ Title: media::isWritable
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the file is writable
 
 ----
 
-Text:
+Call: media::isWritable()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

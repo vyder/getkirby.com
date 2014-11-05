@@ -2,8 +2,30 @@ Title: f::write
 
 ----
 
-Excerpt:
+Excerpt: Creates a new file
 
 ----
 
-Text:
+Call: f::write($file, $content, $append = false)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text: The path for the new file
+- 
+  name: $content
+  type: mixed
+  text: >
+    Either a string, an object or an array.
+    Arrays and objects will be serialized.
+- 
+  name: $append
+  type: boolean
+  text: 'true: append the content to an exisiting file if available. false: overwrite.'

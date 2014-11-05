@@ -1,0 +1,25 @@
+Title: thumb::__call
+
+----
+
+Excerpt: Makes all public methods of the result object available to the thumb class
+
+----
+
+Call: thumb::__call($method, $arguments)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $method
+  type: string
+  text:
+- 
+  name: $arguments
+  type: mixed
+  text:

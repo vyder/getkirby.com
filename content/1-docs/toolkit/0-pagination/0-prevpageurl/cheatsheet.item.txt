@@ -1,0 +1,18 @@
+Title: pagination::prevPageURL
+
+----
+
+Excerpt: Returns the url for the previous page
+
+----
+
+Call: pagination::prevPageURL()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

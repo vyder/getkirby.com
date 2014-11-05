@@ -2,9 +2,19 @@ Title: database::fail
 
 ----
 
-Excerpt: 
+Excerpt: Sets the exception mode for the next query
 
 ----
 
-Text:
+Call: database::fail($fail = true)
 
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $fail
+  type: boolean
+  text:

@@ -2,8 +2,24 @@ Title: f::copy
 
 ----
 
-Excerpt:
+Excerpt: Copy a file to a new location.
 
 ----
 
-Text:
+Call: f::copy($file, $target)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text:
+- 
+  name: $target
+  type: string
+  text:

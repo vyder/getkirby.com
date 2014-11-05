@@ -1,0 +1,20 @@
+Title: collection::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: collection::__construct($data = array())
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $data
+  type: array
+  text:

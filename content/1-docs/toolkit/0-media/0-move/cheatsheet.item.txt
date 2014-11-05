@@ -2,9 +2,20 @@ Title: media::move
 
 ----
 
-Excerpt: 
+Excerpt: Moves the file to a new location
 
 ----
 
-Text:
+Call: media::move($to)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $to
+  type: string
+  text:

@@ -2,9 +2,20 @@ Title: password::hash
 
 ----
 
-Excerpt: 
+Excerpt: Generates a salted hash for a plaintext password
 
 ----
 
-Text: 
+Call: password::hash($plaintext)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $plaintext
+  type: string
+  text:

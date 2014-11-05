@@ -2,9 +2,24 @@ Title: password::match
 
 ----
 
-Excerpt: 
+Excerpt: Checks if a password matches the encrypted hash
 
 ----
 
-Text: 
+Call: password::match($plaintext, $hash)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $plaintext
+  type: string
+  text:
+- 
+  name: $hash
+  type: string
+  text:

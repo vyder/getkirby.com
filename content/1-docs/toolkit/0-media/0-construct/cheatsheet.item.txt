@@ -1,0 +1,20 @@
+Title: media::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: media::__construct($root, $url = null)
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $root
+  type: string
+  text:

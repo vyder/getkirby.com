@@ -1,0 +1,32 @@
+Title: pagination::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: pagination::__construct($count, $limit, $params = array())
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $data
+  type: object
+  text: >
+    The collection with all data (KirbyFiles
+    or KirbyPages)
+- 
+  name: $limit
+  type: int
+  text: The number of items per page
+- 
+  name: $params
+  type: array
+  text: >
+    Additional parameters to control the
+    pagination object

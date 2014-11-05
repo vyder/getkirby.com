@@ -1,0 +1,18 @@
+Title: pagination::firstPageURL
+
+----
+
+Excerpt: Returns the url for the first page
+
+----
+
+Call: pagination::firstPageURL()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

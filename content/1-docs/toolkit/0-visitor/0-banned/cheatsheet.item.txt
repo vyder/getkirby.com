@@ -2,8 +2,17 @@ Title: visitor::banned
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the ip of the current visitor is banned
 
 ----
 
-Text: 
+Call: visitor::banned()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

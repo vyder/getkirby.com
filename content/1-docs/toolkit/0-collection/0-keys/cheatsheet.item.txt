@@ -2,9 +2,17 @@ Title: collection::keys
 
 ----
 
-Excerpt: 
+Excerpt: Returns an array of all keys in the collection
 
 ----
 
-Text:
+Call: collection::keys()
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

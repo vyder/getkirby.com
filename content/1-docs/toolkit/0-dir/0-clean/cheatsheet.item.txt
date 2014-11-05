@@ -2,9 +2,20 @@ Title: dir::clean
 
 ----
 
-Excerpt: 
+Excerpt: Flushes a directory
 
 ----
 
-Text:
+Call: dir::clean($dir)
 
+----
+
+Return: type: boolean
+text: 'True: the directory has been flushed, false: flushing failed'
+
+----
+
+Params: - 
+  name: $dir
+  type: string
+  text: The path of the directory

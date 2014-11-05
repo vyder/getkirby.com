@@ -1,0 +1,18 @@
+Title: pagination::toArray
+
+----
+
+Excerpt: Returns the most important pagination data into a readable array
+
+----
+
+Call: pagination::toArray()
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

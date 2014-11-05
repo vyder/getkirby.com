@@ -1,0 +1,17 @@
+Title: error::getPrevious
+
+----
+
+Excerpt: 
+
+----
+
+Call: error::getPrevious()
+
+----
+
+Return: 
+
+----
+
+Params: 

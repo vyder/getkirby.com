@@ -2,9 +2,20 @@ Title: database::instance
 
 ----
 
-Excerpt: 
+Excerpt: Returns one of the started instance
 
 ----
 
-Text:
+Call: database::instance($id = null)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $id
+  type: string
+  text:

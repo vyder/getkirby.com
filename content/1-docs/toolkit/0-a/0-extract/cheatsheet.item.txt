@@ -2,9 +2,26 @@ Title: a::extract
 
 ----
 
-Excerpt: 
+Excerpt: Extracts a single column from an array
 
 ----
 
-Text:
+Call: a::extract($array, $key)
 
+----
+
+Return: type: array
+text: >
+  The result array with all values from
+  that column.
+
+----
+
+Params: - 
+  name: $array
+  type: array
+  text: The source array
+- 
+  name: $key
+  type: string
+  text: The key name of the column to extract

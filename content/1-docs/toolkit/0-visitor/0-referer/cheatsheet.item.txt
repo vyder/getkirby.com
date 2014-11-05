@@ -2,8 +2,17 @@ Title: visitor::referer
 
 ----
 
-Excerpt: 
+Excerpt: Nobody can remember if it is written with on or two r
 
 ----
 
-Text: 
+Call: visitor::referer()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

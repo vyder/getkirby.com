@@ -2,9 +2,17 @@ Title: url::last
 
 ----
 
-Excerpt: 
+Excerpt: Return the last url the user has been on if detectable
 
 ----
 
-Text:
+Call: url::last()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

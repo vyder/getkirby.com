@@ -2,9 +2,17 @@ Title: collection::last
 
 ----
 
-Excerpt: 
+Excerpt: Returns the last element from the array
 
 ----
 
-Text:
+Call: collection::last()
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

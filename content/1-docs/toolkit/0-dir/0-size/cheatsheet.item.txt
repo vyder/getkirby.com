@@ -2,9 +2,20 @@ Title: dir::size
 
 ----
 
-Excerpt: 
+Excerpt: Gets the size of the directory and all subfolders and files
 
 ----
 
-Text:
+Call: dir::size($dir)
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $dir
+  type: string
+  text: The path of the directory

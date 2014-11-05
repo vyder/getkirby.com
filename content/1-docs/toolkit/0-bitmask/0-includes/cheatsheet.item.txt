@@ -2,9 +2,24 @@ Title: bitmask::includes
 
 ----
 
-Excerpt: 
+Excerpt: Checks if a bitmask includes a value
 
 ----
 
-Text:
+Call: bitmask::includes($value, $bitmask)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $value
+  type: int
+  text: The value to check for
+- 
+  name: $bitmask
+  type: int
+  text: The bitmask to check in

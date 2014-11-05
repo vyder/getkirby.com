@@ -1,0 +1,22 @@
+Title: database\\query::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: database\\query::__construct($db, $table)
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $table
+  type: string
+  text: >
+    Optional name of the table, which should
+    be queried

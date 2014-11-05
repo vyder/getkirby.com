@@ -2,9 +2,17 @@ Title: collection::pagination
 
 ----
 
-Excerpt: 
+Excerpt: Get the previously added pagination object
 
 ----
 
-Text:
+Call: collection::pagination()
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: 

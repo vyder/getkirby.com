@@ -2,8 +2,16 @@ Title: f::load
 
 ----
 
-Excerpt:
+Excerpt: Safely requires a file if it exists
 
 ----
 
-Text:
+Call: f::load($file, $data = array())
+
+----
+
+Return: 
+
+----
+
+Params: 

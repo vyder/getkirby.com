@@ -2,9 +2,23 @@ Title: db::table
 
 ----
 
-Excerpt: 
+Excerpt: Sets the current table, which should be queried
 
 ----
 
-Text:
+Call: db::table($table)
 
+----
+
+Return: type: object
+text: >
+  Returns a DBQuery object, which can be
+  used to build a full query for that
+  table
+
+----
+
+Params: - 
+  name: $table
+  type: string
+  text:

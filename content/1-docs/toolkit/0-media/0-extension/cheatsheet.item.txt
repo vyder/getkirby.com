@@ -2,9 +2,17 @@ Title: media::extension
 
 ----
 
-Excerpt: 
+Excerpt: Returns the extension of the file i.e. jpg
 
 ----
 
-Text:
+Call: media::extension()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

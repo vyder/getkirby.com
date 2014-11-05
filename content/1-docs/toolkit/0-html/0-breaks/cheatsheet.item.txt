@@ -2,8 +2,20 @@ Title: html::breaks
 
 ----
 
-Excerpt:
+Excerpt: Converts lines in a string into html breaks
 
 ----
 
-Text:
+Call: html::breaks($string)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:

@@ -2,9 +2,17 @@ Title: thumb::isObsolete
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the thumbnail is not needed because the original image is small enough
 
 ----
 
-Text:
+Call: thumb::isObsolete()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

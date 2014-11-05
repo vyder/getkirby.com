@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: tpl::remove($key = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

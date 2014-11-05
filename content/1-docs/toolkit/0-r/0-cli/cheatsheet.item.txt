@@ -2,9 +2,17 @@ Title: r::cli
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the request has been made from the command line
 
 ----
 
-Text: 
+Call: r::cli()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

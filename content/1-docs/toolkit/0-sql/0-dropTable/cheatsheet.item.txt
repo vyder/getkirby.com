@@ -2,9 +2,20 @@ Title: sql::dropTable
 
 ----
 
-Excerpt: 
+Excerpt: Creates the sql for dropping a single table
 
 ----
 
-Text:
+Call: sql::dropTable($table)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $table
+  type: string
+  text:

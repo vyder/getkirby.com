@@ -2,8 +2,20 @@ Title: folder::scan
 
 ----
 
-Excerpt:
+Excerpt: Reads the directory content and returns an array with file objects
 
 ----
 
-Text:
+Call: folder::scan($ignore = null)
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $ignore
+  type: array
+  text:

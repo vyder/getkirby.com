@@ -2,9 +2,17 @@ Title: collection::sortBy
 
 ----
 
-Excerpt: 
+Excerpt: Sorts the collection by any number of fields
 
 ----
 
-Text:
+Call: collection::sortBy()
 
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: 

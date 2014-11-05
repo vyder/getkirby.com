@@ -1,0 +1,18 @@
+Title: pagination::rangeStart
+
+----
+
+Excerpt: Returns the first page of the created range
+
+----
+
+Call: pagination::rangeStart()
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

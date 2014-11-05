@@ -2,9 +2,17 @@ Title: collection::count
 
 ----
 
-Excerpt: 
+Excerpt: Counts all elements in the array
 
 ----
 
-Text:
+Call: collection::count()
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

@@ -2,9 +2,24 @@ Title: collection::prepend
 
 ----
 
-Excerpt: 
+Excerpt: Prepends an element to the data array
 
 ----
 
-Text:
+Call: collection::prepend($key, $object)
 
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:
+- 
+  name: $object
+  type: mixed
+  text:

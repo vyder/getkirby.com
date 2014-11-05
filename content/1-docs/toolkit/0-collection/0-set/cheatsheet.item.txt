@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: collection::set($key, $value)
 
+----
+
+Return: 
+
+----
+
+Params: 

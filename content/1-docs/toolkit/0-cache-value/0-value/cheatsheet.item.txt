@@ -1,0 +1,18 @@
+Title: cache\\value::value
+
+----
+
+Excerpt: Returns the value
+
+----
+
+Call: cache\\value::value()
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

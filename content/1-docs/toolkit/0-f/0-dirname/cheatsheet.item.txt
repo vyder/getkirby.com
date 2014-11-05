@@ -2,8 +2,20 @@ Title: f::dirname
 
 ----
 
-Excerpt:
+Excerpt: Just an alternative for dirname() to stay consistent
 
 ----
 
-Text:
+Call: f::dirname($file)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text: The path

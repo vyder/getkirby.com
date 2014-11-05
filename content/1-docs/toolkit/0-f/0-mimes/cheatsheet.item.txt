@@ -2,8 +2,17 @@ Title: f::mimes
 
 ----
 
-Excerpt:
+Excerpt: Returns all detectable mime types
 
 ----
 
-Text:
+Call: f::mimes()
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

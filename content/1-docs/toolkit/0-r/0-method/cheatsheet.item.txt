@@ -2,9 +2,19 @@ Title: r::method
 
 ----
 
-Excerpt: 
+Excerpt: Returns the current request method
 
 ----
 
-Text: 
+Call: r::method()
 
+----
+
+Return: type: string
+text: >
+  POST, GET, DELETE, PUT, HEAD, PATCH,
+  etc.
+
+----
+
+Params: 

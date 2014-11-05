@@ -2,9 +2,20 @@ Title: str::lower
 
 ----
 
-Excerpt: 
+Excerpt: An UTF-8 safe version of strtolower()
 
 ----
 
-Text:
+Call: str::lower($str)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $str
+  type: string
+  text:

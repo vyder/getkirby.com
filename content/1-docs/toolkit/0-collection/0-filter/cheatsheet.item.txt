@@ -2,9 +2,20 @@ Title: collection::filter
 
 ----
 
-Excerpt: 
+Excerpt: Filter the elements in the array by a callback function
 
 ----
 
-Text:
+Call: collection::filter($callback)
 
+----
+
+Return: type: \Collection
+text:
+
+----
+
+Params: - 
+  name: $callback
+  type: \func
+  text: the callback function

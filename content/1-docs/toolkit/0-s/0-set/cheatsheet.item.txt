@@ -2,9 +2,23 @@ Title: s::set
 
 ----
 
-Excerpt: 
+Excerpt: Sets a session value by key
 
 ----
 
-Text: 
+Call: s::set($key, $value = false)
 
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $key
+  type: mixed
+  text: The key to define
+- 
+  name: $value
+  type: mixed
+  text: The value for the passed key

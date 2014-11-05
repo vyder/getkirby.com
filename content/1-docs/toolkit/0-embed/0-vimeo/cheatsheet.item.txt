@@ -2,9 +2,24 @@ Title: embed::vimeo
 
 ----
 
-Excerpt: 
+Excerpt: Embeds a vimeo video by passing the vimeo url
 
 ----
 
-Text:
+Call: embed::vimeo($url, $attr = array())
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text: vimeo url i.e. http://vimeo.com/52345557
+- 
+  name: $attr
+  type: array
+  text: Additional attributes for the iframe

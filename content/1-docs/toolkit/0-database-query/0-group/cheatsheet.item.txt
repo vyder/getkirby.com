@@ -1,10 +1,21 @@
-Title: query::group
+Title: database\\query::group
 
 ----
 
-Excerpt: 
+Excerpt: Attaches a group by clause
 
 ----
 
-Text:
+Call: database\\query::group($group)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $group
+  type: string
+  text:

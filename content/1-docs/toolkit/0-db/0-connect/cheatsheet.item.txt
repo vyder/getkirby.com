@@ -2,9 +2,22 @@ Title: db::connect
 
 ----
 
-Excerpt: 
+Excerpt: (Re)connect the database
 
 ----
 
-Text:
+Call: db::connect($params = null)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $params
+  type: mixed
+  text: >
+    Pass array() to use the default params
+    from the config

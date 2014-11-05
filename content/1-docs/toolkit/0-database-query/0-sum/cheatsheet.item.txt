@@ -1,10 +1,21 @@
-Title: query::sum
+Title: database\\query::sum
 
 ----
 
-Excerpt: 
+Excerpt: Builds a sum query
 
 ----
 
-Text:
+Call: database\\query::sum($column)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $column
+  type: string
+  text:

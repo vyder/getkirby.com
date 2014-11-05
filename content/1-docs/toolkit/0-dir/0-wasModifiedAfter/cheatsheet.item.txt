@@ -2,9 +2,24 @@ Title: dir::wasModifiedAfter
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the directory or any subdirectory has been modified after the given timestamp
 
 ----
 
-Text:
+Call: dir::wasModifiedAfter($dir, $time)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $dir
+  type: string
+  text:
+- 
+  name: $time
+  type: int
+  text:

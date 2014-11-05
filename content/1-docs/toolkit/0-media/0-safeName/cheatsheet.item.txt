@@ -2,9 +2,17 @@ Title: media::safeName
 
 ----
 
-Excerpt: 
+Excerpt: Returns the filename as safe name
 
 ----
 
-Text:
+Call: media::safeName()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

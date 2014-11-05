@@ -1,10 +1,21 @@
-Title: query::distinct
+Title: database\\query::distinct
 
 ----
 
-Excerpt: 
+Excerpt: Enables distinct select clauses.
 
 ----
 
-Text:
+Call: database\\query::distinct($distinct = true)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $distinct
+  type: boolean
+  text:

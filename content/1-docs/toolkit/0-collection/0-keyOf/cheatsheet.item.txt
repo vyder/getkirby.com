@@ -2,9 +2,20 @@ Title: collection::keyOf
 
 ----
 
-Excerpt: 
+Excerpt: Tries to find the key for the given element
 
 ----
 
-Text:
+Call: collection::keyOf($needle)
 
+----
+
+Return: type: mixed
+text: the name of the key or false
+
+----
+
+Params: - 
+  name: $needle
+  type: mixed
+  text: the element to search for

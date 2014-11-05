@@ -2,9 +2,20 @@ Title: dir::make
 
 ----
 
-Excerpt: 
+Excerpt: Creates a new directory
 
 ----
 
-Text:
+Call: dir::make($dir, $recursive = true)
 
+----
+
+Return: type: boolean
+text: 'True: the dir has been created, false: creating failed'
+
+----
+
+Params: - 
+  name: $dir
+  type: string
+  text: The path for the new directory

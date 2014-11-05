@@ -1,0 +1,24 @@
+Title: remote::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: remote::__construct($url, $options = array())
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text:
+- 
+  name: $options
+  type: array
+  text:

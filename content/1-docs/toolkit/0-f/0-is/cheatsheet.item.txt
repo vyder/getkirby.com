@@ -2,8 +2,24 @@ Title: f::is
 
 ----
 
-Excerpt:
+Excerpt: Checks if a file is of a certain type
 
 ----
 
-Text:
+Call: f::is($file, $value)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text: Full path to the file
+- 
+  name: $value
+  type: string
+  text: An extension or mime type

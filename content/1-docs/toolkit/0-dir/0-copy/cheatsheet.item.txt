@@ -2,9 +2,23 @@ Title: dir::copy
 
 ----
 
-Excerpt: 
+Excerpt: Copy a file, or recursively copy a folder and its contents
 
 ----
 
-Text:
+Call: dir::copy($dir, $to)
 
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $dir
+  type: string
+  text: Source path
+- 
+  name: $to
+  type: string
+  text: Destination path

@@ -1,0 +1,17 @@
+Title: database::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: database::__construct($params = null)
+
+----
+
+Return: 
+
+----
+
+Params: 

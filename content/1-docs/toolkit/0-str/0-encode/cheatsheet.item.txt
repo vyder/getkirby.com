@@ -2,9 +2,20 @@ Title: str::encode
 
 ----
 
-Excerpt: 
+Excerpt: Encode a string (used for email addresses)
 
 ----
 
-Text:
+Call: str::encode($string)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:

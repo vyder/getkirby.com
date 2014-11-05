@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: brick::on($event, $callback)
 
+----
+
+Return: 
+
+----
+
+Params: 

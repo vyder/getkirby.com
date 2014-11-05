@@ -2,9 +2,17 @@ Title: detect::iis
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the site is running on IIS
 
 ----
 
-Text:
+Call: detect::iis()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

@@ -2,9 +2,24 @@ Title: dir::modified
 
 ----
 
-Excerpt: 
+Excerpt: Recursively check when the dir and all subfolders have been modified for the last time.
 
 ----
 
-Text:
+Call: dir::modified($dir, $format = null)
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: - 
+  name: $dir
+  type: string
+  text: The path of the directory
+- 
+  name: $format
+  type: string
+  text:

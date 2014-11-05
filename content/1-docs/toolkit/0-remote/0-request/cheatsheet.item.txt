@@ -2,9 +2,24 @@ Title: remote::request
 
 ----
 
-Excerpt: 
+Excerpt: Static method to init this class and send a request
 
 ----
 
-Text: 
+Call: remote::request($url, $params = array())
 
+----
+
+Return: type: object
+text: Response
+
+----
+
+Params: - 
+  name: $url
+  type: string
+  text:
+- 
+  name: $params
+  type: array
+  text:

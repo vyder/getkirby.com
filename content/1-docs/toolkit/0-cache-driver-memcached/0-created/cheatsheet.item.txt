@@ -1,0 +1,21 @@
+Title: cache\\driver\\memcached::created
+
+----
+
+Excerpt: Checks when the cache has been created
+
+----
+
+Call: cache\\driver\\memcached::created($key)
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

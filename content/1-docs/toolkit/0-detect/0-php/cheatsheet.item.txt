@@ -2,9 +2,20 @@ Title: detect::php
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the required php version is installed
 
 ----
 
-Text:
+Call: detect::php($min = '5.3')
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $min
+  type: mixed
+  text:

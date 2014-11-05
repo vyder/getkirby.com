@@ -2,9 +2,24 @@ Title: a::average
 
 ----
 
-Excerpt: 
+Excerpt: Returns the average value of an array
 
 ----
 
-Text:
+Call: a::average($array, $decimals = 0)
 
+----
+
+Return: type: int
+text: The average value
+
+----
+
+Params: - 
+  name: $array
+  type: array
+  text: The source array
+- 
+  name: $decimals
+  type: int
+  text: The number of decimals to return

@@ -1,0 +1,18 @@
+Title: exif::isColor
+
+----
+
+Excerpt: Checks if this is a color picture
+
+----
+
+Call: exif::isColor()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

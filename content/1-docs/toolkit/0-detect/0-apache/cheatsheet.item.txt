@@ -2,9 +2,17 @@ Title: detect::apache
 
 ----
 
-Excerpt: 
+Excerpt: Checks if PHP is running on Apache
 
 ----
 
-Text:
+Call: detect::apache()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

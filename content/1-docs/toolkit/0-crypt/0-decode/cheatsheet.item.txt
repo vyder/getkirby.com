@@ -2,9 +2,30 @@ Title: crypt::decode
 
 ----
 
-Excerpt: 
+Excerpt: Decodes a string
 
 ----
 
-Text:
+Call: crypt::decode($text, $key = null, $mode = 'blowfish')
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $text
+  type: string
+  text:
+- 
+  name: $key
+  type: string
+  text: An optional encryption key
+- 
+  name: $mode
+  type: string
+  text: >
+    Check out the $encryption array for
+    available modes

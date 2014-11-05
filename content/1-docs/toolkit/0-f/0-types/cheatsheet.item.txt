@@ -2,8 +2,17 @@ Title: f::types
 
 ----
 
-Excerpt:
+Excerpt: Returns an array of all available file types
 
 ----
 
-Text:
+Call: f::types()
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

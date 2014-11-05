@@ -1,10 +1,1 @@
-Title: Ppagination
-
-----
-
-Excerpt: 
-
-----
-
-Text: 
-
+Title: pagination

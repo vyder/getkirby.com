@@ -2,8 +2,17 @@ Title: folder::inventory
 
 ----
 
-Excerpt:
+Excerpt: Returns the entire content of the directory
 
 ----
 
-Text:
+Call: folder::inventory()
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

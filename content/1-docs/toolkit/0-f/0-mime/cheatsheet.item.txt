@@ -1,9 +1,21 @@
-Title: f::modified
+Title: f::mime
 
 ----
 
-Excerpt:
+Excerpt: Returns the mime type of a file
 
 ----
 
-Text:
+Call: f::mime($file)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text:

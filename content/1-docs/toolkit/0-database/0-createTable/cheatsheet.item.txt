@@ -2,9 +2,24 @@ Title: database::createTable
 
 ----
 
-Excerpt: 
+Excerpt: Creates a new table
 
 ----
 
-Text:
+Call: database::createTable($table, $columns = array())
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $table
+  type: string
+  text:
+- 
+  name: $columns
+  type: array
+  text:

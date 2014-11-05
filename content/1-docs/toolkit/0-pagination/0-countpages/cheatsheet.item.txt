@@ -1,0 +1,18 @@
+Title: pagination::countPages
+
+----
+
+Excerpt: Returns the total number of pages
+
+----
+
+Call: pagination::countPages()
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

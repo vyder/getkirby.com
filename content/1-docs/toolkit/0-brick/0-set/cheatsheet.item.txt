@@ -1,0 +1,17 @@
+Title: brick::__set
+
+----
+
+Excerpt: 
+
+----
+
+Call: brick::__set($attr, $value)
+
+----
+
+Return: 
+
+----
+
+Params: 

@@ -2,9 +2,17 @@ Title: collection::first
 
 ----
 
-Excerpt: 
+Excerpt: Returns the first element from the array
 
 ----
 
-Text:
+Call: collection::first()
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

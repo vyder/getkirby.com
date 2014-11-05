@@ -2,9 +2,20 @@ Title: s::remove
 
 ----
 
-Excerpt: 
+Excerpt: Removes a value from the session by key
 
 ----
 
-Text: 
+Call: s::remove($key)
 
+----
+
+Return: type: array
+text: The session array without the value
+
+----
+
+Params: - 
+  name: $key
+  type: mixed
+  text: The key to remove by

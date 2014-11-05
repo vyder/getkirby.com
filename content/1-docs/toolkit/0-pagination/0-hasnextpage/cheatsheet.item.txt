@@ -1,0 +1,18 @@
+Title: pagination::hasNextPage
+
+----
+
+Excerpt: Checks if there's a next page
+
+----
+
+Call: pagination::hasNextPage()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

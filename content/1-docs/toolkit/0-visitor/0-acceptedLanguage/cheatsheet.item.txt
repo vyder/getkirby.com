@@ -2,8 +2,17 @@ Title: visitor::acceptedLanguage
 
 ----
 
-Excerpt: 
+Excerpt: Returns the user's accepted language
 
 ----
 
-Text: 
+Call: visitor::acceptedLanguage()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

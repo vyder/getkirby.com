@@ -2,9 +2,27 @@ Title: router::filter
 
 ----
 
-Excerpt: 
+Excerpt: Add a new router filter
 
 ----
 
-Text: 
+Call: router::filter($name, $function)
 
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $name
+  type: string
+  text: >
+    A simple name for the filter, which can
+    be used by routes later
+- 
+  name: $function
+  type: \closure
+  text: >
+    A filter function, which should be
+    called before routes

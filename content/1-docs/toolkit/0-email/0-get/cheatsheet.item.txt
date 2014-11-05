@@ -1,0 +1,17 @@
+Title: email::get
+
+----
+
+Excerpt: 
+
+----
+
+Call: email::get($key, $default = null)
+
+----
+
+Return: 
+
+----
+
+Params: 

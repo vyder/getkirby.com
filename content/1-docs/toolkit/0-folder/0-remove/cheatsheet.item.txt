@@ -2,8 +2,22 @@ Title: folder::remove
 
 ----
 
-Excerpt:
+Excerpt: Alternative for delete
 
 ----
 
-Text:
+Call: folder::remove($keep = false)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $keep
+  type: boolean
+  text: >
+    Set this to true to keep the directory
+    but delete all its content

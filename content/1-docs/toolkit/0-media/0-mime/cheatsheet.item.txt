@@ -2,9 +2,20 @@ Title: media::mime
 
 ----
 
-Excerpt: 
+Excerpt: Returns the mime type of a file
 
 ----
 
-Text:
+Call: media::mime()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text:

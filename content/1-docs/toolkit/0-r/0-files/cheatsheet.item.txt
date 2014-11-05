@@ -2,9 +2,28 @@ Title: r::files
 
 ----
 
-Excerpt: 
+Excerpt: Returns the files array
 
 ----
 
-Text: 
+Call: r::files($key = null, $default = null)
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text: >
+    An optional key to receive only parts of
+    the files array
+- 
+  name: $default
+  type: mixed
+  text: >
+    A default value, which will be returned
+    if nothing can be found for a given key

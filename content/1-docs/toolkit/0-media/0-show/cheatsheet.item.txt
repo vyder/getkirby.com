@@ -2,9 +2,19 @@ Title: media::show
 
 ----
 
-Excerpt: 
+Excerpt: Read and send the file with the correct headers
 
 ----
 
-Text:
+Call: media::show()
 
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text:

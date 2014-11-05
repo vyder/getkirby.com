@@ -2,9 +2,31 @@ Title: r::data
 
 ----
 
-Excerpt: 
+Excerpt: Returns either the entire data array or parts of it
 
 ----
 
-Text: 
+Call: r::data($key = null, $default = null)
 
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text: >
+    An optional key to receive only parts of
+    the data array
+- 
+  name: $default
+  type: mixed
+  text: >
+    A default value, which will be returned
+    if nothing can be found for a given key
+- 
+  name:
+  type: mixed
+  text:

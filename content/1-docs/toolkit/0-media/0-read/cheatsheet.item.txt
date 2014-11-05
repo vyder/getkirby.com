@@ -2,9 +2,20 @@ Title: media::read
 
 ----
 
-Excerpt: 
+Excerpt: Reads the file content and parses it
 
 ----
 
-Text:
+Call: media::read($format = null)
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $format
+  type: string
+  text:

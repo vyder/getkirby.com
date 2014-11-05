@@ -1,0 +1,29 @@
+Title: cache\\driver\\memcached::set
+
+----
+
+Excerpt: Write an item to the cache for a given number of minutes.
+
+----
+
+Call: cache\\driver\\memcached::set($key, $value, $minutes = null)
+
+----
+
+Return: type: void
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:
+- 
+  name: $value
+  type: mixed
+  text:
+- 
+  name: $minutes
+  type: int
+  text:

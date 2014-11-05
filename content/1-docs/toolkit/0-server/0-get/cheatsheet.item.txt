@@ -2,9 +2,28 @@ Title: server::get
 
 ----
 
-Excerpt: 
+Excerpt: Gets a value from the _SERVER array
 
 ----
 
-Text: 
+Call: server::get($key = false, $default = null)
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: mixed
+  text: >
+    The key to look for. Pass false or null
+    to return the entire server array.
+- 
+  name: $default
+  type: mixed
+  text: >
+    Optional default value, which should be
+    returned if no element has been found

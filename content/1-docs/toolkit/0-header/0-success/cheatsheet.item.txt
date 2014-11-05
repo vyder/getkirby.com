@@ -2,8 +2,20 @@ Title: header::success
 
 ----
 
-Excerpt:
+Excerpt: Sends a 200 header
 
 ----
 
-Text:
+Call: header::success($send = true)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $send
+  type: boolean
+  text:

@@ -1,0 +1,21 @@
+Title: yaml::read
+
+----
+
+Excerpt: Reads and parses a yaml file and returns the array
+
+----
+
+Call: yaml::read($file)
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $file
+  type: string
+  text:

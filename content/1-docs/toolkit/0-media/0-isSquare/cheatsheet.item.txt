@@ -2,9 +2,17 @@ Title: media::isSquare
 
 ----
 
-Excerpt: 
+Excerpt: Checks if the dimensions of the asset are square
 
 ----
 
-Text:
+Call: media::isSquare()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

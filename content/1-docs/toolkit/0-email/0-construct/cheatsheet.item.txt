@@ -1,0 +1,17 @@
+Title: email::__construct
+
+----
+
+Excerpt: 
+
+----
+
+Call: email::__construct($data = array())
+
+----
+
+Return: 
+
+----
+
+Params: 

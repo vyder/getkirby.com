@@ -1,0 +1,25 @@
+Title: system::__callStatic
+
+----
+
+Excerpt: Execute a given shell command Alias for System::execute()
+
+----
+
+Call: system::__callStatic($command, $arguments)
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $command
+  type: string
+  text: Name or path of the command
+- 
+  name: $arguments
+  type: string
+  text: Additional arguments

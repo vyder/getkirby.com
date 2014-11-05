@@ -2,9 +2,17 @@ Title: database::lastId
 
 ----
 
-Excerpt: 
+Excerpt: Returns the last id if available
 
 ----
 
-Text:
+Call: database::lastId()
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

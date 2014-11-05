@@ -2,8 +2,17 @@ Title: folder::modified
 
 ----
 
-Excerpt:
+Excerpt: Recursively check when the dir and all subfolders have been modified for the last time.
 
 ----
 
-Text:
+Call: folder::modified($format = null)
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

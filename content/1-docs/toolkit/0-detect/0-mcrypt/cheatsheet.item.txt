@@ -1,0 +1,18 @@
+Title: detect::mcrypt
+
+----
+
+Excerpt: Check if the mcrypt extension is installed
+
+----
+
+Call: detect::mcrypt()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

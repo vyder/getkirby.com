@@ -2,9 +2,17 @@ Title: dimensions::ratio
 
 ----
 
-Excerpt: 
+Excerpt: Calculates and returns the ratio
 
 ----
 
-Text:
+Call: dimensions::ratio()
 
+----
+
+Return: type: float
+text:
+
+----
+
+Params: 

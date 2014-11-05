@@ -2,9 +2,16 @@ Title: s::restart
 
 ----
 
-Excerpt: 
+Excerpt: Destroys a session first and then starts it again
 
 ----
 
-Text: 
+Call: s::restart()
 
+----
+
+Return: 
+
+----
+
+Params: 

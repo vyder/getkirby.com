@@ -1,0 +1,17 @@
+Title: database::__call
+
+----
+
+Excerpt: Magic way to start queries for tables by using a method named like the table.
+
+----
+
+Call: database::__call($method, $arguments = null)
+
+----
+
+Return: 
+
+----
+
+Params: 

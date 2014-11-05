@@ -1,0 +1,25 @@
+Title: cache\\driver::get
+
+----
+
+Excerpt: Get an item from the cache.
+
+----
+
+Call: cache\\driver::get($key, $default = null)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:
+- 
+  name: $default
+  type: mixed
+  text:

@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: brick::isVoid()
 
+----
+
+Return: 
+
+----
+
+Params: 

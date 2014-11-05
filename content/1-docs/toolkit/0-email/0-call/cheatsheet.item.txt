@@ -1,0 +1,17 @@
+Title: email::__call
+
+----
+
+Excerpt: 
+
+----
+
+Call: email::__call($method, $arguments)
+
+----
+
+Return: 
+
+----
+
+Params: 

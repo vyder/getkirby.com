@@ -2,8 +2,17 @@ Title: html::shiv
 
 ----
 
-Excerpt:
+Excerpt: Generates a HTML5 shiv script tag with additional comments for older IEs
 
 ----
 
-Text:
+Call: html::shiv()
+
+----
+
+Return: type: string
+text: the generated html
+
+----
+
+Params: 

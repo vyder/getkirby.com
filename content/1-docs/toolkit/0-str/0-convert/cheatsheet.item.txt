@@ -2,9 +2,28 @@ Title: str::convert
 
 ----
 
-Excerpt: 
+Excerpt: Converts a string to a different encoding
 
 ----
 
-Text:
+Call: str::convert($string, $targetEncoding, $sourceEncoding = null)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:
+- 
+  name: $targetEncoding
+  type: string
+  text:
+- 
+  name: $sourceEncoding
+  type: string
+  text: (optional)

@@ -2,8 +2,17 @@ Title: visitor::referrer
 
 ----
 
-Excerpt: 
+Excerpt: Returns the referrer if available
 
 ----
 
-Text: 
+Call: visitor::referrer()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

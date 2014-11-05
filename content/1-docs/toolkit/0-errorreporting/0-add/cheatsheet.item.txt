@@ -2,9 +2,20 @@ Title: errorreporting::add
 
 ----
 
-Excerpt: 
+Excerpt: Adds a level to the current error reporting
 
 ----
 
-Text:
+Call: errorreporting::add($level)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $level
+  type: int
+  text: The level to add

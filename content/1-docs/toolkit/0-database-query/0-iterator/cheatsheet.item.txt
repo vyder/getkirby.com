@@ -1,10 +1,21 @@
-Title: query::iterator
+Title: database\\query::iterator
 
 ----
 
-Excerpt: 
+Excerpt: Sets the iterator class, which should be used for multiple results Set this to array to get a simple array instead of an iterator object
 
 ----
 
-Text:
+Call: database\\query::iterator($iterator)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $iterator
+  type: string
+  text:

@@ -2,9 +2,17 @@ Title: r::body
 
 ----
 
-Excerpt: 
+Excerpt: Returns the request body from POST requests for example
 
 ----
 
-Text: 
+Call: r::body()
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

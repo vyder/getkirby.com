@@ -2,9 +2,20 @@ Title: media::is
 
 ----
 
-Excerpt: 
+Excerpt: Checks if a file is of a certain type
 
 ----
 
-Text:
+Call: media::is($value)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $value
+  type: string
+  text: An extension or mime type

@@ -2,9 +2,17 @@ Title: collection::toJson
 
 ----
 
-Excerpt: 
+Excerpt: Converts the current object into a json string
 
 ----
 
-Text:
+Call: collection::toJson()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

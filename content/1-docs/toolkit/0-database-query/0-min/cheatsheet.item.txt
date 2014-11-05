@@ -1,10 +1,21 @@
-Title: query::min
+Title: database\\query::min
 
 ----
 
-Excerpt: 
+Excerpt: Builds a min query
 
 ----
 
-Text:
+Call: database\\query::min($column)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $column
+  type: string
+  text:

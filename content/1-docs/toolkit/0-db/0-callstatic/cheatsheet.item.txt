@@ -1,0 +1,25 @@
+Title: db::__callStatic
+
+----
+
+Excerpt: Magic calls for other static db methods, which are redircted to the database class if available
+
+----
+
+Call: db::__callStatic($method, $arguments)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $method
+  type: string
+  text:
+- 
+  name: $arguments
+  type: mixed
+  text:

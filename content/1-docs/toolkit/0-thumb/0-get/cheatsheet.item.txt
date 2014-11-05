@@ -1,0 +1,17 @@
+Title: thumb::get
+
+----
+
+Excerpt: 
+
+----
+
+Call: thumb::get($key, $default = null)
+
+----
+
+Return: 
+
+----
+
+Params: 

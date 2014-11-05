@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: brick::removeAttr($key)
 
+----
+
+Return: 
+
+----
+
+Params: 

@@ -1,9 +1,0 @@
-Title: i::__construct
-
-----
-
-Excerpt:
-
-----
-
-Text:

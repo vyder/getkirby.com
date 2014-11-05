@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: l::set($key, $value = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

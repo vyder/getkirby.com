@@ -1,10 +1,23 @@
-Title: query::bindings
+Title: database\\query::bindings
 
 ----
 
-Excerpt: 
+Excerpt: Attaches additional bindings to the query.
 
 ----
 
-Text:
+Call: database\\query::bindings($bindings = null)
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $bindings
+  type: mixed
+  text: >
+    Array of bindings or null to use this
+    method as getter

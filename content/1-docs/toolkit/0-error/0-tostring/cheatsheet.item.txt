@@ -1,0 +1,17 @@
+Title: error::__toString
+
+----
+
+Excerpt: 
+
+----
+
+Call: error::__toString()
+
+----
+
+Return: 
+
+----
+
+Params: 

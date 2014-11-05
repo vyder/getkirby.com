@@ -2,19 +2,17 @@ Title: exif::location
 
 ----
 
-Excerpt:
-
-Returns the $location object for the image if the image has GPS data.
+Excerpt: Returns the location object
 
 ----
 
-Text:
+Call: exif::location()
 
-```php
-$location = $page->image()->location();
+----
 
-echo $location->lat();
-echo $location->lng();
+Return: type: object
+text: ExifLocation
 
-```
+----
 
+Params: 

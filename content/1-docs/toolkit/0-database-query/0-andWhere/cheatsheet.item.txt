@@ -1,10 +1,21 @@
-Title: query::andWhere
+Title: database\\query::andWhere
 
 ----
 
-Excerpt: 
+Excerpt: Shortcut to attach a where clause with an AND operator.
 
 ----
 
-Text:
+Call: database\\query::andWhere()
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name:
+  type: \list
+  text:

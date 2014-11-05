@@ -2,8 +2,17 @@ Title: folder::isReadable
 
 ----
 
-Excerpt:
+Excerpt: Checks if the directory is readable
 
 ----
 
-Text:
+Call: folder::isReadable()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

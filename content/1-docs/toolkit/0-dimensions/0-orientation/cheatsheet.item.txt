@@ -2,9 +2,17 @@ Title: dimensions::orientation
 
 ----
 
-Excerpt: 
+Excerpt: Returns a string representation of the orientation
 
 ----
 
-Text:
+Call: dimensions::orientation()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

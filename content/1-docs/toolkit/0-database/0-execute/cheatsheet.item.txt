@@ -2,9 +2,24 @@ Title: database::execute
 
 ----
 
-Excerpt: 
+Excerpt: Executes a sql query, which is expected to not return a set of results
 
 ----
 
-Text:
+Call: database::execute($query, $bindings = array())
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $query
+  type: string
+  text:
+- 
+  name: $bindings
+  type: array
+  text:

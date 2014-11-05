@@ -1,0 +1,21 @@
+Title: yaml::encode
+
+----
+
+Excerpt: Creates a new yaml string from an array
+
+----
+
+Call: yaml::encode($array)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $array
+  type: array
+  text:

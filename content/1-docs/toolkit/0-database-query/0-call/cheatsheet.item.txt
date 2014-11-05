@@ -1,0 +1,25 @@
+Title: database\\query::__call
+
+----
+
+Excerpt: Enables magic queries like findByUsername or findByEmail
+
+----
+
+Call: database\\query::__call($method, $arguments)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $method
+  type: string
+  text:
+- 
+  name: $arguments
+  type: array
+  text:

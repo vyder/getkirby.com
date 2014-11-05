@@ -2,9 +2,28 @@ Title: dimensions::fitHeight
 
 ----
 
-Excerpt: 
+Excerpt: Recalculates the width and height to fit the given height
 
 ----
 
-Text:
+Call: dimensions::fitHeight($fit, $force = false)
 
+----
+
+Return: type: object
+text: >
+  returns this object with recalculated
+  dimensions
+
+----
+
+Params: - 
+  name: $height
+  type: int
+  text: the max height
+- 
+  name: $force
+  type: boolean
+  text: >
+    If true, the dimensions will be upscaled
+    to fit the height if smaller

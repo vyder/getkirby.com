@@ -2,9 +2,20 @@ Title: media::copy
 
 ----
 
-Excerpt: 
+Excerpt: Copies the file to a new location
 
 ----
 
-Text:
+Call: media::copy($to)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $to
+  type: string
+  text:

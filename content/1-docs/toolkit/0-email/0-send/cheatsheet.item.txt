@@ -2,9 +2,20 @@ Title: email::send
 
 ----
 
-Excerpt: 
+Excerpt: Sends the constructed email
 
 ----
 
-Text:
+Call: email::send($params = null)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $params
+  type: array
+  text: Optional way to set values for the email

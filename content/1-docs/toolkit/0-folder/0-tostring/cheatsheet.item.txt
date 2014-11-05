@@ -1,0 +1,18 @@
+Title: folder::__toString
+
+----
+
+Excerpt: Makes it possible to echo the entire object
+
+----
+
+Call: folder::__toString()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

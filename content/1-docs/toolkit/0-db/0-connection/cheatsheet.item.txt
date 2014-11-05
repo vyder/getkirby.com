@@ -2,9 +2,17 @@ Title: db::connection
 
 ----
 
-Excerpt: 
+Excerpt: Returns the current database connection
 
 ----
 
-Text:
+Call: db::connection()
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: 

@@ -2,9 +2,17 @@ Title: url::port
 
 ----
 
-Excerpt: 
+Excerpt: Returns the port for the given url
 
 ----
 
-Text:
+Call: url::port($url = null)
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

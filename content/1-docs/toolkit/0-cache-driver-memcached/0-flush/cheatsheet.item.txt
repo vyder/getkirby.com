@@ -1,0 +1,18 @@
+Title: cache\\driver\\memcached::flush
+
+----
+
+Excerpt: Flush the entire cache directory
+
+----
+
+Call: cache\\driver\\memcached::flush()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

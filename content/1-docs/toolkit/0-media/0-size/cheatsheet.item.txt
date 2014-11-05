@@ -2,9 +2,17 @@ Title: media::size
 
 ----
 
-Excerpt: 
+Excerpt: Returns the file size as integer
 
 ----
 
-Text:
+Call: media::size()
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

@@ -1,10 +1,27 @@
-Title: query::rightJoin
+Title: database\\query::rightJoin
 
 ----
 
-Excerpt: 
+Excerpt: Shortcut for creating a right join clause
 
 ----
 
-Text:
+Call: database\\query::rightJoin($table, $on)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $table
+  type: string
+  text: >
+    Name of the table, which should be
+    joined
+- 
+  name: $on
+  type: string
+  text: The on clause for this join

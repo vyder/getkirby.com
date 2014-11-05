@@ -2,9 +2,17 @@ Title: r::postData
 
 ----
 
-Excerpt: 
+Excerpt: Only returns post data
 
 ----
 
-Text: 
+Call: r::postData($key = null, $default = null)
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

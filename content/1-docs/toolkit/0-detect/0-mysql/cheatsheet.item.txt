@@ -2,9 +2,20 @@ Title: detect::mysql
 
 ----
 
-Excerpt: 
+Excerpt: Checks if mysql installed with the minimum required version
 
 ----
 
-Text:
+Call: detect::mysql($min = '5')
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $min
+  type: mixed
+  text:

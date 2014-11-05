@@ -2,9 +2,17 @@ Title: database::lastResult
 
 ----
 
-Excerpt: 
+Excerpt: Returns the last set of results
 
 ----
 
-Text:
+Call: database::lastResult()
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

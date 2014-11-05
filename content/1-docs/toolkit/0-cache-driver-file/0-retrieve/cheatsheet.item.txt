@@ -1,0 +1,21 @@
+Title: cache\\driver\\file::retrieve
+
+----
+
+Excerpt: Retrieve an item from the cache.
+
+----
+
+Call: cache\\driver\\file::retrieve($key)
+
+----
+
+Return: type: object
+text: CacheValue
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

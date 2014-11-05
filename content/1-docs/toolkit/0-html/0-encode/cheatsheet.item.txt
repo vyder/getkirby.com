@@ -2,8 +2,24 @@ Title: html::encode
 
 ----
 
-Excerpt:
+Excerpt: Converts a string to a html-safe string
 
 ----
 
-Text:
+Call: html::encode($string, $keepTags = true)
+
+----
+
+Return: type: string
+text: The html string
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:
+- 
+  name: $keepTags
+  type: boolean
+  text: 'True: lets stuff inside html tags untouched.'

@@ -1,0 +1,18 @@
+Title: exif::isBW
+
+----
+
+Excerpt: Checks if this is a bw picture
+
+----
+
+Call: exif::isBW()
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

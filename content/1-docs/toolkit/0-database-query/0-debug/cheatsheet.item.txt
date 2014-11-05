@@ -1,10 +1,21 @@
-Title: query::debug
+Title: database\\query::debug
 
 ----
 
-Excerpt: 
+Excerpt: Enables query debugging.
 
 ----
 
-Text:
+Call: database\\query::debug($debug = true)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $debug
+  type: boolean
+  text:

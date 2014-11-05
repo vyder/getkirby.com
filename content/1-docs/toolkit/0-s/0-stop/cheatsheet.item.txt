@@ -2,9 +2,16 @@ Title: s::stop
 
 ----
 
-Excerpt: 
+Excerpt: Alternative for s::destroy()
 
 ----
 
-Text: 
+Call: s::stop()
 
+----
+
+Return: 
+
+----
+
+Params: 

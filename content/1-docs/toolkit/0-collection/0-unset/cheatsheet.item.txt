@@ -1,0 +1,20 @@
+Title: collection::__unset
+
+----
+
+Excerpt: Removes an element from the array by key
+
+----
+
+Call: collection::__unset($key)
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text: the name of the key

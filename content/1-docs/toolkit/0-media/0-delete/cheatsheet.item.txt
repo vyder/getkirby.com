@@ -2,9 +2,17 @@ Title: media::delete
 
 ----
 
-Excerpt: 
+Excerpt: Deletes the file
 
 ----
 
-Text:
+Call: media::delete()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

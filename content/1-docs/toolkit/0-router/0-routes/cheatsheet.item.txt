@@ -2,9 +2,20 @@ Title: router::routes
 
 ----
 
-Excerpt: 
+Excerpt: Returns all added routes
 
 ----
 
-Text: 
+Call: router::routes($method = null)
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $method
+  type: string
+  text:

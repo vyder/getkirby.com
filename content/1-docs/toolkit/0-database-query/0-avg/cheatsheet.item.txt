@@ -1,10 +1,21 @@
-Title: query::avg
+Title: database\\query::avg
 
 ----
 
-Excerpt: 
+Excerpt: Builds an average query
 
 ----
 
-Text:
+Call: database\\query::avg($column)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $column
+  type: string
+  text:

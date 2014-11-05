@@ -2,9 +2,20 @@ Title: media::content
 
 ----
 
-Excerpt: 
+Excerpt: Setter and getter for the file content
 
 ----
 
-Text:
+Call: media::content($content = null, $format = null)
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $content
+  type: string
+  text:

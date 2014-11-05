@@ -2,9 +2,22 @@ Title: sql::insert
 
 ----
 
-Excerpt: 
+Excerpt: Builds an insert clause
 
 ----
 
-Text:
+Call: sql::insert($params = array())
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $params
+  type: array
+  text: >
+    List of parameters for the insert
+    clause. See defaults for more info

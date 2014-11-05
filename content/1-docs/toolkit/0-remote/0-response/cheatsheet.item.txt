@@ -2,9 +2,17 @@ Title: remote::response
 
 ----
 
-Excerpt: 
+Excerpt: Returns the response object for the current request
 
 ----
 
-Text: 
+Call: remote::response()
 
+----
+
+Return: type: object
+text: Response
+
+----
+
+Params: 

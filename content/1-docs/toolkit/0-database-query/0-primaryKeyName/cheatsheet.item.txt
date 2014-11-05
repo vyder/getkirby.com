@@ -1,10 +1,21 @@
-Title: query::primaryKeyName
+Title: database\\query::primaryKeyName
 
 ----
 
-Excerpt: 
+Excerpt: Sets the name of the primary key column
 
 ----
 
-Text:
+Call: database\\query::primaryKeyName($primaryKeyName)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $primaryKeyName
+  type: string
+  text:

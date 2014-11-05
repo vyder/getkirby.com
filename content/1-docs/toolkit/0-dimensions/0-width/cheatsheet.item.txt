@@ -2,9 +2,17 @@ Title: dimensions::width
 
 ----
 
-Excerpt: 
+Excerpt: Returns the width
 
 ----
 
-Text:
+Call: dimensions::width()
 
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

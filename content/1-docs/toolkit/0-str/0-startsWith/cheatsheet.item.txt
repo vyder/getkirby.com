@@ -2,9 +2,24 @@ Title: str::startsWith
 
 ----
 
-Excerpt: 
+Excerpt: Checks if a string starts with the passed needle
 
 ----
 
-Text:
+Call: str::startsWith($string, $needle)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:
+- 
+  name: $needle
+  type: string
+  text:

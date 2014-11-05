@@ -2,9 +2,17 @@ Title: media::root
 
 ----
 
-Excerpt: 
+Excerpt: Returns the full root of the asset
 
 ----
 
-Text:
+Call: media::root()
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

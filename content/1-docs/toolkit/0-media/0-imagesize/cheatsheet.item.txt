@@ -2,9 +2,17 @@ Title: media::imagesize
 
 ----
 
-Excerpt: 
+Excerpt: Returns the PHP imagesize array
 
 ----
 
-Text:
+Call: media::imagesize()
 
+----
+
+Return: type: array
+text:
+
+----
+
+Params: 

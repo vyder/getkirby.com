@@ -1,0 +1,21 @@
+Title: cache\\driver\\mock::exists
+
+----
+
+Excerpt: Checks if the current key exists in cache
+
+----
+
+Call: cache\\driver\\mock::exists($key)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

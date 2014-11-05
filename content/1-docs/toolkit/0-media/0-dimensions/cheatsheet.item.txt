@@ -2,9 +2,17 @@ Title: media::dimensions
 
 ----
 
-Excerpt: 
+Excerpt: Returns the dimensions of the file if possible
 
 ----
 
-Text:
+Call: media::dimensions()
 
+----
+
+Return: type: \Dimensions
+text:
+
+----
+
+Params: 

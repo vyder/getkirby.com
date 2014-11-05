@@ -1,0 +1,20 @@
+Title: exif\\location::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: exif\\location::__construct($exif)
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $exif
+  type: array
+  text: The entire exif array

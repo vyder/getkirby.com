@@ -1,10 +1,1 @@
-Title: Detect
-
-----
-
-Excerpt: 
-
-----
-
-Text: 
-
+Title: detect

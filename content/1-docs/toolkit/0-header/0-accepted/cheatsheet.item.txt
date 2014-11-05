@@ -2,8 +2,20 @@ Title: header::accepted
 
 ----
 
-Excerpt:
+Excerpt: Sends a 202 header
 
 ----
 
-Text:
+Call: header::accepted($send = true)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $send
+  type: boolean
+  text:

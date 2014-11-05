@@ -1,10 +1,21 @@
-Title: query::max
+Title: database\\query::max
 
 ----
 
-Excerpt: 
+Excerpt: Builds a max query
 
 ----
 
-Text:
+Call: database\\query::max($column)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $column
+  type: string
+  text:

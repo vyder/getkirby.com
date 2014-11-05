@@ -2,9 +2,20 @@ Title: str::random
 
 ----
 
-Excerpt: 
+Excerpt: Generates a random string
 
 ----
 
-Text:
+Call: str::random($length = false, $type = 'alphaNum')
 
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $length
+  type: int
+  text: The length of the random string

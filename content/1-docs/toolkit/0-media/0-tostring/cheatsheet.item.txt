@@ -1,0 +1,18 @@
+Title: media::__toString
+
+----
+
+Excerpt: Returns a full link to this file Perfect for debugging in connection with echo
+
+----
+
+Call: media::__toString()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

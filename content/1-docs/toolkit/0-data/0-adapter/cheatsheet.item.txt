@@ -1,0 +1,17 @@
+Title: data::adapter
+
+----
+
+Excerpt: 
+
+----
+
+Call: data::adapter($type)
+
+----
+
+Return: 
+
+----
+
+Params: 

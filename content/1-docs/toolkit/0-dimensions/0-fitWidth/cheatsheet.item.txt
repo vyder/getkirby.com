@@ -2,9 +2,28 @@ Title: dimensions::fitWidth
 
 ----
 
-Excerpt: 
+Excerpt: Recalculates the width and height to fit the given width
 
 ----
 
-Text:
+Call: dimensions::fitWidth($fit, $force = false)
 
+----
+
+Return: type: object
+text: >
+  returns this object with recalculated
+  dimensions
+
+----
+
+Params: - 
+  name: $width
+  type: int
+  text: the max width
+- 
+  name: $force
+  type: boolean
+  text: >
+    If true, the dimensions will be upscaled
+    to fit the width if smaller

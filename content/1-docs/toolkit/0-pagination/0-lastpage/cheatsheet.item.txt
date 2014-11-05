@@ -1,0 +1,18 @@
+Title: pagination::lastPage
+
+----
+
+Excerpt: Returns the number of the last page
+
+----
+
+Call: pagination::lastPage()
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

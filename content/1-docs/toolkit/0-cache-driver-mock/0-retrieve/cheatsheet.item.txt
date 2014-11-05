@@ -1,0 +1,25 @@
+Title: cache\\driver\\mock::retrieve
+
+----
+
+Excerpt: Get an item from the cache.
+
+----
+
+Call: cache\\driver\\mock::retrieve($key)
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:
+- 
+  name: $default
+  type: mixed
+  text:

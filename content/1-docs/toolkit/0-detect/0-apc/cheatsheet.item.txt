@@ -2,9 +2,17 @@ Title: detect::apc
 
 ----
 
-Excerpt: 
+Excerpt: Check if APC cache is installed
 
 ----
 
-Text:
+Call: detect::apc()
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: 

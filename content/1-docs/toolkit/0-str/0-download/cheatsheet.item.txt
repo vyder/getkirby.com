@@ -2,9 +2,23 @@ Title: str::download
 
 ----
 
-Excerpt: 
+Excerpt: Forces a download of the string as text file
 
 ----
 
-Text:
+Call: str::download($string, $name = null)
 
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:
+- 
+  name: $name
+  type: string
+  text: Optional name for the downloaded file

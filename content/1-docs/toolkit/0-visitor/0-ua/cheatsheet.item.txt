@@ -2,8 +2,17 @@ Title: visitor::ua
 
 ----
 
-Excerpt: 
+Excerpt: Returns the user agent string of the current visitor
 
 ----
 
-Text: 
+Call: visitor::ua()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

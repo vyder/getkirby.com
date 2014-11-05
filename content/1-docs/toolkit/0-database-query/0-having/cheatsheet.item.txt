@@ -1,10 +1,21 @@
-Title: query::having
+Title: database\\query::having
 
 ----
 
-Excerpt: 
+Excerpt: Attaches a having clause
 
 ----
 
-Text:
+Call: database\\query::having($having)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $having
+  type: string
+  text:

@@ -2,9 +2,22 @@ Title: collection::groupBy
 
 ----
 
-Excerpt: 
+Excerpt: Groups the collection by a given field
 
 ----
 
-Text:
+Call: collection::groupBy($field, $i = true)
 
+----
+
+Return: type: object
+text: >
+  A new collection with an item for each
+  group and a subcollection in each group
+
+----
+
+Params: - 
+  name: $field
+  type: string
+  text:

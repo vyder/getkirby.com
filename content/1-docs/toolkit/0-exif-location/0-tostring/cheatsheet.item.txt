@@ -1,0 +1,18 @@
+Title: exif\\location::__toString
+
+----
+
+Excerpt: Echos the entire location as lat, lng
+
+----
+
+Call: exif\\location::__toString()
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: 

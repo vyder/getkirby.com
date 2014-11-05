@@ -2,8 +2,20 @@ Title: xml::decode
 
 ----
 
-Excerpt: 
+Excerpt: Removes all xml entities from a string and convert them to html entities first and remove all html entities afterwards.
 
 ----
 
-Text: 
+Call: xml::decode($string)
+
+----
+
+Return: type: string
+text:
+
+----
+
+Params: - 
+  name: $string
+  type: string
+  text:

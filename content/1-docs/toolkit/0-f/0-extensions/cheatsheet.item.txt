@@ -2,8 +2,20 @@ Title: f::extensions
 
 ----
 
-Excerpt:
+Excerpt: Returns all extensions for a certain file type
 
 ----
 
-Text:
+Call: f::extensions($type = null)
+
+----
+
+Return: type: array
+text:
+
+----
+
+Params: - 
+  name: $type
+  type: string
+  text:

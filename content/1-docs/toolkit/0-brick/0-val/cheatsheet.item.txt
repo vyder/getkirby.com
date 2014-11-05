@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: brick::val($value = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

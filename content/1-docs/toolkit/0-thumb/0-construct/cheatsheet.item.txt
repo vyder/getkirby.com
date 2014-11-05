@@ -1,0 +1,24 @@
+Title: thumb::__construct
+
+----
+
+Excerpt: Constructor
+
+----
+
+Call: thumb::__construct($source, $params = array())
+
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $source
+  type: mixed
+  text:
+- 
+  name: $params
+  type: array
+  text:

@@ -2,9 +2,17 @@ Title: router::route
 
 ----
 
-Excerpt: 
+Excerpt: Returns the found route
 
 ----
 
-Text: 
+Call: router::route()
 
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

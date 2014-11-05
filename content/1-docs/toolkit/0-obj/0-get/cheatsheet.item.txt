@@ -6,5 +6,12 @@ Excerpt:
 
 ----
 
-Text:
+Call: obj::get($key, $default = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

@@ -2,8 +2,17 @@ Title: i::prev
 
 ----
 
-Excerpt:
+Excerpt: Moves the cursor to the previous element in the array and returns it
 
 ----
 
-Text:
+Call: i::prev()
+
+----
+
+Return: type: mixed
+text:
+
+----
+
+Params: 

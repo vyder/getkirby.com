@@ -1,0 +1,17 @@
+Title: error::getCode
+
+----
+
+Excerpt: 
+
+----
+
+Call: error::getCode()
+
+----
+
+Return: 
+
+----
+
+Params: 

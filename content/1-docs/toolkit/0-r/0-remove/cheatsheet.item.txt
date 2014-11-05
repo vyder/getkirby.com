@@ -2,9 +2,19 @@ Title: r::remove
 
 ----
 
-Excerpt: 
+Excerpt: Removes a variable from the request array
 
 ----
 
-Text: 
+Call: r::remove($key)
 
+----
+
+Return: 
+
+----
+
+Params: - 
+  name: $key
+  type: string
+  text:

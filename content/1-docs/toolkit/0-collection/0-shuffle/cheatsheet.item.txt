@@ -2,9 +2,17 @@ Title: collection::shuffle
 
 ----
 
-Excerpt: 
+Excerpt: Shuffle all elements in the array
 
 ----
 
-Text:
+Call: collection::shuffle()
 
+----
+
+Return: type: object
+text: a new shuffled collection
+
+----
+
+Params: 

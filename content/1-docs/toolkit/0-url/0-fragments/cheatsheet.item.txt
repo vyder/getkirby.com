@@ -2,9 +2,16 @@ Title: url::fragments
 
 ----
 
-Excerpt: 
+Excerpt: Returns the path without params
 
 ----
 
-Text:
+Call: url::fragments($url = null)
 
+----
+
+Return: 
+
+----
+
+Params: 

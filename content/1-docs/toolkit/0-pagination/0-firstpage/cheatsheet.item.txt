@@ -1,0 +1,18 @@
+Title: pagination::firstPage
+
+----
+
+Excerpt: Returns the number of the first page
+
+----
+
+Call: pagination::firstPage()
+
+----
+
+Return: type: int
+text:
+
+----
+
+Params: 

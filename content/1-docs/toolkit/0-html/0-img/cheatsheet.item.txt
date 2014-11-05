@@ -2,8 +2,24 @@ Title: html::img
 
 ----
 
-Excerpt:
+Excerpt: Generates an img tag
 
 ----
 
-Text:
+Call: html::img($src, $attr = array())
+
+----
+
+Return: type: string
+text: the generated html
+
+----
+
+Params: - 
+  name: $src
+  type: string
+  text: The url of the image
+- 
+  name: $attr
+  type: array
+  text: Additional attributes for the image tag

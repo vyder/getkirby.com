@@ -2,8 +2,20 @@ Title: folder::create
 
 ----
 
-Excerpt:
+Excerpt: Alternative for make
 
 ----
 
-Text:
+Call: folder::create($recursive = true)
+
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $recursive
+  type: boolean
+  text:

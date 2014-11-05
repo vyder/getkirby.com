@@ -2,9 +2,20 @@ Title: media::append
 
 ----
 
-Excerpt: 
+Excerpt: Appends the content and saves the file
 
 ----
 
-Text:
+Call: media::append($content)
 
+----
+
+Return: type: boolean
+text:
+
+----
+
+Params: - 
+  name: $content
+  type: string
+  text:

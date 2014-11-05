@@ -1,10 +1,21 @@
-Title: query::fail
+Title: database\\query::fail
 
 ----
 
-Excerpt: 
+Excerpt: Enables failing queries.
 
 ----
 
-Text:
+Call: database\\query::fail($fail = true)
 
+----
+
+Return: type: object
+text:
+
+----
+
+Params: - 
+  name: $fail
+  type: boolean
+  text:

@@ -33,7 +33,7 @@ pages:
 
 ```
 …
-pages: project
+pages: 
   template:
     - project
     - article

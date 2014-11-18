@@ -38,6 +38,14 @@
               Please follow the <a href="/docs/installation/upgrade">upgrade guide</a> for your Kirby 1 installation.
             </p>
           </div>
+
+          <h2 class="beta">Kirby 2 Professional Upgrade</h2>
+          <div class="text">
+            <p>
+              Owners of a Kirby 2 personal license can <strong><a href="http://sites.fastspring.com/openwe/product/kirby2-professional-upgrade">upgrade to a professional license</a></strong> at any time.
+            </p>
+          </div>
+            
         </div>
         <div class="col-3-6 last">
           <h2 class="beta">Voluntary upgrade packages</h2>

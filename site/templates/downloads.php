@@ -42,15 +42,15 @@
   <section class="section grid">
     <ul class="list-2">
       <li>
-        <h2 class="beta">Code snippets &amp; examples</h2>
+        <h2 class="beta">Kirby Themes</h2>
         <div class="text">
-          If you are looking for code snippets and tutorials how to build all kinds of solutions with Kirby, please <a href="/docs/solutions"><strong>check out the new docs</strong></a>.
+          <a href="http://getkirby-themes.com/"><strong>getkirby-themes.com</strong></a> is a third-party platform for all available commercial and free Kirby themes. 
         </div>
       </li><!--
    --><li>
-        <h2 class="beta">More Kirby 2 plugins…</h2>
+        <h2 class="beta">Code snippets &amp; examples</h2>
         <div class="text">
-          Please come back soon for more brand new Kirby 2 plugins and extensions.
+          If you are looking for code snippets and tutorials how to build all kinds of solutions with Kirby, please <a href="/docs/solutions"><strong>check out the new docs</strong></a>.
         </div>
       </li>
     </ul>

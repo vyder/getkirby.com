@@ -1,0 +1,7 @@
+Title: Toolkit API
+
+----
+
+Description: An overview of all classes and helpers available in Kirby's toolkit.
+
+----

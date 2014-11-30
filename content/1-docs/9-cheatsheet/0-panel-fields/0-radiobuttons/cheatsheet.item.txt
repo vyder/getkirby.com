@@ -90,8 +90,8 @@ fields:
     query: 
       page: downloads
       fetch: files
-      value: {{filename}}
-      text: {{filename}}
+      value: '{{filename}}'
+      text: '{{filename}}'
       flip: true
 ```
 

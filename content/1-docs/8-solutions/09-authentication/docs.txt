@@ -194,7 +194,7 @@ Once the login and logout process is covered, the rest is really easy:
 Entire pages can be protected from unauthenticated users by simply adding the following line to the top of a template: 
 
 ```php
-<?php if(!$site()->user()) go('/') ?>
+<?php if(!$site->user()) go('/') ?>
 
 // rest of the template
 

@@ -1,9 +1,9 @@
 <?php snippet('header') ?>
 
 <main class="main" role="main">
-  <article class="grid">
+  <article class="article grid">
 
-    <header>
+    <header class="article-header">
       <h1 class="alpha"><?php echo widont(kirbytext($page->title(), false)) ?></h1>
 
       <time class="article-date" datetime="<?php echo $page->date('c') ?>">
@@ -15,15 +15,18 @@
     <div class="article-body col-4-6">
 
       <div class="text">
-        <h2 class="beta">Hey there!</h2>
+        <h2>Hey there!</h2>
         <p>The content of this article has been reworked and moved to the docs.</p>
       </div>
 
       <a class="btn" href="<?php echo url() ?>/<?php echo $page->movedto() ?>">Show me the docs</a>
 
-      <?php if(!c::get('local')): ?>
-      <?php snippet('disqus', array('disqus_shortname' => 'getkirby', 'disqus_developer' => false)) ?>
+      <?php if(server::get('SERVER_NAME') == 'getkirby.com'): ?>
+      <section class="disqus">
+      <?php echo disqus('getkirby') ?>
+      </section>
       <?php endif ?>
+
 
     </div>
 

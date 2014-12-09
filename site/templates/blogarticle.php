@@ -1,9 +1,9 @@
 <?php snippet('header') ?>
 
 <main class="main" role="main">
-  <article class="grid">
+  <article class="article grid">
 
-    <header>
+    <header class="article-header">
       <h1 class="alpha"><?php echo $page->title() ?></h1>
 
       <time class="article-date" datetime="<?php echo $page->date('c') ?>">

@@ -15,5 +15,5 @@ Text:
 ## Example
 
 ```php
-<?php echo $page->file()->extension();
+<?php echo $page->file()->filename();
 ```

@@ -144,7 +144,6 @@ email::$services['yourservice'] = function($email) {
 Error handling in adaptors is super simple. Just throw a new Error like this: (An Error is an extended Exception)
 
 ```php
-```php
 email::$services['yourservice'] = function($email) {
   
   …

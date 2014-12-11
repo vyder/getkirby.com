@@ -10,7 +10,7 @@ Text:
 
 (toc)
 
-Piwik is an awesome open source software for self-hosted web analytics. It's totally free, highly customizable and quite straightforward to install on your own server. Learn more about it and check out the (link: http://piwik.org text: website)!
+Piwik is an awesome open source software for self-hosted web analytics. It’s totally free, highly customizable and quite straightforward to install on your own server. Learn more about it and check out the (link: http://piwik.org text: website)!
 
 ## Simple integration
 
@@ -18,7 +18,7 @@ The easiest and most common way to integrate the tracking code for stats with Pi
 
 ```php
 <footer class="colophon">
-    <p><?php echo $site->author() ?></p>
+  <p><?php echo $site->author() ?></p>
 </footer>
 
 <!-- Piwik -->
@@ -39,16 +39,16 @@ The easiest and most common way to integrate the tracking code for stats with Pi
 
 </body>
 </html>
-
 ```
-You'll have to replace `stats.getkirby.com` with the URL your Piwik installation is running on and make sure you're using the correct site ID, of course.
 
-That's it. You're done.
+You’ll have to replace `stats.getkirby.com` with the URL your Piwik installation is running on and make sure you’re using the correct site ID, of course.
+
+That’s it. You’re done.
 
 
 ## Integration via snippet
 
-As you might know by now, it's very easy to create (link: docs/learn/templates/snippets text: snippets) with Kirby and reuse them wherever you want to in your templates. We can do the same with the Piwik tracking code.
+As you might know by now, it’s very easy to create (link: docs/learn/templates/snippets text: snippets) with Kirby and reuse them wherever you want to in your templates. We can do the same with the Piwik tracking code.
 
 Save a `piwik.php` in your snippets folder...
 
@@ -68,25 +68,24 @@ Save a `piwik.php` in your snippets folder...
   })();
 </script>
 <!-- End Piwik Code -->
-
 ```
 
-... and refer to it in your `footer.php`:
+…and refer to it in your `footer.php`:
 
 ```php
 <footer class="colophon">
-    <p><?php echo $site->author() ?></p>
+  <p><?php echo $site->author() ?></p>
 </footer>
 
 <?php snippet('piwik') ?>
 
 </body>
 </html>
-
 ```
-## Snippet on roids
 
-If you're searching for a more maintainable solution you can add fields for the custom parts of the Piwik snippet in your `site.txt`:
+## Snippet on ’roids
+
+If you’re searching for a more maintainable solution you can add fields for the custom parts of the Piwik snippet in your `site.txt`:
 
     title: My awesome site
     ----
@@ -96,7 +95,7 @@ If you're searching for a more maintainable solution you can add fields for the 
     ----
     piwik_id: 5
 
-You'll have to adjust the `piwik.php` like this:
+You’ll have to adjust the `piwik.php` like this:
 
 ```php
 <!-- Piwik -->
@@ -114,7 +113,6 @@ You'll have to adjust the `piwik.php` like this:
   })();
 </script>
 <!-- End Piwik Code -->
-
 ```
 
 Now your clients would be able to easily change the URL or site ID of the corresponding Piwik installation if they need to, just by editing the `site.txt` via FTP or the (link: docs/learn/panel text: panel).
@@ -127,8 +125,7 @@ Piwik installation:
     text: Piwik installation
     link: http://piwik.org/docs/installation-optimization/
 
-Piwik API Reference:
+Piwik API reference:
 
     text: Piwik API Reference
     link: http://piwik.org/docs/analytics-api/reference/
-

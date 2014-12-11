@@ -7,12 +7,12 @@ Description: Learn how to setup your perfect blog system with tags, comments, fe
 ----
 Text:
 
-In this section you'll learn how to build a blog with Kirby. We're gonna start with a very basic and minimalistic blog here. For more advanced stuff please check out the subsections.
+In this section you’ll learn how to build a blog with Kirby. We’re gonna start with a very basic and minimalistic blog here. For more advanced stuff please check out the subsections.
 
 
 ## Setting up the content
 
-For this example we will use a very simple file structure setup. You can definitely get way more fancy than that, but let's keep it simple:
+For this example we will use a very simple file structure setup. You can definitely get way more fancy than that, but let’s keep it simple:
 
 (image: 01.png)
 
@@ -62,14 +62,14 @@ a list of all articles.
 
 <section class="content blog">
 
-  <h1><?php echo html($page->title()) ?></h1>
-  <?php echo kirbytext($page->text()) ?>
+  <h1><?php echo $page->title()->html() ?></h1>
+  <?php echo $page->text()->kirbytext() ?>
 
   <?php foreach($page->children()->visible()->flip() as $article): ?>
 
   <article>
-    <h1><?php echo html($article->title()) ?></h1>
-    <p><?php echo excerpt($article->text(), 300) ?></p>
+    <h1><?php echo $article->title()->html() ?></h1>
+    <p><?php echo $article->text()->excerpt(300) ?></p>
     <a href="<?php echo $article->url() ?>">Read more…</a>
   </article>
 
@@ -95,11 +95,11 @@ our css.
 
 ```
 
-Next we build the title of our blog and the short description, which we've added in `blog.txt`
+Next we build the title of our blog and the short description, which we’ve added in `blog.txt`
 
 ```php
-<h1><?php echo html($page->title()) ?></h1>
-<?php echo kirbytext($page->text()) ?>
+<h1><?php echo $page->title()->html() ?></h1>
+<?php echo $page->text()->kirbytext() ?>
 
 ```
 
@@ -109,8 +109,8 @@ The next few lines of code is a loop, where we build a short version for each ar
 <?php foreach($page->children()->visible()->flip() as $article): ?>
 
 <article>
-  <h1><?php echo html($article->title()) ?></h1>
-  <p><?php echo excerpt($article->text(), 300) ?></p>
+  <h1><?php echo $article->title()->html() ?></h1>
+  <p><?php echo $article->text()->excerpt(300) ?></p>
   <a href="<?php echo $article->url() ?>">Read more…</a>
 </article>
 
@@ -120,8 +120,7 @@ The next few lines of code is a loop, where we build a short version for each ar
 
 #### Breaking it down some more…
 
-With `$page->children()->visible()` we get a set of all visible subpages in our blog folder.
-This will return the subfolders we got so far in the following order:
+With `$page->children()->visible()` we get a set of all visible subpages in our blog folder. This will return the subfolders we got so far in the following order:
 
     01-your-first-article
     02-your-second-article
@@ -149,8 +148,8 @@ Within the foreach loop, we build the html for each article in our list.
 <?php foreach($page->children()->visible()->flip() as $article): ?>
 
 <article>
-  <h1><?php echo html($article->title()) ?></h1>
-  <p><?php echo excerpt($article->text(), 300) ?></p>
+  <h1><?php echo $article->title()->html() ?></h1>
+  <p><?php echo $article->text()->excerpt(300) ?></p>
   <a href="<?php echo $article->url() ?>">Read more…</a>
 </article>
 
@@ -158,16 +157,16 @@ Within the foreach loop, we build the html for each article in our list.
 
 ```
 
-Let's have a close look at the following line:
+Let’s have a close look at the following line:
 
 ```php
-<p><?php echo excerpt($article->text(), 300) ?></p>
+<p><?php echo $article->text()->excerpt(300) ?></p>
 
 ```
 
-In our article list, we don't want to show the entire content of each article. That would totally mess up our overview. Kirby has a nice little `excerpt()` function, which makes it easy to only show the first few words or sentences of a large article, which is just perfect for our article overview list.
+In our article list, we don’t want to show the entire content of each article. That would totally mess up our overview. Kirby has a nice little `excerpt()` function, which makes it easy to only show the first few words or sentences of a large article, which is just perfect for our article overview list.
 
-With `excerpt($article->text(), 300)` we get an excerpt with a maximum of 300 characters for each article.
+With `$article->text()->excerpt(300)` we get an excerpt with a maximum of 300 characters for each article.
 
 With the next line…
 
@@ -177,6 +176,7 @@ With the next line…
 ```
 
 …we finally link to the full article. For example:
+
 `http://yourdomain.com/blog/your-first-article`
 
 This is where we need the `blogarticle.php` template, which we will build next…
@@ -194,8 +194,8 @@ The template code for this is very short and easy to understand.
 
 <section class="content blogarticle">
   <article>
-    <h1><?php echo html($page->title()) ?></h1>
-    <?php echo kirbytext($page->text()) ?>
+    <h1><?php echo $page->title()->html() ?></h1>
+    <?php echo $page->text()->kirbytext() ?>
 
     <a href="<?php echo url('blog') ?>">Back…</a>
 
@@ -208,7 +208,7 @@ The template code for this is very short and easy to understand.
 
 All you need to do is to include the header and menu again as well as the footer snippet at the bottom. In between just add a content section and give it a blogarticle selector so we can add some nice css again later.
 
-The rest is super straight forward. Add the title of your article and the full text of your article and you're done.
+The rest is super straight forward. Add the title of your article and the full text of your article and you’re done.
 
 You might also want to add a back link:
 
@@ -220,7 +220,7 @@ which will take your visitors back to the article list.
 
 
 ----
-Blogposts:
+Blog posts:
 
 How to add authors to your articles:
 
@@ -288,4 +288,3 @@ related:
 import:
     text: How to import articles to your Kirby blog
     link: docs/solutions/blog/dates
-

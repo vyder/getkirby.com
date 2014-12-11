@@ -25,7 +25,7 @@ if($items->count()):
 <nav>
   <ul>
     <?php foreach($items as $item): ?>
-    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo $item->title()->html() ?></a></li>
     <?php endforeach ?>
   </ul>
 </nav>
@@ -57,7 +57,7 @@ if($items and $items->count()):
 <nav>
   <ul>
     <?php foreach($items as $item): ?>
-    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo $item->title()->html() ?></a></li>
     <?php endforeach ?>
   </ul>
 </nav>
@@ -90,7 +90,7 @@ if($items and $items->count()):
 <nav>
   <ul>
     <?php foreach($items as $item): ?>
-    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo $item->title()->html() ?></a></li>
     <?php endforeach ?>
   </ul>
 </nav>
@@ -105,7 +105,7 @@ if($items and $items->count()):
 <nav>
   <ul>
     <?php foreach($site->breadcrumb() AS $crumb): ?>
-    <li<?php e($crumb->isActive(), ' class="is-active"') ?>><a href="<?php echo $crumb->url() ?>"><?php echo html($crumb->title()) ?></a></li>
+    <li<?php e($crumb->isActive(), ' class="is-active"') ?>><a href="<?php echo $crumb->url() ?>"><?php echo $crumb->title()->html() ?></a></li>
     <?php endforeach; ?>
   </ul>
 </nav>
@@ -120,7 +120,7 @@ if($items and $items->count()):
 <ul>
   <?php foreach($subpages->visible() AS $p): ?>
   <li class="depth-<?php echo $p->depth() ?>">
-    <a<?php e($p->isActive(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo html($p->title()) ?></a>
+    <a<?php e($p->isActive(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
     <?php if($p->hasChildren()): ?>
     <?php snippet('treemenu', array('subpages' => $p->children())) ?>
     <?php endif ?>
@@ -147,7 +147,7 @@ if($items->count()):
   <ul>
     <?php foreach($items as $item): ?>
     <li>
-      <a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a>
+      <a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo $item->title()->html() ?></a>
 
       <?php
 
@@ -160,7 +160,7 @@ if($items->count()):
       ?>
       <ul>
         <?php foreach($children as $child): ?>
-        <li><a<?php e($child->isOpen(), ' class="active"') ?> href="<?php echo $child->url() ?>"><?php echo html($child->title()) ?></a></li>
+        <li><a<?php e($child->isOpen(), ' class="active"') ?> href="<?php echo $child->url() ?>"><?php echo $child->title()->html() ?></a></li>
         <?php endforeach ?>
       </ul>
       <?php endif ?>
@@ -189,7 +189,7 @@ if($items and $items->count()):
 <nav>
   <ul>
     <?php foreach($items as $item): ?>
-    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo html($item->title()) ?></a></li>
+    <li><a<?php e($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>"><?php echo $item->title()->html() ?></a></li>
     <?php endforeach ?>
   </ul>
 </nav>
@@ -212,7 +212,7 @@ if($items->count()):
 ?>
 <select onchange="window.location.href = this.value">
   <?php foreach($items as $item): ?>
-  <option value="<?php echo $item->url() ?>"<?php e($item->isOpen(), ' selected="selected"') ?>><?php echo html($item->title()) ?></option>
+  <option value="<?php echo $item->url() ?>"<?php e($item->isOpen(), ' selected="selected"') ?>><?php echo $item->title()->html() ?></option>
   <?php endforeach ?>
 </select>
 <?php endif ?>

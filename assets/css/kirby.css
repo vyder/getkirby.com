@@ -459,6 +459,9 @@ code, pre {
   background: #f5f5f5;
   line-height: 1.5em;
 }
+.text li pre {
+  margin-top: .5em;
+}
 
 
 

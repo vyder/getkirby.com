@@ -64,7 +64,7 @@ Here's an example for a meta data file:
 
 ### Accessing meta data in templates
 
-Meta data is instantly available from the `$file` object in your tempaltes and snippets.
+Meta data is instantly available from the `$file` object in your templates and snippets.
 
 ```php
 <?php if($image = $page->image('lake.jpg')): ?>

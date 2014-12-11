@@ -14,6 +14,17 @@ Text:
 
 This update is a security- and bugfix release. Please read the (link: docs/installation/updates text: update instructions). Check out our tutorial on (link: blog/working-with-git text: how to work with Git) to learn more about a faster setup for updates. 
 
+## Download
+
+**<http://download.getkirby.com>**
+
+## Repositories
+
+- http://github.com/getkirby/starterkit
+- http://github.com/getkirby/kirby
+- http://github.com/getkirby/panel
+- http://github.com/getkirby/toolkit
+
 ## Changelog
 
 ### Security fix

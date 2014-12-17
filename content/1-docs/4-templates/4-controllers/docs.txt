@@ -92,7 +92,7 @@ With such a controller, the template can be super clean. A foreach loop for the 
 
 </nav>
 
-<?php snippet('footer ?>
+<?php snippet('footer') ?>
 ```
 
 ## Arguments from the router

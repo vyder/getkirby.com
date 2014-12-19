@@ -11,7 +11,7 @@ function disqus($shortname, $params = array()) {
   $defaults = array(
     'shortname'  => $shortname,
     'title'      => page()->title(),
-    'identifier' => page()->uri(),
+    'identifier' => page()->disqussId()->or(page()->uri()),
     'developer'  => false,
     'url'        => url::current(),
   );

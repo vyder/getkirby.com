@@ -8,6 +8,8 @@ Excerpt: Converts the field content to lowercase
 
 Text:
 
+## Example
+
 ```php
 <h1><?php echo $page->title()->lower()->html() ?></h1>
 ```

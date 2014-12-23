@@ -11,7 +11,7 @@ Text:
 ## Example
 
 ```php
-<?php echo $page->text()->kirbext() ?>
+<?php echo $page->text()->kirbytext() ?>
 
 <dl class="text-stats">
 

@@ -20,7 +20,7 @@ Text:
 $image = $page->image();
 
 // recalculate the image dimensions and fit them into a box of max 300px
-$image->fit(300);
+$image->dimensions()->fit(300);
 
 echo html::tag('img', array(
   'src'    => $image->url(),

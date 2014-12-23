@@ -25,5 +25,5 @@ Hello <?php echo $user->username() ?>
 ### Fetching any user by username
 
 ```php
-<?php echo $site->user('bastian')->firstName() ?>
+<?php echo $site->user('bastian')->firstname() ?>
 ```

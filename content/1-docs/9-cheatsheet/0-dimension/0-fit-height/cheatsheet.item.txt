@@ -18,7 +18,7 @@ Text:
 <?php
 
 $image = $page->image();
-$image->fitHeight(300);
+$image->dimensions()->fitHeight(300);
 
 echo html::tag('img', array(
   'src'    => $image->url(),

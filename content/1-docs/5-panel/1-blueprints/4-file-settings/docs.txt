@@ -38,9 +38,10 @@ files:
     sortable: true
 …
 ```
+
 To make use of manual sorting in your templates you must sort files by the newly generated sort field:
 
-```
+```php
 <?php foreach($page->files()->sortBy('sort', 'asc') as $file): ?>
 …
 <?php endforeach ?>

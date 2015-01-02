@@ -88,7 +88,7 @@ Welcome to the home page
 ```php
 <ul>
   <?php foreach($pages as $p): ?>
-    <li><a href="<?php echo $p->url() ?>"><?php echo $p->title ?></a></li>
+    <li><a href="<?php echo $p->url() ?>"><?php echo $p->title() ?></a></li>
   <?php endforeach ?>
 </ul>
 ```
@@ -337,12 +337,12 @@ In many situations you don't have to write a full if clause in your templates. T
 <?php if($page->hasChildren()): ?>
 Yay, children!
 <?php else: ?>
-No children :(
+No children
 <?php endif ?>
 ```
 
 ```php
-<?= ($page->hasChildren()) ? 'Yay, children!' : 'No children :(' ?>
+<?= ($page->hasChildren()) ? 'Yay, children!' : 'No children' ?>
 ```
 
 ### Even simpler: Use the ecco function

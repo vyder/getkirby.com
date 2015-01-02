@@ -15,7 +15,7 @@
       <?php if(!$page->params()->isEmpty() or !$page->return()->isEmpty()): ?>
       <?php $params = $page->params()->yaml() ?>
       <?php $return = $page->return()->yaml() ?>
-      <ul> 
+      <ul>
         <?php foreach($params as $param): ?>
         <li>
           <strong><?php echo $param['name'] ?></strong> (<?php echo $param['type'] ?>)<br />
@@ -45,7 +45,7 @@
 
     <nav class="sidebar col-2-6 last">
       <ul>
-        <li><a href="<?php echo url((string)kirby()->request()->path()->slice(0, 2)) ?>"><small>↑</small>Back</a></li>
+        <li><a href="<?php echo url((string)kirby()->request()->path()->slice(0, 2)) ?>"><small>&uarr;</small>Cheat Sheet overview</a></li>
 
         <?php if($prev = $page->prevVisible()): ?>
         <li><a href="<?php echo $prev->url() ?>"><small>&larr;</small> <?php echo html($prev->title()) ?></a></li>
@@ -54,6 +54,8 @@
         <?php if($next = $page->nextVisible()): ?>
         <li><a href="<?php echo $next->url() ?>"><small>&rarr;</small> <?php echo html($next->title()) ?></a></li>
         <?php endif ?>
+
+        <li><a href="<?php echo url((string)kirby()->request()->path()->slice(0, 2)) ?>#<?php echo $page->parent()->uid() ?>"><small>&darr;</small>Back to Cheat Sheet section</a></li>
       </ul>
     </nav>
 

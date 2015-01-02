@@ -19,7 +19,7 @@ fields:
   toggle:
     label: Is this a featured page?
     type: toggle
-    text yes/no
+    text: yes/no
 ```
 
 Available text options are

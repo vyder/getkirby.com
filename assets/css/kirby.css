@@ -462,6 +462,15 @@ code, pre {
 .text li pre {
   margin-top: .5em;
 }
+.text h1 code,
+.text h2 code,
+.text h3 code,
+.text h4 code,
+.text h5 code,
+.text h6 code {
+  font-weight: 400;
+  font-size: 95%;
+}
 
 
 

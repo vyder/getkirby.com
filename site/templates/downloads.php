@@ -17,7 +17,6 @@
 
   </section>
 
-
   <?php foreach($page->children()->visible() as $category): ?>
 
   <section class="section">
@@ -42,15 +41,15 @@
   <section class="section grid">
     <ul class="list-2">
       <li>
-        <h2 class="beta">Kirby Themes</h2>
+        <h2 class="beta">Kirby Plugins</h2>
         <div class="text">
-          <a href="http://getkirby-themes.com/"><strong>getkirby-themes.com</strong></a> is a third-party platform for all available commercial and free Kirby themes. 
+          A comprehensive list of available 3rd-party plugins for Kirby can be found on <a href="http://getkirby-plugins.com"><strong>getkirby-plugins.com</strong></a>
         </div>
       </li><!--
    --><li>
-        <h2 class="beta">Code snippets &amp; examples</h2>
+        <h2 class="beta">Kirby Themes</h2>
         <div class="text">
-          If you are looking for code snippets and tutorials how to build all kinds of solutions with Kirby, please <a href="/docs/solutions"><strong>check out the new docs</strong></a>.
+          Check out <a href="http://getkirby-themes.com"><strong>getkirby-themes.com</strong></a> for a great collection of themes for Kirby.
         </div>
       </li>
     </ul>

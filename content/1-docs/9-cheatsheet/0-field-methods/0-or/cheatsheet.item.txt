@@ -1,0 +1,15 @@
+Title: $field->or($alternative)
+
+----
+
+Excerpt: Checks if the field is empty and returns an alternative value in this case
+
+----
+
+Text:
+
+## Example
+
+```php
+<meta name="description" content="<?php echo $page->description()->or($site->description()) ?>">
+```

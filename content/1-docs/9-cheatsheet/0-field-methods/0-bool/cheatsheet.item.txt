@@ -1,0 +1,19 @@
+Title: $field->bool()
+
+----
+
+Excerpt: Converts the field value into a proper boolean
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if($page->hasHeader()->bool()): ?>
+<header>
+...
+</header>
+<?php endif ?>
+```

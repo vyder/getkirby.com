@@ -1,0 +1,15 @@
+Title: $field->int()
+
+----
+
+Excerpt: Converts the field value into a proper integer
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $page->mynumber()->int() ?>
+```

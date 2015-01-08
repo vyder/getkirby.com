@@ -1,0 +1,15 @@
+Title: $field->escape()
+
+----
+
+Excerpt: Escapes all critical characters from the field content to make sure all you get is clean HTML
+
+----
+
+Text:
+
+## Example
+
+```php
+<h2><?php echo $page->title()->escape() ?></h2>
+```

@@ -1,0 +1,21 @@
+Title:
+
+$user->hasRole($role)
+
+----
+
+Excerpt:
+
+Checks if the user has a particular role. 
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php if($user = $site->user() and $user->hasRole('editor')): ?>
+This super secret content is only visible for editors
+<?php endif ?>
+```

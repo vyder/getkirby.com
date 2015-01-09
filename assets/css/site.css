@@ -1206,3 +1206,18 @@ input[type="search"]::-webkit-search-cancel-button {
   font-weight: 600;
   color: red;
 }
+
+.btn-with-label {
+  position: relative;
+  z-index: 1;
+}
+.btn-with-label:after {
+  position: absolute;
+  top: .5em;
+  right: -2.25em;
+  content: "";
+  background: url(../images/label.png) no-repeat center center;
+  width: 3em;
+  height: 3.5em;
+  z-index: 0;
+}

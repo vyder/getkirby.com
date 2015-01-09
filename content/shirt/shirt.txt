@@ -7,7 +7,7 @@ Shirt:
 - 100% organic cotton (Global Organic Textile Standard)
 - 90% reduced carbon footprint (Carbon Trust Certificate)
 - Certified fair trade (Fair wear foundation)
-- Version 1: Black print on dark grey 
+- Version 1: Black print on dark mixed grey 
 - Version 2: Grey print on black
 - Women's sizes (slim-fit): S, M, L, XL - (link: http://www.continentalclothing.com/static/userfiles/image/SIZECHARTS/EP04.jpg text: size table popup: true)
 - Men's sizes: S, M, L, Xl, XXL, 3XL, 4XL, 5XL - (link: http://www.continentalclothing.com/static/userfiles/image/SIZECHARTS/EP01.jpg text: size table popup: true)

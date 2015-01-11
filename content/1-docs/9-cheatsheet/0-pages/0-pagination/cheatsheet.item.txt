@@ -10,6 +10,12 @@ Returns the $pagination object if available.
 
 ----
 
+Return:
+
+$pagination
+
+----
+
 Text:
 
 ## Related

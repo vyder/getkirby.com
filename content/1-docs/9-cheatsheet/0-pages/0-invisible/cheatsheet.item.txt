@@ -10,6 +10,12 @@ Returns all invisible $page objects from the collection
 
 ----
 
+Return:
+
+$pages
+
+----
+
 Text:
 
 ## Example

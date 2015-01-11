@@ -10,6 +10,12 @@ Filters the collection with a custom filter callback.
 
 ----
 
+Return:
+
+$pages
+
+----
+
 Text:
 
 ## Example

@@ -10,6 +10,12 @@ Returns all keys/URIs from the collection.
 
 ----
 
+Return:
+
+array
+
+----
+
 Text:
 
 ## Example

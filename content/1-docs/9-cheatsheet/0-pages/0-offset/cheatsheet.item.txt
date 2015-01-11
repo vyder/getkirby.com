@@ -10,6 +10,12 @@ Returns the collection starting from the given offset.
 
 ----
 
+Return:
+
+$pages
+
+----
+
 Text:
 
 ## Example

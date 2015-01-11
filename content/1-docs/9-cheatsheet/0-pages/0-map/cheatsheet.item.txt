@@ -1,14 +1,19 @@
-Title: 
+Title:
 
 $pages->map($callback)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a new collection and applies the mapping callback to all pages.
 
 ----
 
-Text: 
+Return:
 
+$pages
+
+----
+
+Text:

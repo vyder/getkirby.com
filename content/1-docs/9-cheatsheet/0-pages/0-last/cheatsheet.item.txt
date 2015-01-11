@@ -10,6 +10,12 @@ Returns the last $page object from the collection
 
 ----
 
+Return:
+
+$page
+
+----
+
 Text:
 
 ## Example

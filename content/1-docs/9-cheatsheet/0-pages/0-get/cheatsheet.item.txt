@@ -10,6 +10,12 @@ Returns a $page object by its full URI
 
 ----
 
+Return:
+
+$page
+
+----
+
 Text:
 
 ## Example

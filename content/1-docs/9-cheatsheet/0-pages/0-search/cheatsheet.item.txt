@@ -10,6 +10,12 @@ Searches all pages in the collection and all descendants
 
 ----
 
+Return:
+
+$pages
+
+----
+
 Text:
 
 ## Example

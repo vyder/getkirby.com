@@ -10,6 +10,12 @@ Recursively creates a full index from all pages and subpages in the collection a
 
 ----
 
+Return:
+
+$pages
+
+----
+
 Text:
 
 ## Example

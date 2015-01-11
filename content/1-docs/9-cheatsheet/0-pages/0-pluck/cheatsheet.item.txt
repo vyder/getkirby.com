@@ -10,6 +10,12 @@ Extracts an array of values from each item by field.
 
 ----
 
+Return:
+
+array
+
+----
+
 Text:
 
 ## Example
@@ -21,4 +27,3 @@ Text:
   <?php endforeach ?>
 </ul>
 ```
-

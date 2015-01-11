@@ -10,6 +10,12 @@ Finds a single $page object in the collection by $field and $value
 
 ----
 
+Return:
+
+$page
+
+----
+
 Text:
 
 ## Example

@@ -10,6 +10,12 @@ Checks if a $page object is included in the collection
 
 ----
 
+Return:
+
+boolean
+
+----
+
 Text:
 
 ```php

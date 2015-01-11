@@ -10,6 +10,12 @@ Finds the open $page object in the collection.
 
 ----
 
+Return:
+
+$page
+
+----
+
 Text:
 
 ## Example

@@ -10,6 +10,12 @@ Filters the collection by any field and value and with a set of filtering operat
 
 ----
 
+Return:
+
+$pages
+
+----
+
 Text:
 
 ## Example

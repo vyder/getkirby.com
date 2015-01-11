@@ -10,6 +10,12 @@ Shuffles all items in the collection.
 
 ----
 
+Return:
+
+$pages
+
+----
+
 Text:
 
 ## Example

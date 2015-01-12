@@ -12,7 +12,8 @@ Returns the $pagination object if available.
 
 Return:
 
-$pagination
+type: $pagination
+text: 
 
 ----
 

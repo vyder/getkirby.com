@@ -12,7 +12,8 @@ Filters the collection with a custom filter callback.
 
 Return:
 
-$pages
+type: $pages
+text: 
 
 ----
 

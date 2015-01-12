@@ -12,7 +12,8 @@ Returns the number of pages in the collection
 
 Return:
 
-integer
+type: integer
+text: 
 
 ----
 

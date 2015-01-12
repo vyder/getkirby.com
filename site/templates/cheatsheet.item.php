@@ -25,7 +25,9 @@
         <?php if(!empty($return)): ?>
         <li>
           <strong>return </strong> (<?php echo $return['type'] ?>)<br />
+          <?php if(isset($return['text'])): ?>
           <em><?php echo $return['text'] ?></em>
+          <?php endif ?>
         </li>
         <?php endif ?>
       </ul>

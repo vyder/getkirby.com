@@ -12,7 +12,8 @@ Converts the collection to a good old array. You can pass a callback which will 
 
 Return:
 
-array
+type: array
+text: 
 
 ----
 

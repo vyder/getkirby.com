@@ -12,7 +12,8 @@ Creates a new subpage.
 
 Return:
 
-$page
+type: $page
+text: 
 
 ----
 

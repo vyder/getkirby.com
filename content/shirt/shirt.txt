@@ -9,7 +9,7 @@ Shirt:
 - Certified fair trade (Fair wear foundation)
 - Version 1: Black print on dark mixed grey 
 - Version 2: Grey print on black
-- Version 3: White print on red
+- Version 3: White print on red (dark red for Women's shirts)
 - Women's sizes (slim-fit): S, M, L, XL - (link: http://www.continentalclothing.com/static/userfiles/image/SIZECHARTS/EP04.jpg text: size table popup: true)
 - Men's sizes: S, M, L, Xl, XXL, 3XL, 4XL, 5XL - (link: http://www.continentalclothing.com/static/userfiles/image/SIZECHARTS/EP01.jpg text: size table popup: true)
 - Shipping worldwide: €6 / $7

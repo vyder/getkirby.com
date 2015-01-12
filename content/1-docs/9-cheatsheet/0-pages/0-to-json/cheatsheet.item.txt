@@ -12,7 +12,8 @@ Converts the collection to a JSON string
 
 Return:
 
-string
+type: string
+text: 
 
 ----
 

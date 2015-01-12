@@ -12,7 +12,8 @@ Finds a $page object in the collection by its full URI.
 
 Return:
 
-$page
+type: $page
+text: 
 
 ----
 

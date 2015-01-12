@@ -12,7 +12,8 @@ Extracts an array of values from each item by field.
 
 Return:
 
-array
+type: array
+text: 
 
 ----
 

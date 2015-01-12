@@ -12,7 +12,8 @@ Groups $page objects in the collection by any field and returns them in a new co
 
 Return:
 
-$pages
+type: $pages
+text: 
 
 ----
 

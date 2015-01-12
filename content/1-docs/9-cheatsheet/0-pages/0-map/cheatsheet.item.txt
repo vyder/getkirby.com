@@ -12,7 +12,8 @@ Returns a new collection and applies the mapping callback to all pages.
 
 Return:
 
-$pages
+type: $pages
+text: 
 
 ----
 

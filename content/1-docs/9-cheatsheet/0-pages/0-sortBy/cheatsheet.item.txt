@@ -12,7 +12,8 @@ Returns a sorted version of the collection.
 
 Return:
 
-$pages
+type: $pages
+text: 
 
 ----
 

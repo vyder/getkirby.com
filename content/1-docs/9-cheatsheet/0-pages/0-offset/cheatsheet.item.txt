@@ -12,7 +12,8 @@ Returns the collection starting from the given offset.
 
 Return:
 
-$pages
+type: $pages
+text: 
 
 ----
 

@@ -12,7 +12,8 @@ Adds a $pagination object to the collection, which makes it easy to page through
 
 Return:
 
-$pagination
+type: $pages
+text: 
 
 ----
 

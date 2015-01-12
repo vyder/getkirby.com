@@ -12,7 +12,8 @@ Returns the collection with a limited amount of pages.
 
 Return:
 
-$pages
+type: $pages
+text: 
 
 ----
 

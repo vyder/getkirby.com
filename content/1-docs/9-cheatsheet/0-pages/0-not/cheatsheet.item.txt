@@ -12,7 +12,8 @@ Returns the collection without any given pages. Excluded pages can be specified 
 
 Return:
 
-$pages
+type: $pages
+text: 
 
 ----
 

@@ -12,7 +12,8 @@ Returns a $pages collection with all children of each page in the collection.
 
 Return:
 
-$pages
+type: $pages
+text: 
 
 ----
 

@@ -12,7 +12,8 @@ Finds the open $page object in the collection.
 
 Return:
 
-$page
+type: $page
+text: 
 
 ----
 

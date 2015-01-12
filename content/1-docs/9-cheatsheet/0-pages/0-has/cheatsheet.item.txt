@@ -12,7 +12,8 @@ Checks if a $page object is included in the collection
 
 Return:
 
-boolean
+type: boolean
+text: 
 
 ----
 

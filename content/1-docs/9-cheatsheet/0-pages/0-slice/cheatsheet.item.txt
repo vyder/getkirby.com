@@ -12,7 +12,8 @@ Returns a sliced version of the collection defined by offset and limit.
 
 Return:
 
-$pages
+type: $pages
+text: 
 
 ----
 

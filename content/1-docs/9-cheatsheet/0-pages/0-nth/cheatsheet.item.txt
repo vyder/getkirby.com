@@ -12,7 +12,8 @@ Returns the nth page in the collection.
 
 Return:
 
-$page
+type: $page
+text: 
 
 ----
 

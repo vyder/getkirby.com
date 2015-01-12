@@ -12,7 +12,8 @@ Returns the collection in reverse order.
 
 Return:
 
-$pages
+type: $pages
+text: 
 
 ----
 

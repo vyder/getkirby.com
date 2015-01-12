@@ -12,7 +12,8 @@ Returns the last $page object from the collection
 
 Return:
 
-$page
+type: $page
+text: 
 
 ----
 

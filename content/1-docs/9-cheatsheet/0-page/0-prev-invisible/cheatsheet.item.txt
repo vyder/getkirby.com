@@ -10,6 +10,13 @@ Returns the previous invisble sibling.
 
 ----
 
+Return:
+
+type: $page
+text:
+
+----
+
 Text:
 
 ## Example

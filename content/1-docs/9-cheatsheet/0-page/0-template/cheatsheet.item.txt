@@ -10,6 +10,13 @@ Returns the name of the used template for the page. Will return default if the i
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

@@ -10,5 +10,11 @@ Returns the page's $content object
 
 ----
 
-Text:
+Return:
 
+type: $content
+text:
+
+----
+
+Text:

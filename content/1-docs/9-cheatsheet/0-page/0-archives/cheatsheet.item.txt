@@ -10,6 +10,13 @@ Returns a $files collection with all archive files (zip, gzip, tar) in the page'
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ## Example

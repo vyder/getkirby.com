@@ -10,6 +10,13 @@ Checks if the page is writable
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ```php

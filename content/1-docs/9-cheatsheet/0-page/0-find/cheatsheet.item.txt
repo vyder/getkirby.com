@@ -10,6 +10,13 @@ Returns the $page object of a specific subpage by URI. If multiple URIs are give
 
 ----
 
+Return:
+
+type: $page
+text:
+
+----
+
 Text:
 
 ## Example

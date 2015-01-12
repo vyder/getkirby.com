@@ -10,6 +10,13 @@ Recursively builds a $pages collection with all children, children of children, 
 
 ----
 
+Return:
+
+type: $pages
+text:
+
+----
+
 Text:
 
 ## Example

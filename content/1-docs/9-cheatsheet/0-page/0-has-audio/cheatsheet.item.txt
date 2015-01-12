@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $page->hasAudio()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if there are any audio files in the page's directory
 
 ----
 
-Text: 
+Return:
 
+type: integer
+text:
+
+----
+
+Text:

@@ -10,6 +10,13 @@ Returns the full name of the page's directory.
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

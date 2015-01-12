@@ -10,6 +10,13 @@ Returns the previous sibling.
 
 ----
 
+Return:
+
+type: $page
+text:
+
+----
+
 Text:
 
 ## Example

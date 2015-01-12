@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $page->hasArchives()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if there are any archive files (zip, gzip, tar) in the page's directory
 
 ----
 
-Text: 
+Return:
 
+type: integer
+text:
+
+----
+
+Text:

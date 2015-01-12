@@ -10,5 +10,11 @@ Returns the name of the intended template. This is the name of the content text 
 
 ----
 
-Text:
+Return:
 
+type: string
+text:
+
+----
+
+Text:

@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $page->hasTemplate()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if the page has its own template or if it uses the default template.
 
 ----
 
-Text: 
+Return:
 
+type: boolean
+text:
+
+----
+
+Text:

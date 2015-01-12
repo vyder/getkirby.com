@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $page->hasPrev()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if the page has a previous sibling
 
 ----
 
-Text: 
+Return:
 
+type: boolean
+text:
+
+----
+
+Text:

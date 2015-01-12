@@ -10,6 +10,13 @@ Checks if the page is open. This means that it is either active or it is a direc
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

@@ -10,6 +10,13 @@ Returns the full URL of the page
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

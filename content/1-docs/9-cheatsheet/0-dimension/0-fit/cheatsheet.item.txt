@@ -10,6 +10,13 @@ Fits the width and height into a box by the given value and returns a modified d
 
 ----
 
+Return:
+
+type: $image
+text:
+
+----
+
 Text:
 
 ## Example

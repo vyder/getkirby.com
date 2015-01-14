@@ -10,6 +10,13 @@ Fits the height by the given value and returns a modified dimension object
 
 ----
 
+Return:
+
+type: $image
+text:
+
+----
+
 Text:
 
 ## Example

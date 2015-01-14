@@ -10,6 +10,13 @@ Returns the width in pixels
 
 ----
 
+Return:
+
+type: integer
+text:
+
+----
+
 Text:
 
 ## Example

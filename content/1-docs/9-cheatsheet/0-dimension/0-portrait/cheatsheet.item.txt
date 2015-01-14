@@ -10,6 +10,13 @@ Checks if the dimensions are "portrait"
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

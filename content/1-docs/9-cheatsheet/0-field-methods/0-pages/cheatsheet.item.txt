@@ -6,6 +6,13 @@ Excerpt: Converts a yaml list of page URIs to valid page objects
 
 ----
 
+Return:
+
+type: $pages
+text:
+
+----
+
 Text:
 
 ## Example

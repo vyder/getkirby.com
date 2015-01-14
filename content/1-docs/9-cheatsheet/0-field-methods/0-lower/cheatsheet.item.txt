@@ -6,6 +6,13 @@ Excerpt: Converts the field content to lowercase
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

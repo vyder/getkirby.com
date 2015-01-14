@@ -6,6 +6,13 @@ Excerpt: Checks if the field is empty and returns an alternative value in this c
 
 ----
 
+Return:
+
+type: any
+text:
+
+----
+
 Text:
 
 ## Example

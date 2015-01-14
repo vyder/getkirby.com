@@ -6,6 +6,13 @@ Excerpt: Splits the field content into an array
 
 ----
 
+Return:
+
+type: array
+text:
+
+----
+
 Text:
 
 ## Example

@@ -6,6 +6,13 @@ Excerpt: Converts the field value into a proper boolean
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

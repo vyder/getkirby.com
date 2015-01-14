@@ -6,6 +6,13 @@ Excerpt: Shortens the field content by the given length
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

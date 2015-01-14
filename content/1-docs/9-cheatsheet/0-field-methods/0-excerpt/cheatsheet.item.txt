@@ -6,6 +6,13 @@ Excerpt: Creates a short text excerpt
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

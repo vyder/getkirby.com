@@ -6,6 +6,13 @@ Excerpt: Converts markdown to valid HTML
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

@@ -6,6 +6,13 @@ Excerpt: Returns the number of words in the text
 
 ----
 
+Return:
+
+type: integer
+text:
+
+----
+
 Text:
 
 ## Example

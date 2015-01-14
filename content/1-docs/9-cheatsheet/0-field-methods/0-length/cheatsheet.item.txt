@@ -6,6 +6,13 @@ Excerpt: Returns the length of the field content
 
 ----
 
+Return:
+
+type: integer
+text:
+
+----
+
 Text:
 
 ## Example

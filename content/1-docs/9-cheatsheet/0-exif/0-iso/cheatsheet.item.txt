@@ -10,6 +10,13 @@ Returns the iso value of the image, if it is available in the exif data set.
 
 ----
 
+Return:
+
+type: integer
+text:
+
+----
+
 Text:
 
 ## Example
@@ -17,4 +24,3 @@ Text:
 ```php
 <?php echo $page->image()->exif()->iso() ?>
 ```
-

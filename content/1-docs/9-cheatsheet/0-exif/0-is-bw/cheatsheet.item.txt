@@ -10,6 +10,13 @@ Checks if the image colorspace is grayscale
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example
@@ -19,4 +26,3 @@ Text:
 This is a black and white picture
 <?php endif ?>
 ```
-

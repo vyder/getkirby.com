@@ -10,6 +10,13 @@ Returns the aperture value of the image, if it is available in the exif data set
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example
@@ -17,4 +24,3 @@ Text:
 ```php
 <?php echo $page->image()->exif()->aperture() ?>
 ```
-

@@ -10,6 +10,13 @@ Returns the $camera object for the image, which contains the make and model.
 
 ----
 
+Return:
+
+type: $camera
+text:
+
+----
+
 Text:
 
 ```php
@@ -19,4 +26,3 @@ echo $camera->make();
 echo $camera->model();
 
 ```
-

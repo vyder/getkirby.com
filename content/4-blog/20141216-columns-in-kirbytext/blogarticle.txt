@@ -182,7 +182,7 @@ That's why we need to wrap the string in a new Field object and connect it with 
 
 ```php
 foreach($columns as $column) {
-  $field  = new Field($kirbytext->page(), null, trim($column));
+  $field  = new Field($kirbytext->field->page, null, trim($column));
   $html[] = '<div class="column">' . kirbytext($field) . '</div>';
 }
 ```
@@ -223,7 +223,7 @@ kirbytext::$pre[] = function($kirbytext, $text) {
     $html    = array();
 
     foreach($columns as $column) {
-      $field = new Field($kirbytext->page, null, trim($column));
+      $field = new Field($kirbytext->field->page, null, trim($column));
       $html[] = '<div class="' . c::get('columns.item', 'column') . '">' . kirbytext($field) . '</div>';
     }
 

@@ -10,6 +10,13 @@ Returns the $dimensions object for the file. This is only available for images (
 
 ----
 
+Return:
+
+type: $dimension
+text:
+
+----
+
 Text:
 
 ## Example

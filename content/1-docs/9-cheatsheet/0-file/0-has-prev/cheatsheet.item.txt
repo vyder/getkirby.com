@@ -10,6 +10,13 @@ Checks if there's a previous sibling
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

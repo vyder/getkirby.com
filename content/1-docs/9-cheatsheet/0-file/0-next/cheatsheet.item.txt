@@ -10,6 +10,13 @@ Returns the next sibling
 
 ----
 
+Return:
+
+type: $file
+text:
+
+----
+
 Text:
 
 ## Example

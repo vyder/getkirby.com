@@ -10,6 +10,13 @@ Checks if the image is square
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

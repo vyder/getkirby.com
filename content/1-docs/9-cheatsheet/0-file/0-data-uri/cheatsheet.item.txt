@@ -10,6 +10,13 @@ Returns a full base64 encoded data uri with a proper mime type.
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

@@ -10,6 +10,13 @@ Returns the ratio of an image file
 
 ----
 
+Return:
+
+type: float
+text:
+
+----
+
 Text:
 
 ## Example

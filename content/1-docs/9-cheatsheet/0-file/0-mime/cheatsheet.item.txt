@@ -10,6 +10,13 @@ Returns the file's mime type
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

@@ -10,6 +10,13 @@ Returns the full filename including extension
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

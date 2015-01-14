@@ -10,6 +10,13 @@ Sends all needed headers and the content to force the browser to download the fi
 
 ----
 
+Return:
+
+type:
+text:
+
+----
+
 Text:
 
 ## Example

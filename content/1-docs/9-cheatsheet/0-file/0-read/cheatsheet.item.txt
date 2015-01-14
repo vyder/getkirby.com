@@ -10,6 +10,13 @@ Reads the content of a file and returns it
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

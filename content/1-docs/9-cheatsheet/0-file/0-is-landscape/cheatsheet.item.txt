@@ -10,6 +10,13 @@ Checks if an image file has been taken in landscape mode.
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

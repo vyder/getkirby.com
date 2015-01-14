@@ -10,6 +10,13 @@ Returns the file extension
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

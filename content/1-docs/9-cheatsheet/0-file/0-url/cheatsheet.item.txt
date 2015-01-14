@@ -10,6 +10,13 @@ Returns the absolute URL for a file.
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

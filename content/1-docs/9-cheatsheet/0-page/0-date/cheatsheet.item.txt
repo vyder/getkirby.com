@@ -10,6 +10,13 @@ Returns a unix timestamp or formatted date string from the page's date field or 
 
 ----
 
+Return:
+
+type: integer | string
+text:
+
+----
+
 Text:
 
 ## Example

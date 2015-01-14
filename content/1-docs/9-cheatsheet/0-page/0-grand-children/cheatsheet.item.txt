@@ -10,6 +10,13 @@ Returns a $pages collection with all children of children in the page's director
 
 ----
 
+Return:
+
+type: $pages
+text:
+
+----
+
 Text:
 
 ## Example structure

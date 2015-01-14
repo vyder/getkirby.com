@@ -10,6 +10,13 @@ Returns the full path of the template file.
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

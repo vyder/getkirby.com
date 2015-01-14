@@ -10,6 +10,13 @@ Checks if the page is the error page.
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

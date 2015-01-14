@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $page->isInvisible()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if the page is invisible.
 
 ----
 
-Text: 
+Return:
 
+type: boolean
+text:
+
+----
+
+Text:

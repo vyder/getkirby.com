@@ -10,6 +10,13 @@ Checks if the page is the currently active page.
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

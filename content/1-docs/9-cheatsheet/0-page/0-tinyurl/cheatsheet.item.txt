@@ -10,6 +10,13 @@ Returns the tinyurl for the page if tinyurls are activated in the config
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

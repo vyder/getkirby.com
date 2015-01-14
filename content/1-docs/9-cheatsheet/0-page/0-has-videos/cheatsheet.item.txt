@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $page->hasVideos()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if there are any video files in the page directory.
 
 ----
 
-Text: 
+Return:
 
+type: integer
+text:
+
+----
+
+Text:

@@ -10,6 +10,13 @@ Returns the parent $page object
 
 ----
 
+Return:
+
+type: $page
+text:
+
+----
+
 Text:
 
 ## Example

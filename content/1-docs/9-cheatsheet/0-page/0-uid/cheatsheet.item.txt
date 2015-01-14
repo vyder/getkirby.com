@@ -10,6 +10,13 @@ The UID is the page directory name without the sorting number.
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

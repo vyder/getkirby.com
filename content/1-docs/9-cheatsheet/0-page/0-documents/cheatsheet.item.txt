@@ -10,6 +10,13 @@ Returns a $files collection with all documents in the page's directory
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ## Example

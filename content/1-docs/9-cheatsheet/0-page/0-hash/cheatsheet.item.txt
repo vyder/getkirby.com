@@ -10,6 +10,13 @@ Returns a unique hash for the page, which is used by tinyurls.
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example
@@ -17,4 +24,3 @@ Text:
 ```php
 <?php echo $page->hash() ?>
 ```
-

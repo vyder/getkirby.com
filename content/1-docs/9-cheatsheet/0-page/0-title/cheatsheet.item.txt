@@ -10,6 +10,13 @@ Returns the page title. The title is fetched from the content unless it does not
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

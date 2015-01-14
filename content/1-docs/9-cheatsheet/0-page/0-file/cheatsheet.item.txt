@@ -10,6 +10,13 @@ Returns a specific $file object within the page's directory by filename. If no f
 
 ----
 
+Return:
+
+type: $file
+text:
+
+----
+
 Text:
 
 ## Example

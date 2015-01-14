@@ -236,7 +236,7 @@ kirbytext::$pre[] = function($kirbytext, $text) {
 };
 ```
 
-The plugin is now ready to be used. Put it in `/site/plugins/comments/comments.php` and it should be ready to go.
+The plugin is now ready to be used. Put it in `/site/plugins/columns/columns.php` and it should be ready to go.
 
 ## CSS
 

@@ -6,6 +6,13 @@ Excerpt: Embeds a Vimeo video by URL
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

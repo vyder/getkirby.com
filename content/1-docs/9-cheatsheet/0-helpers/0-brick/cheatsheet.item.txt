@@ -6,6 +6,13 @@ Excerpt: Creates an HTML Element (Brick object)
 
 ----
 
+Return:
+
+type: $brick
+text:
+
+----
+
 Text:
 
 ## Example
@@ -46,5 +53,3 @@ $figure->append(function() {
 echo $figure;
 
 ```
-
-

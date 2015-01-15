@@ -2,7 +2,14 @@ Title: size($input)
 
 ----
 
-Excerpt: Returns the size of strings, numbers and files.
+Excerpt: Returns the size of strings, numbers, files and arrays.
+
+----
+
+Return:
+
+type: integer
+text:
 
 ----
 

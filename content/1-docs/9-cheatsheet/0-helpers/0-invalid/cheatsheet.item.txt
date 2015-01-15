@@ -6,6 +6,13 @@ Excerpt: Runs a number of validators on a set of data and checks if the data is 
 
 ----
 
+Return:
+
+type: array
+text:
+
+----
+
 Text:
 
 ## Example

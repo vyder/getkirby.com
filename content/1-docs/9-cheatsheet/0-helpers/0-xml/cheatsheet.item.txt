@@ -6,6 +6,13 @@ Excerpt: Converts any text to valid XML
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

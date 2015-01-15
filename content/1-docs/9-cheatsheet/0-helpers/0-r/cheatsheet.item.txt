@@ -6,6 +6,13 @@ Excerpt: Returns either $a or $b by the given condition
 
 ----
 
+Return:
+
+type: any
+text:
+
+----
+
 Text:
 
 ## Example

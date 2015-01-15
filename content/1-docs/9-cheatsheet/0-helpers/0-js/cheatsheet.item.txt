@@ -6,6 +6,13 @@ Excerpt: Creates a script tag to load a javascript file
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

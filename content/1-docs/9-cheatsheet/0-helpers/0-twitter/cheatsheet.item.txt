@@ -6,6 +6,13 @@ Excerpt: Builds a Twitter profile link by username
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

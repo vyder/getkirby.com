@@ -6,6 +6,13 @@ Excerpt: Parses the text as Markdown
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

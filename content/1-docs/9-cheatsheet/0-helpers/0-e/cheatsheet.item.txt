@@ -6,6 +6,13 @@ Excerpt: Echos one of two alternatives depending on a condition (Shortcut for ec
 
 ----
 
+Return:
+
+type: echo
+text:
+
+----
+
 Text:
 
 ## Example

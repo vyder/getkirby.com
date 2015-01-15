@@ -6,6 +6,13 @@ Excerpt: Creates one or multiple css link tags
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example
@@ -40,4 +47,3 @@ Template                    | CSS file
 /site/templates/project.php | /assets/css/templates/project.css
 /site/templates/home.php    | /assets/css/templates/home.css
 /site/templates/blog.php    | /assets/css/templates/blog.css
-

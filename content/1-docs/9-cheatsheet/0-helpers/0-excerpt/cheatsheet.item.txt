@@ -6,6 +6,13 @@ Excerpt: Creates an excerpt of any text by a given character length
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

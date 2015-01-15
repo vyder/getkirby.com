@@ -6,6 +6,13 @@ Excerpt: Builds the Gravatar URL by email
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

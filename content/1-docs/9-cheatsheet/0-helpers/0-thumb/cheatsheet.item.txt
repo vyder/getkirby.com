@@ -6,6 +6,13 @@ Excerpt: Creates a thumbnail for a given image object
 
 ----
 
+Return:
+
+type: $thumb
+text:
+
+----
+
 Text:
 
 ## Example

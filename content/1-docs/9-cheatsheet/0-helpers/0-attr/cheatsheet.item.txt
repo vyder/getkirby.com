@@ -6,6 +6,13 @@ Excerpt: Creates attributes for an html tag
 
 ----
 
+Return:
+
+type: $brick
+text:
+
+----
+
 Text:
 
 ## Example

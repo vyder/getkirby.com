@@ -10,6 +10,13 @@ Sorts the files in the collection by field and direction
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ```php

@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $files->map($callback)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Applies a callback to all items in the collection.
 
 ----
 
-Text: 
+Return:
 
+type: $files
+text:
+
+----
+
+Text:

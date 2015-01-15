@@ -10,6 +10,13 @@ Finds a single file by key and value
 
 ----
 
+Return:
+
+type: $file
+text:
+
+----
+
 Text:
 
 ## Example

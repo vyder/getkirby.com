@@ -10,6 +10,13 @@ Returns the number of files in the collection
 
 ----
 
+Return:
+
+type: integer
+text:
+
+----
+
 Text:
 
 ## Example

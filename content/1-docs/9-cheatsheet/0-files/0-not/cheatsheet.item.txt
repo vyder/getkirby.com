@@ -10,6 +10,13 @@ Returns the collection without a given file. The ignored file can be passed by f
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ## Example

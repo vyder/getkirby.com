@@ -10,7 +10,7 @@ Tags: tutorial
 
 ----
 
-Movedto: docs/solutions/integration/dropbox
+Movedto: docs/solutions/dropbox
 
 ----
 

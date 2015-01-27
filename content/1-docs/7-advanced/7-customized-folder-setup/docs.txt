@@ -72,32 +72,25 @@ With the new way to setup folder layouts you can easily direct multiple domains 
 ```php
 <?php
 
-$kirby = kirby();
+// /site.php
 
-switch(url::host()) {
-  case 'a.example.com':
-    $kirby->roots->content = $kirby->roots()->index() . DS . 'content' . DS . 'a.example.com';
-    $kirby->roots->site    = $kirby->roots()->index() . DS . 'site'    . DS . 'a.example.com';
-    $kirby->roots->thumbs  = $kirby->roots()->index() . DS . 'thumbs'  . DS . 'a.example.com';
+$kirby   = kirby();
+$domain  = server::get('server_name');
+$domains = array('domain-1.com', 'domain-2.com');
 
-    $kirby->urls->content  = $kirby->urls()->index() . '/content/a.example.com';
-    $kirby->urls->thumbs   = $kirby->urls()->index() . '/thumbs/a.example.com';
-    break;
-  case 'b.example.com':
-    $kirby->roots->content = $kirby->roots()->index() . DS . 'content' . DS . 'b.example.com';
-    $kirby->roots->site    = $kirby->roots()->index() . DS . 'site'    . DS . 'b.example.com';
-    $kirby->roots->thumbs  = $kirby->roots()->index() . DS . 'thumbs'  . DS . 'b.example.com';
+if(in_array($domain, $domains)) {
 
-    $kirby->urls->content  = $kirby->urls()->index() . '/content/b.example.com';
-    $kirby->urls->thumbs   = $kirby->urls()->index() . '/thumbs/b.example.com';
-    break;
-  case 'c.example.com':
-    $kirby->roots->content = $kirby->roots()->index() . DS . 'content' . DS . 'c.example.com';
-    $kirby->roots->site    = $kirby->roots()->index() . DS . 'site'    . DS . 'c.example.com';
-    $kirby->roots->thumbs  = $kirby->roots()->index() . DS . 'thumbs'  . DS . 'c.example.com';
+  // custom roots
+  $kirby->roots->site    = __DIR__ . DS . 'site' . DS . $domain;
+  $kirby->roots->content = __DIR__ . DS . 'content' . DS . $domain;
+  $kirby->roots->avatars = __DIR__ . DS . 'assets' . DS . 'avatars' . DS . $domain;
+  $kirby->roots->thumbs  = __DIR__ . DS . 'thumbs' . DS . $domain;
 
-    $kirby->urls->content  = $kirby->urls()->index() . '/content/c.example.com';
-    $kirby->urls->thumbs   = $kirby->urls()->index() . '/thumbs/c.example.com';
-    break;
+  // custom urls
+  $kirby->urls->index    = url::scheme() . '://' . $domain;
+  $kirby->urls->content  = $kirby->urls->index . '/content/' . $domain;
+  $kirby->urls->avatars  = $kirby->urls->index . '/assets/avatars/' . $domain;
+  $kirby->urls->thumbs   = $kirby->urls->index . '/thumbs/' . $domain;
+
 }
 ```

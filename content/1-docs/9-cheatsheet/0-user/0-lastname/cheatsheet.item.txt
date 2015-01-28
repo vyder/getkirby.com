@@ -1,0 +1,19 @@
+Title:
+
+$user->lastName()
+
+----
+
+Excerpt:
+
+Returns the user's last name
+
+----
+
+Text:
+
+## Example
+
+```php
+<?php echo $site->user('bastian')->lastName() ?>
+```

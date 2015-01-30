@@ -75,7 +75,7 @@ The prepended number will be stripped from the generated URLs to keep them clean
 
 ## Sorting pages
 
-The prepended number for invisible pages also determines the order of those pages.
+The prepended number for visible pages also determines the order of those pages.
 
 ### Manual order
 

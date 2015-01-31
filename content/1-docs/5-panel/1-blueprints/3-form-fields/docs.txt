@@ -39,7 +39,7 @@ fields:
   name:
     label: Name
     type: text
-    validate
+    validate:
       min: 4
       min: 140
       alphanum

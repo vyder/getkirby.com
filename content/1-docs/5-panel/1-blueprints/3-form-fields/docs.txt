@@ -41,7 +41,7 @@ fields:
     type: text
     validate:
       min: 4
-      min: 140
+      max: 140
       alphanum
 ```
 

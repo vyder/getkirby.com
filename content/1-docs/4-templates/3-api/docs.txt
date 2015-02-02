@@ -12,7 +12,7 @@ Kirby has a might API, which you can use in your snippets, templates and plugins
 
 This section is about to give you a good overview of the most basic things you can do with the API. If you want to dive deeper you can find a full overview of all available API methods on the cheat sheet.
 
-All parts of the API are inspired by the simplicity of jQuery. When you've played with jQuery before you will probably feel at home at once — even if it is PHP.
+All parts of the API are inspired by the simplicity of jQuery. If you've played with jQuery before you will probably feel at home at once — even if it is PHP.
 
 ## $site
 

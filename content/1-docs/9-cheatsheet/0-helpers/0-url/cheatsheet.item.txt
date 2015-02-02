@@ -6,6 +6,13 @@ Excerpt: Builds an absolute URL for a given path
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

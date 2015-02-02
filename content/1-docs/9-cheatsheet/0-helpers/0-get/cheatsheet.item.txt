@@ -6,6 +6,13 @@ Excerpt: Fetches a POST or GET parameter by key
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

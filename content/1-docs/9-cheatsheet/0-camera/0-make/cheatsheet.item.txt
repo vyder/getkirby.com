@@ -10,6 +10,13 @@ Returns the camera brand/make
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example
@@ -17,4 +24,3 @@ Text:
 ```php
 <?php echo $page->image()->exif()->camera()->make() ?>
 ```
-

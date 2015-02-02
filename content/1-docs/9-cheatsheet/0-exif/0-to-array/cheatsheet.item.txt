@@ -10,6 +10,13 @@ Returns an associative array of all available exif data.
 
 ----
 
+Return:
+
+type: array
+text:
+
+----
+
 Text:
 
 ## Example
@@ -17,4 +24,3 @@ Text:
 ```php
 <?php dump($page->image()->exif()->toArray()) ?>
 ```
-

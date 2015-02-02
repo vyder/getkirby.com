@@ -6,6 +6,13 @@ Excerpt: Dumps the content of any variable in a human readable way for debugging
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

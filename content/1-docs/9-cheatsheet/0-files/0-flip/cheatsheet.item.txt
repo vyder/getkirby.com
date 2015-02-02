@@ -10,6 +10,13 @@ Returns the collection in reverse order
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ## Example

@@ -10,6 +10,13 @@ Returns the full root for a file
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

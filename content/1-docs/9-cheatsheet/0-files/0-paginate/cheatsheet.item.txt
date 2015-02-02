@@ -10,6 +10,13 @@ Applies pagination to the collection
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ## Example

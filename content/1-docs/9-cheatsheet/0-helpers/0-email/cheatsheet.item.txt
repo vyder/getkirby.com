@@ -6,6 +6,13 @@ Excerpt: Sends an email
 
 ----
 
+Return:
+
+type: $email
+text:
+
+----
+
 Text:
 
 ## Example

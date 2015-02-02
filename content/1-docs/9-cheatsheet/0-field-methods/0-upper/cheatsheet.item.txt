@@ -6,6 +6,13 @@ Excerpt: Converts the field content to uppercase
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ```php

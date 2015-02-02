@@ -10,6 +10,13 @@ Returns a sliced version of the collection starting from a given offset and an o
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ## Example

@@ -6,6 +6,13 @@ Excerpt: Converts YAML-structured field content to an array
 
 ----
 
+Return:
+
+type: array
+text:
+
+----
+
 Text:
 
 You can store structured data in fields with YAML. YAML is a simple structuring syntax, which is easy to understand and use.

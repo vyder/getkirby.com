@@ -6,6 +6,13 @@ Excerpt: Escapes all critical characters from the field content to make sure all
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

@@ -6,6 +6,13 @@ Excerpt: Shortcut for url()
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

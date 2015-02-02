@@ -6,6 +6,13 @@ Excerpt: Checks if the field is empty
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

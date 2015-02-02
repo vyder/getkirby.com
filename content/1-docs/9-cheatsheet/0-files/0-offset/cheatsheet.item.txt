@@ -10,6 +10,13 @@ Returns the collection starting from a given offset
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ## Example
@@ -25,4 +32,3 @@ Text:
   <?php endforeach ?>
 </ul>
 ```
-

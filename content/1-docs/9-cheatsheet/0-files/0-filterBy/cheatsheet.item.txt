@@ -10,6 +10,13 @@ Filters the collection by a key and value.
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ## Example

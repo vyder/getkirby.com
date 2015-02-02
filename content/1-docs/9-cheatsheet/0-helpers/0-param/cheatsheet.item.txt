@@ -6,6 +6,13 @@ Excerpt: Fetches a Kirby URL parameter
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 Additional to URL query variables you can set parameters via URL in Kirby in a more human readable way:

@@ -10,6 +10,13 @@ Returns the file type (image, document, video, archive, code, audio, unkown)
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

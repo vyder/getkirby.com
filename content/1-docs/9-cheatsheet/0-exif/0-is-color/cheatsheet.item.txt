@@ -10,6 +10,13 @@ Checks if the image colorspace is either RGB or CMYK
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example
@@ -19,4 +26,3 @@ Text:
 This is a color picture
 <?php endif ?>
 ```
-

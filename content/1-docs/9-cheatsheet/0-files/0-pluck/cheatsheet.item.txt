@@ -10,6 +10,13 @@ Plucks all values for a specific field from the collection and returns those as 
 
 ----
 
+Return:
+
+type: array
+text:
+
+----
+
 Text:
 
 ## Example
@@ -21,4 +28,3 @@ Text:
   <?php endforeach ?>
 </ul>
 ```
-

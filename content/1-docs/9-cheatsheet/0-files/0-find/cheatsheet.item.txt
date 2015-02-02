@@ -10,6 +10,13 @@ Finds a single file or multiple files by one or many filenames.
 
 ----
 
+Return:
+
+type: $file | $files
+text:
+
+----
+
 Text:
 
 ## Example

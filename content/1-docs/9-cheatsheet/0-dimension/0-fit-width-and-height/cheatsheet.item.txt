@@ -10,6 +10,13 @@ Fits the width and height by the given values and returns a modified dimension o
 
 ----
 
+Return:
+
+type: $image;
+text:
+
+----
+
 Text:
 
 ## Example

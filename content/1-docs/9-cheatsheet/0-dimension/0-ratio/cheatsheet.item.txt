@@ -10,6 +10,13 @@ Returns the ratio
 
 ----
 
+Return:
+
+type: float
+text:
+
+----
+
 Text:
 
 ## Example

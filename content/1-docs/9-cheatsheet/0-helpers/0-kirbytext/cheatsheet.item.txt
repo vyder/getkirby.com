@@ -6,6 +6,13 @@ Excerpt: Parses any text with Markdown and Kirbytext
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

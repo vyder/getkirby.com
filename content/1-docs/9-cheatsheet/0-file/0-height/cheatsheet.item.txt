@@ -10,6 +10,13 @@ Returns the height of image files in pixels
 
 ----
 
+Return:
+
+type: integer
+text:
+
+----
+
 Text:
 
 ## Example

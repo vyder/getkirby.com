@@ -10,6 +10,13 @@ Returns an array with all filenames in the collection.
 
 ----
 
+Return:
+
+type: array
+text:
+
+----
+
 Text:
 
 ## Example

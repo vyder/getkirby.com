@@ -10,6 +10,13 @@ Applies a filter callback to each item in the collection
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ## Example

@@ -10,6 +10,13 @@ Returns the first file in the collection
 
 ----
 
+Return:
+
+type: $file
+text:
+
+----
+
 Text:
 
 ## Example

@@ -10,6 +10,13 @@ Returns the orientation of image files as a string (landscape, portrait, square)
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

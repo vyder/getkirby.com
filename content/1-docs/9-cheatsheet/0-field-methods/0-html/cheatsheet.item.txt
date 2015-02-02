@@ -6,6 +6,13 @@ Excerpt: Converts the field content to valid HTML
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

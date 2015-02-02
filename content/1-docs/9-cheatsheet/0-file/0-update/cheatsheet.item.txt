@@ -10,6 +10,13 @@ Updates the meta information for a file
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

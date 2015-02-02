@@ -10,6 +10,13 @@ Returns a single file by filename
 
 ----
 
+Return:
+
+type: $file
+text:
+
+----
+
 Text:
 
 ## Example

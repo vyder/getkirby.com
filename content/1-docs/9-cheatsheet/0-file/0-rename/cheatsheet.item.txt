@@ -10,6 +10,13 @@ Renames the file and all the meta text files.
 
 ----
 
+Return:
+
+type: string
+text: Returns the new filename.
+
+----
+
 Text:
 
 ## Example

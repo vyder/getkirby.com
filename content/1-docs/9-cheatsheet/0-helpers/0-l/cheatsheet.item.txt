@@ -6,6 +6,13 @@ Excerpt: Fetches a language variable for multi-language sites
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 For multi-language sites you can set custom language variables in `/site/languages`. Create a language file for each available language.

@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $site->hasImages()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if there are any images (jpg, png, gif, etc.) in /content
 
 ----
 
-Text: 
+Return:
 
+type: boolean
+text:
+
+----
+
+Text:

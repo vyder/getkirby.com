@@ -10,6 +10,13 @@ Returns a $files collection with all audio files in /content
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ## Example

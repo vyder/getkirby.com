@@ -10,6 +10,13 @@ Returns the currently logged in $user object. If no user is logged in, it will r
 
 ----
 
+Return:
+
+type: $user
+text:
+
+----
+
 Text:
 
 ## Example

@@ -10,6 +10,13 @@ Returns the $page object for the home page
 
 ----
 
+Return:
+
+type: $page
+text:
+
+----
+
 Text:
 
 ## Example
@@ -17,4 +24,3 @@ Text:
 ```php
 <?php echo $site->homePage()->text() ?>
 ```
-

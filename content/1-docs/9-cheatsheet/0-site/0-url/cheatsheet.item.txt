@@ -10,6 +10,13 @@ Returns the base URL for the site
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

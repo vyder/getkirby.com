@@ -10,6 +10,13 @@ Checks if the site has multiple languages.
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

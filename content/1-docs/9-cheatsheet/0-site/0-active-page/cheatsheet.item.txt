@@ -10,6 +10,13 @@ Returns the currently active page object
 
 ----
 
+Return:
+
+type: $page
+text:
+
+----
+
 Text:
 
 This is the equivalent to the `$page` variable availabel in templates and snippets and the new `$site->page()` method.
@@ -19,4 +26,3 @@ This is the equivalent to the `$page` variable availabel in templates and snippe
 ```php
 <?php echo $site->activePage()->title() ?>
 ```
-

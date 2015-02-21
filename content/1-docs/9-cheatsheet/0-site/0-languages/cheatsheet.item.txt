@@ -5,6 +5,14 @@ Title: $site->languages()
 Excerpt:
 
 Returns the collection of available languages for multi-language sites
+
+----
+
+Return:
+
+type: $languages
+text:
+
 ----
 
 Text:

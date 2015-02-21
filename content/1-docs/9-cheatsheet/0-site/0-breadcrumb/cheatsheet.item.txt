@@ -10,6 +10,13 @@ Returns a $pages collection, prepared for a foreach loop to generate a breadcrum
 
 ----
 
+Return:
+
+type: $pages
+text:
+
+----
+
 Text:
 
 ## Example
@@ -27,4 +34,3 @@ Text:
   </ul>
 </nav>
 ```
-

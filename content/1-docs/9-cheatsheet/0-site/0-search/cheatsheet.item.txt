@@ -10,6 +10,13 @@ Searches within all pages of the site
 
 ----
 
+Return:
+
+type: $pages
+text:
+
+----
+
 Text:
 
 ## Example

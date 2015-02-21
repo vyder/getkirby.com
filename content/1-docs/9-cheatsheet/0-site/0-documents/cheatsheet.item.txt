@@ -10,6 +10,13 @@ Returns a $files collection with all documents (pdf, doc, xls, etc.) in /content
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ## Example

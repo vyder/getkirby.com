@@ -10,6 +10,13 @@ Searches for a specific file in /content by filename
 
 ----
 
+Return:
+
+type: $file
+text:
+
+----
+
 Text:
 
 ## Example

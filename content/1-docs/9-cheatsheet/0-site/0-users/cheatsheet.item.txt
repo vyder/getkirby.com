@@ -10,6 +10,13 @@ Returns a $users collection with all registered users.
 
 ----
 
+Return:
+
+type: $users
+text:
+
+----
+
 Text:
 
 ## Example

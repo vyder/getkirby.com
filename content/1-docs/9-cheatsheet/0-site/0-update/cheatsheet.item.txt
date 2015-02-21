@@ -10,6 +10,13 @@ Updates all given site variables, which are stored in site.txt
 
 ----
 
+Return:
+
+type: $site
+text:
+
+----
+
 Text:
 
 ## Example

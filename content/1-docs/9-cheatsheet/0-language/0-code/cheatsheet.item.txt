@@ -8,6 +8,13 @@ Excerpt: Returns the iso language code
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

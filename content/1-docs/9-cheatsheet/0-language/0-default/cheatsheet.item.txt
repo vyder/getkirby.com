@@ -8,6 +8,13 @@ Excerpt: Checks if this is the default language
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

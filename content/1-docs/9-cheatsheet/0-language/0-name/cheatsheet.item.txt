@@ -8,6 +8,13 @@ Excerpt: Returns the full name of the language
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

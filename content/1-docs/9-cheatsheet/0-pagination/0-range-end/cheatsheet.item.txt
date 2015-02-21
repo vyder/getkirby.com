@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $pagination->rangeEnd()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the page number at the end of the range
 
 ----
 
-Text: 
+Return:
 
+type: integer
+text:
+
+----
+
+Text:

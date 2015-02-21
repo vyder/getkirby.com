@@ -10,6 +10,13 @@ Returns the latitude
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

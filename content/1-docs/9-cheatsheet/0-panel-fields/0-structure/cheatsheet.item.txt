@@ -40,17 +40,17 @@ Such a structure will be stored in the content file like this:
 ```
 addresses:
 -
-  Street: Rue de WTF 17
-  ZIP:    1112
-  City:   Monaco
+  street: Rue de WTF 17
+  zip:    1112
+  city:   Monaco
 -
-  Street: 1212 Broadway
-  ZIP:    4321
-  City:   New York
+  street: 1212 Broadway
+  zip:    4321
+  city:   New York
 -
-  Street: At the beach
-  ZIP:    9999
-  City:   The capitol of the Bahamas
+  street: At the beach
+  zip:    9999
+  city:   The capitol of the Bahamas
 ```
 
 ### Fields

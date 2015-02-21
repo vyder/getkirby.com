@@ -12,7 +12,7 @@ Updates the page content with all passed variables.
 
 Return:
 
-type: boolean
+type: $page
 text:
 
 ----

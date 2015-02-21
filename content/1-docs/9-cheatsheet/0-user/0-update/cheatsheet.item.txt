@@ -12,7 +12,7 @@ Updates the user account information.
 
 Return:
 
-type: boolean
+type: $user
 text:
 
 ----

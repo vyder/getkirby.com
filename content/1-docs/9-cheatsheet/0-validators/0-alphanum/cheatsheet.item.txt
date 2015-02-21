@@ -6,6 +6,13 @@ Excerpt: Valid: A-Z and 0-9
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## In your code

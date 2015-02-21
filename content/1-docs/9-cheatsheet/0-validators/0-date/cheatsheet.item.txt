@@ -6,6 +6,13 @@ Excerpt: Checks for a valid date
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## In your code

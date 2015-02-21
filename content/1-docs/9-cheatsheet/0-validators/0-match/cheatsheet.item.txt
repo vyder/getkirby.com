@@ -6,6 +6,13 @@ Excerpt: Checks if the value matches a given regular expression
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## In your code
@@ -27,5 +34,3 @@ fields:
     validate:
       match: [a-z0-9]+
 ```
-
-

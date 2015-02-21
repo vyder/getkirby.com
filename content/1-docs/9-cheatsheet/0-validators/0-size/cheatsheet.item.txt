@@ -6,6 +6,13 @@ Excerpt: Checks if the value matches a given size
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## In your code
@@ -27,6 +34,3 @@ fields:
     validate:
       size: 12121912
 ```
-
-
-

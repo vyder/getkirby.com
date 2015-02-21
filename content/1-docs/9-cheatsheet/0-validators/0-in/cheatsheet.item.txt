@@ -6,6 +6,13 @@ Excerpt: Checks if the value exists in a given array
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## In your code
@@ -30,6 +37,3 @@ fields:
         - B
         - C
 ```
-
-
-

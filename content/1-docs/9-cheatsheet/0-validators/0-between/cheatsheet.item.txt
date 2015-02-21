@@ -6,6 +6,13 @@ Excerpt: Checks for numbers within a given range
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## In your code

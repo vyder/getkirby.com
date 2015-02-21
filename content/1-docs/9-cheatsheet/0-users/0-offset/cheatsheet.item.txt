@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $users->offset($offset)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the $users collection starting form the given offset
 
 ----
 
-Text: 
+Return:
 
+type: $users
+text:
+
+----
+
+Text:

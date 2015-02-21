@@ -10,6 +10,13 @@ Creates a new user account
 
 ----
 
+Return:
+
+type: $user
+text:
+
+----
+
 Text:
 
 ## Example

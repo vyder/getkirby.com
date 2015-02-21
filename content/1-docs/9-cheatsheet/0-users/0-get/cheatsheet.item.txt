@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $users->get($username)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a single $user object by username
 
 ----
 
-Text: 
+Return:
 
+type: $user
+text:
+
+----
+
+Text:

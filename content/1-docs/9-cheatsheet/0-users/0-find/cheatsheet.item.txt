@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $users->find($username)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Finds a single user account by username
 
 ----
 
-Text: 
+Return:
 
+type: $user
+text:
+
+----
+
+Text:

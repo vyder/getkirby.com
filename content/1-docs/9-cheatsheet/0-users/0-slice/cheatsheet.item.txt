@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $users->slice($offset = null, $limit = null)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns a sliced version of the collection starting with the offset and limited by the given limit value.
 
 ----
 
-Text: 
+Return:
 
+type: $users
+text:
+
+----
+
+Text:

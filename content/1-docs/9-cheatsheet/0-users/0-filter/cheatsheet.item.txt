@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $users->filter($callback)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Filters the collection of users by a given callback function
 
 ----
 
-Text: 
+Return:
 
+type: $users
+text:
+
+----
+
+Text:

@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $users->count()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the number of all users
 
 ----
 
-Text: 
+Return:
 
+type: integer
+text:
+
+----
+
+Text:

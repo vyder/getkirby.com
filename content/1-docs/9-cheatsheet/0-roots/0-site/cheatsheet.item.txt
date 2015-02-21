@@ -6,6 +6,13 @@ Excerpt: Returns the root of the site folder
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

@@ -2,7 +2,14 @@ Title: $roots->snippets()
 
 ----
 
-Excerpt: Returns the root of the snippets folder. 
+Excerpt: Returns the root of the snippets folder.
+
+----
+
+Return:
+
+type: string
+text:
 
 ----
 

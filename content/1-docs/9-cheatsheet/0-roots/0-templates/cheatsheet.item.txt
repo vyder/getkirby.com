@@ -2,7 +2,14 @@ Title: $roots->templates()
 
 ----
 
-Excerpt: Returns the root of the templates folder. 
+Excerpt: Returns the root of the templates folder.
+
+----
+
+Return:
+
+type: string
+text:
 
 ----
 

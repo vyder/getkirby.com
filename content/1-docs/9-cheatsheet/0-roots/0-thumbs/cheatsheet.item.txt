@@ -2,7 +2,14 @@ Title: $roots->thumbs()
 
 ----
 
-Excerpt: Returns the root of the thumbs folder. 
+Excerpt: Returns the root of the thumbs folder.
+
+----
+
+Return:
+
+type: string
+text:
 
 ----
 

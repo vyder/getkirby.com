@@ -2,7 +2,14 @@ Title: $roots->plugins()
 
 ----
 
-Excerpt: Returns the root of the plugins folder. 
+Excerpt: Returns the root of the plugins folder.
+
+----
+
+Return:
+
+type: string
+text:
 
 ----
 

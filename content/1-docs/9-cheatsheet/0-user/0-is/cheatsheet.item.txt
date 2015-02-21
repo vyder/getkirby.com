@@ -10,6 +10,13 @@ Checks if the user is the same as the given $user object
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

@@ -6,6 +6,13 @@ Excerpt: Checks if a value is available in the request data
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ```php

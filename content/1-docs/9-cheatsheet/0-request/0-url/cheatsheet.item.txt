@@ -6,6 +6,13 @@ Excerpt: Returns the complete URL for the current request
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ```php

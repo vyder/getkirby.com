@@ -6,6 +6,13 @@ Excerpt: Returns an array of request data coming through the query and the post 
 
 ----
 
+Return:
+
+type: array
+text:
+
+----
+
 Text:
 
 ```php

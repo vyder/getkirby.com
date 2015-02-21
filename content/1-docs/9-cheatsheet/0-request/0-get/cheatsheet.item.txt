@@ -6,11 +6,18 @@ Excerpt: Returns any value of the request data by key
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ```php
 // without fallback (will return null if the key does not exist)
-echo kirby()->request()->get('myvar');  
+echo kirby()->request()->get('myvar');
 
 // with fallback (will return the default value if the key does not exist)
 echo kirby()->request()->get('myvar', 'default value');

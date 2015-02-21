@@ -2,7 +2,14 @@ Title: $request->is()
 
 ----
 
-Excerpt: Checks for the type of method 
+Excerpt: Checks for the type of method
+
+----
+
+Return:
+
+type: boolean
+text:
 
 ----
 

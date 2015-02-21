@@ -6,8 +6,15 @@ Excerpt: Returns the $_FILES array
 
 ----
 
+Return:
+
+type: array
+text:
+
+----
+
 Text:
 
 ```php
-var_dump(kirby()->request()->files());  
+dump(kirby()->request()->files());
 ```

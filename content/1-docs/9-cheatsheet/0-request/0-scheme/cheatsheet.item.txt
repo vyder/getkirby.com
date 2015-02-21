@@ -6,6 +6,13 @@ Excerpt: Returns the URL scheme (http, https, ftp, etc.)
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ```php

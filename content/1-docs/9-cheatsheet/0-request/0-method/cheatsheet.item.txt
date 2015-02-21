@@ -6,8 +6,15 @@ Excerpt: Returns the request method (GET, POST, DELETE, etc.)
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ```php
-echo kirby()->request()->method();  
+echo kirby()->request()->method();
 ```

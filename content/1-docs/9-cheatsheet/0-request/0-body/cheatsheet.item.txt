@@ -6,8 +6,15 @@ Excerpt: Returns the raw request body
 
 ----
 
+Return:
+
+type: array
+text:
+
+----
+
 Text:
 
 ```php
-var_dump(kirby()->request()->body());  
+dump(kirby()->request()->body());
 ```

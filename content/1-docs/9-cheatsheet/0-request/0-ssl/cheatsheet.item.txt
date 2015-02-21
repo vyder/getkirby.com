@@ -6,10 +6,17 @@ Excerpt: Checks if this is an SSL request
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ```php
 if(kirby()->request()->ssl()) {
-  echo 'This is an ssl request'; 
+  echo 'This is an ssl request';
 }
 ```

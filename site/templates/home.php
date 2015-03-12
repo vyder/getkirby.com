@@ -106,11 +106,11 @@
         </a>
       </li><!--
    --><li>
-        <a class="grid" href="<?php echo url('forum') ?>">
+        <a class="grid" href="http://forum.getkirby.com">
           <img src="<?php echo url() ?>/assets/images/forum.svg" alt="Community icon">
           <div>
             <h3 class="gamma">Visit the Kirby forum</h3>
-            <p class="zeta">getkirby.com/forum</p>
+            <p class="zeta">forum.getkirby.com</p>
           </div>
         </a>
       </li><!--

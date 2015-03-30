@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $users->last()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the last $user object from the collection
 
 ----
 
-Text: 
+Return:
 
+type: $user
+text:
+
+----
+
+Text:

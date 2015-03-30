@@ -10,6 +10,13 @@ Returns latitude and longitude as associative array
 
 ----
 
+Return:
+
+type: array
+text:
+
+----
+
 Text:
 
 ## Example

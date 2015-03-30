@@ -6,6 +6,13 @@ Excerpt: Validates that a value is not included in the given array
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## In your code
@@ -30,4 +37,3 @@ fields:
         - C
         - D
 ```
-

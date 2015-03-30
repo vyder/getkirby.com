@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $users->findBy($field, $value)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Finds a single user account by field and value
 
 ----
 
-Text: 
+Return:
 
+type: $user
+text:
+
+----
+
+Text:

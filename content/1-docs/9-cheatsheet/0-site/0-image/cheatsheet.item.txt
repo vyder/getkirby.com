@@ -10,6 +10,13 @@ Returns a specific image $file object by filename. If no filename is given, the 
 
 ----
 
+Return:
+
+type: $file
+text:
+
+----
+
 Text:
 
 ## Example

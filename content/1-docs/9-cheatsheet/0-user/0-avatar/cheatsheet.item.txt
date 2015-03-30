@@ -8,6 +8,13 @@ Excerpt: Returns the user avatar object if the avatar exists
 
 ----
 
+Return:
+
+type: $avatar
+text:
+
+----
+
 Text:
 
 ## Example

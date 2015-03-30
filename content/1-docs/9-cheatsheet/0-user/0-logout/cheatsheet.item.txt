@@ -10,6 +10,13 @@ Logs out the user and kills the session.
 
 ----
 
+Return:
+
+type: nothing
+text:
+
+----
+
 Text:
 
 ## Example

@@ -6,6 +6,13 @@ Excerpt: Returns the referer. Also available with to "rr"
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ```php

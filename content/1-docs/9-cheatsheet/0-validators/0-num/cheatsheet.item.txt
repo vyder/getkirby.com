@@ -6,6 +6,13 @@ Excerpt: Checks for a valid number
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## In your code
@@ -26,6 +33,3 @@ fields:
     type: text
     validate: num
 ```
-
-
-

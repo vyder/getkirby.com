@@ -10,6 +10,13 @@ Returns a $files collection with all code files (css, js, html) in /content
 
 ----
 
+Return:
+
+type: $files
+text:
+
+----
+
 Text:
 
 ## Example

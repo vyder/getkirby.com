@@ -5,6 +5,14 @@ Title: $site->language($code = null)
 Excerpt:
 
 Returns the current language by default or any other language when a language code is given
+
+----
+
+Return:
+
+type: $language
+text:
+
 ----
 
 Text:

@@ -10,6 +10,13 @@ Returns the last modification date for the site. This will walk all pages and su
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

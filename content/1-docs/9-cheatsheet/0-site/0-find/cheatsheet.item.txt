@@ -6,7 +6,14 @@ $site->find()
 
 Excerpt:
 
-FInds a single $page object or a collection of $pages in /content by a single UID or a set of multiple UIDs.
+Finds a single $page object or a collection of $pages in /content by a single UID or a set of multiple UIDs.
+
+----
+
+Return:
+
+type: $page | $pages
+text:
 
 ----
 

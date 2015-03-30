@@ -10,6 +10,13 @@ Deletes the user account. This cannot be undone
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

@@ -6,6 +6,13 @@ Excerpt: Checks for a value that is greater or equals the given minimum
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## In your code
@@ -27,4 +34,3 @@ fields:
     validate:
       min: 5
 ```
-

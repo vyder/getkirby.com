@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $users->keys()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns all usernames/keys in the collection
 
 ----
 
-Text: 
+Return:
 
+type: array
+text:
+
+----
+
+Text:

@@ -3,6 +3,14 @@ Title: $site->defaultLanguage()
 ----
 
 Excerpt: Returns the $language object for the default language
+
+----
+
+Return:
+
+type: $language
+text:
+
 ----
 
 Text:

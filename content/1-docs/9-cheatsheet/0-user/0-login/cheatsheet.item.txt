@@ -10,6 +10,13 @@ Login the user with the given password if the password matches the user's passwo
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## Example

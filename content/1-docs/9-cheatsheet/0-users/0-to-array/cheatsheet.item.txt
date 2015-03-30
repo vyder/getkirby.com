@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $users->toArray($callback = null)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Converts the collection to a mult-dimensional array
 
 ----
 
-Text: 
+Return:
 
+type: array
+text:
+
+----
+
+Text:

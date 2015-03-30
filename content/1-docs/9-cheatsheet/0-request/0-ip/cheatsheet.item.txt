@@ -6,6 +6,13 @@ Excerpt: Returns the IP address of the current visitor
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ```php

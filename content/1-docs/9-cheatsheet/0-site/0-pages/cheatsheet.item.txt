@@ -10,6 +10,13 @@ Returns a $pages collection for all children in /content. It's an old version of
 
 ----
 
+Return:
+
+type: $pages
+text:
+
+----
+
 Text:
 
 ## Example

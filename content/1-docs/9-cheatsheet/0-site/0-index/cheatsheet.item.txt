@@ -10,6 +10,13 @@ Creates a $pages collection with every page and subpage in /content. This will w
 
 ----
 
+Return:
+
+type: $pages
+text:
+
+----
+
 Text:
 
 ```php

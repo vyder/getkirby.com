@@ -6,6 +6,13 @@ Excerpt: Checks for valid email addresses
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## In your code
@@ -26,4 +33,3 @@ fields:
     type: text
     validate: email
 ```
-

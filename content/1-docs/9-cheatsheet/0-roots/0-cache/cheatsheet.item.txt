@@ -2,7 +2,14 @@ Title: $roots->cache()
 
 ----
 
-Excerpt: Returns the root of the cache folder. 
+Excerpt: Returns the root of the cache folder.
+
+----
+
+Return:
+
+type: string
+text:
 
 ----
 

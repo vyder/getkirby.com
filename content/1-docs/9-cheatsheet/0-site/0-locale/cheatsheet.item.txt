@@ -10,6 +10,13 @@ Returns the locale settings for the site
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

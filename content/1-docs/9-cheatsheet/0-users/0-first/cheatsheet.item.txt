@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $users->first()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the first $user object from the collection
 
 ----
 
-Text: 
+Return:
 
+type: $user
+text:
+
+----
+
+Text:

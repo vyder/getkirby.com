@@ -2,7 +2,14 @@ Title: $roots->controllers()
 
 ----
 
-Excerpt: Returns the root of the controllers folder. 
+Excerpt: Returns the root of the controllers folder.
+
+----
+
+Return:
+
+type: string
+text:
 
 ----
 

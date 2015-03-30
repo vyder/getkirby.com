@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $site->hasFiles()
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Checks if there are any files in /content
 
 ----
 
-Text: 
+Return:
 
+type: boolean
+text:
+
+----
+
+Text:

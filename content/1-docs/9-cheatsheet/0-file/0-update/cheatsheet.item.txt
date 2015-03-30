@@ -12,7 +12,7 @@ Updates the meta information for a file
 
 Return:
 
-type: boolean
+type: $file
 text:
 
 ----

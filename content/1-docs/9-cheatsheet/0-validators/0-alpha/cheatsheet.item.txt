@@ -6,6 +6,13 @@ Excerpt: Valid: A-Z
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 

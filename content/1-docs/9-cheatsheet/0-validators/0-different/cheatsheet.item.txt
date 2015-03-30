@@ -6,6 +6,13 @@ Excerpt: Checks for a value, which does not equal the given value
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## In your code
@@ -27,4 +34,3 @@ fields:
     validate:
       different: B
 ```
-

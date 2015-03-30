@@ -2,7 +2,14 @@ Title: $roots->config()
 
 ----
 
-Excerpt: Returns the root of the config folder. 
+Excerpt: Returns the root of the config folder.
+
+----
+
+Return:
+
+type: string
+text:
 
 ----
 

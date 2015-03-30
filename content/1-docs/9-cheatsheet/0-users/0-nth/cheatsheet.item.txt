@@ -1,14 +1,20 @@
-Title: 
+Title:
 
 $users->nth($n)
 
 ----
 
-Excerpt: 
+Excerpt:
 
 Returns the nth $user in the collection
 
 ----
 
-Text: 
+Return:
 
+type: $user
+text:
+
+----
+
+Text:

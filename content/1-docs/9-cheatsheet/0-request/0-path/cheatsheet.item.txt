@@ -6,6 +6,13 @@ Excerpt: Returns the path in the current URL as object
 
 ----
 
+Return:
+
+type: $path
+text:
+
+----
+
 Text:
 
 ```php

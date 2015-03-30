@@ -6,6 +6,13 @@ Excerpt: Checks if this request is comming from the command line
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ```php

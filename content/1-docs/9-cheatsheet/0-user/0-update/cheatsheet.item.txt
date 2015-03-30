@@ -10,6 +10,13 @@ Updates the user account information.
 
 ----
 
+Return:
+
+type: $user
+text:
+
+----
+
 Text:
 
 ## Example

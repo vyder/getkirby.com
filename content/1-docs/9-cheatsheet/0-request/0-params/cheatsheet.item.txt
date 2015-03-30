@@ -6,10 +6,17 @@ Excerpt: Returns all params from the URL in a handy object
 
 ----
 
+Return:
+
+type: $params
+text:
+
+----
+
 Text:
 
 ```php
 // http://example.com/some/path/foo:bar/page:2
-echo kirby()->request()->params()->foo();  
+echo kirby()->request()->params()->foo();
 echo kirby()->request()->params()->page();
 ```

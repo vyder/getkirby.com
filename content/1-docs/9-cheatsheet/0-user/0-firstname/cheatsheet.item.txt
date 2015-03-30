@@ -10,6 +10,13 @@ Returns the user's first name
 
 ----
 
+Return:
+
+type: string
+text:
+
+----
+
 Text:
 
 ## Example

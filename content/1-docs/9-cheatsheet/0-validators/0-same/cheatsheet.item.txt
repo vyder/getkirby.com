@@ -6,6 +6,13 @@ Excerpt: Checks if the value equals another given value
 
 ----
 
+Return:
+
+type: boolean
+text:
+
+----
+
 Text:
 
 ## In your code
@@ -27,4 +34,3 @@ fields:
     validate:
       equals: A
 ```
-

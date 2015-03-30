@@ -6,4 +6,8 @@ Text: We are always happy about any kind of feedback.
 
 ----
 
-Link: (email: feedback@getkirby.com class: btn)
+Link: mailto:feedback@getkirby.com
+
+----
+
+Linktext: feedback@getkirby.com

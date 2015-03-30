@@ -5,4 +5,9 @@ title: Docs
 Text: Check out Kirby's detailed tutorials and instructions.
 
 ----
-link: (link: docs text: getkirby.com/docs class: btn)
+
+Link: docs
+
+----
+
+Linktext: getkirby.com/docs
